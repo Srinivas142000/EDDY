@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0E1116">
+  <title>EDDY — Event-Driven Dynamic Yield</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon-192.png">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar"></header>
+
+  <section id="recentSection">
+    <h2 class="section-title">Recent Events</h2>
+    <div class="strip" id="recentStrip">
+      <div class="empty-state">Loading signals…</div>
+    </div>
+    <div class="updated-stamp" id="updatedStamp"></div>
+  </section>
+
+  <section>
+    <div class="filterbar" id="filterBar">
+      <div class="chip-scroll" id="sectorChips"></div>
+      <button class="chip active" data-sort="time" id="sortNewest">Newest</button>
+      <button class="chip" data-sort="conf" id="sortConf">Highest confidence</button>
+      <button class="chip" id="threshToggle">70%+</button>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Portfolio</h2>
+    <div class="panel donut-wrap" id="portfolioPanel">
+      <div class="empty-state">No holdings yet — add your first stock.</div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Past Events</h2>
+    <div class="panel">
+      <table class="events-table"><tbody id="eventsBody">
+        <tr><td class="empty-state">Loading…</td></tr>
+      </tbody></table>
+      <div class="btn-row"><button class="btn" id="moreBtn" style="display:none">+ More</button></div>
+    </div>
+  </section>
+
+  <footer class="disclaimer"></footer>
+
+  <script src="app.js"></script>
+  <script>
+    (async () => {
+      EDDY.renderChrome();
+
+      const [eventsDoc, repoPortfolio] = await Promise.all([
+        EDDY.fetchJSON("events.json"),
+        EDDY.fetchJSON("portfolio.json"),
+      ]);
+      const events = (eventsDoc && eventsDoc.events) || [];
+
+      const stamp = document.getElementById("updatedStamp");
+      stamp.textContent = eventsDoc && eventsDoc.updated
+        ? `updated ${EDDY.timeAgo(eventsDoc.updated)}`
+        : "no data yet — run the GitHub Action";
+
+      // ---------- Recent events strip ----------
+      const strip = document.getElementById("recentStrip");
+      let high = events.filter((e) => EDDY.eventConfidence(e) >= 70).slice(0, 5);
+      if (high.length < 2) high = events.slice(0, 5); // fallback per spec
+      strip.innerHTML = high.length
+        ? high.map((e) => `
+            <div class="strip-card" onclick="location.href='event.html?id=${encodeURIComponent(e.id)}'">
+              <div class="headline">${EDDY.esc(e.headline)}</div>
+              <div class="sector-tag">${EDDY.esc(EDDY.topSector(e))}</div>
+              <div class="meta">
+                <span class="badge">${EDDY.eventConfidence(e)}%</span>
+                ${EDDY.dots(EDDY.eventConfidence(e))}
+                <span>${EDDY.timeAgo(e.time)}</span>
+              </div>
+            </div>`).join("")
+        : '<div class="empty-state">No events yet. Signals appear after the first pipeline run.</div>';
+
+      // ---------- Portfolio donut ----------
+      const panel = document.getElementById("portfolioPanel");
+      const portfolio = EDDY.computeTotals(
+        EDDY.mergePrices(EDDY.loadPortfolio(), repoPortfolio)
+      );
+      if (portfolio.holdings.length) {
+        const items = portfolio.holdings.map((h, i) => ({
+          label: h.ticker,
+          value: Math.max(0.01, h.current_value),
+          color: EDDY.PALETTE[i % EDDY.PALETTE.length],
+        }));
+        panel.innerHTML = `
+          ${EDDY.donutSVG(items, { size: 210, centerText: EDDY.fmtMoney(portfolio.total_current_value) })}
+          <div class="donut-legend">
+            ${items.map((it) => `<span><span class="dot" style="background:${it.color}"></span>${EDDY.esc(it.label)} <span class="muted">${EDDY.fmtMoney(portfolio.holdings.find(h => h.ticker === it.label)?.current_value)}</span></span>`).join("")}
+          </div>
+          <div class="holdings-list">
+            ${portfolio.holdings.map((h) => `
+              <div class="holding-row">
+                <span class="ticker-badge">${EDDY.esc(h.ticker)}</span>
+                <span class="mono muted">${h.shares} sh</span>
+                <span class="mono">${h.current_price != null ? EDDY.fmtMoney(h.current_price) : "price pending"}</span>
+                <span class="mono ${h.gain_loss_pct >= 0 ? "up" : "down"}">${EDDY.fmtPct(h.gain_loss_pct)}</span>
+              </div>`).join("")}
+          </div>
+          <div class="btn-row">
+            <a class="btn primary" href="portfolio.html">+ Add Stock</a>
+            <a class="btn danger" href="portfolio.html">− Remove Stock</a>
+          </div>`;
+      } else {
+        panel.innerHTML = `
+          <div class="empty-state">No holdings yet — add your first stock.</div>
+          <div class="btn-row"><a class="btn primary" href="portfolio.html">+ Add Stock</a></div>`;
+      }
+
+      // ---------- Filters + past events table ----------
+      const state = { sector: "ALL", sort: "time", threshold: false, shown: 10 };
+      const sectors = [...new Set(events.map(EDDY.topSector))].filter((s) => s !== "—").sort();
+      const chips = document.getElementById("sectorChips");
+      chips.innerHTML = ['ALL', ...sectors].map((s) =>
+        `<button class="chip ${s === "ALL" ? "active" : ""}" data-sector="${EDDY.esc(s)}">${EDDY.esc(s)}</button>`).join("");
+
+      chips.addEventListener("click", (e) => {
+        const btn = e.target.closest("[data-sector]");
+        if (!btn) return;
+        state.sector = btn.dataset.sector;
+        state.shown = 10;
+        chips.querySelectorAll(".chip").forEach((c) => c.classList.toggle("active", c === btn));
+        renderTable();
+      });
+      document.getElementById("sortNewest").addEventListener("click", function () {
+        state.sort = "time"; setSort(this); });
+      document.getElementById("sortConf").addEventListener("click", function () {
+        state.sort = "conf"; setSort(this); });
+      function setSort(btn) {
+        document.querySelectorAll("[data-sort]").forEach((c) => c.classList.toggle("active", c === btn));
+        renderTable();
+      }
+      document.getElementById("threshToggle").addEventListener("click", function () {
+        state.threshold = !state.threshold;
+        this.classList.toggle("active", state.threshold);
+        this.textContent = state.threshold ? "70%+ ✓" : "70%+";
+        state.shown = 10;
+        renderTable();
+      });
+      document.getElementById("moreBtn").addEventListener("click", () => {
+        state.shown += 10;
+        renderTable();
+      });
+
+      function filtered() {
+        let list = events.slice();
+        if (state.sector !== "ALL") list = list.filter((e) => EDDY.topSector(e) === state.sector);
+        if (state.threshold) list = list.filter((e) => EDDY.eventConfidence(e) >= 70);
+        list.sort(state.sort === "conf"
+          ? (a, b) => EDDY.eventConfidence(b) - EDDY.eventConfidence(a)
+          : (a, b) => new Date(b.time) - new Date(a.time));
+        return list;
+      }
+
+      function renderTable() {
+        const list = filtered();
+        const body = document.getElementById("eventsBody");
+        body.innerHTML = list.length
+          ? list.slice(0, state.shown).map((e) => {
+              const conf = EDDY.eventConfidence(e);
+              return `<tr>
+                <td class="time-cell">${EDDY.timeAgo(e.time)}</td>
+                <td class="src-cell">${EDDY.esc(e.source)}</td>
+                <td class="headline-cell" title="${EDDY.esc(e.headline)}">${EDDY.esc(e.headline)}</td>
+                <td><span class="sector-tag">${EDDY.esc(EDDY.topSector(e))}</span></td>
+                <td>${EDDY.confBar(conf)} ${EDDY.dots(conf)}</td>
+                <td><a href="event.html?id=${encodeURIComponent(e.id)}">Read</a></td>
+              </tr>`;
+            }).join("")
+          : '<tr><td class="empty-state">No events match the current filters.</td></tr>';
+        document.getElementById("moreBtn").style.display =
+          list.length > state.shown ? "block" : "none";
+      }
+      renderTable();
+    })();
+  </script>
+</body>
+</html>

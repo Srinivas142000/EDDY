@@ -1,0 +1,41 @@
+name: Update EDDY signals
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-signals
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install google-generativeai yfinance feedparser pytz requests
+
+      - name: Run pipeline
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python correlations.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "eddy-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add events.json portfolio.json history.json
+          git diff --staged --quiet || git commit -m "update signals $(date -u +%FT%TZ)"
+          git pull --rebase origin ${GITHUB_REF_NAME}
+          git push

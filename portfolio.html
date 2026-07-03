@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0E1116">
+  <title>EDDY — Portfolio</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon-192.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar"></header>
+
+  <section>
+    <h2 class="section-title">Add Stock</h2>
+    <div class="panel">
+      <form class="form-grid" id="addForm">
+        <label>Ticker
+          <input type="text" id="ticker" placeholder="AAPL" autocomplete="off"
+                 autocapitalize="characters" required pattern="[A-Za-z.\-]{1,8}">
+        </label>
+        <label>Price @ Purchase ($)
+          <input type="number" id="price" placeholder="185.00" step="0.01" min="0.01" inputmode="decimal" required>
+        </label>
+        <label>Shares / Amount of Stock
+          <input type="number" id="shares" placeholder="0.5" step="any" min="0.000001" inputmode="decimal" required>
+        </label>
+        <div class="form-note">Fractional shares supported — enter decimal amounts</div>
+        <button class="btn primary" type="submit">Add Stock</button>
+      </form>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Current Holdings</h2>
+    <div class="panel" id="holdingsPanel"></div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Sync to repo</h2>
+    <div class="panel">
+      <p class="form-note" style="margin-bottom:10px">
+        Your portfolio lives in <strong>this device's localStorage</strong> (GitHub Pages
+        is read-only, so the app can't write to the repo). To let the cron job refresh
+        your prices every 30 minutes, export the file below and commit it to the repo
+        root as <span class="mono">portfolio.json</span>.
+      </p>
+      <button class="btn" id="exportBtn">Export portfolio.json</button>
+    </div>
+  </section>
+
+  <footer class="disclaimer"></footer>
+
+  <script src="app.js"></script>
+  <script>
+    (async () => {
+      EDDY.renderChrome({ back: true });
+
+      const repoPortfolio = await EDDY.fetchJSON("portfolio.json");
+
+      function render() {
+        const p = EDDY.computeTotals(EDDY.mergePrices(EDDY.loadPortfolio(), repoPortfolio));
+        const panel = document.getElementById("holdingsPanel");
+        panel.innerHTML = p.holdings.length
+          ? p.holdings.map((h, i) => `
+              <div class="holding-row">
+                <span class="ticker-badge">${EDDY.esc(h.ticker)}</span>
+                <span class="mono muted">${h.shares} sh</span>
+                <span class="mono muted">@${EDDY.fmtMoney(h.price_at_purchase)}</span>
+                <span class="mono">${h.current_price != null ? EDDY.fmtMoney(h.current_price) : "pending"}</span>
+                <span class="mono ${h.gain_loss_pct >= 0 ? "up" : "down"}">${EDDY.fmtPct(h.gain_loss_pct)}</span>
+                <button class="icon-btn" data-remove="${i}" aria-label="Remove ${EDDY.esc(h.ticker)}">×</button>
+              </div>`).join("") +
+            `<div class="holding-row" style="border-top:1px solid var(--border)">
+              <strong>Total</strong>
+              <span class="mono">${EDDY.fmtMoney(p.total_current_value)}</span>
+              <span class="mono ${p.total_gain_loss_pct >= 0 ? "up" : "down"}">${EDDY.fmtPct(p.total_gain_loss_pct)}</span>
+            </div>`
+          : '<div class="empty-state">No holdings yet.</div>';
+      }
+
+      document.getElementById("holdingsPanel").addEventListener("click", (e) => {
+        const btn = e.target.closest("[data-remove]");
+        if (!btn) return;
+        EDDY.removeHolding(+btn.dataset.remove);
+        render();
+      });
+
+      document.getElementById("addForm").addEventListener("submit", (e) => {
+        e.preventDefault();
+        const ticker = document.getElementById("ticker").value;
+        const price = parseFloat(document.getElementById("price").value);
+        const shares = parseFloat(document.getElementById("shares").value);
+        if (!ticker || !(price > 0) || !(shares > 0)) return;
+        EDDY.addHolding(ticker, price, shares);
+        e.target.reset();
+        render();
+      });
+
+      document.getElementById("exportBtn").addEventListener("click", EDDY.exportPortfolio);
+
+      render();
+    })();
+  </script>
+</body>
+</html>

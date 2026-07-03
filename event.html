@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0E1116">
+  <title>EDDY — Event</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon-192.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar"></header>
+
+  <section class="article" id="articleSection">
+    <div class="empty-state">Loading event…</div>
+  </section>
+
+  <section id="pieSection" style="display:none">
+    <h2 class="section-title">Industry Impact</h2>
+    <div class="panel pie-wrap" id="piePanel"></div>
+  </section>
+
+  <section id="subSection" style="display:none">
+    <h2 class="section-title">Sub-industry Breakdown</h2>
+    <div class="panel" id="subPanel"></div>
+  </section>
+
+  <section id="pstockSection" style="display:none">
+    <h2 class="section-title">Your portfolio — affected</h2>
+    <div class="panel" id="pstockPanel"></div>
+  </section>
+
+  <section id="watchSection" style="display:none">
+    <h2 class="section-title">Signal — watch these</h2>
+    <div class="panel" id="watchPanel"></div>
+  </section>
+
+  <section id="rangeSection" style="display:none">
+    <h2 class="section-title">Historical Range</h2>
+    <div class="panel" id="rangePanel"></div>
+  </section>
+
+  <footer class="disclaimer"></footer>
+
+  <script src="app.js"></script>
+  <script>
+    (async () => {
+      EDDY.renderChrome({ back: true });
+
+      const id = new URLSearchParams(location.search).get("id");
+      const [eventsDoc, repoPortfolio] = await Promise.all([
+        EDDY.fetchJSON("events.json"),
+        EDDY.fetchJSON("portfolio.json"),
+      ]);
+      const ev = ((eventsDoc && eventsDoc.events) || []).find((e) => e.id === id);
+
+      const article = document.getElementById("articleSection");
+      if (!ev) {
+        article.innerHTML = '<div class="empty-state">Event not found — it may have rotated out of the latest 50. <a href="index.html">Back home</a></div>';
+        return;
+      }
+
+      // ---------- Article ----------
+      article.innerHTML = `
+        <span class="source-badge">${EDDY.esc(ev.source)}</span>
+        <span class="mono muted" style="font-size:11px;margin-left:8px">${EDDY.timeAgo(ev.time)}</span>
+        <h1>${EDDY.esc(ev.headline)}</h1>
+        <p class="summary">${EDDY.esc(ev.summary || "")}</p>
+        ${ev.url ? `<a class="readlink" href="${EDDY.esc(ev.url)}" target="_blank" rel="noopener">Read full article ↗</a>` : ""}`;
+
+      const industries = ev.industries || [];
+
+      // ---------- Sector pie ----------
+      if (industries.length) {
+        document.getElementById("pieSection").style.display = "";
+        const bySector = {};
+        industries.forEach((ind) => {
+          (bySector[ind.sector] = bySector[ind.sector] || []).push(ind);
+        });
+        const sectorList = Object.entries(bySector)
+          .map(([sector, subs]) => ({ sector, subs, top: Math.max(...subs.map((s) => s.confidence)) }))
+          .sort((a, b) => b.top - a.top);
+        const items = sectorList.map((s, i) => ({
+          label: s.sector, value: s.top, color: EDDY.PALETTE[i % EDDY.PALETTE.length],
+        }));
+        const panel = document.getElementById("piePanel");
+        panel.innerHTML = `
+          ${EDDY.donutSVG(items, { size: 210, hole: 0.45 })}
+          <div class="pie-legend">
+            ${sectorList.map((s, i) => `
+              <div class="row" data-sector="${EDDY.esc(s.sector)}">
+                <span class="dot" style="background:${items[i].color}"></span>
+                <span>${EDDY.esc(s.sector)}</span>
+                <span class="pct">${s.top}%</span>
+              </div>`).join("")}
+          </div>`;
+
+        // Tapping a slice or legend row scrolls to + highlights that sector group
+        const jump = (sector) => {
+          const el = document.querySelector(`[data-group="${CSS.escape(sector)}"]`);
+          if (el) { el.scrollIntoView({ behavior: "smooth", block: "center" }); }
+        };
+        panel.querySelectorAll(".slice").forEach((slice) => {
+          slice.addEventListener("click", () => jump(sectorList[+slice.dataset.idx].sector));
+        });
+        panel.querySelectorAll(".pie-legend .row").forEach((row) => {
+          row.addEventListener("click", () => jump(row.dataset.sector));
+        });
+
+        // ---------- Sub-industry breakdown ----------
+        document.getElementById("subSection").style.display = "";
+        document.getElementById("subPanel").innerHTML = sectorList.map((s) => `
+          <div data-group="${EDDY.esc(s.sector)}">
+            <div class="sector-group-title">${EDDY.esc(s.sector)}</div>
+            ${s.subs.sort((a, b) => b.confidence - a.confidence).map((sub) => `
+              <div class="sub-row">
+                <span class="name">${EDDY.esc(sub.sub_industry)}</span>
+                ${EDDY.confBar(sub.confidence)}
+                <span class="pct">${sub.confidence}%</span>
+              </div>`).join("")}
+          </div>`).join("");
+      }
+
+      // ---------- Portfolio (P.Stock) + watch sections ----------
+      const portfolio = EDDY.computeTotals(EDDY.mergePrices(EDDY.loadPortfolio(), repoPortfolio));
+      const held = new Set(portfolio.holdings.map((h) => h.ticker));
+      const tickers = ev.tickers || [];
+
+      const affectedHoldings = portfolio.holdings.filter((h) =>
+        tickers.some((t) => t.ticker === h.ticker));
+      if (affectedHoldings.length) {
+        document.getElementById("pstockSection").style.display = "";
+        document.getElementById("pstockPanel").innerHTML = affectedHoldings.map((h) => {
+          const sig = tickers.find((t) => t.ticker === h.ticker);
+          return `<div class="signal-row held-highlight">
+            <div class="top">
+              <span class="ticker-badge">${EDDY.esc(h.ticker)}</span>
+              <span class="name">${EDDY.esc(sig.name)}</span>
+              <span class="badge">${sig.confidence}%</span>
+              <span class="mono">${h.current_price != null ? EDDY.fmtMoney(h.current_price) : "—"}</span>
+              <span class="mono ${h.gain_loss_pct >= 0 ? "up" : "down"}">${EDDY.fmtPct(h.gain_loss_pct)}</span>
+            </div>
+          </div>`;
+        }).join("");
+      }
+
+      const watch = tickers.filter((t) => !held.has(t.ticker));
+      if (watch.length || tickers.length === 0) {
+        document.getElementById("watchSection").style.display = "";
+        document.getElementById("watchPanel").innerHTML = watch.length
+          ? watch.map((t) => `
+              <div class="signal-row">
+                <div class="top" onclick="this.parentElement.classList.toggle('open')">
+                  <span class="ticker-badge">${EDDY.esc(t.ticker)}</span>
+                  <span class="name">${EDDY.esc(t.name)}</span>
+                  <span class="type-tag">${EDDY.esc(t.type)}</span>
+                  ${EDDY.confBar(t.confidence)}
+                  <span class="up">▲</span>
+                </div>
+                <div class="rationale">${EDDY.esc(t.rationale || "")}</div>
+              </div>`).join("")
+          : '<div class="empty-state">Ticker mapping pending — signals populate in Phase 2.</div>';
+      }
+
+      // ---------- Historical range (Phase 3 placeholder) ----------
+      document.getElementById("rangeSection").style.display = "";
+      const withRange = tickers.filter((t) => t.hist_range_1d && t.hist_range_1d.low != null);
+      document.getElementById("rangePanel").innerHTML = withRange.length
+        ? withRange.map((t) => `
+            <div class="sub-row">
+              <span class="ticker-badge">${EDDY.esc(t.ticker)}</span>
+              <span class="name mono">1-day: +${t.hist_range_1d.low}% to +${t.hist_range_1d.high}%
+                ${t.hist_range_5d ? ` · 5-day: +${t.hist_range_5d.low}% to +${t.hist_range_5d.high}%` : ""}</span>
+            </div>`).join("")
+        : '<div class="empty-state">1-day range: awaiting data (populated once Phase 3 training data exists)</div>';
+    })();
+  </script>
+</body>
+</html>
