@@ -8,6 +8,7 @@ import hashlib
 import json
 import os
 import sys
+import time
 from datetime import datetime, timezone
 
 import feedparser
@@ -29,15 +30,41 @@ FEEDS = {
 }
 MAX_PER_FEED = 25
 
-# Gemini free tier is 1,500 req/day; 48 runs/day * 20 = 960 keeps headroom.
-MAX_NEW_PER_RUN = 20
+# Gemini free tier is 1,500 req/day; keep the per-run budget intentionally low.
+DEFAULT_MAX_NEW_PER_RUN = 10
+DEFAULT_REQUEST_SPACING_S = 12
 
+
+def get_run_budget_limit():
+    raw = os.environ.get("EDDY_MAX_NEW_PER_RUN")
+    if raw is None:
+        return DEFAULT_MAX_NEW_PER_RUN
+    try:
+        return max(1, int(raw))
+    except ValueError:
+        return DEFAULT_MAX_NEW_PER_RUN
+
+
+def get_request_spacing():
+    raw = os.environ.get("EDDY_REQUEST_SPACING_S")
+    if raw is None:
+        return DEFAULT_REQUEST_SPACING_S
+    try:
+        return max(1, int(raw))
+    except ValueError:
+        return DEFAULT_REQUEST_SPACING_S
+
+
+MAX_NEW_PER_RUN = get_run_budget_limit()
 MAX_EVENTS = 50
 MAX_SEEN_IDS = 1000
 MIN_CONFIDENCE = 20
 NOTIFY_CONFIDENCE = 80  # ntfy.sh push threshold (Phase 4)
 
-GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.0-flash")
+# 2.5-flash-lite has the largest free-tier quota; older models (2.0-flash)
+# have zero free quota on newer AI Studio keys ("limit: 0" 429s).
+GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash-lite")
+REQUEST_SPACING_S = get_request_spacing()  # delay between headline classifications
 
 EVENTS_FILE = "events.json"
 PORTFOLIO_FILE = "portfolio.json"
@@ -319,18 +346,35 @@ def parse_llm_json(text):
     return json.loads(text)
 
 
+class ClassificationError(Exception):
+    """API-level failure (quota, network, unparseable output).
+
+    The headline must NOT be marked seen — it deserves a retry on a later run.
+    """
+
+
 def classify_headline(headline, source, taxonomy):
-    """Return (summary, industries) validated against the taxonomy, or (None, []) on failure."""
+    """Return (summary, industries) validated against the taxonomy.
+
+    Raises ClassificationError on API/parse failure.
+    """
     sub_to_sector = {
         sub: sector for sector, subs in taxonomy["sectors"].items() for sub in subs
     }
     user_msg = f"Taxonomy: {json.dumps(taxonomy)}\n\nHeadline: {headline}\n\nSource: {source}"
-    try:
-        resp = get_model().generate_content(user_msg)
-        data = parse_llm_json(resp.text)
-    except Exception as e:  # noqa: BLE001 — classification failure skips the headline
-        print(f"[gemini] classify failed for '{headline[:60]}': {e}", file=sys.stderr)
-        return None, []
+    data = None
+    for attempt in (1, 2):
+        try:
+            resp = get_model().generate_content(user_msg)
+            data = parse_llm_json(resp.text)
+            break
+        except Exception as e:  # noqa: BLE001
+            if "429" in str(e) and attempt == 1:
+                backoff = max(REQUEST_SPACING_S, 15)
+                print(f"[gemini] rate limited/quota exceeded — waiting {backoff}s, retrying once", file=sys.stderr)
+                time.sleep(backoff)
+                continue
+            raise ClassificationError(str(e).splitlines()[0][:200]) from e
 
     industries = []
     for item in data.get("industries", []):
@@ -517,10 +561,27 @@ def main():
         print("[gemini] GEMINI_API_KEY not set — skipping classification", file=sys.stderr)
         budget = []
 
-    for item in budget:
-        summary, industries = classify_headline(item["headline"], item["source"], taxonomy)
-        seen.append(item["id"])  # never re-spend a Gemini call on this headline
-        if summary is None or not industries:
+    consecutive_errors = 0
+    for i, item in enumerate(budget):
+        if i:
+            time.sleep(REQUEST_SPACING_S)
+        try:
+            summary, industries = classify_headline(item["headline"], item["source"], taxonomy)
+        except ClassificationError as e:
+            # NOT marked seen — the headline retries on the next run
+            print(f"[gemini] classify failed for '{item['headline'][:60]}': {e}", file=sys.stderr)
+            consecutive_errors += 1
+            if consecutive_errors >= 3:
+                print(
+                    "[gemini] 3 consecutive API failures — stopping classification for this run; "
+                    "wait for quota reset or lower EDDY_MAX_NEW_PER_RUN",
+                    file=sys.stderr,
+                )
+                break
+            continue
+        consecutive_errors = 0
+        seen.append(item["id"])  # success: never re-spend a Gemini call on this headline
+        if not industries:
             continue
         event = {
             **item,

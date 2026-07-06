@@ -17,9 +17,12 @@ import csv
 import json
 import os
 import sys
+import time
 from datetime import datetime, timedelta, timezone
 
-from correlations import classify_headline, load_json, TAXONOMY_FILE
+from correlations import (
+    REQUEST_SPACING_S, TAXONOMY_FILE, ClassificationError, classify_headline, load_json,
+)
 
 CSV_FILE = "historical_events.csv"
 RESULTS_FILE = "backtest_results.json"
@@ -106,9 +109,15 @@ def main():
 
     print(f"[backtest] {len(rows)} historical events loaded")
     for i, row in enumerate(rows, 1):
+        if i > 1:
+            time.sleep(REQUEST_SPACING_S)
         headline = row["headline"].strip()
         event_time = datetime.strptime(row["timestamp"].strip(), "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
-        summary, industries = classify_headline(headline, row.get("source", "backtest"), taxonomy)
+        try:
+            summary, industries = classify_headline(headline, row.get("source", "backtest"), taxonomy)
+        except ClassificationError as e:
+            print(f"[{i}/{len(rows)}] classify failed: {e}")
+            continue
         if not industries:
             print(f"[{i}/{len(rows)}] no industries: {headline[:60]}")
             continue
