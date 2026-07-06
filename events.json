@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-06T21:11:34Z",
+  "updated": "2026-07-06T22:49:33Z",
   "sources": [
     "Reuters",
     "AP",
@@ -7,8 +7,64 @@
     "Yahoo Finance",
     "MarketWatch"
   ],
-  "count": 22,
+  "count": 23,
   "events": [
+    {
+      "id": "a8ffb016b526",
+      "time": "2026-07-06T22:39:00Z",
+      "source": "MarketWatch",
+      "headline": "The Nasdaq-100 has been far more volatile than the S&P 500. Now add SpaceX to the mix.",
+      "url": "https://www.marketwatch.com/story/the-nasdaq-100-has-been-far-more-volatile-than-the-s-p-500-now-add-spacex-to-the-mix-cd397c36?mod=mw_rss_topstories",
+      "summary": "The Nasdaq-100 index has experienced higher volatility compared to the S&P 500. The recent addition of SpaceX to the Nasdaq-100 is expected to further influence this volatility.",
+      "industries": [
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Space & Satellite Technology",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Diversified Communication Services",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "Aerospace/Defense Products & Services",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Information Technology Services",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "NOC",
+          "name": "Northrop Grumman",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Aerospace/Defense Products & Services (Industrial Goods).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "ITA",
+          "name": "iShares US Aerospace & Defense ETF",
+          "type": "etf",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Aerospace/Defense Products & Services (Industrial Goods).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "f0ac6f688082",
       "time": "2026-07-06T20:53:00Z",
@@ -2923,6 +2979,7 @@
     "c92c5d42fbb6",
     "eb0d82b8e721",
     "abbc804506ce",
-    "f0ac6f688082"
+    "f0ac6f688082",
+    "a8ffb016b526"
   ]
 }
