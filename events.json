@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-06T17:22:06Z",
+  "updated": "2026-07-06T19:16:32Z",
   "sources": [
     "Reuters",
     "AP",
@@ -7,8 +7,58 @@
     "Yahoo Finance",
     "MarketWatch"
   ],
-  "count": 20,
+  "count": 21,
   "events": [
+    {
+      "id": "abbc804506ce",
+      "time": "2026-07-06T18:57:00Z",
+      "source": "MarketWatch",
+      "headline": "Silver has plunged 50% from its January peak to $60. Why it could hit $130 next year.",
+      "url": "https://www.marketwatch.com/story/silver-has-plunged-50-from-its-january-peak-to-60-why-it-could-hit-130-next-year-4fe57e45?mod=mw_rss_topstories",
+      "summary": "Silver prices have fallen by 50% from their January high, reaching $60. Analysts predict a potential surge to $130 next year.",
+      "industries": [
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Silver",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Industrial Metals & Minerals",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Gold",
+          "confidence": 50,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "GLD",
+          "name": "SPDR Gold Shares ETF",
+          "type": "etf",
+          "confidence": 50,
+          "direction": "up",
+          "rationale": "Mapped from Gold (Basic Materials).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "NEM",
+          "name": "Newmont Corporation",
+          "type": "stock",
+          "confidence": 50,
+          "direction": "up",
+          "rationale": "Mapped from Gold (Basic Materials).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "eb0d82b8e721",
       "time": "2026-07-06T17:16:00Z",
@@ -2773,6 +2823,7 @@
     "e7ae17250df5",
     "0657fafd9d17",
     "c92c5d42fbb6",
-    "eb0d82b8e721"
+    "eb0d82b8e721",
+    "abbc804506ce"
   ]
 }
