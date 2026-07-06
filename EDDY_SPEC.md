@@ -390,7 +390,7 @@ Return ONLY a JSON object with this exact structure:
 
 Rules:
 - Only include industries with meaningful impact (confidence >= 20)
-- direction is ALWAYS "up" (we are long-only)
+- direction should be "up" if the industry benefits from this event, or "down" if the industry is harmed. Be honest about both.
 - Use ONLY sub-industry names that appear exactly in the provided taxonomy
 - Confidence 80-100: near-certain direct impact
 - Confidence 60-79: likely direct impact  
