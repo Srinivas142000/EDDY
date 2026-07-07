@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-07T13:34:58Z",
+  "updated": "2026-07-07T16:29:53Z",
   "sources": [
     "Reuters",
     "AP",
@@ -7,8 +7,70 @@
     "Yahoo Finance",
     "MarketWatch"
   ],
-  "count": 34,
+  "count": 35,
   "events": [
+    {
+      "id": "5731ddcf0d3c",
+      "time": "2026-07-07T16:24:00Z",
+      "source": "MarketWatch",
+      "headline": "12 stocks favored to soar in the sector that has missed the 2026 market rally",
+      "url": "https://www.marketwatch.com/story/12-stocks-favored-to-soar-in-the-sector-that-has-missed-the-2026-market-rally-f9d59578?mod=mw_rss_topstories",
+      "summary": "The article highlights 12 stocks expected to perform well in a specific market sector that has underperformed in the current rally. This suggests a potential shift in market sentiment or a focus on undervalued opportunities within that sector.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Investment Brokerage—Regional",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Diversified Investments",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Information Technology Services",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Business Software & Services",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 40,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 40,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "be45ea23d008",
       "time": "2026-07-07T13:16:46Z",
@@ -6021,6 +6083,7 @@
     "f08832d157ea",
     "d58fa8188a6e",
     "0174e5a4ad5c",
-    "be45ea23d008"
+    "be45ea23d008",
+    "5731ddcf0d3c"
   ]
 }
