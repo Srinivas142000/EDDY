@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-07T11:26:02Z",
+  "updated": "2026-07-07T13:34:58Z",
   "sources": [
     "Reuters",
     "AP",
@@ -7,8 +7,74 @@
     "Yahoo Finance",
     "MarketWatch"
   ],
-  "count": 33,
+  "count": 34,
   "events": [
+    {
+      "id": "be45ea23d008",
+      "time": "2026-07-07T13:16:46Z",
+      "source": "Yahoo Finance",
+      "headline": "Rivian stock down on 75M share sale, pre-announces Q2 revenue",
+      "url": "https://finance.yahoo.com/markets/stocks/article/rivian-stock-down-on-75m-share-sale-pre-announces-q2-revenue-131646447.html",
+      "summary": "Rivian's stock experienced a decline following the announcement of a 75 million share sale. The company also pre-announced its second-quarter revenue, which is expected to be lower than anticipated.",
+      "industries": [
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Electric Vehicles & Battery Technology",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Auto Dealerships",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Auto Parts Wholesale",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "Industrial Equipment & Components",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "TSLA",
+          "name": "Tesla",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "LIT",
+          "name": "Global X Lithium & Battery Tech ETF",
+          "type": "etf",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "DRIV",
+          "name": "Global X Autonomous & EV ETF",
+          "type": "etf",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "1927efb7141d",
       "time": "2026-07-07T02:57:48Z",
@@ -5954,6 +6020,7 @@
     "15a22a32cf03",
     "f08832d157ea",
     "d58fa8188a6e",
-    "0174e5a4ad5c"
+    "0174e5a4ad5c",
+    "be45ea23d008"
   ]
 }
