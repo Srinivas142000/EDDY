@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-07T22:11:26Z",
+  "updated": "2026-07-07T23:30:39Z",
   "sources": [
     "Reuters",
     "AP",
@@ -7,8 +7,94 @@
     "Yahoo Finance",
     "MarketWatch"
   ],
-  "count": 40,
+  "count": 41,
   "events": [
+    {
+      "id": "bf7e6b84c708",
+      "time": "2026-07-07T23:00:00Z",
+      "source": "MarketWatch",
+      "headline": "‘Our family is broken beyond repair’: My brother took over my parents’ finances. What can I do?",
+      "url": "https://www.marketwatch.com/story/our-family-is-broken-beyond-repair-my-brother-took-over-my-parents-finances-what-can-i-do-95239fb9?mod=mw_rss_topstories",
+      "summary": "A family dispute has arisen where one sibling has taken control of their parents' finances, leading to a breakdown in family relationships. The affected sibling is seeking advice on how to address the situation.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Money Center Banks",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Regional Banks",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Credit Services",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "JPM",
+          "name": "JPMorgan Chase",
+          "type": "stock",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BAC",
+          "name": "Bank of America",
+          "type": "stock",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "KBE",
+          "name": "SPDR Bank ETF",
+          "type": "etf",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "cc26784bb69d",
       "time": "2026-07-07T21:59:00Z",
@@ -8371,6 +8457,7 @@
     "ebf3c2e2cd6c",
     "2dc963587e8c",
     "23d4fe8fecd2",
-    "cc26784bb69d"
+    "cc26784bb69d",
+    "bf7e6b84c708"
   ]
 }
