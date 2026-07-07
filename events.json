@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-06T22:49:33Z",
+  "updated": "2026-07-07T00:07:41Z",
   "sources": [
     "Reuters",
     "AP",
@@ -7,8 +7,64 @@
     "Yahoo Finance",
     "MarketWatch"
   ],
-  "count": 23,
+  "count": 24,
   "events": [
+    {
+      "id": "406717178b31",
+      "time": "2026-07-06T23:27:00Z",
+      "source": "MarketWatch",
+      "headline": "Trump calls Walmart ‘patriotic’ for cutting beef prices — in a stark change of tune",
+      "url": "https://www.marketwatch.com/story/trump-calls-walmart-patriotic-for-cutting-beef-prices-in-a-stark-change-of-tune-96c32712?mod=mw_rss_topstories",
+      "summary": "Former President Trump has praised Walmart for lowering beef prices, marking a significant shift from previous criticisms of large corporations. This move could influence consumer spending and agricultural commodity markets.",
+      "industries": [
+        {
+          "sector": "Consumer Goods",
+          "sub_industry": "Meat Products",
+          "confidence": 75,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Grocery Stores",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Food Wholesale",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Consumer Goods",
+          "sub_industry": "Farm Products",
+          "confidence": 30,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "KR",
+          "name": "Kroger",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Grocery Stores (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "WMT",
+          "name": "Walmart",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Grocery Stores (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "a8ffb016b526",
       "time": "2026-07-06T22:39:00Z",
@@ -2980,6 +3036,7 @@
     "eb0d82b8e721",
     "abbc804506ce",
     "f0ac6f688082",
-    "a8ffb016b526"
+    "a8ffb016b526",
+    "406717178b31"
   ]
 }
