@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-07T20:50:03Z",
+  "updated": "2026-07-07T22:11:26Z",
   "sources": [
     "Reuters",
     "AP",
@@ -7,8 +7,216 @@
     "Yahoo Finance",
     "MarketWatch"
   ],
-  "count": 39,
+  "count": 40,
   "events": [
+    {
+      "id": "cc26784bb69d",
+      "time": "2026-07-07T21:59:00Z",
+      "source": "MarketWatch",
+      "headline": "Think the U.S. stock market is too heavily exposed to AI? It’s even worse abroad.",
+      "url": "https://www.marketwatch.com/story/think-the-u-s-stock-market-is-too-heavily-exposed-to-ai-its-even-worse-abroad-7524d770?mod=mw_rss_topstories",
+      "summary": "The U.S. stock market's exposure to Artificial Intelligence (AI) is significant, but the concentration is even more pronounced in international markets. This suggests a broader global trend and potential systemic risk related to AI's influence on equity valuations.",
+      "industries": [
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "AI & Machine Learning Infrastructure",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Internet Software & Services",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Application Software",
+          "confidence": 65,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Semiconductor—Integrated Circuits",
+          "confidence": 60,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Semiconductor—Broad Line",
+          "confidence": 55,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Diversified Communication Services",
+          "confidence": 45,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Information Technology Services",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Cloud Infrastructure & Services",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Investment Brokerage—Regional",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Foreign Regional Banks",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "NVDA",
+          "name": "Nvidia",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "AMD",
+          "name": "Advanced Micro Devices",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BOTZ",
+          "name": "Global X Robotics & AI ETF",
+          "type": "etf",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GOOGL",
+          "name": "Alphabet",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Internet Software & Services (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "META",
+          "name": "Meta Platforms",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Internet Software & Services (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "MSFT",
+          "name": "Microsoft",
+          "type": "stock",
+          "confidence": 65,
+          "direction": "up",
+          "rationale": "Mapped from Application Software (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "CRM",
+          "name": "Salesforce",
+          "type": "stock",
+          "confidence": 65,
+          "direction": "up",
+          "rationale": "Mapped from Application Software (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "IGV",
+          "name": "iShares Expanded Tech-Software ETF",
+          "type": "etf",
+          "confidence": 65,
+          "direction": "up",
+          "rationale": "Mapped from Application Software (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "SOXX",
+          "name": "iShares Semiconductor ETF",
+          "type": "etf",
+          "confidence": 60,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "INTC",
+          "name": "Intel",
+          "type": "stock",
+          "confidence": 55,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Broad Line (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "AMZN",
+          "name": "Amazon (AWS)",
+          "type": "stock",
+          "confidence": 40,
+          "direction": "up",
+          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "23d4fe8fecd2",
       "time": "2026-07-07T20:36:00Z",
@@ -8162,6 +8370,7 @@
     "53079fe2d584",
     "ebf3c2e2cd6c",
     "2dc963587e8c",
-    "23d4fe8fecd2"
+    "23d4fe8fecd2",
+    "cc26784bb69d"
   ]
 }
