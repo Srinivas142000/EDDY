@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-07T00:07:41Z",
+  "updated": "2026-07-07T04:33:50Z",
   "sources": [
     "Reuters",
     "AP",
@@ -7,8 +7,136 @@
     "Yahoo Finance",
     "MarketWatch"
   ],
-  "count": 24,
+  "count": 25,
   "events": [
+    {
+      "id": "1927efb7141d",
+      "time": "2026-07-07T02:57:48Z",
+      "source": "CNBC",
+      "headline": "BlackRock says the China AI play is stock-specific, not a regional trade",
+      "url": "https://www.cnbc.com/2026/07/07/china-ai-play-is-stock-specific-not-a-regional-trade-blackrock.html",
+      "summary": "BlackRock suggests that investments in China's artificial intelligence sector should be evaluated on a company-by-company basis rather than as a broad regional trend. This implies a need for granular analysis within the AI space in China.",
+      "industries": [
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "AI & Machine Learning Infrastructure",
+          "confidence": 85,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Internet Information Providers",
+          "confidence": 45,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Application Software",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Business Software & Services",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Diversified Investments",
+          "confidence": 30,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "NVDA",
+          "name": "Nvidia",
+          "type": "stock",
+          "confidence": 85,
+          "direction": "up",
+          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "AMD",
+          "name": "Advanced Micro Devices",
+          "type": "stock",
+          "confidence": 85,
+          "direction": "up",
+          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BOTZ",
+          "name": "Global X Robotics & AI ETF",
+          "type": "etf",
+          "confidence": 85,
+          "direction": "up",
+          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "MSFT",
+          "name": "Microsoft",
+          "type": "stock",
+          "confidence": 40,
+          "direction": "up",
+          "rationale": "Mapped from Application Software (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "CRM",
+          "name": "Salesforce",
+          "type": "stock",
+          "confidence": 40,
+          "direction": "up",
+          "rationale": "Mapped from Application Software (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "IGV",
+          "name": "iShares Expanded Tech-Software ETF",
+          "type": "etf",
+          "confidence": 40,
+          "direction": "up",
+          "rationale": "Mapped from Application Software (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "406717178b31",
       "time": "2026-07-06T23:27:00Z",
@@ -3037,6 +3165,7 @@
     "abbc804506ce",
     "f0ac6f688082",
     "a8ffb016b526",
-    "406717178b31"
+    "406717178b31",
+    "1927efb7141d"
   ]
 }
