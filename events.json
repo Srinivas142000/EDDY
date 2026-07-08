@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-08T10:01:04Z",
+  "updated": "2026-07-08T11:49:01Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,35 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "a55db51e8843",
+      "time": "2026-07-08T11:25:00Z",
+      "source": "Yahoo Finance",
+      "headline": "Is Veralto (VLTO) Trading at a Fair Valuation?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/veralto-vlto-trading-fair-valuation-112500855.html",
+      "summary": "The headline questions the fair valuation of Veralto (VLTO), a company whose primary business is water treatment and testing. This suggests a focus on its financial performance and market perception within its industry.",
+      "industries": [
+        {
+          "sector": "Utilities",
+          "sub_industry": "Water Utilities",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "Pollution & Treatment Controls",
+          "confidence": 50,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Diversified Investments",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": []
+    },
     {
       "id": "9b3b42ea334e",
       "time": "2026-07-08T09:21:00Z",
@@ -9554,50 +9583,6 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "3921a88e8357",
-      "time": "2026-07-05T14:00:00Z",
-      "source": "MarketWatch",
-      "headline": "I have no kids. Will I cause family drama by leaving different amounts to my nieces and nephews?",
-      "url": "https://www.marketwatch.com/story/i-have-no-kids-will-i-cause-family-drama-by-leaving-different-amounts-to-my-nieces-and-nephews-14c0fdda?mod=mw_rss_topstories",
-      "summary": "The user is asking about potential family conflict arising from unequal inheritance distribution to nieces and nephews, given they have no children. This is a personal finance and estate planning question.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Life Insurance",
-          "confidence": 20,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
@@ -9653,6 +9638,7 @@
     "ec0a5cab1283",
     "730d58a4cef4",
     "b93b21b2fd06",
-    "9b3b42ea334e"
+    "9b3b42ea334e",
+    "a55db51e8843"
   ]
 }
