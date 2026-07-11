@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-11T19:00:48Z",
+  "updated": "2026-07-11T20:09:56Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,140 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "7ce693d13376",
+      "time": "2026-07-11T19:37:00Z",
+      "source": "Yahoo Finance",
+      "headline": "Morgan Stanley drops timely Honeywell stock opinion",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-drops-timely-honeywell-193700470.html",
+      "summary": "Morgan Stanley has downgraded its rating on Honeywell stock, indicating a potential negative outlook for the company's future performance. This action by a major financial institution can influence investor sentiment and trading activity.",
+      "industries": [
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "Diversified Machinery",
+          "confidence": 85,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Investment Brokerage—Regional",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "Aerospace/Defense—Major Diversified",
+          "confidence": 50,
+          "direction": "up"
+        },
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "Industrial Equipment & Components",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Money Center Banks",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Regional Banks",
+          "confidence": 30,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "LMT",
+          "name": "Lockheed Martin",
+          "type": "stock",
+          "confidence": 50,
+          "direction": "up",
+          "rationale": "Mapped from Aerospace/Defense—Major Diversified (Industrial Goods).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "RTX",
+          "name": "Raytheon Technologies",
+          "type": "stock",
+          "confidence": 50,
+          "direction": "up",
+          "rationale": "Mapped from Aerospace/Defense—Major Diversified (Industrial Goods).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "ITA",
+          "name": "iShares US Aerospace & Defense ETF",
+          "type": "etf",
+          "confidence": 50,
+          "direction": "up",
+          "rationale": "Mapped from Aerospace/Defense—Major Diversified (Industrial Goods).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "JPM",
+          "name": "JPMorgan Chase",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BAC",
+          "name": "Bank of America",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "KBE",
+          "name": "SPDR Bank ETF",
+          "type": "etf",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "348eb0899f24",
       "time": "2026-07-11T18:46:00Z",
@@ -6322,23 +6456,6 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "5af99c87ffa8",
-      "time": "2026-07-09T17:22:50Z",
-      "source": "Yahoo Finance",
-      "headline": "Analyst Report: AES Corp/The",
-      "url": "https://finance.yahoo.com/research/reports/ARGUS_2686_AnalystReport_1783617770000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
-      "summary": "An analyst report has been released concerning AES Corp. The specific details and implications of this report are not provided in the headline.",
-      "industries": [
-        {
-          "sector": "Utilities",
-          "sub_industry": "Diversified Utilities",
-          "confidence": 85,
-          "direction": "up"
-        }
-      ],
-      "tickers": []
     }
   ],
   "seen": [
@@ -6467,6 +6584,7 @@
     "25d923c051ab",
     "6766019a95d2",
     "21126f280a26",
-    "348eb0899f24"
+    "348eb0899f24",
+    "7ce693d13376"
   ]
 }
