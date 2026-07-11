@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-11T12:34:12Z",
+  "updated": "2026-07-11T14:23:29Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,136 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "25d923c051ab",
+      "time": "2026-07-11T14:00:55Z",
+      "source": "Yahoo Finance",
+      "headline": "Got $10,000? Broadcom vs Marvell: Only One Will Match The AI Hype",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/got-10-000-broadcom-vs-140055743.html",
+      "summary": "The headline compares Broadcom and Marvell in the context of the AI hype, suggesting a potential divergence in their ability to meet market expectations. This implies a focus on their performance and strategic positioning within the artificial intelligence sector.",
+      "industries": [
+        {
+          "sector": "Technology",
+          "sub_industry": "Semiconductor—Integrated Circuits",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Semiconductor—Broad Line",
+          "confidence": 80,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "AI & Machine Learning Infrastructure",
+          "confidence": 75,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Networking & Communication Devices",
+          "confidence": 65,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Diversified Electronics",
+          "confidence": 50,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Information Technology Services",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Investment Brokerage—Regional",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "NVDA",
+          "name": "Nvidia",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "AMD",
+          "name": "Advanced Micro Devices",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "SOXX",
+          "name": "iShares Semiconductor ETF",
+          "type": "etf",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "INTC",
+          "name": "Intel",
+          "type": "stock",
+          "confidence": 80,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Broad Line (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BOTZ",
+          "name": "Global X Robotics & AI ETF",
+          "type": "etf",
+          "confidence": 75,
+          "direction": "up",
+          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "834d29d9637e",
       "time": "2026-07-11T12:05:00Z",
@@ -6454,50 +6584,6 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "604d29dc8b87",
-      "time": "2026-07-09T11:00:00Z",
-      "source": "MarketWatch",
-      "headline": "My retirement savings will suffer if I delay Social Security. How do I choose between the two?",
-      "url": "https://www.marketwatch.com/story/my-retirement-savings-will-suffer-if-i-delay-social-security-how-do-i-choose-between-the-two-a85273e3?mod=mw_rss_topstories",
-      "summary": "Delaying Social Security benefits can negatively impact retirement savings, prompting individuals to weigh the decision against their financial planning. This headline addresses the personal financial choices individuals face regarding their retirement income.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Life Insurance",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
@@ -6622,6 +6708,7 @@
     "ba8e88b59692",
     "0b11efef0bb4",
     "2c2189e16bc1",
-    "834d29d9637e"
+    "834d29d9637e",
+    "25d923c051ab"
   ]
 }
