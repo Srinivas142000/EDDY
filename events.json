@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-11T21:25:37Z",
+  "updated": "2026-07-11T22:15:54Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,78 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "902698874b56",
+      "time": "2026-07-11T22:01:36Z",
+      "source": "Yahoo Finance",
+      "headline": "Your Solar Tax Credit Expires December 31, 2025, but Here’s How to Claim 30% Back",
+      "url": "https://finance.yahoo.com/energy/articles/solar-tax-credit-expires-december-220136374.html",
+      "summary": "The US federal solar tax credit, offering a 30% rebate on solar installations, is set to expire on December 31, 2025. The article provides guidance on how individuals can still claim this credit before its expiration.",
+      "industries": [
+        {
+          "sector": "Utilities",
+          "sub_industry": "Diversified Utilities",
+          "confidence": 45,
+          "direction": "up"
+        },
+        {
+          "sector": "Utilities",
+          "sub_industry": "Electric Utilities",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "Residential Construction",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Home Improvement Stores",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Electric Vehicles & Battery Technology",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "TSLA",
+          "name": "Tesla",
+          "type": "stock",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "LIT",
+          "name": "Global X Lithium & Battery Tech ETF",
+          "type": "etf",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "DRIV",
+          "name": "Global X Autonomous & EV ETF",
+          "type": "etf",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "681f4583b50e",
       "time": "2026-07-11T21:10:01Z",
@@ -6350,80 +6422,6 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "6014da7deefb",
-      "time": "2026-07-09T21:00:00Z",
-      "source": "MarketWatch",
-      "headline": "‘The money would have been life-changing’: My father told my grandmother to slash my inheritance. Is that fair?",
-      "url": "https://www.marketwatch.com/story/the-money-would-have-been-life-changing-my-father-told-my-grandmother-to-slash-my-inheritance-is-that-fair-3808b6d1?mod=mw_rss_topstories",
-      "summary": "A personal finance article discusses the fairness of a father instructing a grandmother to reduce an inheritance. The piece explores the emotional and financial implications of such a decision on family dynamics and beneficiaries.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Life Insurance",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Property Management",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "REIT—Diversified",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "REIT—Residential",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "REIT—Retail",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Real Estate Development",
-          "confidence": 20,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
@@ -6557,6 +6555,7 @@
     "681f4583b50e",
     "72975652e539",
     "f70909ce083a",
-    "99c62c0ce2fb"
+    "99c62c0ce2fb",
+    "902698874b56"
   ]
 }
