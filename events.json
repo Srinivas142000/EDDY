@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-11T11:31:11Z",
+  "updated": "2026-07-11T12:34:12Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,68 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "834d29d9637e",
+      "time": "2026-07-11T12:05:00Z",
+      "source": "Yahoo Finance",
+      "headline": "Here’s the minimum net worth you need to be considered ‘upper class’ in your 60s — and the magic step to get you there",
+      "url": "https://finance.yahoo.com/markets/articles/minimum-net-worth-considered-upper-120500252.html",
+      "summary": "The article discusses the minimum net worth required to be considered 'upper class' for individuals in their 60s. It also outlines a strategy to achieve this financial status.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 45,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Real Estate Development",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "REIT—Diversified",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Credit Services",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Personal Services",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 45,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 45,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "2c2189e16bc1",
       "time": "2026-07-11T11:00:00Z",
@@ -6436,104 +6498,6 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "66225dc78d7c",
-      "time": "2026-07-09T11:00:00Z",
-      "source": "MarketWatch",
-      "headline": "10 stocks for momentum traders to consider buying — and 10 to avoid or sell short",
-      "url": "https://www.marketwatch.com/story/10-stocks-for-momentum-traders-to-consider-buying-and-10-to-avoid-or-sell-short-ff0eb1e3?mod=mw_rss_topstories",
-      "summary": "MarketWatch has identified 10 stocks that exhibit positive momentum and are recommended for purchase by traders. Conversely, the publication also lists 10 stocks that are advised for avoidance or short selling due to negative momentum.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Investment Brokerage—Regional",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Diversified Investments",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Money Center Banks",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Regional Banks",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Credit Services",
-          "confidence": 20,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "JPM",
-          "name": "JPMorgan Chase",
-          "type": "stock",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Money Center Banks (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BAC",
-          "name": "Bank of America",
-          "type": "stock",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Money Center Banks (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "KBE",
-          "name": "SPDR Bank ETF",
-          "type": "etf",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Money Center Banks (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
@@ -6657,6 +6621,7 @@
     "247cd1645a81",
     "ba8e88b59692",
     "0b11efef0bb4",
-    "2c2189e16bc1"
+    "2c2189e16bc1",
+    "834d29d9637e"
   ]
 }
