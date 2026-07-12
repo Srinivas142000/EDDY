@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-12T13:26:47Z",
+  "updated": "2026-07-12T14:43:20Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,110 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "4f77b4f045fa",
+      "time": "2026-07-12T14:00:00Z",
+      "source": "MarketWatch",
+      "headline": "Earnings estimates have been following an unusual pattern this time around",
+      "url": "https://www.marketwatch.com/story/earnings-estimates-have-been-following-an-unusual-pattern-this-time-around-fbebfb62?mod=mw_rss_topstories",
+      "summary": "Earnings estimates are exhibiting an atypical pattern, suggesting potential shifts in market expectations and company performance. This deviation from the norm could impact investor sentiment and future market movements.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 45,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Investment Brokerage—Regional",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Diversified Investments",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Information Technology Services",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Business Software & Services",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Application Software",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Research Services",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 45,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 45,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "MSFT",
+          "name": "Microsoft",
+          "type": "stock",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Application Software (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "CRM",
+          "name": "Salesforce",
+          "type": "stock",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Application Software (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "IGV",
+          "name": "iShares Expanded Tech-Software ETF",
+          "type": "etf",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Application Software (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "3a0c46ce6a47",
       "time": "2026-07-12T02:33:00Z",
@@ -5656,47 +5760,6 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "a7a95788a226",
-      "time": "2026-07-10T15:42:00Z",
-      "source": "MarketWatch",
-      "headline": "My doctor friend objected to his hospital’s fundraising tactics. Did management go too far?",
-      "url": "https://www.marketwatch.com/story/there-was-a-catch-my-doctor-friend-was-outraged-by-his-hospitals-fundraising-tactics-where-do-we-draw-the-line-797b9fff?mod=mw_rss_topstories",
-      "summary": "A healthcare professional has raised concerns regarding the fundraising methods employed by their hospital. This situation prompts an examination of whether the hospital's management has exceeded ethical or legal boundaries in their pursuit of funds.",
-      "industries": [
-        {
-          "sector": "Health Care",
-          "sub_industry": "Hospitals",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Medical Practitioners",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Health Care Plans",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Specialized Health Services",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Business Services",
-          "confidence": 20,
-          "direction": "up"
-        }
-      ],
-      "tickers": []
     }
   ],
   "seen": [
@@ -5855,6 +5918,7 @@
     "f35120a03bed",
     "4bacfe650043",
     "6b22706d4212",
-    "7edda937ad31"
+    "7edda937ad31",
+    "4f77b4f045fa"
   ]
 }
