@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-13T22:32:18Z",
+  "updated": "2026-07-13T23:30:15Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,50 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "1939108ed6a1",
+      "time": "2026-07-13T23:03:00Z",
+      "source": "MarketWatch",
+      "headline": "I’m 67 with a $140,000 pension. Should I wait until 70 to claim Social Security so my wife gets more?",
+      "url": "https://www.marketwatch.com/story/im-67-with-a-140-000-pension-should-i-wait-until-70-to-claim-social-security-so-my-wife-gets-more-63759d48?mod=mw_rss_topstories",
+      "summary": "A 67-year-old individual with a $140,000 pension is seeking advice on whether to delay claiming Social Security benefits until age 70 to increase their wife's survivor benefit. This decision impacts retirement income planning and spousal benefits.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Life Insurance",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "ba52db58df47",
       "time": "2026-07-13T22:19:00Z",
@@ -5392,62 +5436,6 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "65de50bca0c8",
-      "time": "2026-07-11T16:00:00Z",
-      "source": "MarketWatch",
-      "headline": "Only 5% of U.S. adults can ace this 8-question financial-literacy test. Can you?",
-      "url": "https://www.marketwatch.com/story/only-5-of-u-s-adults-can-ace-this-8-question-financial-literacy-test-can-you-93a57cc6?mod=mw_rss_topstories",
-      "summary": "A recent MarketWatch article highlights that only 5% of U.S. adults can pass a basic financial literacy test. This suggests a widespread lack of understanding regarding personal finance principles among the general population.",
-      "industries": [
-        {
-          "sector": "Services",
-          "sub_industry": "Education & Training Services",
-          "confidence": 50,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Credit Services",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Personal Services",
-          "confidence": 20,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
@@ -5641,6 +5629,7 @@
     "9b9fcbcab220",
     "ba52db58df47",
     "58d0f8dcdcd5",
-    "5a5e69655749"
+    "5a5e69655749",
+    "1939108ed6a1"
   ]
 }
