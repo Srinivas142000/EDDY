@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-14T18:39:16Z",
+  "updated": "2026-07-14T20:10:13Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,114 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "0e8a86002989",
+      "time": "2026-07-14T20:00:00Z",
+      "source": "MarketWatch",
+      "headline": "‘They are relentless’: A scammer is trying to change the email on my empty Robinhood account. What do they have to gain?",
+      "url": "https://www.marketwatch.com/story/they-are-relentless-a-scammer-is-trying-to-change-the-email-on-my-empty-robinhood-account-what-do-they-have-to-gain-26103dac?mod=mw_rss_topstories",
+      "summary": "A scammer is attempting to change the email address associated with an empty Robinhood account, indicating a potential attempt to gain control of the account or exploit associated personal information. The scammer's motive is likely to access funds, personal data, or use the account for further fraudulent activities.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Investment Brokerage—Regional",
+          "confidence": 85,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Cybersecurity",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Credit Services",
+          "confidence": 45,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Information Technology Services",
+          "confidence": 35,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Money Center Banks",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Business Services",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "CRWD",
+          "name": "CrowdStrike",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Cybersecurity (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "PANW",
+          "name": "Palo Alto Networks",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Cybersecurity (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "CIBR",
+          "name": "First Trust Nasdaq Cybersecurity ETF",
+          "type": "etf",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Cybersecurity (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "JPM",
+          "name": "JPMorgan Chase",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BAC",
+          "name": "Bank of America",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "KBE",
+          "name": "SPDR Bank ETF",
+          "type": "etf",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "593e0a6223e1",
       "time": "2026-07-14T15:40:39Z",
@@ -8057,98 +8165,6 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "7a733fc71e0e",
-      "time": "2026-07-13T09:29:05Z",
-      "source": "Yahoo Finance",
-      "headline": "Nu Holdings Ltd. (NU) Lines Up $4.2 Billion Investment. Destination Mexico",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nu-holdings-ltd-nu-lines-092905201.html",
-      "summary": "Nu Holdings Ltd. has secured a $4.2 billion investment, signaling a significant expansion into the Mexican market. This move is expected to fuel growth and competition within the financial services sector in Mexico.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Regional Banks",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Credit Services",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 65,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Gig Economy & Marketplace Platforms",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Information Technology Services",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 65,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 65,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "UBER",
-          "name": "Uber",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "LYFT",
-          "name": "Lyft",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "ABNB",
-          "name": "Airbnb",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
@@ -8370,6 +8386,7 @@
     "86f458295a07",
     "c41ed5263d29",
     "2acbf796cb87",
-    "593e0a6223e1"
+    "593e0a6223e1",
+    "0e8a86002989"
   ]
 }
