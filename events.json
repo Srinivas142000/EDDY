@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-14T10:46:28Z",
+  "updated": "2026-07-14T12:11:16Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,128 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "c41ed5263d29",
+      "time": "2026-07-14T12:03:01Z",
+      "source": "Yahoo Finance",
+      "headline": "Vanguard appoints new head of investment management in Europe",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/vanguard-appoints-head-investment-management-120301193.html",
+      "summary": "Vanguard has appointed a new head of investment management for its European operations. This leadership change is expected to influence the company's strategic direction and investment strategies within the European market.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Diversified Investments",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Foreign Money Center Banks",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Foreign Regional Banks",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Closed-End Fund—Equity",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Closed-End Fund—Debt",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Closed-End Fund—Foreign",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Money Center Banks",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Regional Banks",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Investment Brokerage—Regional",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "JPM",
+          "name": "JPMorgan Chase",
+          "type": "stock",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BAC",
+          "name": "Bank of America",
+          "type": "stock",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "KBE",
+          "name": "SPDR Bank ETF",
+          "type": "etf",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "ff79fe4cc098",
       "time": "2026-07-14T10:21:18Z",
@@ -7813,50 +7935,6 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "2b680eceaa58",
-      "time": "2026-07-13T01:04:00Z",
-      "source": "MarketWatch",
-      "headline": "‘Trump accounts’ are great — if you’re already rich",
-      "url": "https://www.marketwatch.com/story/trump-accounts-are-great-if-youre-already-rich-0bfe5227?mod=mw_rss_topstories",
-      "summary": "The headline suggests that platforms or services associated with Donald Trump, referred to as 'Trump accounts,' primarily benefit individuals who are already wealthy. This implies a potential focus on luxury goods, exclusive services, or investment opportunities that are not accessible to the general population.",
-      "industries": [
-        {
-          "sector": "Services",
-          "sub_industry": "Specialty Retail",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 20,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
@@ -8075,6 +8153,7 @@
     "6b5b617e9af3",
     "fa335853629c",
     "0bcaa3d8b2b6",
-    "86f458295a07"
+    "86f458295a07",
+    "c41ed5263d29"
   ]
 }
