@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-14T21:32:00Z",
+  "updated": "2026-07-14T22:35:02Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,68 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "be741c798795",
+      "time": "2026-07-14T22:11:00Z",
+      "source": "MarketWatch",
+      "headline": "Your monthly Netflix bill is up 29% in just over a year. Critics say Washington needs to fix it.",
+      "url": "https://www.marketwatch.com/story/your-monthly-netflix-bill-is-up-29-in-just-over-a-year-critics-say-washington-needs-to-fix-it-bcab6e5b?mod=mw_rss_topstories",
+      "summary": "Netflix has increased its monthly subscription price by 29% in just over a year, prompting criticism and calls for government intervention. This price hike affects consumer spending on entertainment services and could influence regulatory discussions around digital platform pricing.",
+      "industries": [
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Streaming & Digital Media",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Consumer Services",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Diversified Communication Services",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Information Technology Services",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Credit Services",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "NFLX",
+          "name": "Netflix",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Streaming & Digital Media (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "DIS",
+          "name": "Walt Disney",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Streaming & Digital Media (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "a6cdef27702c",
       "time": "2026-07-14T21:10:00Z",
@@ -8077,56 +8139,6 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "3bb89d6d7672",
-      "time": "2026-07-13T09:29:25Z",
-      "source": "Yahoo Finance",
-      "headline": "Should You Buy Pinnacle Financial Partners Inc (PNFP) Stock? Benchmark Has a Message",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/buy-pinnacle-financial-partners-inc-092925181.html",
-      "summary": "Yahoo Finance is publishing an analysis of Pinnacle Financial Partners Inc. (PNFP) stock, with a specific message from Benchmark. This suggests a potential shift in analyst sentiment or a new rating for the company's stock.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Regional Banks",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Investment Brokerage—Regional",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 40,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
@@ -8350,6 +8362,7 @@
     "2acbf796cb87",
     "593e0a6223e1",
     "0e8a86002989",
-    "a6cdef27702c"
+    "a6cdef27702c",
+    "be741c798795"
   ]
 }
