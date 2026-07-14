@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-14T00:56:20Z",
+  "updated": "2026-07-14T03:57:09Z",
   "sources": [
     "Reuters",
     "AP",
@@ -770,6 +770,116 @@
           "confidence": 85,
           "direction": "up",
           "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
+      "id": "a98ae9664423",
+      "time": "2026-07-13T20:32:00Z",
+      "source": "MarketWatch",
+      "headline": "Billionaires are loading up on these superior stocks. Why it pays to follow their money.",
+      "url": "https://www.marketwatch.com/story/billionaires-are-loading-up-on-these-superior-stocks-why-it-pays-to-follow-their-money-9120c242?mod=mw_rss_topstories",
+      "summary": "The article suggests that following the investment decisions of billionaires can be a profitable strategy, implying that their stock choices are superior. It highlights the potential benefits of mirroring their financial moves.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 65,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Investment Brokerage—Regional",
+          "confidence": 50,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Diversified Investments",
+          "confidence": 45,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Money Center Banks",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Regional Banks",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Closed-End Fund—Equity",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Closed-End Fund—Debt",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Closed-End Fund—Foreign",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 65,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 65,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "JPM",
+          "name": "JPMorgan Chase",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BAC",
+          "name": "Bank of America",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "KBE",
+          "name": "SPDR Bank ETF",
+          "type": "etf",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
           "hist_range_1d": null,
           "hist_range_5d": null
         }
@@ -5402,56 +5512,6 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "2075ddd69941",
-      "time": "2026-07-11T16:47:00Z",
-      "source": "Yahoo Finance",
-      "headline": "Big fast-food burger chain franchisee files Chapter 11 bankruptcy",
-      "url": "https://finance.yahoo.com/small-business/articles/big-fast-food-burger-chain-164700124.html",
-      "summary": "A major franchisee of a fast-food burger chain has filed for Chapter 11 bankruptcy protection. This filing indicates significant financial distress for the franchisee, potentially impacting its operations and suppliers.",
-      "industries": [
-        {
-          "sector": "Services",
-          "sub_industry": "Restaurants",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Food Wholesale",
-          "confidence": 50,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Credit Services",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "MCD",
-          "name": "McDonald's",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Restaurants (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "CMG",
-          "name": "Chipotle Mexican Grill",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Restaurants (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
@@ -5647,6 +5707,7 @@
     "58d0f8dcdcd5",
     "5a5e69655749",
     "1939108ed6a1",
-    "fed2e092e701"
+    "fed2e092e701",
+    "a98ae9664423"
   ]
 }
