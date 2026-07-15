@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-15T12:57:17Z",
+  "updated": "2026-07-15T14:50:45Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,47 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "31b31e047242",
+      "time": "2026-07-15T14:44:00Z",
+      "source": "MarketWatch",
+      "headline": "Buying a house is getting easier by one measure. Here’s why it doesn’t feel like it.",
+      "url": "https://www.marketwatch.com/story/homes-are-getting-more-affordable-so-how-come-you-still-cant-afford-to-buy-one-f2d69d02?mod=mw_rss_topstories",
+      "summary": "The headline suggests that while one measure indicates home buying is becoming easier, the overall sentiment among consumers is that it remains difficult. This implies a disconnect between a specific metric and the lived experience of potential homebuyers.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Real Estate Development",
+          "confidence": 45,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "REIT—Residential",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "Residential Construction",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Mortgage Investment",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Credit Services",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": []
+    },
     {
       "id": "4a0320691980",
       "time": "2026-07-15T12:46:58Z",
@@ -10014,44 +10055,6 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "77694ae8043e",
-      "time": "2026-07-13T12:31:20Z",
-      "source": "Yahoo Finance",
-      "headline": "Gold prices today, Monday, July 13, 2026: Prices move lower following weekend airstrikes",
-      "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-monday-july-13-2026-prices-move-lower-following-weekend-airstrikes-123120098.html",
-      "summary": "Gold prices declined on Monday, July 13, 2026, after weekend airstrikes occurred. The specific impact of the airstrikes on the gold market is not detailed in the headline.",
-      "industries": [
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Gold",
-          "confidence": 95,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "GLD",
-          "name": "SPDR Gold Shares ETF",
-          "type": "etf",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Gold (Basic Materials).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "NEM",
-          "name": "Newmont Corporation",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Gold (Basic Materials).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
@@ -10293,6 +10296,7 @@
     "f8488f85e11c",
     "5d664845c26a",
     "4a0320691980",
-    "859d26f0c3e2"
+    "859d26f0c3e2",
+    "31b31e047242"
   ]
 }
