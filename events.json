@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-17T17:38:45Z",
+  "updated": "2026-07-17T19:05:01Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,90 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "e8e9d286392b",
+      "time": "2026-07-17T18:19:00Z",
+      "source": "MarketWatch",
+      "headline": "How to find the best mortgage rate — it could save you $3,300 a year",
+      "url": "https://www.marketwatch.com/story/how-to-find-the-best-mortgage-rate-it-could-save-you-3-300-a-year-e973e520?mod=mw_rss_topstories",
+      "summary": "The article provides guidance on how consumers can secure the best mortgage rates, potentially saving them a significant amount annually. This information is crucial for homeowners and prospective buyers looking to optimize their housing costs.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Mortgage Investment",
+          "confidence": 85,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Regional Banks",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Money Center Banks",
+          "confidence": 65,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "REIT—Residential",
+          "confidence": 50,
+          "direction": "up"
+        },
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "Residential Construction",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Real Estate Development",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Credit Services",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "JPM",
+          "name": "JPMorgan Chase",
+          "type": "stock",
+          "confidence": 65,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BAC",
+          "name": "Bank of America",
+          "type": "stock",
+          "confidence": 65,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "KBE",
+          "name": "SPDR Bank ETF",
+          "type": "etf",
+          "confidence": 65,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "eb9e0395ddd8",
       "time": "2026-07-17T17:27:00Z",
@@ -7698,23 +7782,6 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "d1e4d3c12c25",
-      "time": "2026-07-15T19:11:00Z",
-      "source": "MarketWatch",
-      "headline": "This isn’t a plan to save Social Security. It’s a plan to have a plan.",
-      "url": "https://www.marketwatch.com/story/this-isnt-a-plan-to-save-social-security-its-a-plan-to-have-a-plan-d55860af?mod=mw_rss_topstories",
-      "summary": "The headline suggests that a proposed plan for Social Security is not a definitive solution but rather a framework for developing one. This implies a lack of immediate action and a continued need for future policy decisions regarding the program's financial stability.",
-      "industries": [
-        {
-          "sector": "Health Care",
-          "sub_industry": "Health Care Plans",
-          "confidence": 30,
-          "direction": "up"
-        }
-      ],
-      "tickers": []
     }
   ],
   "seen": [
@@ -8012,6 +8079,7 @@
     "2e8e2b25b2b2",
     "5d55df2bbf68",
     "5b835be16b6f",
-    "eb9e0395ddd8"
+    "eb9e0395ddd8",
+    "e8e9d286392b"
   ]
 }
