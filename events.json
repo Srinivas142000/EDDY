@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-18T19:02:51Z",
+  "updated": "2026-07-18T20:09:54Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,70 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "ddfe81d9195b",
+      "time": "2026-07-18T19:53:49Z",
+      "source": "Yahoo Finance",
+      "headline": "AeroVironment CEO Wahid Nawabi Sells 5,246 Shares for Tax Withholding. What Investors Need to Know.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/aerovironment-ceo-wahid-nawabi-sells-195349878.html",
+      "summary": "AeroVironment CEO Wahid Nawabi has sold 5,246 shares of the company's stock, primarily to cover tax withholding obligations. This event is being highlighted to investors for their consideration.",
+      "industries": [
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "Aerospace/Defense Products & Services",
+          "confidence": 85,
+          "direction": "up"
+        },
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "Aerospace/Defense—Major Diversified",
+          "confidence": 60,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "NOC",
+          "name": "Northrop Grumman",
+          "type": "stock",
+          "confidence": 85,
+          "direction": "up",
+          "rationale": "Mapped from Aerospace/Defense Products & Services (Industrial Goods).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "ITA",
+          "name": "iShares US Aerospace & Defense ETF",
+          "type": "etf",
+          "confidence": 85,
+          "direction": "up",
+          "rationale": "Mapped from Aerospace/Defense Products & Services (Industrial Goods).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "LMT",
+          "name": "Lockheed Martin",
+          "type": "stock",
+          "confidence": 60,
+          "direction": "up",
+          "rationale": "Mapped from Aerospace/Defense—Major Diversified (Industrial Goods).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "RTX",
+          "name": "Raytheon Technologies",
+          "type": "stock",
+          "confidence": 60,
+          "direction": "up",
+          "rationale": "Mapped from Aerospace/Defense—Major Diversified (Industrial Goods).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "0a0bb691b287",
       "time": "2026-07-18T18:54:00Z",
@@ -5585,88 +5649,6 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "2de372afd491",
-      "time": "2026-07-16T22:45:00Z",
-      "source": "MarketWatch",
-      "headline": "Netflix is getting stingier about its viewing data, and Wall Street isn’t happy",
-      "url": "https://www.marketwatch.com/story/netflix-is-getting-stingier-about-its-viewing-data-and-wall-street-isnt-happy-15033db1?mod=mw_rss_topstories",
-      "summary": "Netflix is restricting access to its viewing data, which has caused dissatisfaction among Wall Street analysts. This move could impact how investors and advertisers assess the company's performance and audience engagement.",
-      "industries": [
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Streaming & Digital Media",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Internet Information Providers",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Broadcasting—TV",
-          "confidence": 50,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Marketing Services",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "NFLX",
-          "name": "Netflix",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Streaming & Digital Media (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "DIS",
-          "name": "Walt Disney",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Streaming & Digital Media (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
@@ -5997,6 +5979,7 @@
     "b872675b63cd",
     "ba435987b6c7",
     "11b696d75495",
-    "0a0bb691b287"
+    "0a0bb691b287",
+    "ddfe81d9195b"
   ]
 }
