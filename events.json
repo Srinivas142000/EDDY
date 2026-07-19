@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-19T10:55:58Z",
+  "updated": "2026-07-19T11:57:40Z",
   "sources": [
     "Reuters",
     "AP",
@@ -1109,6 +1109,84 @@
           "confidence": 50,
           "direction": "up",
           "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
+      "id": "5d1b0b0e2ab4",
+      "time": "2026-07-18T13:00:02Z",
+      "source": "Yahoo Finance",
+      "headline": "UBS Raises Its FuelCell Energy Stock Forecast With a $27 Stock Price Target",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ubs-raises-fuelcell-energy-stock-130002774.html",
+      "summary": "UBS has increased its price target for FuelCell Energy stock to $27, indicating a positive outlook for the company. This suggests a potential upward trend in the company's valuation and market performance.",
+      "industries": [
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Independent Oil & Gas",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Oil & Gas Equipment & Services",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Utilities",
+          "sub_industry": "Diversified Utilities",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Utilities",
+          "sub_industry": "Electric Utilities",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "Industrial Equipment & Components",
+          "confidence": 20,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Electric Vehicles & Battery Technology",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "TSLA",
+          "name": "Tesla",
+          "type": "stock",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "LIT",
+          "name": "Global X Lithium & Battery Tech ETF",
+          "type": "etf",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "DRIV",
+          "name": "Global X Autonomous & EV ETF",
+          "type": "etf",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
           "hist_range_1d": null,
           "hist_range_5d": null
         }
@@ -5673,56 +5751,6 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "9eb6d122b9d8",
-      "time": "2026-07-17T10:00:00Z",
-      "source": "MarketWatch",
-      "headline": "Retail investors had been outperforming the market since May. Not any more.",
-      "url": "https://www.marketwatch.com/story/retail-investors-had-been-outperforming-the-market-since-may-not-any-more-8cf1e46d?mod=mw_rss_topstories",
-      "summary": "Retail investors, who had previously outperformed the market since May, are no longer doing so. This indicates a shift in market dynamics and potentially a change in the performance of retail-driven investment strategies.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 45,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Investment Brokerage—Regional",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Cryptocurrency & Digital Assets",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 45,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 45,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
@@ -6079,6 +6107,7 @@
     "18435923bcdb",
     "1b4457ed65c6",
     "dbcb70fd93c5",
-    "c3fc8d262577"
+    "c3fc8d262577",
+    "5d1b0b0e2ab4"
   ]
 }
