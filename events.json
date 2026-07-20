@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T13:30:50Z",
+  "updated": "2026-07-20T15:34:13Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,62 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "cdcd991a46e9",
+      "time": "2026-07-20T15:19:56Z",
+      "source": "Yahoo Finance",
+      "headline": "Bitcoin and ethereum prices today, Monday, July 20, 2026: Crypto prices mixed as second half 2026 outlooks conflict",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-july-20-2026-crypto-prices-mixed-as-second-half-2026-outlooks-conflict-151956982.html",
+      "summary": "Bitcoin and Ethereum prices experienced a mixed performance on Monday, July 20, 2026, influenced by conflicting outlooks for the second half of the year. This indicates volatility and uncertainty within the cryptocurrency market.",
+      "industries": [
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Cryptocurrency & Digital Assets",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Investment Brokerage—Regional",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Diversified Investments",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "3cf597052fc1",
       "time": "2026-07-20T10:58:14Z",
@@ -5572,41 +5628,6 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "463625c70eec",
-      "time": "2026-07-18T10:10:00Z",
-      "source": "Yahoo Finance",
-      "headline": "My mom has no savings, but needs assisted living. Are Social Security and Medicaid enough?",
-      "url": "https://finance.yahoo.com/healthcare/articles/mom-no-savings-needs-assisted-101000179.html",
-      "summary": "An individual with no personal savings requires assisted living care, raising questions about the adequacy of Social Security and Medicaid to cover these costs. This situation highlights the financial challenges faced by many in funding long-term care.",
-      "industries": [
-        {
-          "sector": "Health Care",
-          "sub_industry": "Long-Term Care Facilities",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Health Care Plans",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Utilities",
-          "sub_industry": "Diversified Utilities",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "REIT—Residential",
-          "confidence": 20,
-          "direction": "up"
-        }
-      ],
-      "tickers": []
     }
   ],
   "seen": [
@@ -5994,6 +6015,7 @@
     "cf7755772002",
     "62d2dbb94e5a",
     "d2671800e0bd",
-    "f3d3bb64aff0"
+    "f3d3bb64aff0",
+    "cdcd991a46e9"
   ]
 }
