@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-19T23:31:58Z",
+  "updated": "2026-07-20T01:10:03Z",
   "sources": [
     "Reuters",
     "AP",
@@ -276,6 +276,50 @@
           "name": "Goldman Sachs",
           "type": "stock",
           "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
+      "id": "80894742635d",
+      "time": "2026-07-19T22:29:00Z",
+      "source": "MarketWatch",
+      "headline": "World Cup-champion Spain just won $50 million — and the IRS gets a cut",
+      "url": "https://www.marketwatch.com/story/the-world-cupwinning-side-will-make-50-million-and-the-irs-gets-a-cut-10f0780b?mod=mw_rss_topstories",
+      "summary": "Spain's World Cup victory has resulted in a $50 million prize, with a portion of these winnings to be paid to the IRS. This event highlights the financial implications of major sporting achievements and their tax consequences.",
+      "industries": [
+        {
+          "sector": "Services",
+          "sub_industry": "General Entertainment",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 20,
           "direction": "up",
           "rationale": "Mapped from Asset Management (Financial).",
           "hist_range_1d": null,
@@ -5816,68 +5860,6 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "cc442f4e6cbf",
-      "time": "2026-07-17T21:23:00Z",
-      "source": "MarketWatch",
-      "headline": "How your winning stock-index fund can turn on a dime",
-      "url": "https://www.marketwatch.com/story/how-your-winning-stock-index-fund-can-turn-on-a-dime-e2e4b44e?mod=mw_rss_topstories",
-      "summary": "The article discusses how investors can adjust their stock-index fund holdings to capitalize on market shifts. It suggests strategies for optimizing returns by being agile in response to changing economic conditions and market trends.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Diversified Investments",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Investment Brokerage—Regional",
-          "confidence": 50,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Information Technology Services",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Business Services",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
@@ -6247,6 +6229,7 @@
     "7ee27821d160",
     "112f2fd830e3",
     "31a5247c5266",
-    "a4bdf44356d5"
+    "a4bdf44356d5",
+    "80894742635d"
   ]
 }
