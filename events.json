@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-21T16:55:32Z",
+  "updated": "2026-07-21T18:16:11Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,122 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "0c1a6a72f9f1",
+      "time": "2026-07-21T17:19:00Z",
+      "source": "MarketWatch",
+      "headline": "Oil prices may fall, but gasoline prices won’t. Look at the trap we’re in.",
+      "url": "https://www.marketwatch.com/story/oil-prices-may-fall-but-gasoline-prices-wont-look-at-the-trap-were-in-7f4c3738?mod=mw_rss_topstories",
+      "summary": "Despite potential declines in crude oil prices, gasoline prices are expected to remain elevated due to market dynamics and supply constraints. This situation highlights a complex and potentially disadvantageous market position for consumers and certain industries.",
+      "industries": [
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Oil & Gas Refining & Marketing",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Independent Oil & Gas",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Major Integrated Oil & Gas",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Oil & Gas Pipelines",
+          "confidence": 50,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Consumer Services",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Restaurants",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Consumer Goods",
+          "sub_industry": "Trucks & Other Vehicles",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Auto Dealerships",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "General Building Materials",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "XOM",
+          "name": "Exxon Mobil",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Major Integrated Oil & Gas (Basic Materials).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "CVX",
+          "name": "Chevron",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Major Integrated Oil & Gas (Basic Materials).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "USO",
+          "name": "US Oil Fund ETF",
+          "type": "etf",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Major Integrated Oil & Gas (Basic Materials).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "MCD",
+          "name": "McDonald's",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Restaurants (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "CMG",
+          "name": "Chipotle Mexican Grill",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Restaurants (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "f7d0f768e666",
       "time": "2026-07-21T16:44:00Z",
@@ -6408,86 +6524,6 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "f948d6c7538c",
-      "time": "2026-07-19T17:20:00Z",
-      "source": "Yahoo Finance",
-      "headline": "Netflix's Post-Earnings Sell-Off Just Revealed Why It Was Bidding to Acquire Warner Bros. and Roku",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/netflixs-post-earnings-sell-off-172000520.html",
-      "summary": "Netflix's stock experienced a sell-off following its earnings report, indicating potential strategic shifts and a renewed focus on content acquisition. The company was reportedly interested in acquiring Warner Bros. and Roku, suggesting a move to bolster its content library and distribution capabilities.",
-      "industries": [
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Streaming & Digital Media",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Entertainment—Diversified",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Broadcasting—TV",
-          "confidence": 65,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Movie Production & Theaters",
-          "confidence": 60,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Information Technology Services",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Internet Information Providers",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Business Services",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Advertising Agencies",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "NFLX",
-          "name": "Netflix",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Streaming & Digital Media (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "DIS",
-          "name": "Walt Disney",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Streaming & Digital Media (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
@@ -6907,6 +6943,7 @@
     "48e2cd5b4b29",
     "cd78cbbaa279",
     "d061a8821765",
-    "f7d0f768e666"
+    "f7d0f768e666",
+    "0c1a6a72f9f1"
   ]
 }
