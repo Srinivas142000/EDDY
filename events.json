@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-21T15:04:27Z",
+  "updated": "2026-07-21T16:55:32Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,62 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "f7d0f768e666",
+      "time": "2026-07-21T16:44:00Z",
+      "source": "MarketWatch",
+      "headline": "SpaceX’s stock looks to snap brutal losing streak as it heads for one of its best days yet",
+      "url": "https://www.marketwatch.com/story/spacexs-stock-looks-to-snap-brutal-losing-streak-as-it-heads-for-one-of-its-best-days-yet-74220273?mod=mw_rss_topstories",
+      "summary": "SpaceX is experiencing a significant stock price rebound, potentially ending a prolonged period of decline and marking one of its best trading days. This surge follows a recent losing streak, indicating a strong positive market reaction.",
+      "industries": [
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Space & Satellite Technology",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "Aerospace/Defense Products & Services",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Diversified Communication Services",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Industrial Metals & Minerals",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "NOC",
+          "name": "Northrop Grumman",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Aerospace/Defense Products & Services (Industrial Goods).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "ITA",
+          "name": "iShares US Aerospace & Defense ETF",
+          "type": "etf",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Aerospace/Defense Products & Services (Industrial Goods).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "d061a8821765",
       "time": "2026-07-21T15:01:00Z",
@@ -6432,72 +6488,6 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "bd1d7f2bacc3",
-      "time": "2026-07-19T17:05:00Z",
-      "source": "Yahoo Finance",
-      "headline": "PayPal: Is Being Bought Out What's Best for the Company Right Now?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/paypal-being-bought-whats-best-170500775.html",
-      "summary": "This headline discusses the potential acquisition of PayPal, a leading digital payments company. The article questions whether a buyout would be beneficial for PayPal's current strategic position and future growth.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Credit Services",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Gig Economy & Marketplace Platforms",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Information Technology Services",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Business Services",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "UBER",
-          "name": "Uber",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "LYFT",
-          "name": "Lyft",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "ABNB",
-          "name": "Airbnb",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
@@ -6916,6 +6906,7 @@
     "8af929b86994",
     "48e2cd5b4b29",
     "cd78cbbaa279",
-    "d061a8821765"
+    "d061a8821765",
+    "f7d0f768e666"
   ]
 }
