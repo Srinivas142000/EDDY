@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-21T03:35:31Z",
+  "updated": "2026-07-21T06:27:51Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,102 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "983f5158133b",
+      "time": "2026-07-21T04:01:00Z",
+      "source": "MarketWatch",
+      "headline": "Your healthcare could now cost $185,500 in retirement — and that doesn’t include long-term care",
+      "url": "https://www.marketwatch.com/story/your-healthcare-could-now-cost-185-500-in-retirement-and-that-doesnt-include-long-term-care-5f4f6da8?mod=mw_rss_topstories",
+      "summary": "The estimated healthcare cost for retirees has risen significantly, reaching $185,500, excluding long-term care expenses. This projection highlights a substantial financial burden on individuals planning for their retirement years.",
+      "industries": [
+        {
+          "sector": "Health Care",
+          "sub_industry": "Hospitals",
+          "confidence": 45,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Drug Manufacturers—Major",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Medical Appliances & Equipment",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Health Care Plans",
+          "confidence": 35,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Long-Term Care Facilities",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Specialized Health Services",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Life Insurance",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Accident & Health Insurance",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Property & Casualty Insurance",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "LLY",
+          "name": "Eli Lilly",
+          "type": "stock",
+          "confidence": 40,
+          "direction": "up",
+          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "PFE",
+          "name": "Pfizer",
+          "type": "stock",
+          "confidence": 40,
+          "direction": "up",
+          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "XBI",
+          "name": "SPDR Biotech ETF",
+          "type": "etf",
+          "confidence": 40,
+          "direction": "up",
+          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "a231d6c14743",
       "time": "2026-07-21T00:13:00Z",
@@ -5914,56 +6010,6 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "5e93009b2809",
-      "time": "2026-07-18T18:14:00Z",
-      "source": "MarketWatch",
-      "headline": "My relative inherited money in her 80s. Will it affect her Social Security taxes or Medicare premiums?",
-      "url": "https://www.marketwatch.com/story/my-relative-inherited-money-in-her-80s-will-it-affect-her-social-security-taxes-or-medicare-premiums-0f09a210?mod=mw_rss_topstories",
-      "summary": "An individual in their 80s inheriting money may face implications for their Social Security taxes and Medicare premiums. The extent of these impacts will depend on the amount inherited and existing income levels.",
-      "industries": [
-        {
-          "sector": "Health Care",
-          "sub_industry": "Health Care Plans",
-          "confidence": 45,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Diversified Investments",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
@@ -6362,6 +6408,7 @@
     "57ceab9d3ff1",
     "ffc6d6be4504",
     "a231d6c14743",
-    "6530f44ab7a2"
+    "6530f44ab7a2",
+    "983f5158133b"
   ]
 }
