@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-22T10:01:31Z",
+  "updated": "2026-07-22T11:53:19Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,258 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "3efb2160652e",
+      "time": "2026-07-22T11:37:03Z",
+      "source": "Yahoo Finance",
+      "headline": "Dow Jones Futures Fall As Oil Prices Jump; Two Big AI Earnings Movers With Google, Tesla Earnings Due",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp-500-sandisk-micron-google-tesla-earnings/?src=A00220&yptr=yahoo",
+      "summary": "Dow Jones futures are declining as oil prices surge, indicating potential economic headwinds. This comes ahead of significant earnings reports from major AI-focused companies, Google and Tesla.",
+      "industries": [
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Independent Oil & Gas",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Major Integrated Oil & Gas",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "AI & Machine Learning Infrastructure",
+          "confidence": 90,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Oil & Gas Pipelines",
+          "confidence": 80,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Oil & Gas Refining & Marketing",
+          "confidence": 80,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Diversified Computer Systems",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Internet Information Providers",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Application Software",
+          "confidence": 60,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Business Software & Services",
+          "confidence": 60,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Processing Systems & Products",
+          "confidence": 60,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Electric Vehicles & Battery Technology",
+          "confidence": 50,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Industrial Metals & Minerals",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Credit Services",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Money Center Banks",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Regional Banks",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "XOM",
+          "name": "Exxon Mobil",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Major Integrated Oil & Gas (Basic Materials).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "CVX",
+          "name": "Chevron",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Major Integrated Oil & Gas (Basic Materials).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "USO",
+          "name": "US Oil Fund ETF",
+          "type": "etf",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Major Integrated Oil & Gas (Basic Materials).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "NVDA",
+          "name": "Nvidia",
+          "type": "stock",
+          "confidence": 90,
+          "direction": "up",
+          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "AMD",
+          "name": "Advanced Micro Devices",
+          "type": "stock",
+          "confidence": 90,
+          "direction": "up",
+          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BOTZ",
+          "name": "Global X Robotics & AI ETF",
+          "type": "etf",
+          "confidence": 90,
+          "direction": "up",
+          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "MSFT",
+          "name": "Microsoft",
+          "type": "stock",
+          "confidence": 60,
+          "direction": "up",
+          "rationale": "Mapped from Application Software (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "CRM",
+          "name": "Salesforce",
+          "type": "stock",
+          "confidence": 60,
+          "direction": "up",
+          "rationale": "Mapped from Application Software (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "IGV",
+          "name": "iShares Expanded Tech-Software ETF",
+          "type": "etf",
+          "confidence": 60,
+          "direction": "up",
+          "rationale": "Mapped from Application Software (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "TSLA",
+          "name": "Tesla",
+          "type": "stock",
+          "confidence": 50,
+          "direction": "up",
+          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "LIT",
+          "name": "Global X Lithium & Battery Tech ETF",
+          "type": "etf",
+          "confidence": 50,
+          "direction": "up",
+          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "DRIV",
+          "name": "Global X Autonomous & EV ETF",
+          "type": "etf",
+          "confidence": 50,
+          "direction": "up",
+          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "JPM",
+          "name": "JPMorgan Chase",
+          "type": "stock",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BAC",
+          "name": "Bank of America",
+          "type": "stock",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "KBE",
+          "name": "SPDR Bank ETF",
+          "type": "etf",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "21c2d2bb7a59",
       "time": "2026-07-22T09:44:00Z",
@@ -6145,100 +6397,6 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "23cc156e879d",
-      "time": "2026-07-20T18:49:00Z",
-      "source": "MarketWatch",
-      "headline": "It’s getting easier for terminally ill people to end their own lives. What to know as laws change.",
-      "url": "https://www.marketwatch.com/story/its-getting-easier-for-terminally-ill-people-to-end-their-own-lives-what-to-know-as-laws-change-4fa04c54?mod=mw_rss_topstories",
-      "summary": "Legislation is evolving to make it easier for terminally ill individuals to end their lives. This trend reflects changing societal views and legal frameworks surrounding end-of-life choices.",
-      "industries": [
-        {
-          "sector": "Health Care",
-          "sub_industry": "Hospitals",
-          "confidence": 45,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Long-Term Care Facilities",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Specialized Health Services",
-          "confidence": 35,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Drug Manufacturers—Major",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Drug Manufacturers—Other",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Medical Practitioners",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Health Care Plans",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "LLY",
-          "name": "Eli Lilly",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "PFE",
-          "name": "Pfizer",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "XBI",
-          "name": "SPDR Biotech ETF",
-          "type": "etf",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "NVO",
-          "name": "Novo Nordisk ADR",
-          "type": "adr",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Drug Manufacturers—Other (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
@@ -6686,6 +6844,7 @@
     "4fb53fbac5bd",
     "c5532fe6f9e9",
     "4c5663ad55ea",
-    "b55f3488397f"
+    "b55f3488397f",
+    "3efb2160652e"
   ]
 }
