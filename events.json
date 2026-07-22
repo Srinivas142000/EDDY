@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-22T17:16:48Z",
+  "updated": "2026-07-22T18:41:28Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,56 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "0093972303a5",
+      "time": "2026-07-22T18:20:00Z",
+      "source": "MarketWatch",
+      "headline": "This ‘intrinsic value’ small-cap stock strategy keeps benefiting from deep research",
+      "url": "https://www.marketwatch.com/story/this-intrinsic-value-small-cap-stock-strategy-keeps-benefiting-from-deep-research-56e868a4?mod=mw_rss_topstories",
+      "summary": "A small-cap stock strategy focused on 'intrinsic value' is reportedly benefiting from in-depth research. This suggests a continued focus on fundamental analysis and potentially undervalued companies within the small-cap segment.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Investment Brokerage—Regional",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Diversified Investments",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 40,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 40,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "a0d61b7e75c8",
       "time": "2026-07-22T17:06:00Z",
@@ -6283,62 +6333,6 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "3d367eff5f6d",
-      "time": "2026-07-20T22:00:00Z",
-      "source": "MarketWatch",
-      "headline": "We have $8 million in traditional IRAs. Should we tap them to buy a house — and take the tax hit?",
-      "url": "https://www.marketwatch.com/story/we-have-8-million-in-traditional-iras-should-we-tap-them-to-buy-a-house-and-take-the-tax-hit-c2478daa?mod=mw_rss_topstories",
-      "summary": "The article discusses the financial implications of withdrawing funds from traditional IRAs to purchase a home, focusing on the associated tax consequences. It advises individuals to consider the tax implications before making such a decision.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Real Estate Development",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Residential Construction",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Mortgage Investment",
-          "confidence": 20,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
@@ -6790,6 +6784,7 @@
     "3efb2160652e",
     "caf733f2255d",
     "f16592ae8240",
-    "a0d61b7e75c8"
+    "a0d61b7e75c8",
+    "0093972303a5"
   ]
 }
