@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-22T23:02:20Z",
+  "updated": "2026-07-23T00:10:41Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,47 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "493871c78f88",
+      "time": "2026-07-22T23:00:00Z",
+      "source": "MarketWatch",
+      "headline": "‘I have a $2,000 deductible’: I reported a cracked windshield on my Hertz rental car. Can they charge me?",
+      "url": "https://www.marketwatch.com/story/i-have-a-2-000-deductible-i-reported-a-cracked-windshield-on-my-hertz-rental-car-can-they-charge-me-1e07d28a?mod=mw_rss_topstories",
+      "summary": "A customer reported a cracked windshield on a Hertz rental car and is inquiring about potential charges, referencing their $2,000 deductible. This situation highlights potential issues with rental car insurance and damage liability for renters.",
+      "industries": [
+        {
+          "sector": "Services",
+          "sub_industry": "Rental & Leasing Services",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Accident & Health Insurance",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Property & Casualty Insurance",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Auto Dealerships",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Auto Parts Stores",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": []
+    },
     {
       "id": "a0dfd3cb661c",
       "time": "2026-07-22T22:30:00Z",
@@ -5982,29 +6023,6 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "998e1786d6e0",
-      "time": "2026-07-21T02:17:00Z",
-      "source": "Yahoo Finance",
-      "headline": "Spain just opened a door America slammed shut",
-      "url": "https://finance.yahoo.com/economy/policy/articles/spain-just-opened-door-america-021700849.html",
-      "summary": "Spain has enacted new regulations that are more favorable to the cryptocurrency industry, contrasting with a more restrictive stance taken by the United States. This policy divergence could lead to shifts in investment and business operations within the digital asset space.",
-      "industries": [
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Cryptocurrency & Digital Assets",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Information Technology Services",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": []
     }
   ],
   "seen": [
@@ -6464,6 +6482,7 @@
     "a0dfd3cb661c",
     "5543a502f9e4",
     "1c0c82978d57",
-    "3cf2ae5e80c1"
+    "3cf2ae5e80c1",
+    "493871c78f88"
   ]
 }
