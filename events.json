@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-23T11:27:59Z",
+  "updated": "2026-07-23T13:00:33Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,62 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "b45202d708c4",
+      "time": "2026-07-23T12:49:01Z",
+      "source": "Yahoo Finance",
+      "headline": "Nestlé to sell half of waters business to Platinum Equity",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nestl-sell-half-waters-business-104013799.html",
+      "summary": "Nestlé has announced its intention to divest half of its water business to Platinum Equity. This strategic move aims to streamline Nestlé's portfolio and focus on its core food and beverage operations.",
+      "industries": [
+        {
+          "sector": "Consumer Goods",
+          "sub_industry": "Beverages—Wineries & Distillers",
+          "confidence": 85,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Food Wholesale",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Consumer Goods",
+          "sub_industry": "Packaging & Containers",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "3d6d4db65aac",
       "time": "2026-07-23T11:07:00Z",
@@ -5918,82 +5974,6 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "fdcd10161d48",
-      "time": "2026-07-21T20:01:39Z",
-      "source": "CNBC",
-      "headline": "Bets against SpaceX grow to 32% of float as Elon Musk warns short sellers won't survive",
-      "url": "https://www.cnbc.com/2026/07/21/bets-against-spacex-grow-to-32percent-of-float-as-elon-musk-warns-short-sellers-wont-survive.html",
-      "summary": "Short interest in SpaceX has reached 32% of its float, with CEO Elon Musk issuing a warning to short sellers. This indicates significant bearish sentiment and potential volatility surrounding the company's stock.",
-      "industries": [
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Space & Satellite Technology",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Aerospace/Defense Products & Services",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Investment Brokerage—Regional",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "NOC",
-          "name": "Northrop Grumman",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Aerospace/Defense Products & Services (Industrial Goods).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "ITA",
-          "name": "iShares US Aerospace & Defense ETF",
-          "type": "etf",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Aerospace/Defense Products & Services (Industrial Goods).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
@@ -6477,6 +6457,7 @@
     "24467790e41d",
     "8cdc36303870",
     "68573ab48cc1",
-    "a77715e89b5b"
+    "a77715e89b5b",
+    "b45202d708c4"
   ]
 }
