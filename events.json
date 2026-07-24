@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-24T19:00:43Z",
+  "updated": "2026-07-24T20:27:23Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,92 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "c1223e64bd94",
+      "time": "2026-07-24T20:11:00Z",
+      "source": "MarketWatch",
+      "headline": "I’m 38, lost my job, and have to move back in with my parents. What did I do wrong?",
+      "url": "https://www.marketwatch.com/story/i-lost-my-job-my-emergency-fund-is-running-out-and-now-i-have-to-move-back-in-with-my-parents-what-did-i-do-wrong-cf1c0f9f?mod=mw_rss_topstories",
+      "summary": "A 38-year-old individual has lost their job and is forced to move back in with their parents, questioning their past decisions. This situation highlights personal financial distress and potential broader economic factors affecting employment.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Real Estate Development",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "Residential Construction",
+          "confidence": 20,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Lodging",
+          "confidence": 20,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Gig Economy & Marketplace Platforms",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "ABNB",
+          "name": "Airbnb",
+          "type": "stock",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from Lodging (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "MAR",
+          "name": "Marriott International",
+          "type": "stock",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from Lodging (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BKNG",
+          "name": "Booking Holdings",
+          "type": "stock",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from Lodging (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "UBER",
+          "name": "Uber",
+          "type": "stock",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "LYFT",
+          "name": "Lyft",
+          "type": "stock",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "6a54d58650e6",
       "time": "2026-07-24T18:47:00Z",
@@ -8077,98 +8163,6 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "b21f9985bf3f",
-      "time": "2026-07-22T20:50:21Z",
-      "source": "Yahoo Finance",
-      "headline": "IBM Cuts Revenue Guidance After Preliminary Earnings Release Cratered Stock",
-      "url": "https://www.investors.com/news/technology/ibm-stock-q2-2026-earnings-results/?src=A00220&yptr=yahoo",
-      "summary": "IBM has reduced its revenue forecast following a preliminary earnings report that caused a significant drop in its stock price. This indicates a potential slowdown in demand or execution challenges for the company.",
-      "industries": [
-        {
-          "sector": "Technology",
-          "sub_industry": "Information Technology Services",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Business Software & Services",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Diversified Computer Systems",
-          "confidence": 50,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Cloud Infrastructure & Services",
-          "confidence": 45,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "AMZN",
-          "name": "Amazon (AWS)",
-          "type": "stock",
-          "confidence": 45,
-          "direction": "up",
-          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "MSFT",
-          "name": "Microsoft (Azure)",
-          "type": "stock",
-          "confidence": 45,
-          "direction": "up",
-          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GOOGL",
-          "name": "Alphabet (GCP)",
-          "type": "stock",
-          "confidence": 45,
-          "direction": "up",
-          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
@@ -8687,6 +8681,7 @@
     "41ddee2d31fa",
     "461a8ff8494d",
     "4f76f75439fc",
-    "6a54d58650e6"
+    "6a54d58650e6",
+    "c1223e64bd94"
   ]
 }
