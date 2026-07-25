@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-25T20:50:04Z",
+  "updated": "2026-07-25T21:55:27Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,72 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "ae719df6a674",
+      "time": "2026-07-25T21:34:01Z",
+      "source": "Yahoo Finance",
+      "headline": "Nebius vs. Strategy: Comparing Revenue Trends Between an Artificial Intelligence Company and a Bitcoin Giant",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nebius-vs-strategy-comparing-revenue-213401903.html",
+      "summary": "The headline compares revenue trends between a company focused on Artificial Intelligence (AI) and a major cryptocurrency entity, likely Bitcoin. This suggests an analysis of performance within the technology and digital asset sectors.",
+      "industries": [
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "AI & Machine Learning Infrastructure",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Cryptocurrency & Digital Assets",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Internet Information Providers",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Information Technology Services",
+          "confidence": 30,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "NVDA",
+          "name": "Nvidia",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "AMD",
+          "name": "Advanced Micro Devices",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BOTZ",
+          "name": "Global X Robotics & AI ETF",
+          "type": "etf",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "80082cefed89",
       "time": "2026-07-25T19:13:01Z",
@@ -9545,53 +9611,6 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "0288d0f86f5b",
-      "time": "2026-07-24T06:17:17Z",
-      "source": "Yahoo Finance",
-      "headline": "TJX Companies Earnings Preview: What to Expect",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/tjx-companies-earnings-preview-expect-061717067.html",
-      "summary": "TJX Companies, a major retailer, is set to release its earnings report. Investors and analysts will be looking for insights into consumer spending trends and the company's performance in the current economic climate.",
-      "industries": [
-        {
-          "sector": "Services",
-          "sub_industry": "Apparel Stores",
-          "confidence": 90,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Department Stores",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Discount & Variety Stores",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Home Furnishings & Fixtures",
-          "confidence": 50,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Specialty Retail",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Credit Services",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": []
     }
   ],
   "seen": [
@@ -10150,6 +10169,7 @@
     "cf83b6b5e213",
     "7c6083e82700",
     "05c09001eec4",
-    "80082cefed89"
+    "80082cefed89",
+    "ae719df6a674"
   ]
 }
