@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-25T00:14:51Z",
+  "updated": "2026-07-25T03:49:56Z",
   "sources": [
     "Reuters",
     "AP",
@@ -331,6 +331,62 @@
         }
       ],
       "tickers": []
+    },
+    {
+      "id": "cd7947cadaec",
+      "time": "2026-07-24T21:48:00Z",
+      "source": "MarketWatch",
+      "headline": "Would you take $65,000 today, or flip a coin for a chance to win $1.3 million?",
+      "url": "https://www.marketwatch.com/story/would-you-take-65-000-today-or-flip-a-coin-for-a-chance-to-win-1-3-million-d134961a?mod=mw_rss_topstories",
+      "summary": "The headline presents a hypothetical choice between a guaranteed sum of money and a gamble for a much larger payout. This scenario explores risk tolerance and decision-making under uncertainty.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Credit Services",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Investment Brokerage—Regional",
+          "confidence": 20,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Diversified Investments",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
     },
     {
       "id": "8ee3a9ae67b8",
@@ -9773,47 +9829,6 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "493871c78f88",
-      "time": "2026-07-22T23:00:00Z",
-      "source": "MarketWatch",
-      "headline": "‘I have a $2,000 deductible’: I reported a cracked windshield on my Hertz rental car. Can they charge me?",
-      "url": "https://www.marketwatch.com/story/i-have-a-2-000-deductible-i-reported-a-cracked-windshield-on-my-hertz-rental-car-can-they-charge-me-1e07d28a?mod=mw_rss_topstories",
-      "summary": "A customer reported a cracked windshield on a Hertz rental car and is inquiring about potential charges, referencing their $2,000 deductible. This situation highlights potential issues with rental car insurance and damage liability for renters.",
-      "industries": [
-        {
-          "sector": "Services",
-          "sub_industry": "Rental & Leasing Services",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Accident & Health Insurance",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Property & Casualty Insurance",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Auto Dealerships",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Auto Parts Stores",
-          "confidence": 20,
-          "direction": "up"
-        }
-      ],
-      "tickers": []
     }
   ],
   "seen": [
@@ -10339,6 +10354,7 @@
     "72ace4160f3d",
     "475a538dd47e",
     "8ee3a9ae67b8",
-    "d80a1d16130c"
+    "d80a1d16130c",
+    "cd7947cadaec"
   ]
 }
