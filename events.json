@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-26T11:02:02Z",
+  "updated": "2026-07-26T12:12:46Z",
   "sources": [
     "Reuters",
     "AP",
@@ -1414,6 +1414,56 @@
           "name": "Goldman Sachs",
           "type": "stock",
           "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
+      "id": "d468b9603de3",
+      "time": "2026-07-25T12:05:00Z",
+      "source": "Yahoo Finance",
+      "headline": "You’ve got a leg up on about 50% of Americans if you check off any of these three boxes — how do you stack up?",
+      "url": "https://finance.yahoo.com/markets/articles/ve-got-leg-50-americans-120500916.html",
+      "summary": "The headline suggests that meeting certain criteria, possibly related to financial health or specific demographics, provides an advantage to approximately half of the American population. It prompts readers to assess their own standing against these criteria.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Credit Services",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 20,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Consumer Services",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 20,
           "direction": "up",
           "rationale": "Mapped from Asset Management (Financial).",
           "hist_range_1d": null,
@@ -7078,226 +7128,6 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "41ddee2d31fa",
-      "time": "2026-07-24T15:26:10Z",
-      "source": "Yahoo Finance",
-      "headline": "European banks pour into risk, compliance and AI to compete: Moody’s",
-      "url": "https://finance.yahoo.com/technology/ai/articles/european-banks-pour-risk-compliance-152610137.html",
-      "summary": "European banks are significantly increasing investments in risk management, compliance, and artificial intelligence (AI) to enhance their competitive standing. This strategic shift is highlighted by Moody's, indicating a focus on technological advancement and regulatory adherence within the sector.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Money Center Banks",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "AI & Machine Learning Infrastructure",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Regional Banks",
-          "confidence": 80,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Foreign Money Center Banks",
-          "confidence": 75,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Foreign Regional Banks",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Application Software",
-          "confidence": 60,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Business Software & Services",
-          "confidence": 60,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Information Technology Services",
-          "confidence": 55,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Security Software & Services",
-          "confidence": 50,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 45,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Credit Services",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Diversified Investments",
-          "confidence": 35,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Cloud Infrastructure & Services",
-          "confidence": 30,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "JPM",
-          "name": "JPMorgan Chase",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Money Center Banks (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BAC",
-          "name": "Bank of America",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Money Center Banks (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "KBE",
-          "name": "SPDR Bank ETF",
-          "type": "etf",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Money Center Banks (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "NVDA",
-          "name": "Nvidia",
-          "type": "stock",
-          "confidence": 85,
-          "direction": "up",
-          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "AMD",
-          "name": "Advanced Micro Devices",
-          "type": "stock",
-          "confidence": 85,
-          "direction": "up",
-          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BOTZ",
-          "name": "Global X Robotics & AI ETF",
-          "type": "etf",
-          "confidence": 85,
-          "direction": "up",
-          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "MSFT",
-          "name": "Microsoft",
-          "type": "stock",
-          "confidence": 60,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "CRM",
-          "name": "Salesforce",
-          "type": "stock",
-          "confidence": 60,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "IGV",
-          "name": "iShares Expanded Tech-Software ETF",
-          "type": "etf",
-          "confidence": 60,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 45,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 45,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "AMZN",
-          "name": "Amazon (AWS)",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GOOGL",
-          "name": "Alphabet (GCP)",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
@@ -7880,6 +7710,7 @@
     "d5755f5ba6af",
     "1727a8efb03c",
     "a45fb2a684ea",
-    "efa24a917a79"
+    "efa24a917a79",
+    "d468b9603de3"
   ]
 }
