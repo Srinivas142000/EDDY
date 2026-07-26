@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-26T14:10:26Z",
+  "updated": "2026-07-26T15:41:10Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,71 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "3e77555fa5e0",
+      "time": "2026-07-26T15:07:00Z",
+      "source": "Yahoo Finance",
+      "headline": "After 80 stores close, 63-year-old chain gives Chapter 11 warning",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/80-stores-close-63-old-150700367.html",
+      "summary": "A 63-year-old retail chain has issued a warning of potential Chapter 11 bankruptcy filing after closing 80 of its stores. This indicates significant financial distress and a need for restructuring.",
+      "industries": [
+        {
+          "sector": "Services",
+          "sub_industry": "Department Stores",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Apparel Stores",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Discount & Variety Stores",
+          "confidence": 60,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Specialty Retail",
+          "confidence": 50,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "REIT—Retail",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Credit Services",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Consumer Goods",
+          "sub_industry": "Packaging & Containers",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Consumer Goods",
+          "sub_industry": "Textile—Apparel Clothing",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Consumer Goods",
+          "sub_industry": "Textile—Apparel Footwear & Accessories",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": []
+    },
     {
       "id": "bb6b96a07e78",
       "time": "2026-07-26T14:00:00Z",
@@ -7082,62 +7147,6 @@
         }
       ],
       "tickers": []
-    },
-    {
-      "id": "26675d8fff67",
-      "time": "2026-07-24T15:42:00Z",
-      "source": "MarketWatch",
-      "headline": "How you can get financial advice from MarketWatch tailored to your needs",
-      "url": "https://www.marketwatch.com/story/how-you-can-get-financial-advice-from-marketwatch-tailored-to-your-needs-4fc0fef8?mod=mw_rss_topstories",
-      "summary": "MarketWatch is offering personalized financial advice services to its users. This initiative aims to provide tailored guidance to individuals based on their specific financial needs and goals.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 45,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Information Technology Services",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Business Services",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Marketing Services",
-          "confidence": 20,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 45,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 45,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
@@ -7722,6 +7731,7 @@
     "a45fb2a684ea",
     "efa24a917a79",
     "d468b9603de3",
-    "bb6b96a07e78"
+    "bb6b96a07e78",
+    "3e77555fa5e0"
   ]
 }
