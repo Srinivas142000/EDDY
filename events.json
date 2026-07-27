@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-27T11:55:39Z",
+  "updated": "2026-07-27T14:34:58Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,65 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "fb9c3932ee6d",
+      "time": "2026-07-27T14:15:34Z",
+      "source": "Yahoo Finance",
+      "headline": "Australia’s Myer FY26 sales rise 11.3% to A$4.08bn",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/australia-myer-fy26-sales-rise-141534327.html",
+      "summary": "Australian retailer Myer reported an 11.3% increase in sales for fiscal year 2026, reaching A$4.08 billion. This growth indicates a strong performance in the retail sector.",
+      "industries": [
+        {
+          "sector": "Services",
+          "sub_industry": "Department Stores",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Specialty Retail",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Apparel Stores",
+          "confidence": 65,
+          "direction": "up"
+        },
+        {
+          "sector": "Consumer Goods",
+          "sub_industry": "Home Furnishings & Fixtures",
+          "confidence": 45,
+          "direction": "up"
+        },
+        {
+          "sector": "Consumer Goods",
+          "sub_industry": "Housewares & Accessories",
+          "confidence": 45,
+          "direction": "up"
+        },
+        {
+          "sector": "Consumer Goods",
+          "sub_industry": "Personal Products",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Credit Services",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Marketing Services",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": []
+    },
     {
       "id": "b0f9e940068b",
       "time": "2026-07-27T11:43:00Z",
@@ -8422,47 +8481,6 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "4ec54d89c400",
-      "time": "2026-07-25T10:45:00Z",
-      "source": "Yahoo Finance",
-      "headline": "I thought I could afford my dream truck. Now I’m stuck paying $900 a month and can’t escape the payment",
-      "url": "https://finance.yahoo.com/markets/articles/thought-could-afford-dream-truck-104500072.html",
-      "summary": "An individual expresses regret over the high monthly payments for their \"dream truck,\" indicating financial strain and an inability to exit the commitment. This suggests a potential issue with consumer affordability and debt management in the automotive sector.",
-      "industries": [
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Trucks & Other Vehicles",
-          "confidence": 90,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Credit Services",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Auto Dealerships",
-          "confidence": 65,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Auto Parts Wholesale",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Auto Parts Stores",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": []
     }
   ],
   "seen": [
@@ -9080,6 +9098,7 @@
     "267d115e559b",
     "5e276783950e",
     "b16e044ca440",
-    "4390bcc68399"
+    "4390bcc68399",
+    "fb9c3932ee6d"
   ]
 }
