@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-28T16:10:10Z",
+  "updated": "2026-07-28T17:53:50Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,50 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "5c5542cd6a6c",
+      "time": "2026-07-28T17:45:00Z",
+      "source": "MarketWatch",
+      "headline": "‘I’m in my peak earning years’: I’m working beyond 70. Will that help increase my Social Security?",
+      "url": "https://www.marketwatch.com/story/im-in-my-peak-earning-years-im-working-beyond-70-will-that-help-increase-my-social-security-b0fd84da?mod=mw_rss_topstories",
+      "summary": "An individual in their peak earning years is working beyond the age of 70 and inquiring about the impact on their Social Security benefits. This situation highlights personal financial planning and the longevity of the workforce.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Personal Services",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "482267ddbfbd",
       "time": "2026-07-28T15:50:00Z",
@@ -7110,62 +7154,6 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "0444b23369dd",
-      "time": "2026-07-26T17:00:00Z",
-      "source": "Yahoo Finance",
-      "headline": "A $25,000 home repair could wipe out her $27,000 emergency fund — experts say there's a smarter move",
-      "url": "https://finance.yahoo.com/real-estate/articles/25-000-home-repair-could-170000821.html",
-      "summary": "A significant home repair cost, equivalent to nearly the entire emergency fund of an individual, highlights the importance of financial planning and potentially alternative financial strategies. Experts suggest a more prudent approach than depleting savings for such an expense.",
-      "industries": [
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Residential Construction",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Home Improvement Stores",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Credit Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 20,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
@@ -7813,6 +7801,7 @@
     "2ca63ece19f9",
     "49a375237612",
     "5557ed05a180",
-    "482267ddbfbd"
+    "482267ddbfbd",
+    "5c5542cd6a6c"
   ]
 }
