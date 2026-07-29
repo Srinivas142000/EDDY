@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-29T01:02:11Z",
+  "updated": "2026-07-29T04:46:07Z",
   "sources": [
     "Reuters",
     "AP",
@@ -120,6 +120,72 @@
           "confidence": 45,
           "direction": "up",
           "rationale": "Mapped from Shipping (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
+      "id": "394fa76018bb",
+      "time": "2026-07-29T00:18:00Z",
+      "source": "MarketWatch",
+      "headline": "Ford matches GM in one crucial way, and the stock jumps",
+      "url": "https://www.marketwatch.com/story/ford-matches-gm-in-one-crucial-way-and-the-stock-jumps-bf2f708c?mod=mw_rss_topstories",
+      "summary": "Ford has matched General Motors in a significant aspect, leading to a notable increase in Ford's stock price. The specific area of parity is not detailed in the headline but is implied to be important for investor confidence.",
+      "industries": [
+        {
+          "sector": "Consumer Goods",
+          "sub_industry": "Trucks & Other Vehicles",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Auto Dealerships",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Electric Vehicles & Battery Technology",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Auto Parts Wholesale",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "TSLA",
+          "name": "Tesla",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "LIT",
+          "name": "Global X Lithium & Battery Tech ETF",
+          "type": "etf",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "DRIV",
+          "name": "Global X Autonomous & EV ETF",
+          "type": "etf",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
           "hist_range_1d": null,
           "hist_range_5d": null
         }
@@ -7156,72 +7222,6 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "bb273a36cd23",
-      "time": "2026-07-26T21:38:48Z",
-      "source": "Yahoo Finance",
-      "headline": "Medicare Advantage Has a 12-Month Trial Period With a Full Escape Hatch. Almost Nobody Uses It in Time.",
-      "url": "https://finance.yahoo.com/healthcare/articles/medicare-advantage-12-month-trial-213848821.html",
-      "summary": "Medicare Advantage plans now have a 12-month trial period allowing beneficiaries to switch back to traditional Medicare. However, very few individuals utilize this option within the designated timeframe.",
-      "industries": [
-        {
-          "sector": "Health Care",
-          "sub_industry": "Health Care Plans",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Hospitals",
-          "confidence": 45,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Drug Manufacturers—Major",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Medical Appliances & Equipment",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "LLY",
-          "name": "Eli Lilly",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "PFE",
-          "name": "Pfizer",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "XBI",
-          "name": "SPDR Biotech ETF",
-          "type": "etf",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
@@ -7876,6 +7876,7 @@
     "b451e070c8e0",
     "dd698bd9ac33",
     "a3e29505acc9",
-    "014d626df665"
+    "014d626df665",
+    "394fa76018bb"
   ]
 }
