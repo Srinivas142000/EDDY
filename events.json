@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-29T13:00:16Z",
+  "updated": "2026-07-29T15:14:37Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,41 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "76281b32ffce",
+      "time": "2026-07-29T15:07:00Z",
+      "source": "MarketWatch",
+      "headline": "I got an unexpected $1,000 medical bill. Here’s why I’m not paying it yet.",
+      "url": "https://www.marketwatch.com/story/i-got-an-unexpected-1-000-medical-bill-heres-why-im-not-paying-it-yet-67265caf?mod=mw_rss_topstories",
+      "summary": "An individual received an unexpected $1,000 medical bill and is withholding payment, citing reasons for their refusal. This situation highlights potential issues within the healthcare billing and payment system.",
+      "industries": [
+        {
+          "sector": "Health Care",
+          "sub_industry": "Hospitals",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Health Care Plans",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Medical Practitioners",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Credit Services",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": []
+    },
     {
       "id": "4257cfc09d20",
       "time": "2026-07-29T10:23:00Z",
@@ -6000,98 +6035,6 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "9701d081be4c",
-      "time": "2026-07-27T18:06:35Z",
-      "source": "CNBC",
-      "headline": "CME launches single stock futures enabling investors to trade SpaceX, Micron and others 23 hours a day",
-      "url": "https://www.cnbc.com/2026/07/27/cme-launches-single-stock-futures-enabling-investors-to-trade-spacex-micron-23-hours-a-day.html",
-      "summary": "CME Group has launched single stock futures for several companies, including SpaceX and Micron, allowing for 23-hour trading. This move aims to provide investors with greater flexibility and access to these specific equities.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Diversified Investments",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Investment Brokerage—Regional",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Semiconductor—Integrated Circuits",
-          "confidence": 65,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Aerospace/Defense Products & Services",
-          "confidence": 60,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Information Technology Services",
-          "confidence": 30,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "NVDA",
-          "name": "Nvidia",
-          "type": "stock",
-          "confidence": 65,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "AMD",
-          "name": "Advanced Micro Devices",
-          "type": "stock",
-          "confidence": 65,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "SOXX",
-          "name": "iShares Semiconductor ETF",
-          "type": "etf",
-          "confidence": 65,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "NOC",
-          "name": "Northrop Grumman",
-          "type": "stock",
-          "confidence": 60,
-          "direction": "up",
-          "rationale": "Mapped from Aerospace/Defense Products & Services (Industrial Goods).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "ITA",
-          "name": "iShares US Aerospace & Defense ETF",
-          "type": "etf",
-          "confidence": 60,
-          "direction": "up",
-          "rationale": "Mapped from Aerospace/Defense Products & Services (Industrial Goods).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
@@ -6764,6 +6707,7 @@
     "f2c4fcbfba23",
     "7b8d7286fc74",
     "940bd38eea3f",
-    "d710624cd833"
+    "d710624cd833",
+    "76281b32ffce"
   ]
 }
