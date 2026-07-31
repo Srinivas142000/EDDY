@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-31T21:38:51Z",
+  "updated": "2026-07-31T22:58:40Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,214 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "9c83fc4a6171",
+      "time": "2026-07-31T22:21:00Z",
+      "source": "MarketWatch",
+      "headline": "July ends on a hopeful note for stocks after momentum trade sees biggest wipeout since 2000",
+      "url": "https://www.marketwatch.com/story/july-ends-on-a-hopeful-note-for-stocks-after-momentum-trade-sees-biggest-wipeout-since-2000-4b90b6b2?mod=mw_rss_topstories",
+      "summary": "The stock market experienced a positive close to July, recovering from a significant downturn in momentum trading. This recovery marks the most substantial wipeout in momentum strategies since the year 2000.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Investment Brokerage—Regional",
+          "confidence": 65,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Diversified Investments",
+          "confidence": 60,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Money Center Banks",
+          "confidence": 55,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Regional Banks",
+          "confidence": 55,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Information Technology Services",
+          "confidence": 45,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Internet Information Providers",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Application Software",
+          "confidence": 35,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Business Software & Services",
+          "confidence": 35,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Social Media & Platforms",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Gig Economy & Marketplace Platforms",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "JPM",
+          "name": "JPMorgan Chase",
+          "type": "stock",
+          "confidence": 55,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BAC",
+          "name": "Bank of America",
+          "type": "stock",
+          "confidence": 55,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "KBE",
+          "name": "SPDR Bank ETF",
+          "type": "etf",
+          "confidence": 55,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "MSFT",
+          "name": "Microsoft",
+          "type": "stock",
+          "confidence": 35,
+          "direction": "up",
+          "rationale": "Mapped from Application Software (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "CRM",
+          "name": "Salesforce",
+          "type": "stock",
+          "confidence": 35,
+          "direction": "up",
+          "rationale": "Mapped from Application Software (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "IGV",
+          "name": "iShares Expanded Tech-Software ETF",
+          "type": "etf",
+          "confidence": 35,
+          "direction": "up",
+          "rationale": "Mapped from Application Software (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "META",
+          "name": "Meta Platforms",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Social Media & Platforms (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "SNAP",
+          "name": "Snap Inc.",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Social Media & Platforms (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "UBER",
+          "name": "Uber",
+          "type": "stock",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "LYFT",
+          "name": "Lyft",
+          "type": "stock",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "ABNB",
+          "name": "Airbnb",
+          "type": "stock",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "ac883815e142",
       "time": "2026-07-31T21:36:11Z",
@@ -10548,41 +10756,6 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "6700c209d849",
-      "time": "2026-07-29T23:32:14Z",
-      "source": "Yahoo Finance",
-      "headline": "Eyes on sub-70 OR, Old Dominion plans more capex",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/eyes-sub-70-old-dominion-233214851.html",
-      "summary": "Old Dominion Freight Line is planning increased capital expenditures, signaling potential growth and expansion. The focus on \"sub-70 OR\" suggests a drive for operational efficiency and profitability.",
-      "industries": [
-        {
-          "sector": "Services",
-          "sub_industry": "Air Delivery & Freight Services",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Industrial Equipment & Components",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Business Services",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Trucks & Other Vehicles",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": []
     }
   ],
   "seen": [
@@ -11321,6 +11494,7 @@
     "37b705fbd30b",
     "2bbfda7bb5e4",
     "d483763407bb",
-    "ac883815e142"
+    "ac883815e142",
+    "9c83fc4a6171"
   ]
 }
