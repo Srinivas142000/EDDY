@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-03T02:47:46Z",
+  "updated": "2026-08-03T06:24:03Z",
   "sources": [
     "Reuters",
     "AP",
@@ -1377,6 +1377,56 @@
           "name": "Goldman Sachs",
           "type": "stock",
           "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
+      "id": "47f2188919ad",
+      "time": "2026-08-02T16:03:00Z",
+      "source": "Yahoo Finance",
+      "headline": "Warren Buffett keeps pointing at the same ETF for a reason",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/warren-buffett-keeps-pointing-same-160300409.html",
+      "summary": "Warren Buffett has repeatedly recommended a specific Exchange Traded Fund (ETF), suggesting a continued strategic interest in this investment vehicle. This highlights a potential trend in investor confidence and asset allocation strategies.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Diversified Investments",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Investment Brokerage—Regional",
+          "confidence": 40,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 95,
           "direction": "up",
           "rationale": "Mapped from Asset Management (Financial).",
           "hist_range_1d": null,
@@ -7430,92 +7480,6 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "6261df502636",
-      "time": "2026-08-01T02:41:30Z",
-      "source": "Yahoo Finance",
-      "headline": "Believe In Elon Musk, Says Jim Cramer About Tesla, Inc. (NASDAQ:TSLA)",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/believe-elon-musk-says-jim-024130381.html",
-      "summary": "Jim Cramer expressed a positive outlook on Tesla, Inc., encouraging investors to believe in the company. This sentiment comes amidst ongoing discussions about the electric vehicle manufacturer's future prospects.",
-      "industries": [
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Electric Vehicles & Battery Technology",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Auto Dealerships",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Diversified Investments",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 20,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "TSLA",
-          "name": "Tesla",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "LIT",
-          "name": "Global X Lithium & Battery Tech ETF",
-          "type": "etf",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "DRIV",
-          "name": "Global X Autonomous & EV ETF",
-          "type": "etf",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
@@ -8333,6 +8297,7 @@
     "e0e52d0d0ccd",
     "cb63d4d77fef",
     "17178c257daf",
-    "35a7b31c9f01"
+    "35a7b31c9f01",
+    "47f2188919ad"
   ]
 }
