@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-03T20:11:21Z",
+  "updated": "2026-08-03T21:40:17Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,56 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "733b4fbda16e",
+      "time": "2026-08-03T21:33:00Z",
+      "source": "MarketWatch",
+      "headline": "As ‘Spider-Man’ joins ‘The Odyssey’ in Imax, are premium movie screens worth the extra price?",
+      "url": "https://www.marketwatch.com/story/as-spider-man-joins-the-odyssey-in-imax-are-premium-movie-screens-worth-the-extra-price-74304e34?mod=mw_rss_topstories",
+      "summary": "The article questions the value proposition of premium movie screen formats like IMAX, citing examples such as 'Spider-Man' and 'The Odyssey'. It explores whether the enhanced viewing experience justifies the higher ticket prices for consumers.",
+      "industries": [
+        {
+          "sector": "Services",
+          "sub_industry": "Movie Production & Theaters",
+          "confidence": 85,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "General Entertainment",
+          "confidence": 60,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Streaming & Digital Media",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "NFLX",
+          "name": "Netflix",
+          "type": "stock",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Streaming & Digital Media (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "DIS",
+          "name": "Walt Disney",
+          "type": "stock",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Streaming & Digital Media (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "141abf60e68c",
       "time": "2026-08-03T20:07:00Z",
@@ -7488,84 +7538,6 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "0b6803c6bb74",
-      "time": "2026-08-01T15:12:00Z",
-      "source": "MarketWatch",
-      "headline": "Caregivers deplete their savings and many have stopped trying to save. Should they get paid?",
-      "url": "https://www.marketwatch.com/story/should-you-get-paid-to-care-for-a-family-member-70958828?mod=mw_rss_topstories",
-      "summary": "Caregivers are increasingly using their personal savings to cover expenses, with many no longer attempting to save. This situation raises questions about whether caregivers should receive financial compensation for their work.",
-      "industries": [
-        {
-          "sector": "Services",
-          "sub_industry": "Personal Services",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Consumer Services",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Life Insurance",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Health Care Plans",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Specialized Health Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Gig Economy & Marketplace Platforms",
-          "confidence": 20,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "UBER",
-          "name": "Uber",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "LYFT",
-          "name": "Lyft",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "ABNB",
-          "name": "Airbnb",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
@@ -8402,6 +8374,7 @@
     "cef77ef755f9",
     "bca76a690345",
     "99fda71b29ea",
-    "141abf60e68c"
+    "141abf60e68c",
+    "733b4fbda16e"
   ]
 }
