@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-05T00:14:22Z",
+  "updated": "2026-08-05T03:44:47Z",
   "sources": [
     "Reuters",
     "AP",
@@ -2380,6 +2380,56 @@
           "confidence": 20,
           "direction": "up",
           "rationale": "Mapped from Streaming & Digital Media (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
+      "id": "5277361e296a",
+      "time": "2026-08-04T21:13:00Z",
+      "source": "MarketWatch",
+      "headline": "McDonald’s says its value meals have become too complicated",
+      "url": "https://www.marketwatch.com/story/mcdonalds-admits-its-value-meals-have-become-too-confusing-dc076468?mod=mw_rss_topstories",
+      "summary": "McDonald's announced that its value meal offerings have become overly complex. This indicates a potential simplification of their menu strategy to improve customer experience and operational efficiency.",
+      "industries": [
+        {
+          "sector": "Services",
+          "sub_industry": "Restaurants",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Consumer Goods",
+          "sub_industry": "Processed & Packaged Goods",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Food Wholesale",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "MCD",
+          "name": "McDonald's",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Restaurants (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "CMG",
+          "name": "Chipotle Mexican Grill",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Restaurants (Services).",
           "hist_range_1d": null,
           "hist_range_5d": null
         }
@@ -10109,59 +10159,6 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "e0e52d0d0ccd",
-      "time": "2026-08-02T23:17:00Z",
-      "source": "Yahoo Finance",
-      "headline": "Consumer goods giant quietly wows investors after terrible streak",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/consumer-goods-giant-quietly-wows-231700448.html",
-      "summary": "A major consumer goods company has surprised investors with strong performance following a period of significant struggles. This turnaround suggests a potential recovery in consumer spending or successful internal restructuring.",
-      "industries": [
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Processed & Packaged Goods",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Food—Major Diversified",
-          "confidence": 80,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Beverages—Wineries & Distillers",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Cleaning Products",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Personal Products",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Packaging & Containers",
-          "confidence": 50,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Credit Services",
-          "confidence": 30,
-          "direction": "up"
-        }
-      ],
-      "tickers": []
     }
   ],
   "seen": [
@@ -11029,6 +11026,7 @@
     "74975d7184e1",
     "cc92ae5b4f23",
     "8d0e6421654f",
-    "9cd5f2a20b06"
+    "9cd5f2a20b06",
+    "5277361e296a"
   ]
 }
