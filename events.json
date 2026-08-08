@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-08T17:06:41Z",
+  "updated": "2026-08-08T17:58:55Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,62 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "7efbc50a40cc",
+      "time": "2026-08-08T17:35:51Z",
+      "source": "Yahoo Finance",
+      "headline": "Doughnut, diner, and restaurant chain owner files Chapter 7",
+      "url": "https://finance.yahoo.com/small-business/articles/doughnut-diner-restaurant-chain-owner-173551689.html",
+      "summary": "A company that owns multiple doughnut, diner, and restaurant establishments has filed for Chapter 7 bankruptcy. This indicates a complete liquidation of assets rather than a reorganization.",
+      "industries": [
+        {
+          "sector": "Services",
+          "sub_industry": "Restaurants",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Specialty Eateries",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Food Wholesale",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Consumer Goods",
+          "sub_industry": "Packaging & Containers",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "MCD",
+          "name": "McDonald's",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Restaurants (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "CMG",
+          "name": "Chipotle Mexican Grill",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Restaurants (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "0fde3c50c47e",
       "time": "2026-08-08T16:56:00Z",
@@ -7747,59 +7803,6 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "14e64d43d45c",
-      "time": "2026-08-07T03:25:10Z",
-      "source": "Yahoo Finance",
-      "headline": "Century Aluminum Company Q2 2026 Earnings Call Summary",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/century-aluminum-company-q2-2026-032510853.html",
-      "summary": "Century Aluminum Company is holding its Q2 2026 earnings call. This event will provide insights into the company's financial performance and outlook.",
-      "industries": [
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Aluminum",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Industrial Metals & Minerals",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Oil & Gas Refining & Marketing",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Utilities",
-          "sub_industry": "Diversified Utilities",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Utilities",
-          "sub_industry": "Electric Utilities",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Industrial Equipment & Components",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Packaging & Containers",
-          "confidence": 20,
-          "direction": "up"
-        }
-      ],
-      "tickers": []
     }
   ],
   "seen": [
@@ -8797,6 +8800,7 @@
     "436b01abca92",
     "f9c38644e57e",
     "3a3253b9db63",
-    "0fde3c50c47e"
+    "0fde3c50c47e",
+    "7efbc50a40cc"
   ]
 }
