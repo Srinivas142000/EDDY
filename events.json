@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-08T03:24:14Z",
+  "updated": "2026-08-08T04:36:40Z",
   "sources": [
     "Reuters",
     "AP",
@@ -688,6 +688,68 @@
           "confidence": 40,
           "direction": "up",
           "rationale": "Mapped from Application Software (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
+      "id": "d645b672ec48",
+      "time": "2026-08-07T20:38:00Z",
+      "source": "MarketWatch",
+      "headline": "SpaceX’s stock just had one of its best days ever — with the first lockup expiration now behind it",
+      "url": "https://www.marketwatch.com/story/spacexs-stock-is-having-one-of-its-best-days-ever-with-the-first-lockup-expiration-now-behind-it-cd55946c?mod=mw_rss_topstories",
+      "summary": "SpaceX experienced a significant stock value increase following its first lockup expiration, indicating positive market sentiment and potential for future growth. This event suggests increased liquidity and investor confidence in the company's prospects.",
+      "industries": [
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Space & Satellite Technology",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "Aerospace/Defense Products & Services",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Diversified Communication Services",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Industrial Metals & Minerals",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Information Technology Services",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "NOC",
+          "name": "Northrop Grumman",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Aerospace/Defense Products & Services (Industrial Goods).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "ITA",
+          "name": "iShares US Aerospace & Defense ETF",
+          "type": "etf",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Aerospace/Defense Products & Services (Industrial Goods).",
           "hist_range_1d": null,
           "hist_range_5d": null
         }
@@ -7899,41 +7961,6 @@
         }
       ],
       "tickers": []
-    },
-    {
-      "id": "5331576f4119",
-      "time": "2026-08-05T21:28:00Z",
-      "source": "MarketWatch",
-      "headline": "Why AT&T, Verizon and T-Mobile shares are down after SpaceX’s earnings",
-      "url": "https://www.marketwatch.com/story/why-at-t-verizon-and-t-mobile-shares-are-down-after-spacexs-earnings-033a07ce?mod=mw_rss_topstories",
-      "summary": "Shares of major telecommunications companies AT&T, Verizon, and T-Mobile have declined following the earnings report of SpaceX. This suggests that SpaceX's performance or outlook may be impacting investor sentiment in the broader telecommunications sector.",
-      "industries": [
-        {
-          "sector": "Technology",
-          "sub_industry": "Telecom Services—Domestic",
-          "confidence": 75,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Space & Satellite Technology",
-          "confidence": 65,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Telecom Services—Foreign",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Diversified Communication Services",
-          "confidence": 30,
-          "direction": "up"
-        }
-      ],
-      "tickers": []
     }
   ],
   "seen": [
@@ -8895,6 +8922,7 @@
     "da612e402c11",
     "0d8666b9b0bf",
     "a32897e8d02c",
-    "95f5f0124017"
+    "95f5f0124017",
+    "d645b672ec48"
   ]
 }
