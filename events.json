@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-08T19:57:38Z",
+  "updated": "2026-08-08T20:28:19Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,62 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "53483cc1645a",
+      "time": "2026-08-08T20:02:18Z",
+      "source": "Yahoo Finance",
+      "headline": "Jim Cramer Is Telling Investors to Accumulate SpaceX for the Long Term",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-telling-investors-accumulate-200218837.html",
+      "summary": "Jim Cramer has advised investors to accumulate shares of SpaceX for the long term. This recommendation suggests a positive outlook on the company's future growth and potential.",
+      "industries": [
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Space & Satellite Technology",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "Aerospace/Defense Products & Services",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Diversified Communication Services",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Information Technology Services",
+          "confidence": 30,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "NOC",
+          "name": "Northrop Grumman",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Aerospace/Defense Products & Services (Industrial Goods).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "ITA",
+          "name": "iShares US Aerospace & Defense ETF",
+          "type": "etf",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Aerospace/Defense Products & Services (Industrial Goods).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "68af3cf60bd7",
       "time": "2026-08-08T19:39:32Z",
@@ -7792,45 +7848,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "fc5203070c3f",
-      "time": "2026-08-07T04:01:00Z",
-      "source": "Yahoo Finance",
-      "headline": "Can a Manufacturing Rebound Turn Fluor’s Fortunes Around?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/manufacturing-rebound-turn-fluor-fortunes-040100971.html",
-      "summary": "The headline questions whether a potential rebound in the manufacturing sector could improve the financial performance of Fluor Corporation. Fluor is a company involved in engineering, procurement, construction, and maintenance services, which are closely tied to manufacturing activity.",
-      "industries": [
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Industrial Equipment & Components",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "General Building Materials",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Oil & Gas Equipment & Services",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Chemicals—Major Diversified",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": []
     }
   ],
   "seen": [
-    "8227e12cd4e9",
     "56a3d10b47bb",
     "9d69944326c5",
     "185cba6df547",
@@ -8829,6 +8849,7 @@
     "369e0704f0b2",
     "68af3cf60bd7",
     "ceee9598df74",
-    "b3b4bef4e5dd"
+    "b3b4bef4e5dd",
+    "53483cc1645a"
   ]
 }
