@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-08T20:28:19Z",
+  "updated": "2026-08-08T21:01:09Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,56 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "a9950a85c10d",
+      "time": "2026-08-08T20:24:06Z",
+      "source": "Yahoo Finance",
+      "headline": "XRP Price Prediction: Will XRP Ever Hit a New All-Time High?",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/xrp-price-prediction-xrp-ever-202406932.html",
+      "summary": "The headline discusses the potential for XRP, a cryptocurrency, to reach a new all-time high price. This indicates a focus on the speculative nature and future performance of digital assets.",
+      "industries": [
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Cryptocurrency & Digital Assets",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Investment Brokerage—Regional",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "53483cc1645a",
       "time": "2026-08-08T20:02:18Z",
@@ -7734,124 +7784,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "8a62ef338358",
-      "time": "2026-08-07T04:01:00Z",
-      "source": "Yahoo Finance",
-      "headline": "Vistra Earnings Offer Window Into Power Generation Ramp-Up for AI Data Centers",
-      "url": "https://finance.yahoo.com/energy/articles/vistra-earnings-offer-window-power-040100318.html",
-      "summary": "Vistra's earnings report indicates a significant increase in power generation capacity, driven by the growing demand from AI data centers. This trend suggests a broader industry shift towards accommodating the energy needs of advanced computing infrastructure.",
-      "industries": [
-        {
-          "sector": "Utilities",
-          "sub_industry": "Diversified Utilities",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Cloud Infrastructure & Services",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Information Technology Services",
-          "confidence": 50,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Independent Oil & Gas",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Oil & Gas Refining & Marketing",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Industrial Equipment & Components",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Semiconductor—Integrated Circuits",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "AMZN",
-          "name": "Amazon (AWS)",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "MSFT",
-          "name": "Microsoft (Azure)",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GOOGL",
-          "name": "Alphabet (GCP)",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "NVDA",
-          "name": "Nvidia",
-          "type": "stock",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "AMD",
-          "name": "Advanced Micro Devices",
-          "type": "stock",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "SOXX",
-          "name": "iShares Semiconductor ETF",
-          "type": "etf",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "56a3d10b47bb",
     "9d69944326c5",
     "185cba6df547",
     "ff8c5650cc57",
@@ -8850,6 +8785,7 @@
     "68af3cf60bd7",
     "ceee9598df74",
     "b3b4bef4e5dd",
-    "53483cc1645a"
+    "53483cc1645a",
+    "a9950a85c10d"
   ]
 }
