@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-08T11:04:12Z",
+  "updated": "2026-08-08T11:55:51Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,56 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "f47842abf463",
+      "time": "2026-08-08T11:30:00Z",
+      "source": "MarketWatch",
+      "headline": "Here’s why Wendy’s is losing the burger wars",
+      "url": "https://www.marketwatch.com/story/heres-why-wendys-is-losing-the-burger-wars-bf79deba?mod=mw_rss_topstories",
+      "summary": "Wendy's is reportedly losing market share in the burger industry, indicating a potential decline in its competitive standing. This suggests broader challenges within the fast-food sector or specific to Wendy's business strategy.",
+      "industries": [
+        {
+          "sector": "Services",
+          "sub_industry": "Restaurants",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Food Wholesale",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Consumer Goods",
+          "sub_industry": "Processed & Packaged Goods",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "MCD",
+          "name": "McDonald's",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Restaurants (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "CMG",
+          "name": "Chipotle Mexican Grill",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Restaurants (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "669a248e4bc5",
       "time": "2026-08-08T10:00:00Z",
@@ -7937,41 +7987,6 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "fa72619af421",
-      "time": "2026-08-06T20:37:51Z",
-      "source": "CNBC",
-      "headline": "United Wholesale Mortgage plunges 35% after suspending dividend and raising capital",
-      "url": "https://www.cnbc.com/2026/08/06/united-wholesale-mortgage-plunges-40percent-suspends-dividend-raises-capital-.html",
-      "summary": "United Wholesale Mortgage's stock price dropped significantly after the company announced a suspension of its dividend and a capital raise. This indicates potential financial strain or a strategic shift requiring immediate funding.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Mortgage Investment",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Credit Services",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Real Estate Development",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Diversified Investments",
-          "confidence": 30,
-          "direction": "up"
-        }
-      ],
-      "tickers": []
     }
   ],
   "seen": [
@@ -8960,6 +8975,7 @@
     "d1fa15ea61fa",
     "2c63c98d6267",
     "258fe87a3876",
-    "669a248e4bc5"
+    "669a248e4bc5",
+    "f47842abf463"
   ]
 }
