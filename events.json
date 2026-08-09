@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-09T22:03:22Z",
+  "updated": "2026-08-09T22:42:55Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,124 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "810785f19200",
+      "time": "2026-08-09T22:24:54Z",
+      "source": "Yahoo Finance",
+      "headline": "Dow Jones Futures Fall As Market Bulls Rule; Cisco, Lumentum Earnings Ahead",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-warren-buffett-cisco-lumentum-earnings/?src=A00220&yptr=yahoo",
+      "summary": "Dow Jones futures are indicating a decline as market sentiment shifts, with investors awaiting earnings reports from Cisco and Lumentum. This suggests a cautious outlook ahead of key corporate financial disclosures.",
+      "industries": [
+        {
+          "sector": "Technology",
+          "sub_industry": "Communication Equipment",
+          "confidence": 80,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Semiconductor—Integrated Circuits",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Semiconductor—Equipment & Materials",
+          "confidence": 65,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Information Technology Services",
+          "confidence": 50,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Investment Brokerage—Regional",
+          "confidence": 30,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "NVDA",
+          "name": "Nvidia",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "AMD",
+          "name": "Advanced Micro Devices",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "SOXX",
+          "name": "iShares Semiconductor ETF",
+          "type": "etf",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "AMAT",
+          "name": "Applied Materials",
+          "type": "stock",
+          "confidence": 65,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Equipment & Materials (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "LRCX",
+          "name": "Lam Research",
+          "type": "stock",
+          "confidence": 65,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Equipment & Materials (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "043ca745c584",
       "time": "2026-08-09T21:44:57Z",
@@ -7681,33 +7799,9 @@
         }
       ],
       "tickers": []
-    },
-    {
-      "id": "2c3d7c724bec",
-      "time": "2026-08-08T03:03:46Z",
-      "source": "Yahoo Finance",
-      "headline": "Carriage Services Q2 Earnings Call Highlights",
-      "url": "https://finance.yahoo.com/healthcare/articles/carriage-services-q2-earnings-call-030346833.html",
-      "summary": "Carriage Services, a funeral and cemetery operator, announced its second-quarter earnings. The call likely provided insights into the company's financial performance and operational highlights during the period.",
-      "industries": [
-        {
-          "sector": "Services",
-          "sub_industry": "Consumer Services",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Specialty Retail",
-          "confidence": 30,
-          "direction": "up"
-        }
-      ],
-      "tickers": []
     }
   ],
   "seen": [
-    "23422e025dc7",
     "470a7841f485",
     "1cea02b16618",
     "f2f2f4194d4b",
@@ -8706,6 +8800,7 @@
     "32fb061cf028",
     "251ceab7ab9a",
     "d32abf4b1fda",
-    "043ca745c584"
+    "043ca745c584",
+    "810785f19200"
   ]
 }
