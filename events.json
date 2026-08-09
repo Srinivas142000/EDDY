@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-09T11:29:20Z",
+  "updated": "2026-08-09T11:57:43Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,90 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "46ce2e503b8c",
+      "time": "2026-08-09T10:00:00Z",
+      "source": "Yahoo Finance",
+      "headline": "Mortgage and refinance interest rates today, Sunday, August 9, 2026: Rates mostly lower than last week",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-sunday-august-9-2026-rates-mostly-lower-than-last-week-100000935.html",
+      "summary": "Mortgage and refinance interest rates have seen a general decrease compared to the previous week as of Sunday, August 9, 2026. This trend suggests a potentially more favorable environment for individuals seeking to purchase homes or refinance existing mortgages.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Mortgage Investment",
+          "confidence": 80,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Money Center Banks",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Regional Banks",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Credit Services",
+          "confidence": 50,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "REIT—Residential",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "Residential Construction",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Real Estate Development",
+          "confidence": 30,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "JPM",
+          "name": "JPMorgan Chase",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BAC",
+          "name": "Bank of America",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "KBE",
+          "name": "SPDR Bank ETF",
+          "type": "etf",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "28c07087131a",
       "time": "2026-08-08T23:10:30Z",
@@ -5840,70 +5924,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "dd3c10f35263",
-      "time": "2026-08-07T21:58:19Z",
-      "source": "Yahoo Finance",
-      "headline": "Ondo Perps hits $7 billion in volume weeks after launch",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/ondo-perps-hits-7-billion-215819332.html",
-      "summary": "Ondo Perps, a decentralized derivatives platform, has achieved $7 billion in trading volume just weeks after its launch. This rapid growth indicates significant market interest and adoption of the new platform.",
-      "industries": [
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Cryptocurrency & Digital Assets",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Information Technology Services",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Application Software",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "MSFT",
-          "name": "Microsoft",
-          "type": "stock",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "CRM",
-          "name": "Salesforce",
-          "type": "stock",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "IGV",
-          "name": "iShares Expanded Tech-Software ETF",
-          "type": "etf",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "33d6d151726e",
     "b6979e287102",
     "fe3e5b920dd4",
     "6212cb9ba361",
@@ -6902,6 +6925,7 @@
     "65b17655b6b1",
     "0874f0eeba61",
     "f5a2cf583e8f",
-    "dce56c30f8c5"
+    "dce56c30f8c5",
+    "46ce2e503b8c"
   ]
 }
