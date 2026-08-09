@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-09T17:34:27Z",
+  "updated": "2026-08-09T18:03:46Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,136 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "c6801c1962a9",
+      "time": "2026-08-09T17:45:00Z",
+      "source": "Yahoo Finance",
+      "headline": "Micron Has Surged 207% This Year. Brace for a Steep Pullback.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/micron-surged-207-brace-steep-174500170.html",
+      "summary": "Micron Technology has experienced a significant surge of 207% in its stock price this year. However, analysts are anticipating a substantial pullback in its valuation.",
+      "industries": [
+        {
+          "sector": "Technology",
+          "sub_industry": "Semiconductor—Integrated Circuits",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Semiconductor—Broad Line",
+          "confidence": 80,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Semiconductor—Equipment & Materials",
+          "confidence": 50,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Diversified Electronics",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Personal Computers",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Communication Equipment",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Data Storage Devices",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "AI & Machine Learning Infrastructure",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "NVDA",
+          "name": "Nvidia",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "AMD",
+          "name": "Advanced Micro Devices",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "SOXX",
+          "name": "iShares Semiconductor ETF",
+          "type": "etf",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "INTC",
+          "name": "Intel",
+          "type": "stock",
+          "confidence": 80,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Broad Line (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "AMAT",
+          "name": "Applied Materials",
+          "type": "stock",
+          "confidence": 50,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Equipment & Materials (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "LRCX",
+          "name": "Lam Research",
+          "type": "stock",
+          "confidence": 50,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Equipment & Materials (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BOTZ",
+          "name": "Global X Robotics & AI ETF",
+          "type": "etf",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "06c4db1ec25b",
       "time": "2026-08-09T15:37:18Z",
@@ -7305,54 +7435,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "7e8035d9ba00",
-      "time": "2026-08-07T23:00:15Z",
-      "source": "Yahoo Finance",
-      "headline": "My Fiancé Is Worth $2M and Says I ‘Don’t Bring Anything to the Table’ So I Have to Sign a Prenup — Should I Walk Away?",
-      "url": "https://finance.yahoo.com/small-business/articles/fianc-worth-2m-says-don-230015683.html",
-      "summary": "A person is questioning whether to proceed with a marriage after their financially successful fiancé demanded a prenup, stating the individual \"doesn't bring anything to the table.\" This situation highlights potential financial disparities and differing views on partnership value.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Life Insurance",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "bc8505bcc54f",
     "2d27617c8d71",
     "6c71fc3122d5",
     "ec0a5cab1283",
@@ -8351,6 +8436,7 @@
     "84161f4790fb",
     "c6f6d1463296",
     "2fcf2ebb220f",
-    "06c4db1ec25b"
+    "06c4db1ec25b",
+    "c6801c1962a9"
   ]
 }
