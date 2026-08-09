@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-09T06:55:20Z",
+  "updated": "2026-08-09T07:54:59Z",
   "sources": [
     "Reuters",
     "AP",
@@ -2559,6 +2559,713 @@
       ]
     },
     {
+      "id": "14589ea1a2fa",
+      "time": "2026-08-08T02:52:03Z",
+      "source": "Yahoo Finance",
+      "headline": "Interface, Inc. Q2 2026 Earnings Call Summary",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/interface-inc-q2-2026-earnings-025203752.html",
+      "summary": "Interface, Inc. has released its Q2 2026 earnings call summary. The details of this summary are not provided in the prompt, but it indicates a financial reporting event for the company.",
+      "industries": [
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "Textile Industrial",
+          "confidence": 85,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Business Services",
+          "confidence": 30,
+          "direction": "up"
+        }
+      ],
+      "tickers": []
+    },
+    {
+      "id": "7efd337c5f00",
+      "time": "2026-08-08T02:10:49Z",
+      "source": "Yahoo Finance",
+      "headline": "SEC drops insider trading suit against ex-healthcare executive pardoned by Trump",
+      "url": "https://finance.yahoo.com/news/sec-drops-insider-trading-suit-021049395.html",
+      "summary": "The Securities and Exchange Commission (SEC) has dropped its insider trading lawsuit against a former healthcare executive who had previously received a presidential pardon from Donald Trump. This action resolves a significant legal case involving alleged securities law violations.",
+      "industries": [
+        {
+          "sector": "Health Care",
+          "sub_industry": "Drug Manufacturers—Major",
+          "confidence": 45,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Drug Manufacturers—Other",
+          "confidence": 45,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Specialized Health Services",
+          "confidence": 45,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Health Care Plans",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Hospitals",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Biotechnology",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 20,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Investment Brokerage—Regional",
+          "confidence": 20,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Money Center Banks",
+          "confidence": 20,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Regional Banks",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "LLY",
+          "name": "Eli Lilly",
+          "type": "stock",
+          "confidence": 45,
+          "direction": "up",
+          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "PFE",
+          "name": "Pfizer",
+          "type": "stock",
+          "confidence": 45,
+          "direction": "up",
+          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "XBI",
+          "name": "SPDR Biotech ETF",
+          "type": "etf",
+          "confidence": 45,
+          "direction": "up",
+          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "NVO",
+          "name": "Novo Nordisk ADR",
+          "type": "adr",
+          "confidence": 45,
+          "direction": "up",
+          "rationale": "Mapped from Drug Manufacturers—Other (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "MRNA",
+          "name": "Moderna",
+          "type": "stock",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Biotechnology (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "JPM",
+          "name": "JPMorgan Chase",
+          "type": "stock",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BAC",
+          "name": "Bank of America",
+          "type": "stock",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "KBE",
+          "name": "SPDR Bank ETF",
+          "type": "etf",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
+      "id": "010d7a616932",
+      "time": "2026-08-08T01:42:11Z",
+      "source": "Yahoo Finance",
+      "headline": "Nvidia to invest up to $3 billion in Stargate data center developer Lancium, the Information reports",
+      "url": "https://finance.yahoo.com/technology/articles/nvidia-invest-3-billion-lancium-014211358.html",
+      "summary": "Nvidia is reportedly planning a significant investment of up to $3 billion in Lancium, a company focused on developing data centers. This move highlights Nvidia's strategic interest in expanding its infrastructure capabilities to support its growing AI and computing businesses.",
+      "industries": [
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Cloud Infrastructure & Services",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Semiconductor—Integrated Circuits",
+          "confidence": 80,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Information Technology Services",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "AI & Machine Learning Infrastructure",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Diversified Computer Systems",
+          "confidence": 50,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Industrial Metals & Minerals",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "General Building Materials",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Real Estate Development",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "AMZN",
+          "name": "Amazon (AWS)",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "MSFT",
+          "name": "Microsoft (Azure)",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GOOGL",
+          "name": "Alphabet (GCP)",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "NVDA",
+          "name": "Nvidia",
+          "type": "stock",
+          "confidence": 80,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "AMD",
+          "name": "Advanced Micro Devices",
+          "type": "stock",
+          "confidence": 80,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "SOXX",
+          "name": "iShares Semiconductor ETF",
+          "type": "etf",
+          "confidence": 80,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BOTZ",
+          "name": "Global X Robotics & AI ETF",
+          "type": "etf",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
+      "id": "b2f5e1e3a5ee",
+      "time": "2026-08-07T23:43:58Z",
+      "source": "Yahoo Finance",
+      "headline": "Why QuinStreet Stock Crushed it on Friday",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-quinstreet-stock-crushed-friday-234358933.html",
+      "summary": "QuinStreet's stock experienced a significant surge on Friday, indicating strong positive market sentiment or a specific positive development for the company. The exact reason for the surge is not detailed in the headline but implies a substantial positive event.",
+      "industries": [
+        {
+          "sector": "Technology",
+          "sub_industry": "Internet Information Providers",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Internet Software & Services",
+          "confidence": 80,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Marketing Services",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Business Services",
+          "confidence": 60,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Information Technology Services",
+          "confidence": 50,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Advertising Agencies",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Gig Economy & Marketplace Platforms",
+          "confidence": 30,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "GOOGL",
+          "name": "Alphabet",
+          "type": "stock",
+          "confidence": 80,
+          "direction": "up",
+          "rationale": "Mapped from Internet Software & Services (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "META",
+          "name": "Meta Platforms",
+          "type": "stock",
+          "confidence": 80,
+          "direction": "up",
+          "rationale": "Mapped from Internet Software & Services (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "UBER",
+          "name": "Uber",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "LYFT",
+          "name": "Lyft",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "ABNB",
+          "name": "Airbnb",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
+      "id": "d4d36a02d297",
+      "time": "2026-08-07T23:35:28Z",
+      "source": "Yahoo Finance",
+      "headline": "Applied Materials stock splits: History & prospects explained",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-stock-splits-history-233528427.html",
+      "summary": "Applied Materials announced a stock split, a corporate action that increases the number of outstanding shares without changing the company's market capitalization. This move is often seen as a way to make shares more accessible to a wider range of investors.",
+      "industries": [
+        {
+          "sector": "Technology",
+          "sub_industry": "Semiconductor—Equipment & Materials",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Semiconductor—Broad Line",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Semiconductor—Integrated Circuits",
+          "confidence": 60,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Semiconductor—Specialized",
+          "confidence": 60,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Diversified Electronics",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "Industrial Equipment & Components",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Investment Brokerage—Regional",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "AMAT",
+          "name": "Applied Materials",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Equipment & Materials (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "LRCX",
+          "name": "Lam Research",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Equipment & Materials (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "SOXX",
+          "name": "iShares Semiconductor ETF",
+          "type": "etf",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Equipment & Materials (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "INTC",
+          "name": "Intel",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Broad Line (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "NVDA",
+          "name": "Nvidia",
+          "type": "stock",
+          "confidence": 60,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "AMD",
+          "name": "Advanced Micro Devices",
+          "type": "stock",
+          "confidence": 60,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
+      "id": "382b29307be7",
+      "time": "2026-08-07T23:35:00Z",
+      "source": "Yahoo Finance",
+      "headline": "Gold Royalty and 4 More Stocks See Action From Activist Investors",
+      "url": "https://www.barrons.com/articles/gold-royalty-and-4-more-stocks-see-action-from-activist-investors-5906e96b?siteid=yhoof2&yptr=yahoo",
+      "summary": "Activist investors are targeting several companies, including Gold Royalty, indicating a potential shift in corporate strategy and governance. This increased investor engagement can lead to significant changes in company operations and financial performance.",
+      "industries": [
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Gold",
+          "confidence": 85,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Investment Brokerage—Regional",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Diversified Investments",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Business Services",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "GLD",
+          "name": "SPDR Gold Shares ETF",
+          "type": "etf",
+          "confidence": 85,
+          "direction": "up",
+          "rationale": "Mapped from Gold (Basic Materials).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "NEM",
+          "name": "Newmont Corporation",
+          "type": "stock",
+          "confidence": 85,
+          "direction": "up",
+          "rationale": "Mapped from Gold (Basic Materials).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 40,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 40,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
+      "id": "ce34bb336fe7",
+      "time": "2026-08-07T23:24:30Z",
+      "source": "Yahoo Finance",
+      "headline": "Why Corsair Gaming Stock Skyrocketed by 35% Today",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-corsair-gaming-stock-skyrocketed-232430719.html",
+      "summary": "Corsair Gaming's stock experienced a significant surge of 35% today, indicating strong positive market sentiment for the company. The reasons behind this substantial increase are not detailed in the headline but suggest a major positive development for the gaming hardware manufacturer.",
+      "industries": [
+        {
+          "sector": "Services",
+          "sub_industry": "Gaming Activities",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Consumer Goods",
+          "sub_industry": "Electronic Equipment",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Computer Peripherals",
+          "confidence": 65,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Multimedia & Graphics Software",
+          "confidence": 40,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "AAPL",
+          "name": "Apple Inc.",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Electronic Equipment (Consumer Goods).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "QCOM",
+          "name": "Qualcomm",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Electronic Equipment (Consumer Goods).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
       "id": "7e8035d9ba00",
       "time": "2026-08-07T23:00:15Z",
       "source": "Yahoo Finance",
@@ -3327,6 +4034,72 @@
       ]
     },
     {
+      "id": "f4d0e23ddbf3",
+      "time": "2026-08-07T21:34:16Z",
+      "source": "Yahoo Finance",
+      "headline": "How to open a checking account for a minor",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/how-to-open-a-checking-account-for-a-minor-213416031.html",
+      "summary": "The article provides guidance on how to open a checking account for a minor. This process typically involves a parent or legal guardian and may require specific documentation.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Money Center Banks",
+          "confidence": 85,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Regional Banks",
+          "confidence": 85,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Savings & Loans",
+          "confidence": 85,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Credit Services",
+          "confidence": 30,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "JPM",
+          "name": "JPMorgan Chase",
+          "type": "stock",
+          "confidence": 85,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BAC",
+          "name": "Bank of America",
+          "type": "stock",
+          "confidence": 85,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "KBE",
+          "name": "SPDR Bank ETF",
+          "type": "etf",
+          "confidence": 85,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
       "id": "9692fee8b58b",
       "time": "2026-08-07T20:54:00Z",
       "source": "MarketWatch",
@@ -3963,3805 +4736,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "aa620c42abfd",
-      "time": "2026-08-07T19:24:00Z",
-      "source": "MarketWatch",
-      "headline": "The size of the American workforce has fallen by over 1 million people in the past year. Here’s what’s going on.",
-      "url": "https://www.marketwatch.com/story/the-size-of-the-american-workforce-has-fallen-by-over-1-million-people-in-the-past-year-heres-whats-going-on-b8141aa3?mod=mw_rss_topstories",
-      "summary": "The American workforce has experienced a decline of over 1 million individuals in the past year. This reduction in labor supply can have significant economic implications across various sectors.",
-      "industries": [
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Independent Oil & Gas",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Oil & Gas Drilling & Exploration",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Oil & Gas Equipment & Services",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Oil & Gas Pipelines",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Oil & Gas Refining & Marketing",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Utilities",
-          "sub_industry": "Diversified Utilities",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Utilities",
-          "sub_industry": "Electric Utilities",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Utilities",
-          "sub_industry": "Gas Utilities",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Utilities",
-          "sub_industry": "Water Utilities",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Business Equipment",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Farm Products",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Food—Major Diversified",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Home Furnishings & Fixtures",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Housewares & Accessories",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Meat Products",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Office Supplies",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Packaging & Containers",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Paper & Paper Products",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Personal Products",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Processed & Packaged Goods",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Recreational Goods",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Recreational Vehicles",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Rubber & Plastics",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Sporting Goods",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Textile—Apparel Clothing",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Textile—Apparel Footwear & Accessories",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Tobacco Products",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Toys & Games",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Trucks & Other Vehicles",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Biotechnology",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Diagnostic Substances",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Drug Delivery",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Drug Manufacturers—Major",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Drug Manufacturers—Other",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Drug-Related Products",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Drugs—Generic",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Health Care Plans",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Home Health Care",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Hospitals",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Long-Term Care Facilities",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Medical Appliances & Equipment",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Medical Instruments & Supplies",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Medical Laboratories & Research",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Medical Practitioners",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Specialized Health Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Accident & Health Insurance",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Credit Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Life Insurance",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Property & Casualty Insurance",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Surety & Title Insurance",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Aerospace/Defense—Major Diversified",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Aerospace/Defense Products & Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Cement",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Diversified Machinery",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Farm & Construction Machinery",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "General Building Materials",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "General Contractors",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Heavy Construction",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Industrial Electrical Equipment",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Industrial Equipment & Components",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Lumber & Wood Production",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Machine Tools & Accessories",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Manufactured Housing",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Metal Fabrication",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Pollution & Treatment Controls",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Residential Construction",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Small Tools & Accessories",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Textile Industrial",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Waste Management",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Application Software",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Business Software & Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Communication Equipment",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Computer Peripherals",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Data Storage Devices",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Diversified Communication Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Diversified Computer Systems",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Diversified Electronics",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Health Care Information Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Information & Delivery Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Information Technology Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Internet Information Providers",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Internet Service Providers",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Internet Software & Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Long-Distance Carriers",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Multimedia & Graphics Software",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Networking & Communication Devices",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Personal Computers",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Processing Systems & Products",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Scientific & Technical Instruments",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Security Software & Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Semiconductor—Broad Line",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Semiconductor—Equipment & Materials",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Semiconductor—Integrated Circuits",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Semiconductor—Specialized",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Technical & System Software",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Telecom Services—Domestic",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Telecom Services—Foreign",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Wireless Communications",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Advertising Agencies",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Air Delivery & Freight Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Air Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Apparel Stores",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Auto Dealerships",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Auto Parts Stores",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Auto Parts Wholesale",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Basic Materials Wholesale",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Broadcasting—Radio",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Broadcasting—TV",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Building Materials Wholesale",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Business Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "CATV Systems",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Computers Wholesale",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Consumer Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Department Stores",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Discount & Variety Stores",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Drugstores",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Drug Wholesale",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Education & Training Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Electronics Stores",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Electronics Wholesale",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Entertainment—Diversified",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Food Wholesale",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Gaming Activities",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "General Entertainment",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Grocery Stores",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Home Improvement Stores",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Industrial Equipment Wholesale",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Jewelry Stores",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Lodging",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Management Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Marketing Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Medical Equipment Wholesale",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Movie Production & Theaters",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Personal Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Publishing—Books",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Publishing—Newspapers",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Publishing—Periodicals",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Railroads",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Regional Airlines",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Rental & Leasing Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Research Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Resorts & Casinos",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Restaurants",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Security & Protection Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Shipping",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Specialty Eateries",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Specialty Retail",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Cloud Infrastructure & Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Social Media & Platforms",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Streaming & Digital Media",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Electric Vehicles & Battery Technology",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "AI & Machine Learning Infrastructure",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Cryptocurrency & Digital Assets",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Cybersecurity",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Gig Economy & Marketplace Platforms",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Space & Satellite Technology",
-          "confidence": 20,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "XOP",
-          "name": "SPDR S&P Oil & Gas E&P ETF",
-          "type": "etf",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Oil & Gas Drilling & Exploration (Basic Materials).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "USO",
-          "name": "US Oil Fund ETF",
-          "type": "etf",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Oil & Gas Drilling & Exploration (Basic Materials).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "LLY",
-          "name": "Eli Lilly",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Biotechnology (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "MRNA",
-          "name": "Moderna",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Biotechnology (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "XBI",
-          "name": "SPDR Biotech ETF",
-          "type": "etf",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Biotechnology (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "PFE",
-          "name": "Pfizer",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "NVO",
-          "name": "Novo Nordisk ADR",
-          "type": "adr",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Drug Manufacturers—Other (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "LMT",
-          "name": "Lockheed Martin",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Aerospace/Defense—Major Diversified (Industrial Goods).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "RTX",
-          "name": "Raytheon Technologies",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Aerospace/Defense—Major Diversified (Industrial Goods).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "ITA",
-          "name": "iShares US Aerospace & Defense ETF",
-          "type": "etf",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Aerospace/Defense—Major Diversified (Industrial Goods).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "NOC",
-          "name": "Northrop Grumman",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Aerospace/Defense Products & Services (Industrial Goods).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "MSFT",
-          "name": "Microsoft",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "CRM",
-          "name": "Salesforce",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "IGV",
-          "name": "iShares Expanded Tech-Software ETF",
-          "type": "etf",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GOOGL",
-          "name": "Alphabet",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Internet Software & Services (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "META",
-          "name": "Meta Platforms",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Internet Software & Services (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "INTC",
-          "name": "Intel",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Broad Line (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "SOXX",
-          "name": "iShares Semiconductor ETF",
-          "type": "etf",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Broad Line (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "AMAT",
-          "name": "Applied Materials",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Equipment & Materials (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "LRCX",
-          "name": "Lam Research",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Equipment & Materials (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "NVDA",
-          "name": "Nvidia",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "AMD",
-          "name": "Advanced Micro Devices",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "JETS",
-          "name": "US Global Jets ETF",
-          "type": "etf",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Air Services (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "KR",
-          "name": "Kroger",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Grocery Stores (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "WMT",
-          "name": "Walmart",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Grocery Stores (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "ABNB",
-          "name": "Airbnb",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Lodging (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "MAR",
-          "name": "Marriott International",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Lodging (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BKNG",
-          "name": "Booking Holdings",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Lodging (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "UAL",
-          "name": "United Airlines",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Regional Airlines (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "DAL",
-          "name": "Delta Air Lines",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Regional Airlines (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "WYNN",
-          "name": "Wynn Resorts",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Resorts & Casinos (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "MGM",
-          "name": "MGM Resorts",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Resorts & Casinos (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "MCD",
-          "name": "McDonald's",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Restaurants (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "CMG",
-          "name": "Chipotle Mexican Grill",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Restaurants (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "FDX",
-          "name": "FedEx",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Shipping (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "UPS",
-          "name": "United Parcel Service",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Shipping (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "AMZN",
-          "name": "Amazon (AWS)",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "SNAP",
-          "name": "Snap Inc.",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Social Media & Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "NFLX",
-          "name": "Netflix",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Streaming & Digital Media (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "DIS",
-          "name": "Walt Disney",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Streaming & Digital Media (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "TSLA",
-          "name": "Tesla",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "LIT",
-          "name": "Global X Lithium & Battery Tech ETF",
-          "type": "etf",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "DRIV",
-          "name": "Global X Autonomous & EV ETF",
-          "type": "etf",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BOTZ",
-          "name": "Global X Robotics & AI ETF",
-          "type": "etf",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "CRWD",
-          "name": "CrowdStrike",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Cybersecurity (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "PANW",
-          "name": "Palo Alto Networks",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Cybersecurity (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "CIBR",
-          "name": "First Trust Nasdaq Cybersecurity ETF",
-          "type": "etf",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Cybersecurity (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "UBER",
-          "name": "Uber",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "LYFT",
-          "name": "Lyft",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
-    },
-    {
-      "id": "e47f435ead5f",
-      "time": "2026-08-07T16:04:24Z",
-      "source": "Yahoo Finance",
-      "headline": "Anterix Shareholders Approve Board, Pay and Expanded 2023 Stock Plan",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/anterix-shareholders-approve-board-pay-160424892.html",
-      "summary": "Anterix shareholders have approved the company's board of directors, executive compensation, and an expanded 2023 stock plan. This indicates shareholder confidence and potential for future equity-based incentives.",
-      "industries": [
-        {
-          "sector": "Technology",
-          "sub_industry": "Telecom Services—Domestic",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Diversified Communication Services",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Wireless Communications",
-          "confidence": 65,
-          "direction": "up"
-        }
-      ],
-      "tickers": []
-    },
-    {
-      "id": "4ec85fd22b42",
-      "time": "2026-08-07T16:03:00Z",
-      "source": "Yahoo Finance",
-      "headline": "Palantir CEO drops 11-word bombshell for stock market investors",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-ceo-drops-11-word-160300224.html",
-      "summary": "Palantir CEO made a statement that has caused significant concern among stock market investors. The specific nature of the \"bombshell\" is not detailed, but it implies a potentially negative impact on the company's valuation or future prospects.",
-      "industries": [
-        {
-          "sector": "Technology",
-          "sub_industry": "Application Software",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Business Software & Services",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Information Technology Services",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "AI & Machine Learning Infrastructure",
-          "confidence": 60,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Cybersecurity",
-          "confidence": 50,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Investment Brokerage—Regional",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Diversified Investments",
-          "confidence": 30,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "MSFT",
-          "name": "Microsoft",
-          "type": "stock",
-          "confidence": 85,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "CRM",
-          "name": "Salesforce",
-          "type": "stock",
-          "confidence": 85,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "IGV",
-          "name": "iShares Expanded Tech-Software ETF",
-          "type": "etf",
-          "confidence": 85,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "NVDA",
-          "name": "Nvidia",
-          "type": "stock",
-          "confidence": 60,
-          "direction": "up",
-          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "AMD",
-          "name": "Advanced Micro Devices",
-          "type": "stock",
-          "confidence": 60,
-          "direction": "up",
-          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BOTZ",
-          "name": "Global X Robotics & AI ETF",
-          "type": "etf",
-          "confidence": 60,
-          "direction": "up",
-          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "CRWD",
-          "name": "CrowdStrike",
-          "type": "stock",
-          "confidence": 50,
-          "direction": "up",
-          "rationale": "Mapped from Cybersecurity (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "PANW",
-          "name": "Palo Alto Networks",
-          "type": "stock",
-          "confidence": 50,
-          "direction": "up",
-          "rationale": "Mapped from Cybersecurity (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "CIBR",
-          "name": "First Trust Nasdaq Cybersecurity ETF",
-          "type": "etf",
-          "confidence": 50,
-          "direction": "up",
-          "rationale": "Mapped from Cybersecurity (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
-    },
-    {
-      "id": "521b82e24702",
-      "time": "2026-08-07T15:18:00Z",
-      "source": "MarketWatch",
-      "headline": "Are target-date funds hurting Americans as they live longer?",
-      "url": "https://www.marketwatch.com/story/are-target-date-funds-hurting-americans-as-they-live-longer-929f4f92?mod=mw_rss_topstories",
-      "summary": "The article questions whether target-date funds are adequately prepared for the increasing longevity of Americans. It explores potential issues with how these funds are structured and managed in light of longer lifespans.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 90,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Closed-End Fund—Equity",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Diversified Investments",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Money Center Banks",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Regional Banks",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Credit Services",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Life Insurance",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Health Care Plans",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Hospitals",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Long-Term Care Facilities",
-          "confidence": 20,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 90,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 90,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "JPM",
-          "name": "JPMorgan Chase",
-          "type": "stock",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Money Center Banks (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BAC",
-          "name": "Bank of America",
-          "type": "stock",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Money Center Banks (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "KBE",
-          "name": "SPDR Bank ETF",
-          "type": "etf",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Money Center Banks (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
-    },
-    {
-      "id": "826bbbead590",
-      "time": "2026-08-07T14:05:45Z",
-      "source": "Yahoo Finance",
-      "headline": "Clive Owen bolsters consulting services with new hire",
-      "url": "https://finance.yahoo.com/small-business/articles/clive-owen-bolsters-consulting-services-140545531.html",
-      "summary": "Clive Owen has hired a new individual to enhance their consulting services. This move is intended to strengthen the firm's capabilities and offerings within the consulting sector.",
-      "industries": [
-        {
-          "sector": "Services",
-          "sub_industry": "Business Services",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Management Services",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Marketing Services",
-          "confidence": 40,
-          "direction": "up"
-        }
-      ],
-      "tickers": []
-    },
-    {
-      "id": "692152c9cca8",
-      "time": "2026-08-07T13:34:44Z",
-      "source": "CNBC",
-      "headline": "Odds the Fed will hike in September tumble following big July jobs miss",
-      "url": "https://www.cnbc.com/2026/08/07/odds-the-fed-hikes-in-september-tumble-following-big-july-jobs-miss.html",
-      "summary": "The likelihood of the Federal Reserve increasing interest rates in September has significantly decreased due to a larger-than-expected shortfall in job creation during July. This data suggests a potential slowdown in the labor market, which could influence the Fed's monetary policy decisions.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Money Center Banks",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Regional Banks",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Credit Services",
-          "confidence": 65,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Mortgage Investment",
-          "confidence": 60,
-          "direction": "up"
-        },
-        {
-          "sector": "Utilities",
-          "sub_industry": "Diversified Utilities",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Utilities",
-          "sub_industry": "Electric Utilities",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Utilities",
-          "sub_industry": "Gas Utilities",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "REIT—Residential",
-          "confidence": 35,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "REIT—Retail",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "REIT—Office",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "REIT—Hotel/Motel",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "REIT—Diversified",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "REIT—Health Care",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Independent Oil & Gas",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Major Integrated Oil & Gas",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Oil & Gas Pipelines",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Oil & Gas Refining & Marketing",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Oil & Gas Drilling & Exploration",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Oil & Gas Equipment & Services",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Industrial Metals & Minerals",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Aluminum",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Copper",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Gold",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Silver",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Agricultural Chemicals",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Chemicals—Major Diversified",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Nonmetallic Mineral Mining",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Aerospace/Defense—Major Diversified",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Aerospace/Defense Products & Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Diversified Machinery",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Industrial Equipment & Components",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Industrial Electrical Equipment",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Machine Tools & Accessories",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Metal Fabrication",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Pollution & Treatment Controls",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Textile Industrial",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Waste Management",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "General Building Materials",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Cement",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Farm & Construction Machinery",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Lumber & Wood Production",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Manufactured Housing",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Residential Construction",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Small Tools & Accessories",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "General Contractors",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Heavy Construction",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Packaging & Containers",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Paper & Paper Products",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Rubber & Plastics",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Home Furnishings & Fixtures",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Housewares & Accessories",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Processed & Packaged Goods",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Food—Major Diversified",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Confectioners",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Dairy Products",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Meat Products",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Beverages—Wineries & Distillers",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Cleaning Products",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Personal Products",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Cigarettes",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Tobacco Products",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Farm Products",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Recreational Goods",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Recreational Vehicles",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Sporting Goods",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Toys & Games",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Textile—Apparel Clothing",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Textile—Apparel Footwear & Accessories",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Business Equipment",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Electronic Equipment",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Trucks & Other Vehicles",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Apparel Stores",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Auto Dealerships",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Auto Parts Stores",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Auto Parts Wholesale",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Basic Materials Wholesale",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Broadcasting—Radio",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Broadcasting—TV",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Building Materials Wholesale",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Business Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "CATV Systems",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Computers Wholesale",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Consumer Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Department Stores",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Discount & Variety Stores",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Drugstores",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Drug Wholesale",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Education & Training Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Electronics Stores",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Electronics Wholesale",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Entertainment—Diversified",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Food Wholesale",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Gaming Activities",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "General Entertainment",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Grocery Stores",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Home Improvement Stores",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Industrial Equipment Wholesale",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Jewelry Stores",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Lodging",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Management Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Marketing Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Medical Equipment Wholesale",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Movie Production & Theaters",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Personal Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Publishing—Books",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Publishing—Newspapers",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Publishing—Periodicals",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Railroads",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Regional Airlines",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Rental & Leasing Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Research Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Resorts & Casinos",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Restaurants",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Security & Protection Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Shipping",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Specialty Eateries",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Specialty Retail",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Air Delivery & Freight Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Air Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Internet Service Providers",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Telecom Services—Domestic",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Telecom Services—Foreign",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Diversified Communication Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Wireless Communications",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Communication Equipment",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Networking & Communication Devices",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Semiconductor—Broad Line",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Semiconductor—Equipment & Materials",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Semiconductor—Integrated Circuits",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Semiconductor—Specialized",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Diversified Electronics",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Diversified Computer Systems",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Personal Computers",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Computer Peripherals",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Data Storage Devices",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Processing Systems & Products",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Business Software & Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Application Software",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Multimedia & Graphics Software",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Technical & System Software",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Security Software & Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Information Technology Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Health Care Information Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Internet Information Providers",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Internet Software & Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Long-Distance Carriers",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Scientific & Technical Instruments",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Cloud Infrastructure & Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "AI & Machine Learning Infrastructure",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Gig Economy & Marketplace Platforms",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Electric Vehicles & Battery Technology",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Cryptocurrency & Digital Assets",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Cybersecurity",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Space & Satellite Technology",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Social Media & Platforms",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Streaming & Digital Media",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Life Insurance",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Property & Casualty Insurance",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Accident & Health Insurance",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Surety & Title Insurance",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Foreign Money Center Banks",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Foreign Regional Banks",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Investment Brokerage—Regional",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Diversified Investments",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Closed-End Fund—Debt",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Closed-End Fund—Equity",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Closed-End Fund—Foreign",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Savings & Loans",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Property Management",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Real Estate Development",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Biotechnology",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Drug Manufacturers—Major",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Drug Manufacturers—Other",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Drugs—Generic",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Drug-Related Products",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Drug Delivery",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Diagnostic Substances",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Medical Appliances & Equipment",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Medical Instruments & Supplies",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Medical Laboratories & Research",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Specialized Health Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Home Health Care",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Hospitals",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Long-Term Care Facilities",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Medical Practitioners",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Health Care Plans",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Advertising Agencies",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Information & Delivery Services",
-          "confidence": 20,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "JPM",
-          "name": "JPMorgan Chase",
-          "type": "stock",
-          "confidence": 85,
-          "direction": "up",
-          "rationale": "Mapped from Money Center Banks (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BAC",
-          "name": "Bank of America",
-          "type": "stock",
-          "confidence": 85,
-          "direction": "up",
-          "rationale": "Mapped from Money Center Banks (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "KBE",
-          "name": "SPDR Bank ETF",
-          "type": "etf",
-          "confidence": 85,
-          "direction": "up",
-          "rationale": "Mapped from Money Center Banks (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "XOM",
-          "name": "Exxon Mobil",
-          "type": "stock",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Major Integrated Oil & Gas (Basic Materials).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "CVX",
-          "name": "Chevron",
-          "type": "stock",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Major Integrated Oil & Gas (Basic Materials).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "USO",
-          "name": "US Oil Fund ETF",
-          "type": "etf",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Major Integrated Oil & Gas (Basic Materials).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "XOP",
-          "name": "SPDR S&P Oil & Gas E&P ETF",
-          "type": "etf",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Oil & Gas Drilling & Exploration (Basic Materials).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GLD",
-          "name": "SPDR Gold Shares ETF",
-          "type": "etf",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Gold (Basic Materials).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "NEM",
-          "name": "Newmont Corporation",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Gold (Basic Materials).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "LMT",
-          "name": "Lockheed Martin",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Aerospace/Defense—Major Diversified (Industrial Goods).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "RTX",
-          "name": "Raytheon Technologies",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Aerospace/Defense—Major Diversified (Industrial Goods).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "ITA",
-          "name": "iShares US Aerospace & Defense ETF",
-          "type": "etf",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Aerospace/Defense—Major Diversified (Industrial Goods).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "NOC",
-          "name": "Northrop Grumman",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Aerospace/Defense Products & Services (Industrial Goods).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "AAPL",
-          "name": "Apple Inc.",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Electronic Equipment (Consumer Goods).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "QCOM",
-          "name": "Qualcomm",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Electronic Equipment (Consumer Goods).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "KR",
-          "name": "Kroger",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Grocery Stores (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "WMT",
-          "name": "Walmart",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Grocery Stores (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "ABNB",
-          "name": "Airbnb",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Lodging (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "MAR",
-          "name": "Marriott International",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Lodging (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BKNG",
-          "name": "Booking Holdings",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Lodging (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "JETS",
-          "name": "US Global Jets ETF",
-          "type": "etf",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Regional Airlines (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "UAL",
-          "name": "United Airlines",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Regional Airlines (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "DAL",
-          "name": "Delta Air Lines",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Regional Airlines (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "WYNN",
-          "name": "Wynn Resorts",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Resorts & Casinos (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "MGM",
-          "name": "MGM Resorts",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Resorts & Casinos (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "MCD",
-          "name": "McDonald's",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Restaurants (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "CMG",
-          "name": "Chipotle Mexican Grill",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Restaurants (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "FDX",
-          "name": "FedEx",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Shipping (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "UPS",
-          "name": "United Parcel Service",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Shipping (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "INTC",
-          "name": "Intel",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Broad Line (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "SOXX",
-          "name": "iShares Semiconductor ETF",
-          "type": "etf",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Broad Line (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "AMAT",
-          "name": "Applied Materials",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Equipment & Materials (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "LRCX",
-          "name": "Lam Research",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Equipment & Materials (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "NVDA",
-          "name": "Nvidia",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "AMD",
-          "name": "Advanced Micro Devices",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "MSFT",
-          "name": "Microsoft",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "CRM",
-          "name": "Salesforce",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "IGV",
-          "name": "iShares Expanded Tech-Software ETF",
-          "type": "etf",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GOOGL",
-          "name": "Alphabet",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Internet Software & Services (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "META",
-          "name": "Meta Platforms",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Internet Software & Services (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "AMZN",
-          "name": "Amazon (AWS)",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BOTZ",
-          "name": "Global X Robotics & AI ETF",
-          "type": "etf",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "UBER",
-          "name": "Uber",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "LYFT",
-          "name": "Lyft",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "TSLA",
-          "name": "Tesla",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "LIT",
-          "name": "Global X Lithium & Battery Tech ETF",
-          "type": "etf",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "DRIV",
-          "name": "Global X Autonomous & EV ETF",
-          "type": "etf",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "CRWD",
-          "name": "CrowdStrike",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Cybersecurity (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "PANW",
-          "name": "Palo Alto Networks",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Cybersecurity (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "CIBR",
-          "name": "First Trust Nasdaq Cybersecurity ETF",
-          "type": "etf",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Cybersecurity (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "SNAP",
-          "name": "Snap Inc.",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Social Media & Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "NFLX",
-          "name": "Netflix",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Streaming & Digital Media (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "DIS",
-          "name": "Walt Disney",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Streaming & Digital Media (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "LLY",
-          "name": "Eli Lilly",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Biotechnology (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "MRNA",
-          "name": "Moderna",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Biotechnology (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "XBI",
-          "name": "SPDR Biotech ETF",
-          "type": "etf",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Biotechnology (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "PFE",
-          "name": "Pfizer",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "NVO",
-          "name": "Novo Nordisk ADR",
-          "type": "adr",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Drug Manufacturers—Other (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
-    },
-    {
-      "id": "518a9f815dea",
-      "time": "2026-08-07T13:23:35Z",
-      "source": "CNBC",
-      "headline": "Stocks making the biggest moves premarket: Atlassian Corporation, Doximity, First Solar, Airbnb & more",
-      "url": "https://www.cnbc.com/2026/08/07/stocks-making-the-biggest-moves-premarket-atlassian-corporation-wendys-vista-corp-first-solar-airbnb-more.html",
-      "summary": "Several technology and services companies, including Atlassian Corporation, Doximity, First Solar, and Airbnb, are experiencing significant stock price movements in pre-market trading. The specific reasons for these fluctuations are not detailed in the headline but indicate notable investor activity.",
-      "industries": [
-        {
-          "sector": "Technology",
-          "sub_industry": "Application Software",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Internet Information Providers",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Gig Economy & Marketplace Platforms",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Electric Vehicles & Battery Technology",
-          "confidence": 65,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Business Software & Services",
-          "confidence": 60,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Information Technology Services",
-          "confidence": 50,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Internet Software & Services",
-          "confidence": 50,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Specialty Retail",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Consumer Services",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "MSFT",
-          "name": "Microsoft",
-          "type": "stock",
-          "confidence": 85,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "CRM",
-          "name": "Salesforce",
-          "type": "stock",
-          "confidence": 85,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "IGV",
-          "name": "iShares Expanded Tech-Software ETF",
-          "type": "etf",
-          "confidence": 85,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "UBER",
-          "name": "Uber",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "LYFT",
-          "name": "Lyft",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "ABNB",
-          "name": "Airbnb",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "TSLA",
-          "name": "Tesla",
-          "type": "stock",
-          "confidence": 65,
-          "direction": "up",
-          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "LIT",
-          "name": "Global X Lithium & Battery Tech ETF",
-          "type": "etf",
-          "confidence": 65,
-          "direction": "up",
-          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "DRIV",
-          "name": "Global X Autonomous & EV ETF",
-          "type": "etf",
-          "confidence": 65,
-          "direction": "up",
-          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GOOGL",
-          "name": "Alphabet",
-          "type": "stock",
-          "confidence": 50,
-          "direction": "up",
-          "rationale": "Mapped from Internet Software & Services (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "META",
-          "name": "Meta Platforms",
-          "type": "stock",
-          "confidence": 50,
-          "direction": "up",
-          "rationale": "Mapped from Internet Software & Services (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
-    },
-    {
-      "id": "d3820f273158",
-      "time": "2026-08-07T13:14:51Z",
-      "source": "Yahoo Finance",
-      "headline": "Bitcoin and ethereum prices today, Friday, August 7, 2026: Crypto prices moving higher following July jobs report",
-      "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-august-7-2026-crypto-prices-moving-higher-following-july-jobs-report-131451960.html",
-      "summary": "Bitcoin and Ethereum prices are experiencing an upward trend, attributed to positive sentiment following the release of the July jobs report. This indicates a potential boost in investor confidence and risk appetite within the cryptocurrency market.",
-      "industries": [
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Cryptocurrency & Digital Assets",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Investment Brokerage—Regional",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "eb0d82b8e721",
-    "abbc804506ce",
-    "f0ac6f688082",
-    "a8ffb016b526",
-    "406717178b31",
-    "1927efb7141d",
-    "5dcd2f246e00",
-    "2b39ff95e15d",
-    "898e760c9d05",
-    "c3f3f430604c",
     "15a22a32cf03",
     "f08832d157ea",
     "d58fa8188a6e",
@@ -8751,6 +5728,16 @@
     "e88ee23cd46e",
     "426a00395258",
     "7e8035d9ba00",
-    "b8858363a2d8"
+    "b8858363a2d8",
+    "14589ea1a2fa",
+    "7efd337c5f00",
+    "010d7a616932",
+    "b2f5e1e3a5ee",
+    "d4d36a02d297",
+    "382b29307be7",
+    "ce34bb336fe7",
+    "f4d0e23ddbf3",
+    "9d3cf1f58607",
+    "c93702216874"
   ]
 }
