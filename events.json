@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10T21:39:51Z",
+  "updated": "2026-08-10T22:36:44Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,112 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "1feb530b8c20",
+      "time": "2026-08-10T22:27:00Z",
+      "source": "MarketWatch",
+      "headline": "Here’s who stands to gain the most from a Jeff Bezos-Liverpool FC deal",
+      "url": "https://www.marketwatch.com/story/heres-who-stands-to-gain-the-most-from-a-jeff-bezos-liverpool-fc-deal-24db9b94?mod=mw_rss_topstories",
+      "summary": "Reports suggest a potential deal involving Jeff Bezos and Liverpool FC are circulating, indicating a significant investment in the sports franchise. This potential acquisition could reshape ownership structures and financial strategies within professional sports.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Real Estate Development",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Advertising Agencies",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 40,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 40,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
+      "id": "a1a7585bf0b1",
+      "time": "2026-08-10T21:37:00Z",
+      "source": "MarketWatch",
+      "headline": "Rocket Lab reveals some big plans, but its stock is dropping on mixed earnings",
+      "url": "https://www.marketwatch.com/story/rocket-lab-reveals-some-big-plans-but-its-stock-is-dropping-on-mixed-earnings-4012ba2b?mod=mw_rss_topstories",
+      "summary": "Rocket Lab announced significant future plans but experienced a stock decline following a release of mixed financial results. The company's performance indicates a divergence between its forward-looking strategy and its current financial standing.",
+      "industries": [
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "Aerospace/Defense Products & Services",
+          "confidence": 85,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Space & Satellite Technology",
+          "confidence": 75,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Diversified Communication Services",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Information Technology Services",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "NOC",
+          "name": "Northrop Grumman",
+          "type": "stock",
+          "confidence": 85,
+          "direction": "up",
+          "rationale": "Mapped from Aerospace/Defense Products & Services (Industrial Goods).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "ITA",
+          "name": "iShares US Aerospace & Defense ETF",
+          "type": "etf",
+          "confidence": 85,
+          "direction": "up",
+          "rationale": "Mapped from Aerospace/Defense Products & Services (Industrial Goods).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "6c03938de38b",
       "time": "2026-08-10T21:36:42Z",
@@ -242,6 +348,41 @@
           "hist_range_5d": null
         }
       ]
+    },
+    {
+      "id": "e0b5b6cb21f5",
+      "time": "2026-08-10T21:14:00Z",
+      "source": "MarketWatch",
+      "headline": "I looked into buying a house in Singapore as an investment. Here’s why I didn’t — despite the 2% mortgage rate.",
+      "url": "https://www.marketwatch.com/story/i-looked-into-buying-a-house-in-singapore-as-an-investment-heres-why-i-didnt-despite-the-2-mortgage-rate-50c79bcf?mod=mw_rss_topstories",
+      "summary": "An individual decided against purchasing a house in Singapore for investment purposes, citing reasons despite a favorable 2% mortgage rate. This decision suggests potential concerns about the Singaporean real estate market's investment viability or other unstated factors.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "REIT—Residential",
+          "confidence": 45,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Real Estate Development",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Property Management",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "Residential Construction",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": []
     },
     {
       "id": "715bb712ca1b",
@@ -10144,292 +10285,9 @@
         }
       ],
       "tickers": []
-    },
-    {
-      "id": "2c84b84f13cb",
-      "time": "2026-08-08T20:42:34Z",
-      "source": "Yahoo Finance",
-      "headline": "Broadcom (AVGO) Pairs AI Chip Boom With A Software Security Push",
-      "url": "https://finance.yahoo.com/technology/ai/articles/broadcom-avgo-pairs-ai-chip-204234966.html",
-      "summary": "Broadcom is leveraging its success in AI chips to expand into software security, indicating a strategic diversification into a high-growth area. This move suggests a focus on capturing more value across the technology stack, from hardware to essential software solutions.",
-      "industries": [
-        {
-          "sector": "Technology",
-          "sub_industry": "Semiconductor—Integrated Circuits",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Security Software & Services",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Application Software",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Diversified Electronics",
-          "confidence": 50,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Cloud Infrastructure & Services",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Information Technology Services",
-          "confidence": 30,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "NVDA",
-          "name": "Nvidia",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "AMD",
-          "name": "Advanced Micro Devices",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "SOXX",
-          "name": "iShares Semiconductor ETF",
-          "type": "etf",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "MSFT",
-          "name": "Microsoft",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "CRM",
-          "name": "Salesforce",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "IGV",
-          "name": "iShares Expanded Tech-Software ETF",
-          "type": "etf",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "AMZN",
-          "name": "Amazon (AWS)",
-          "type": "stock",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GOOGL",
-          "name": "Alphabet (GCP)",
-          "type": "stock",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
-    },
-    {
-      "id": "a9950a85c10d",
-      "time": "2026-08-08T20:24:06Z",
-      "source": "Yahoo Finance",
-      "headline": "XRP Price Prediction: Will XRP Ever Hit a New All-Time High?",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/xrp-price-prediction-xrp-ever-202406932.html",
-      "summary": "The headline discusses the potential for XRP, a cryptocurrency, to reach a new all-time high price. This indicates a focus on the speculative nature and future performance of digital assets.",
-      "industries": [
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Cryptocurrency & Digital Assets",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Investment Brokerage—Regional",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
-    },
-    {
-      "id": "c7fe495fd8bf",
-      "time": "2026-08-08T20:09:54Z",
-      "source": "Yahoo Finance",
-      "headline": "SentinelOne (S) Deepens AWS Ties As Growth Accelerates",
-      "url": "https://finance.yahoo.com/technology/ai/articles/sentinelone-deepens-aws-ties-growth-200954951.html",
-      "summary": "SentinelOne has strengthened its partnership with Amazon Web Services (AWS), coinciding with an acceleration in its growth. This collaboration is expected to enhance SentinelOne's cybersecurity offerings and leverage AWS's cloud infrastructure.",
-      "industries": [
-        {
-          "sector": "Technology",
-          "sub_industry": "Security Software & Services",
-          "confidence": 90,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Cloud Infrastructure & Services",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Cybersecurity",
-          "confidence": 80,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Information Technology Services",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Business Software & Services",
-          "confidence": 65,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "AMZN",
-          "name": "Amazon (AWS)",
-          "type": "stock",
-          "confidence": 85,
-          "direction": "up",
-          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "MSFT",
-          "name": "Microsoft (Azure)",
-          "type": "stock",
-          "confidence": 85,
-          "direction": "up",
-          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GOOGL",
-          "name": "Alphabet (GCP)",
-          "type": "stock",
-          "confidence": 85,
-          "direction": "up",
-          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "CRWD",
-          "name": "CrowdStrike",
-          "type": "stock",
-          "confidence": 80,
-          "direction": "up",
-          "rationale": "Mapped from Cybersecurity (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "PANW",
-          "name": "Palo Alto Networks",
-          "type": "stock",
-          "confidence": 80,
-          "direction": "up",
-          "rationale": "Mapped from Cybersecurity (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "CIBR",
-          "name": "First Trust Nasdaq Cybersecurity ETF",
-          "type": "etf",
-          "confidence": 80,
-          "direction": "up",
-          "rationale": "Mapped from Cybersecurity (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "8bea8fea2350",
-    "7ab0eda3178a",
-    "8a6950c9eb91",
     "a7a95788a226",
     "7a6e5af2c78a",
     "59b05a45d1e8",
@@ -11426,6 +11284,9 @@
     "adacba0b4f65",
     "c00d3e7139e2",
     "715bb712ca1b",
-    "6c03938de38b"
+    "6c03938de38b",
+    "1feb530b8c20",
+    "a1a7585bf0b1",
+    "e0b5b6cb21f5"
   ]
 }
