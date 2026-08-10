@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10T14:57:20Z",
+  "updated": "2026-08-10T15:58:59Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,78 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "dbbe12960cec",
+      "time": "2026-08-10T15:35:00Z",
+      "source": "Yahoo Finance",
+      "headline": "2 Energy Dividend Stocks to Buy -- and the Risk Behind Each Payout",
+      "url": "https://finance.yahoo.com/energy/articles/2-energy-dividend-stocks-buy-153500100.html",
+      "summary": "The article highlights two energy stocks that offer dividends, while also cautioning about the risks associated with these payouts. This suggests a focus on income generation within the energy sector.",
+      "industries": [
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Independent Oil & Gas",
+          "confidence": 85,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Major Integrated Oil & Gas",
+          "confidence": 85,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Oil & Gas Pipelines",
+          "confidence": 60,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Oil & Gas Refining & Marketing",
+          "confidence": 60,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Oil & Gas Equipment & Services",
+          "confidence": 30,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "XOM",
+          "name": "Exxon Mobil",
+          "type": "stock",
+          "confidence": 85,
+          "direction": "up",
+          "rationale": "Mapped from Major Integrated Oil & Gas (Basic Materials).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "CVX",
+          "name": "Chevron",
+          "type": "stock",
+          "confidence": 85,
+          "direction": "up",
+          "rationale": "Mapped from Major Integrated Oil & Gas (Basic Materials).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "USO",
+          "name": "US Oil Fund ETF",
+          "type": "etf",
+          "confidence": 85,
+          "direction": "up",
+          "rationale": "Mapped from Major Integrated Oil & Gas (Basic Materials).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "c996a3b085e7",
       "time": "2026-08-10T14:45:00Z",
@@ -8155,60 +8227,9 @@
         }
       ],
       "tickers": []
-    },
-    {
-      "id": "fffd281a6779",
-      "time": "2026-08-08T19:51:41Z",
-      "source": "Yahoo Finance",
-      "headline": "Jim Cramer Weighs In on Space Equities: Rocket Lab (RKLB) vs. Voyager Technologies (VOYG)",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-weighs-space-equities-195141942.html",
-      "summary": "Jim Cramer has provided his analysis on the space industry, specifically comparing Rocket Lab and Voyager Technologies. This discussion highlights investor interest and potential shifts in the space equities market.",
-      "industries": [
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Space & Satellite Technology",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Aerospace/Defense Products & Services",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Diversified Investments",
-          "confidence": 30,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "NOC",
-          "name": "Northrop Grumman",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Aerospace/Defense Products & Services (Industrial Goods).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "ITA",
-          "name": "iShares US Aerospace & Defense ETF",
-          "type": "etf",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Aerospace/Defense Products & Services (Industrial Goods).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "dbf0205ad05b",
     "fa70f0c88ac1",
     "5af99c87ffa8",
     "799059d76f9b",
@@ -9207,6 +9228,7 @@
     "83bd00f0808e",
     "e780655d2812",
     "c996a3b085e7",
-    "68c0b8b557e7"
+    "68c0b8b557e7",
+    "dbbe12960cec"
   ]
 }
