@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10T12:15:20Z",
+  "updated": "2026-08-10T14:01:58Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,72 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "e780655d2812",
+      "time": "2026-08-10T13:52:22Z",
+      "source": "CNBC",
+      "headline": "Stocks making the biggest moves premarket: Intel, GameStop, Archer Aviation, Berkshire and more",
+      "url": "https://www.cnbc.com/2026/08/10/stocks-making-the-biggest-moves-premarket-aapl-hpe-rklb-and-more.html",
+      "summary": "Several companies experienced significant pre-market stock movements, including Intel, GameStop, Archer Aviation, and Berkshire Hathaway. These fluctuations suggest notable investor interest and potential market reactions to company-specific news or broader economic factors.",
+      "industries": [
+        {
+          "sector": "Technology",
+          "sub_industry": "Semiconductor—Integrated Circuits",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Diversified Investments",
+          "confidence": 80,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Specialty Retail",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Space & Satellite Technology",
+          "confidence": 65,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "NVDA",
+          "name": "Nvidia",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "AMD",
+          "name": "Advanced Micro Devices",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "SOXX",
+          "name": "iShares Semiconductor ETF",
+          "type": "etf",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "83bd00f0808e",
       "time": "2026-08-10T12:04:29Z",
@@ -8195,90 +8261,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "042e491608ba",
-      "time": "2026-08-08T19:30:02Z",
-      "source": "Yahoo Finance",
-      "headline": "1 Million Reasons to Buy SoFi Stock Now",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/1-million-reasons-buy-sofi-193002673.html",
-      "summary": "The headline suggests a positive outlook for SoFi stock, implying a significant reason, potentially related to a large customer acquisition or financial milestone, that could drive investment interest. This indicates a potential surge in user engagement or financial performance for the company.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Credit Services",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Gig Economy & Marketplace Platforms",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 30,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "UBER",
-          "name": "Uber",
-          "type": "stock",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "LYFT",
-          "name": "Lyft",
-          "type": "stock",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "ABNB",
-          "name": "Airbnb",
-          "type": "stock",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "23930c468830",
     "6014da7deefb",
     "f7888d3c6c21",
     "dbf0205ad05b",
@@ -9277,6 +9262,7 @@
     "43bca5fd9edb",
     "ea843d89295a",
     "66722c83453e",
-    "83bd00f0808e"
+    "83bd00f0808e",
+    "e780655d2812"
   ]
 }
