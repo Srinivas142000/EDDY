@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10T18:54:38Z",
+  "updated": "2026-08-10T19:55:04Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,118 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "c00d3e7139e2",
+      "time": "2026-08-10T19:42:00Z",
+      "source": "MarketWatch",
+      "headline": "This Nvidia change could spell good news for Micron",
+      "url": "https://www.marketwatch.com/story/this-nvidia-change-could-spell-good-news-for-micron-80449e59?mod=mw_rss_topstories",
+      "summary": "Nvidia's recent change is being interpreted as potentially beneficial for Micron. This suggests a positive development in the semiconductor industry, impacting companies involved in memory and graphics processing.",
+      "industries": [
+        {
+          "sector": "Technology",
+          "sub_industry": "Semiconductor—Integrated Circuits",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Semiconductor—Broad Line",
+          "confidence": 80,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Semiconductor—Equipment & Materials",
+          "confidence": 60,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Diversified Electronics",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "AI & Machine Learning Infrastructure",
+          "confidence": 30,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "NVDA",
+          "name": "Nvidia",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "AMD",
+          "name": "Advanced Micro Devices",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "SOXX",
+          "name": "iShares Semiconductor ETF",
+          "type": "etf",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "INTC",
+          "name": "Intel",
+          "type": "stock",
+          "confidence": 80,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Broad Line (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "AMAT",
+          "name": "Applied Materials",
+          "type": "stock",
+          "confidence": 60,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Equipment & Materials (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "LRCX",
+          "name": "Lam Research",
+          "type": "stock",
+          "confidence": 60,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Equipment & Materials (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BOTZ",
+          "name": "Global X Robotics & AI ETF",
+          "type": "etf",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "adacba0b4f65",
       "time": "2026-08-10T18:36:26Z",
@@ -10073,39 +10185,9 @@
         }
       ],
       "tickers": []
-    },
-    {
-      "id": "0823a13ccb04",
-      "time": "2026-08-08T20:03:52Z",
-      "source": "Yahoo Finance",
-      "headline": "Mueller Water Products Q3 Earnings Call Highlights",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/mueller-water-products-q3-earnings-200352788.html",
-      "summary": "Mueller Water Products is holding its Q3 earnings call, which will provide insights into the company's financial performance and outlook. This event is significant for investors and stakeholders in the water infrastructure sector.",
-      "industries": [
-        {
-          "sector": "Utilities",
-          "sub_industry": "Water Utilities",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Industrial Metals & Minerals",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Pollution & Treatment Controls",
-          "confidence": 30,
-          "direction": "up"
-        }
-      ],
-      "tickers": []
     }
   ],
   "seen": [
-    "920cb0e92f60",
     "60276fab97d2",
     "b052d4530e27",
     "8bea8fea2350",
@@ -11104,6 +11186,7 @@
     "dbbe12960cec",
     "cd9969f0e375",
     "5bdd829ccfaf",
-    "adacba0b4f65"
+    "adacba0b4f65",
+    "c00d3e7139e2"
   ]
 }
