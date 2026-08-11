@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-11T22:39:30Z",
+  "updated": "2026-08-11T23:38:15Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,208 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "eab5767128e6",
+      "time": "2026-08-11T23:29:00Z",
+      "source": "MarketWatch",
+      "headline": "CoreWeave’s stock soars as earnings show major AI momentum",
+      "url": "https://www.marketwatch.com/story/coreweaves-stock-soars-as-earnings-show-major-ai-momentum-d3a5bede?mod=mw_rss_topstories",
+      "summary": "CoreWeave's stock experienced a significant increase following the release of its earnings report, which highlighted strong momentum in the Artificial Intelligence (AI) sector. This surge indicates robust demand and growth for companies enabling AI development and deployment.",
+      "industries": [
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Cloud Infrastructure & Services",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "AI & Machine Learning Infrastructure",
+          "confidence": 90,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Semiconductor—Broad Line",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Semiconductor—Integrated Circuits",
+          "confidence": 65,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Information Technology Services",
+          "confidence": 50,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Data Storage Devices",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Diversified Computer Systems",
+          "confidence": 35,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Business Software & Services",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Application Software",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Gig Economy & Marketplace Platforms",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "AMZN",
+          "name": "Amazon (AWS)",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "MSFT",
+          "name": "Microsoft (Azure)",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GOOGL",
+          "name": "Alphabet (GCP)",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "NVDA",
+          "name": "Nvidia",
+          "type": "stock",
+          "confidence": 90,
+          "direction": "up",
+          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "AMD",
+          "name": "Advanced Micro Devices",
+          "type": "stock",
+          "confidence": 90,
+          "direction": "up",
+          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BOTZ",
+          "name": "Global X Robotics & AI ETF",
+          "type": "etf",
+          "confidence": 90,
+          "direction": "up",
+          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "INTC",
+          "name": "Intel",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Broad Line (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "SOXX",
+          "name": "iShares Semiconductor ETF",
+          "type": "etf",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Broad Line (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "CRM",
+          "name": "Salesforce",
+          "type": "stock",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Application Software (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "IGV",
+          "name": "iShares Expanded Tech-Software ETF",
+          "type": "etf",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Application Software (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "UBER",
+          "name": "Uber",
+          "type": "stock",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "LYFT",
+          "name": "Lyft",
+          "type": "stock",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "ABNB",
+          "name": "Airbnb",
+          "type": "stock",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "f17dd125c1e3",
       "time": "2026-08-11T22:22:00Z",
@@ -7070,45 +7272,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "91ce64936e79",
-      "time": "2026-08-10T10:00:00Z",
-      "source": "Yahoo Finance",
-      "headline": "HELOC and home equity loan rates today, Monday, August 10, 2026: A 19-basis-point differential",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/heloc-and-home-equity-loan-rates-today-monday-august-10-2026-a-19-basis-point-differential-100000351.html",
-      "summary": "The headline indicates a 19-basis-point differential in Home Equity Line of Credit (HELOC) and home equity loan rates on August 10, 2026. This suggests a specific market condition or pricing strategy within the mortgage and lending sector.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Credit Services",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Mortgage Investment",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "REIT—Residential",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Residential Construction",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": []
     }
   ],
   "seen": [
-    "9457acf0f5e0",
     "5fc86ec41155",
     "f2e3d57afe7c",
     "a856c9173d34",
@@ -8107,6 +8273,7 @@
     "5405b47e8ce7",
     "e2e07d1c620e",
     "3dfd5c3defc5",
-    "f17dd125c1e3"
+    "f17dd125c1e3",
+    "eab5767128e6"
   ]
 }
