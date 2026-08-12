@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12T13:58:53Z",
+  "updated": "2026-08-12T14:56:05Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,50 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "2ec8f9d708ac",
+      "time": "2026-08-12T14:45:00Z",
+      "source": "MarketWatch",
+      "headline": "Can I claim 50% of my husband’s Social Security now — and switch to my higher benefit at 70?",
+      "url": "https://www.marketwatch.com/story/can-i-claim-50-of-my-husbands-social-security-now-and-switch-to-my-higher-benefit-at-70-5518700b?mod=mw_rss_topstories",
+      "summary": "This article discusses strategies for claiming Social Security benefits, specifically focusing on spousal benefits and the ability to switch to a higher personal benefit later. It addresses whether an individual can claim 50% of their spouse's benefit now and then switch to their own larger benefit at age 70.",
+      "industries": [
+        {
+          "sector": "Health Care",
+          "sub_industry": "Health Care Plans",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "1144df434288",
       "time": "2026-08-12T13:44:43Z",
@@ -7671,45 +7715,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "e0b5b6cb21f5",
-      "time": "2026-08-10T21:14:00Z",
-      "source": "MarketWatch",
-      "headline": "I looked into buying a house in Singapore as an investment. Here’s why I didn’t — despite the 2% mortgage rate.",
-      "url": "https://www.marketwatch.com/story/i-looked-into-buying-a-house-in-singapore-as-an-investment-heres-why-i-didnt-despite-the-2-mortgage-rate-50c79bcf?mod=mw_rss_topstories",
-      "summary": "An individual decided against purchasing a house in Singapore for investment purposes, citing reasons despite a favorable 2% mortgage rate. This decision suggests potential concerns about the Singaporean real estate market's investment viability or other unstated factors.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "REIT—Residential",
-          "confidence": 45,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Real Estate Development",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Property Management",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Residential Construction",
-          "confidence": 20,
-          "direction": "up"
-        }
-      ],
-      "tickers": []
     }
   ],
   "seen": [
-    "9b4756b6da3c",
     "b4cd94cc85fd",
     "4dfbad6d5b0c",
     "3bb89d6d7672",
@@ -8708,6 +8716,7 @@
     "f63fb4a8ee14",
     "18fb7bcdf760",
     "be8c4dd75b2f",
-    "1144df434288"
+    "1144df434288",
+    "2ec8f9d708ac"
   ]
 }
