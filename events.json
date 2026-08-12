@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12T20:10:45Z",
+  "updated": "2026-08-12T21:14:29Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,68 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "365819c7e341",
+      "time": "2026-08-12T21:12:00Z",
+      "source": "MarketWatch",
+      "headline": "Goldman’s latest deal underscores how ‘boomer candy’ ETFs are now big business on Wall Street",
+      "url": "https://www.marketwatch.com/story/goldmans-latest-deal-underscores-how-boomer-candy-etfs-are-now-big-business-on-wall-street-5520109d?mod=mw_rss_topstories",
+      "summary": "Goldman Sachs' recent deal highlights the growing popularity and financial significance of \"boomer candy\" Exchange Traded Funds (ETFs) on Wall Street. This trend indicates a shift in investment strategies, with ETFs focused on consumer staples and retirement-friendly assets becoming a major business area.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Investment Brokerage—Regional",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Consumer Goods",
+          "sub_industry": "Processed & Packaged Goods",
+          "confidence": 50,
+          "direction": "up"
+        },
+        {
+          "sector": "Consumer Goods",
+          "sub_industry": "Food—Major Diversified",
+          "confidence": 45,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Diversified Investments",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "f297291089e7",
       "time": "2026-08-12T18:36:37Z",
@@ -7424,63 +7486,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "c2746d0b2d99",
-      "time": "2026-08-11T00:15:00Z",
-      "source": "MarketWatch",
-      "headline": "This is the ZIP code with the hottest housing market in the country right now",
-      "url": "https://www.marketwatch.com/story/this-is-the-hottest-zip-code-where-homes-are-selling-fast-2c642716?mod=mw_rss_topstories",
-      "summary": "The article identifies a specific ZIP code experiencing the most rapid housing market growth in the United States. This indicates a surge in demand and potentially rising property values within that area.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Real Estate Development",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "REIT—Residential",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Residential Construction",
-          "confidence": 65,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Home Furnishings & Fixtures",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Home Improvement Stores",
-          "confidence": 35,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Mortgage Investment",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "General Building Materials",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": []
     }
   ],
   "seen": [
-    "9eef3628f789",
     "33226876835d",
     "4d2fd36ac61a",
     "eaf3d9d36847",
@@ -8479,6 +8487,7 @@
     "754571b76379",
     "cb529282a06b",
     "f297291089e7",
-    "934ac0895e53"
+    "934ac0895e53",
+    "365819c7e341"
   ]
 }
