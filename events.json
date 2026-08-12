@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12T10:02:19Z",
+  "updated": "2026-08-12T11:08:06Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,50 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "18fb7bcdf760",
+      "time": "2026-08-12T11:00:00Z",
+      "source": "MarketWatch",
+      "headline": "My wife can claim $900 at 62. Should she take it now — or wait for her spousal benefit?",
+      "url": "https://www.marketwatch.com/story/i-want-her-to-choose-the-best-strategy-my-wifes-social-security-is-just-900-should-she-claim-spousal-benefit-at-62-e3ef621d?mod=mw_rss_topstories",
+      "summary": "The article discusses the decision of whether to claim a reduced spousal Social Security benefit at age 62 or wait for a potentially larger benefit. This decision has implications for personal finance planning and retirement income strategies.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Credit Services",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "f63fb4a8ee14",
       "time": "2026-08-12T09:35:00Z",
@@ -7544,72 +7588,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "c1eb7b3307ad",
-      "time": "2026-08-10T21:04:47Z",
-      "source": "Yahoo Finance",
-      "headline": "Intuitive Surgical (ISRG) Just Beat Earnings. Is the Stock Still Worth Paying a Premium?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/intuitive-surgical-isrg-just-beat-210447165.html",
-      "summary": "Intuitive Surgical, a leader in robotic-assisted minimally invasive surgery, has announced earnings that exceeded analyst expectations. The article questions whether the company's stock price, which may already reflect high expectations, still represents a good investment at its current premium valuation.",
-      "industries": [
-        {
-          "sector": "Health Care",
-          "sub_industry": "Medical Appliances & Equipment",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Specialized Health Services",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Medical Instruments & Supplies",
-          "confidence": 65,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Investment Brokerage—Regional",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "23db0eb3e492",
     "880721c2c35c",
     "c15dcace782d",
     "9b4756b6da3c",
@@ -8608,6 +8589,7 @@
     "f11a748a169d",
     "f06822a7c28a",
     "9ab175512675",
-    "f63fb4a8ee14"
+    "f63fb4a8ee14",
+    "18fb7bcdf760"
   ]
 }
