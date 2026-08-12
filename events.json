@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-11T23:38:15Z",
+  "updated": "2026-08-12T01:43:30Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,114 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "b71498e3de80",
+      "time": "2026-08-12T01:20:13Z",
+      "source": "CNBC",
+      "headline": "EVs dominate China’s car market: 5 takeaways from the country's latest auto sales data",
+      "url": "https://www.cnbc.com/2026/08/12/china-car-sales-data-byd-tesla-geely-vw.html",
+      "summary": "Electric vehicles (EVs) are showing significant dominance in China's automotive market, according to recent sales data. This trend highlights a major shift in consumer preferences and manufacturing focus within the country's auto industry.",
+      "industries": [
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Electric Vehicles & Battery Technology",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Auto Dealerships",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Semiconductor—Integrated Circuits",
+          "confidence": 50,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Industrial Metals & Minerals",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Oil & Gas Refining & Marketing",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Credit Services",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "TSLA",
+          "name": "Tesla",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "LIT",
+          "name": "Global X Lithium & Battery Tech ETF",
+          "type": "etf",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "DRIV",
+          "name": "Global X Autonomous & EV ETF",
+          "type": "etf",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "NVDA",
+          "name": "Nvidia",
+          "type": "stock",
+          "confidence": 50,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "AMD",
+          "name": "Advanced Micro Devices",
+          "type": "stock",
+          "confidence": 50,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "SOXX",
+          "name": "iShares Semiconductor ETF",
+          "type": "etf",
+          "confidence": 50,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "eab5767128e6",
       "time": "2026-08-11T23:29:00Z",
@@ -7176,106 +7284,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "c4fa4d2cf177",
-      "time": "2026-08-10T10:00:00Z",
-      "source": "Yahoo Finance",
-      "headline": "Mortgage and refinance rates today, Monday, August 10, 2026: Rates lower than last week",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-rates-today-monday-august-10-2026-rates-lower-than-last-week-100000884.html",
-      "summary": "Mortgage and refinance rates have decreased compared to the previous week as of Monday, August 10, 2026. This indicates a potentially more favorable environment for new home purchases and refinancing existing mortgages.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Mortgage Investment",
-          "confidence": 75,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Money Center Banks",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Regional Banks",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "REIT—Residential",
-          "confidence": 50,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Residential Construction",
-          "confidence": 45,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Real Estate Development",
-          "confidence": 45,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Credit Services",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Diversified Investments",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Property Management",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "JPM",
-          "name": "JPMorgan Chase",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Money Center Banks (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BAC",
-          "name": "Bank of America",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Money Center Banks (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "KBE",
-          "name": "SPDR Bank ETF",
-          "type": "etf",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Money Center Banks (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "5fc86ec41155",
     "f2e3d57afe7c",
     "a856c9173d34",
     "d1b8fa93ce96",
@@ -8274,6 +8285,7 @@
     "e2e07d1c620e",
     "3dfd5c3defc5",
     "f17dd125c1e3",
-    "eab5767128e6"
+    "eab5767128e6",
+    "b71498e3de80"
   ]
 }
