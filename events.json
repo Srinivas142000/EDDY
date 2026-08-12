@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12T07:23:08Z",
+  "updated": "2026-08-12T08:49:54Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,68 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "40694f0a9571",
+      "time": "2026-08-12T08:22:00Z",
+      "source": "MarketWatch",
+      "headline": "A stock just surged on news Situational Awareness had bought it. But its current fate is unclear.",
+      "url": "https://www.marketwatch.com/story/a-stock-just-surged-on-news-situational-awareness-had-bought-it-but-its-current-fate-is-unclear-00f17a97?mod=mw_rss_topstories",
+      "summary": "A company's stock experienced a significant surge following an acquisition announcement by Situational Awareness. However, the long-term implications and the ultimate fate of the acquired company remain uncertain.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 85,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Investment Brokerage—Regional",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Diversified Investments",
+          "confidence": 65,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Business Services",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Information Technology Services",
+          "confidence": 30,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 85,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 85,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "b71498e3de80",
       "time": "2026-08-12T01:20:13Z",
@@ -6889,6 +6951,98 @@
       ]
     },
     {
+      "id": "f2bedb3056e0",
+      "time": "2026-08-10T21:15:57Z",
+      "source": "Yahoo Finance",
+      "headline": "Life360 Stock Plunges On Mixed Second-Quarter Report, Soft Full-Year Outlook",
+      "url": "https://www.investors.com/news/technology/life360-stock-lif-q2-2026-earnings/?src=A00220&yptr=yahoo",
+      "summary": "Life360's stock experienced a significant decline following a second-quarter earnings report that showed mixed results and a weaker-than-expected full-year financial outlook. This indicates potential challenges in user acquisition, retention, or monetization strategies for the company.",
+      "industries": [
+        {
+          "sector": "Technology",
+          "sub_industry": "Information Technology Services",
+          "confidence": 75,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Internet Information Providers",
+          "confidence": 65,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Application Software",
+          "confidence": 55,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Social Media & Platforms",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Credit Services",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "MSFT",
+          "name": "Microsoft",
+          "type": "stock",
+          "confidence": 55,
+          "direction": "up",
+          "rationale": "Mapped from Application Software (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "CRM",
+          "name": "Salesforce",
+          "type": "stock",
+          "confidence": 55,
+          "direction": "up",
+          "rationale": "Mapped from Application Software (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "IGV",
+          "name": "iShares Expanded Tech-Software ETF",
+          "type": "etf",
+          "confidence": 55,
+          "direction": "up",
+          "rationale": "Mapped from Application Software (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "META",
+          "name": "Meta Platforms",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Social Media & Platforms (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "SNAP",
+          "name": "Snap Inc.",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Social Media & Platforms (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
       "id": "e0b5b6cb21f5",
       "time": "2026-08-10T21:14:00Z",
       "source": "MarketWatch",
@@ -6924,363 +7078,193 @@
       "tickers": []
     },
     {
-      "id": "715bb712ca1b",
-      "time": "2026-08-10T20:35:00Z",
-      "source": "MarketWatch",
-      "headline": "Workers are worried, but there’s no sign AI is muscling people out of their jobs on a massive scale",
-      "url": "https://www.marketwatch.com/story/workers-are-worried-but-theres-no-sign-ai-is-muscling-people-out-of-their-jobs-on-a-massive-scale-8eb92638?mod=mw_rss_topstories",
-      "summary": "Despite worker concerns, current evidence does not indicate that Artificial Intelligence is causing widespread job displacement. The impact of AI on employment remains a subject of ongoing observation and analysis.",
+      "id": "5836d97a6f9a",
+      "time": "2026-08-10T21:13:18Z",
+      "source": "Yahoo Finance",
+      "headline": "American Airlines vs. Ryanair: Which Airline Is Better Positioned to Navigate Higher Fuel Costs?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/american-airlines-vs-ryanair-airline-211318996.html",
+      "summary": "The article compares American Airlines and Ryanair's strategies for managing increased fuel expenses. It analyzes their respective positions to navigate these rising costs in the airline industry.",
       "industries": [
         {
-          "sector": "Modern & Digital",
-          "sub_industry": "AI & Machine Learning Infrastructure",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Application Software",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Business Software & Services",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Information Technology Services",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Gig Economy & Marketplace Platforms",
-          "confidence": 20,
+          "sector": "Services",
+          "sub_industry": "Air Services",
+          "confidence": 95,
           "direction": "up"
         },
         {
           "sector": "Services",
-          "sub_industry": "Business Services",
+          "sub_industry": "Regional Airlines",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Independent Oil & Gas",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Major Integrated Oil & Gas",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Oil & Gas Refining & Marketing",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Shipping",
           "confidence": 20,
           "direction": "up"
         }
       ],
       "tickers": [
         {
-          "ticker": "NVDA",
-          "name": "Nvidia",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "AMD",
-          "name": "Advanced Micro Devices",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BOTZ",
-          "name": "Global X Robotics & AI ETF",
+          "ticker": "JETS",
+          "name": "US Global Jets ETF",
           "type": "etf",
-          "confidence": 30,
+          "confidence": 95,
           "direction": "up",
-          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
+          "rationale": "Mapped from Air Services (Services).",
           "hist_range_1d": null,
           "hist_range_5d": null
         },
         {
-          "ticker": "MSFT",
-          "name": "Microsoft",
+          "ticker": "UAL",
+          "name": "United Airlines",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Regional Airlines (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "DAL",
+          "name": "Delta Air Lines",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Regional Airlines (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "XOM",
+          "name": "Exxon Mobil",
           "type": "stock",
           "confidence": 25,
           "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
+          "rationale": "Mapped from Major Integrated Oil & Gas (Basic Materials).",
           "hist_range_1d": null,
           "hist_range_5d": null
         },
         {
-          "ticker": "CRM",
-          "name": "Salesforce",
+          "ticker": "CVX",
+          "name": "Chevron",
           "type": "stock",
           "confidence": 25,
           "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
+          "rationale": "Mapped from Major Integrated Oil & Gas (Basic Materials).",
           "hist_range_1d": null,
           "hist_range_5d": null
         },
         {
-          "ticker": "IGV",
-          "name": "iShares Expanded Tech-Software ETF",
+          "ticker": "USO",
+          "name": "US Oil Fund ETF",
           "type": "etf",
           "confidence": 25,
           "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
+          "rationale": "Mapped from Major Integrated Oil & Gas (Basic Materials).",
           "hist_range_1d": null,
           "hist_range_5d": null
         },
         {
-          "ticker": "UBER",
-          "name": "Uber",
+          "ticker": "FDX",
+          "name": "FedEx",
           "type": "stock",
           "confidence": 20,
           "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
+          "rationale": "Mapped from Shipping (Services).",
           "hist_range_1d": null,
           "hist_range_5d": null
         },
         {
-          "ticker": "LYFT",
-          "name": "Lyft",
+          "ticker": "UPS",
+          "name": "United Parcel Service",
           "type": "stock",
           "confidence": 20,
           "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "ABNB",
-          "name": "Airbnb",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
+          "rationale": "Mapped from Shipping (Services).",
           "hist_range_1d": null,
           "hist_range_5d": null
         }
       ]
     },
     {
-      "id": "2eb94afb5c72",
-      "time": "2026-08-10T19:51:34Z",
+      "id": "e1116d178a60",
+      "time": "2026-08-10T21:12:15Z",
       "source": "Yahoo Finance",
-      "headline": "Guide to peer-to-peer (P2P) payment apps: Everything you need to know before sending money",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/guide-to-peer-to-peer-p2p-payment-apps-195134245.html",
-      "summary": "Peer-to-peer (P2P) payment applications allow individuals to send money directly to one another. Understanding how these apps work is crucial before using them for transactions.",
+      "headline": "BRKB Stock: Investors Are Starting To Look Past Warren Buffett",
+      "url": "https://www.investors.com/news/brkb-stock-rises-berkshire-hathaway-investors-looking-past-warren-buffett/?src=A00220&yptr=yahoo",
+      "summary": "Berkshire Hathaway (BRKB) stock is seeing investor attention shift beyond Warren Buffett's direct influence. This suggests a potential re-evaluation of the company's future leadership and strategic direction.",
       "industries": [
         {
           "sector": "Financial",
-          "sub_industry": "Credit Services",
-          "confidence": 50,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Gig Economy & Marketplace Platforms",
-          "confidence": 45,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Information Technology Services",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Business Services",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "UBER",
-          "name": "Uber",
-          "type": "stock",
-          "confidence": 45,
-          "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "LYFT",
-          "name": "Lyft",
-          "type": "stock",
-          "confidence": 45,
-          "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "ABNB",
-          "name": "Airbnb",
-          "type": "stock",
-          "confidence": 45,
-          "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
-    },
-    {
-      "id": "c00d3e7139e2",
-      "time": "2026-08-10T19:42:00Z",
-      "source": "MarketWatch",
-      "headline": "This Nvidia change could spell good news for Micron",
-      "url": "https://www.marketwatch.com/story/this-nvidia-change-could-spell-good-news-for-micron-80449e59?mod=mw_rss_topstories",
-      "summary": "Nvidia's recent change is being interpreted as potentially beneficial for Micron. This suggests a positive development in the semiconductor industry, impacting companies involved in memory and graphics processing.",
-      "industries": [
-        {
-          "sector": "Technology",
-          "sub_industry": "Semiconductor—Integrated Circuits",
+          "sub_industry": "Diversified Investments",
           "confidence": 95,
           "direction": "up"
         },
-        {
-          "sector": "Technology",
-          "sub_industry": "Semiconductor—Broad Line",
-          "confidence": 80,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Semiconductor—Equipment & Materials",
-          "confidence": 60,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Diversified Electronics",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "AI & Machine Learning Infrastructure",
-          "confidence": 30,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "NVDA",
-          "name": "Nvidia",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "AMD",
-          "name": "Advanced Micro Devices",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "SOXX",
-          "name": "iShares Semiconductor ETF",
-          "type": "etf",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "INTC",
-          "name": "Intel",
-          "type": "stock",
-          "confidence": 80,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Broad Line (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "AMAT",
-          "name": "Applied Materials",
-          "type": "stock",
-          "confidence": 60,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Equipment & Materials (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "LRCX",
-          "name": "Lam Research",
-          "type": "stock",
-          "confidence": 60,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Equipment & Materials (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BOTZ",
-          "name": "Global X Robotics & AI ETF",
-          "type": "etf",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
-    },
-    {
-      "id": "adacba0b4f65",
-      "time": "2026-08-10T18:36:26Z",
-      "source": "CNBC",
-      "headline": "Three reasons Goldman's co-head of global banking and markets says to stay invested",
-      "url": "https://www.cnbc.com/2026/08/10/three-reasons-goldmans-co-head-of-global-banking-and-markets-says-to-stay-invested.html",
-      "summary": "Goldman Sachs' co-head of global banking and markets has identified three key reasons for investors to remain invested in the market. This suggests a positive outlook from a major financial institution.",
-      "industries": [
         {
           "sector": "Financial",
           "sub_industry": "Asset Management",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Investment Brokerage—Regional",
-          "confidence": 95,
+          "confidence": 70,
           "direction": "up"
         },
         {
           "sector": "Financial",
           "sub_industry": "Money Center Banks",
-          "confidence": 90,
+          "confidence": 40,
           "direction": "up"
         },
         {
           "sector": "Financial",
-          "sub_industry": "Diversified Investments",
-          "confidence": 85,
+          "sub_industry": "Regional Banks",
+          "confidence": 40,
           "direction": "up"
         },
         {
-          "sector": "Technology",
-          "sub_industry": "Information Technology Services",
+          "sector": "Financial",
+          "sub_industry": "Property & Casualty Insurance",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Life Insurance",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Independent Oil & Gas",
           "confidence": 30,
           "direction": "up"
         },
         {
-          "sector": "Technology",
-          "sub_industry": "Business Software & Services",
-          "confidence": 25,
+          "sector": "Basic Materials",
+          "sub_industry": "Major Integrated Oil & Gas",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Railroads",
+          "confidence": 30,
           "direction": "up"
         }
       ],
@@ -7289,7 +7273,7 @@
           "ticker": "BLK",
           "name": "BlackRock",
           "type": "stock",
-          "confidence": 95,
+          "confidence": 70,
           "direction": "up",
           "rationale": "Mapped from Asset Management (Financial).",
           "hist_range_1d": null,
@@ -7299,7 +7283,7 @@
           "ticker": "GS",
           "name": "Goldman Sachs",
           "type": "stock",
-          "confidence": 95,
+          "confidence": 70,
           "direction": "up",
           "rationale": "Mapped from Asset Management (Financial).",
           "hist_range_1d": null,
@@ -7309,7 +7293,7 @@
           "ticker": "JPM",
           "name": "JPMorgan Chase",
           "type": "stock",
-          "confidence": 90,
+          "confidence": 40,
           "direction": "up",
           "rationale": "Mapped from Money Center Banks (Financial).",
           "hist_range_1d": null,
@@ -7319,7 +7303,7 @@
           "ticker": "BAC",
           "name": "Bank of America",
           "type": "stock",
-          "confidence": 90,
+          "confidence": 40,
           "direction": "up",
           "rationale": "Mapped from Money Center Banks (Financial).",
           "hist_range_1d": null,
@@ -7329,124 +7313,165 @@
           "ticker": "KBE",
           "name": "SPDR Bank ETF",
           "type": "etf",
-          "confidence": 90,
+          "confidence": 40,
           "direction": "up",
           "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "XOM",
+          "name": "Exxon Mobil",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Major Integrated Oil & Gas (Basic Materials).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "CVX",
+          "name": "Chevron",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Major Integrated Oil & Gas (Basic Materials).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "USO",
+          "name": "US Oil Fund ETF",
+          "type": "etf",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Major Integrated Oil & Gas (Basic Materials).",
           "hist_range_1d": null,
           "hist_range_5d": null
         }
       ]
     },
     {
-      "id": "5a2d77fed43b",
-      "time": "2026-08-10T18:03:53Z",
+      "id": "c1eb7b3307ad",
+      "time": "2026-08-10T21:04:47Z",
       "source": "Yahoo Finance",
-      "headline": "Does renters insurance cover theft?",
-      "url": "https://finance.yahoo.com/personal-finance/insurance/article/does-renters-insurance-cover-theft-180353254.html",
-      "summary": "This headline inquires about the coverage of theft under renters insurance policies. It directly relates to the terms and conditions of insurance products designed for tenants.",
+      "headline": "Intuitive Surgical (ISRG) Just Beat Earnings. Is the Stock Still Worth Paying a Premium?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/intuitive-surgical-isrg-just-beat-210447165.html",
+      "summary": "Intuitive Surgical, a leader in robotic-assisted minimally invasive surgery, has announced earnings that exceeded analyst expectations. The article questions whether the company's stock price, which may already reflect high expectations, still represents a good investment at its current premium valuation.",
       "industries": [
         {
-          "sector": "Financial",
-          "sub_industry": "Property & Casualty Insurance",
+          "sector": "Health Care",
+          "sub_industry": "Medical Appliances & Equipment",
           "confidence": 95,
           "direction": "up"
         },
         {
-          "sector": "Services",
-          "sub_industry": "Consumer Services",
-          "confidence": 30,
-          "direction": "up"
-        }
-      ],
-      "tickers": []
-    },
-    {
-      "id": "5bdd829ccfaf",
-      "time": "2026-08-10T17:43:55Z",
-      "source": "CNBC",
-      "headline": "Stocks making the biggest moves midday: NetApp, Intel, Apple, Doximity, Verisk Analytics & more",
-      "url": "https://www.cnbc.com/2026/08/10/stocks-making-the-biggest-moves-midday-ntap-intc-aapl-docs-vrsk.html",
-      "summary": "Several technology and data analytics companies experienced significant stock price movements during midday trading. Companies like NetApp, Intel, Apple, Doximity, and Verisk Analytics were among those making the biggest shifts.",
-      "industries": [
-        {
-          "sector": "Technology",
-          "sub_industry": "Semiconductor—Integrated Circuits",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Diversified Computer Systems",
+          "sector": "Health Care",
+          "sub_industry": "Specialized Health Services",
           "confidence": 70,
           "direction": "up"
         },
         {
-          "sector": "Technology",
-          "sub_industry": "Information Technology Services",
+          "sector": "Health Care",
+          "sub_industry": "Medical Instruments & Supplies",
           "confidence": 65,
           "direction": "up"
         },
         {
-          "sector": "Technology",
-          "sub_industry": "Internet Information Providers",
-          "confidence": 60,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Business Software & Services",
-          "confidence": 55,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Data Storage Devices",
-          "confidence": 50,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Research Services",
-          "confidence": 45,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Electronic Equipment",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Application Software",
-          "confidence": 35,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Cloud Infrastructure & Services",
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
           "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Investment Brokerage—Regional",
+          "confidence": 25,
           "direction": "up"
         }
       ],
       "tickers": [
         {
-          "ticker": "NVDA",
-          "name": "Nvidia",
+          "ticker": "BLK",
+          "name": "BlackRock",
           "type": "stock",
-          "confidence": 85,
+          "confidence": 30,
           "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
+          "rationale": "Mapped from Asset Management (Financial).",
           "hist_range_1d": null,
           "hist_range_5d": null
         },
         {
-          "ticker": "AMD",
-          "name": "Advanced Micro Devices",
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
+      "id": "d8c4da3377df",
+      "time": "2026-08-10T21:02:49Z",
+      "source": "Yahoo Finance",
+      "headline": "Daily ETF Flows: SOXX Sees Outflows",
+      "url": "https://finance.yahoo.com/markets/options/articles/daily-etf-flows-soxx-sees-210249009.html",
+      "summary": "The Semiconductor Select Sector SPDR Fund (SOXX) experienced net outflows, indicating a decrease in investor capital allocated to semiconductor-related exchange-traded funds. This suggests a potential shift in investor sentiment or strategy away from the semiconductor sector.",
+      "industries": [
+        {
+          "sector": "Technology",
+          "sub_industry": "Semiconductor—Broad Line",
+          "confidence": 85,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Semiconductor—Equipment & Materials",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Semiconductor—Integrated Circuits",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Semiconductor—Specialized",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Diversified Electronics",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Consumer Goods",
+          "sub_industry": "Electronic Equipment",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "INTC",
+          "name": "Intel",
           "type": "stock",
           "confidence": 85,
           "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
+          "rationale": "Mapped from Semiconductor—Broad Line (Technology).",
           "hist_range_1d": null,
           "hist_range_5d": null
         },
@@ -7456,6 +7481,46 @@
           "type": "etf",
           "confidence": 85,
           "direction": "up",
+          "rationale": "Mapped from Semiconductor—Broad Line (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "AMAT",
+          "name": "Applied Materials",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Equipment & Materials (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "LRCX",
+          "name": "Lam Research",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Equipment & Materials (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "NVDA",
+          "name": "Nvidia",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "AMD",
+          "name": "Advanced Micro Devices",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
           "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
           "hist_range_1d": null,
           "hist_range_5d": null
@@ -7464,7 +7529,7 @@
           "ticker": "AAPL",
           "name": "Apple Inc.",
           "type": "stock",
-          "confidence": 40,
+          "confidence": 30,
           "direction": "up",
           "rationale": "Mapped from Electronic Equipment (Consumer Goods).",
           "hist_range_1d": null,
@@ -7474,59 +7539,29 @@
           "ticker": "QCOM",
           "name": "Qualcomm",
           "type": "stock",
-          "confidence": 40,
+          "confidence": 30,
           "direction": "up",
           "rationale": "Mapped from Electronic Equipment (Consumer Goods).",
           "hist_range_1d": null,
           "hist_range_5d": null
         },
         {
-          "ticker": "MSFT",
-          "name": "Microsoft",
+          "ticker": "BLK",
+          "name": "BlackRock",
           "type": "stock",
-          "confidence": 35,
+          "confidence": 25,
           "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
+          "rationale": "Mapped from Asset Management (Financial).",
           "hist_range_1d": null,
           "hist_range_5d": null
         },
         {
-          "ticker": "CRM",
-          "name": "Salesforce",
+          "ticker": "GS",
+          "name": "Goldman Sachs",
           "type": "stock",
-          "confidence": 35,
+          "confidence": 25,
           "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "IGV",
-          "name": "iShares Expanded Tech-Software ETF",
-          "type": "etf",
-          "confidence": 35,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "AMZN",
-          "name": "Amazon (AWS)",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GOOGL",
-          "name": "Alphabet (GCP)",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
+          "rationale": "Mapped from Asset Management (Financial).",
           "hist_range_1d": null,
           "hist_range_5d": null
         }
@@ -7534,16 +7569,6 @@
     }
   ],
   "seen": [
-    "4f77b4f045fa",
-    "5c93e5ec7f6d",
-    "d9456cf7f90c",
-    "c58368d8510b",
-    "9bccd729ffaa",
-    "3b257870b16b",
-    "7ed1d5fcce5e",
-    "6c24e8102494",
-    "2b680eceaa58",
-    "53cd5f3204c2",
     "87e536217d14",
     "23db0eb3e492",
     "880721c2c35c",
@@ -8533,6 +8558,16 @@
     "356d1b27db1b",
     "1738d6404449",
     "5a8950bdb8c9",
-    "563d84b69fb6"
+    "563d84b69fb6",
+    "40694f0a9571",
+    "f2bedb3056e0",
+    "5836d97a6f9a",
+    "e1116d178a60",
+    "c1eb7b3307ad",
+    "d8c4da3377df",
+    "463c6673e200",
+    "f11a748a169d",
+    "f06822a7c28a",
+    "9ab175512675"
   ]
 }
