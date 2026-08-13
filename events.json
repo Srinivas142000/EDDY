@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-13T11:57:05Z",
+  "updated": "2026-08-13T13:06:00Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,154 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "7d8af76f99cc",
+      "time": "2026-08-13T13:01:37Z",
+      "source": "CNBC",
+      "headline": "Iran looks to ramp up economic alliance with BRICS nations as war with U.S. drags on",
+      "url": "https://www.cnbc.com/2026/08/13/iran-war-brics-bank.html",
+      "summary": "Iran is seeking to strengthen economic ties with BRICS nations amidst an ongoing conflict with the United States. This move indicates a potential shift in global economic alliances and trade routes.",
+      "industries": [
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Independent Oil & Gas",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Major Integrated Oil & Gas",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Oil & Gas Pipelines",
+          "confidence": 65,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Oil & Gas Refining & Marketing",
+          "confidence": 65,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Industrial Metals & Minerals",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Chemicals—Major Diversified",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Diversified Investments",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Cryptocurrency & Digital Assets",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Shipping",
+          "confidence": 20,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Air Delivery & Freight Services",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "XOM",
+          "name": "Exxon Mobil",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Major Integrated Oil & Gas (Basic Materials).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "CVX",
+          "name": "Chevron",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Major Integrated Oil & Gas (Basic Materials).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "USO",
+          "name": "US Oil Fund ETF",
+          "type": "etf",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Major Integrated Oil & Gas (Basic Materials).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "FDX",
+          "name": "FedEx",
+          "type": "stock",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from Shipping (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "UPS",
+          "name": "United Parcel Service",
+          "type": "stock",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from Shipping (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "2600f0086f46",
       "time": "2026-08-13T11:36:50Z",
@@ -5738,58 +5886,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "f89615c97662",
-      "time": "2026-08-11T21:15:00Z",
-      "source": "MarketWatch",
-      "headline": "I found a $100 bill in the communal washer at my Airbnb. What should I do?",
-      "url": "https://www.marketwatch.com/story/im-dreaming-of-cocktails-at-chateau-marmont-i-found-100-in-my-airbnbs-communal-washer-what-should-i-do-9694ecca?mod=mw_rss_topstories",
-      "summary": "A person found a $100 bill in a communal washer at an Airbnb. The individual is seeking advice on how to proceed with the found money.",
-      "industries": [
-        {
-          "sector": "Services",
-          "sub_industry": "Lodging",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "ABNB",
-          "name": "Airbnb",
-          "type": "stock",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Lodging (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "MAR",
-          "name": "Marriott International",
-          "type": "stock",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Lodging (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BKNG",
-          "name": "Booking Holdings",
-          "type": "stock",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Lodging (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "bcf7a6e0992a",
     "6b5b617e9af3",
     "fa335853629c",
     "0bcaa3d8b2b6",
@@ -6788,6 +6887,7 @@
     "22bd04789866",
     "2600f0086f46",
     "83a078da3736",
-    "0067e1f2b367"
+    "0067e1f2b367",
+    "7d8af76f99cc"
   ]
 }
