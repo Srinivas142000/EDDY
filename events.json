@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-14T10:58:10Z",
+  "updated": "2026-08-14T11:44:04Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,72 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "54fa0b9633f0",
+      "time": "2026-08-14T11:30:00Z",
+      "source": "MarketWatch",
+      "headline": "These workers have charisma, confidence — and no fear of AI taking their jobs. They’re the personality hires.",
+      "url": "https://www.marketwatch.com/story/these-workers-have-charisma-confidence-and-no-fear-of-ai-taking-their-jobs-theyre-the-personality-hires-3235c187?mod=mw_rss_topstories",
+      "summary": "The article discusses the rise of 'personality hires' who are confident their human-centric skills make them resistant to job displacement by artificial intelligence. These individuals leverage charisma and confidence in their roles.",
+      "industries": [
+        {
+          "sector": "Services",
+          "sub_industry": "Business Services",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Management Services",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Marketing Services",
+          "confidence": 20,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "AI & Machine Learning Infrastructure",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "NVDA",
+          "name": "Nvidia",
+          "type": "stock",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "AMD",
+          "name": "Advanced Micro Devices",
+          "type": "stock",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BOTZ",
+          "name": "Global X Robotics & AI ETF",
+          "type": "etf",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "08e40617d87d",
       "time": "2026-08-14T10:49:00Z",
@@ -9677,96 +9743,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "a36d7a8fe0e6",
-      "time": "2026-08-12T20:51:51Z",
-      "source": "CNBC",
-      "headline": "Stocks making the biggest moves after hours: Cisco, Jack in the Box, Cerebras, StubHub & more",
-      "url": "https://www.cnbc.com/2026/08/12/stocks-making-the-biggest-moves-after-hours-csco-jack-cbrs-stub.html",
-      "summary": "Several companies experienced significant stock movements in after-hours trading, including Cisco, Jack in the Box, Cerebras, and StubHub. The specific reasons for these moves are not detailed in the headline but indicate notable investor reactions to recent company news or market sentiment.",
-      "industries": [
-        {
-          "sector": "Technology",
-          "sub_industry": "Networking & Communication Devices",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Restaurants",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Semiconductor—Integrated Circuits",
-          "confidence": 65,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Specialty Retail",
-          "confidence": 30,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "MCD",
-          "name": "McDonald's",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Restaurants (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "CMG",
-          "name": "Chipotle Mexican Grill",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Restaurants (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "NVDA",
-          "name": "Nvidia",
-          "type": "stock",
-          "confidence": 65,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "AMD",
-          "name": "Advanced Micro Devices",
-          "type": "stock",
-          "confidence": 65,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "SOXX",
-          "name": "iShares Semiconductor ETF",
-          "type": "etf",
-          "confidence": 65,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "f9c36de96bca",
     "0606b28d5b30",
     "84db21664ad4",
     "c5e33d12e1c1",
@@ -10765,6 +10744,7 @@
     "eda63c3492e4",
     "c7f95b24f639",
     "430e45a4df51",
-    "08e40617d87d"
+    "08e40617d87d",
+    "54fa0b9633f0"
   ]
 }
