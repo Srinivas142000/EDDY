@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-14T22:50:28Z",
+  "updated": "2026-08-14T23:20:16Z",
   "sources": [
     "Reuters",
     "AP",
@@ -635,6 +635,50 @@
           "name": "Goldman Sachs",
           "type": "stock",
           "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
+      "id": "075a11be0ae1",
+      "time": "2026-08-14T18:51:00Z",
+      "source": "MarketWatch",
+      "headline": "Parents putting money in ‘Trump accounts’ could get a $2,500 tax break. Here’s how.",
+      "url": "https://www.marketwatch.com/story/parents-putting-money-in-trump-accounts-could-get-a-2-500-tax-break-heres-how-fb6fb2f7?mod=mw_rss_topstories",
+      "summary": "A new tax policy allows parents to open \"Trump accounts\" for their children, potentially offering a $2,500 tax break. This initiative aims to encourage savings for future expenses.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 45,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Investment Brokerage—Regional",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 45,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 45,
           "direction": "up",
           "rationale": "Mapped from Asset Management (Financial).",
           "hist_range_1d": null,
@@ -9324,39 +9368,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "76aa3d028a21",
-      "time": "2026-08-13T08:58:00Z",
-      "source": "MarketWatch",
-      "headline": "Actress Tamara Mello of ‘She’s All That’ puts L.A. home on the market for $1.5 million",
-      "url": "https://www.marketwatch.com/story/actresstamara-melloof-shes-all-that-puts-l-a-home-on-the-market-for-1-5-million-0046941f?mod=mw_rss_topstories",
-      "summary": "Actress Tamara Mello has listed her Los Angeles home for sale at $1.5 million. This event directly impacts the real estate market where the property is located.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "REIT—Residential",
-          "confidence": 45,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Real Estate Development",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Property Management",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": []
     }
   ],
   "seen": [
-    "7b2ee5690003",
     "47ac6e875330",
     "6d2186c5f903",
     "536dc5efd1dd",
@@ -10355,6 +10369,7 @@
     "560e80aad146",
     "3269fba38fb6",
     "0b46f5d07efa",
-    "036e5cb13148"
+    "036e5cb13148",
+    "075a11be0ae1"
   ]
 }
