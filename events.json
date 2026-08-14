@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-14T22:20:36Z",
+  "updated": "2026-08-14T22:50:28Z",
   "sources": [
     "Reuters",
     "AP",
@@ -135,6 +135,188 @@
           "name": "Goldman Sachs",
           "type": "stock",
           "confidence": 40,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
+      "id": "036e5cb13148",
+      "time": "2026-08-14T20:05:57Z",
+      "source": "CNBC",
+      "headline": "Goldman’s latest cash cow is all about funding the AI infrastructure boom",
+      "url": "https://www.cnbc.com/2026/08/14/goldmans-latest-cash-cow-is-all-about-funding-the-ai-infrastructure-boom.html",
+      "summary": "Goldman Sachs is reportedly seeing significant success in funding the expansion of AI infrastructure. This indicates a strong demand for and investment in the technologies underpinning artificial intelligence.",
+      "industries": [
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "AI & Machine Learning Infrastructure",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Semiconductor—Integrated Circuits",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Semiconductor—Equipment & Materials",
+          "confidence": 65,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Cloud Infrastructure & Services",
+          "confidence": 60,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 50,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Investment Brokerage—Regional",
+          "confidence": 45,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Diversified Computer Systems",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Information Technology Services",
+          "confidence": 35,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Data Storage Devices",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Networking & Communication Devices",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "NVDA",
+          "name": "Nvidia",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "AMD",
+          "name": "Advanced Micro Devices",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BOTZ",
+          "name": "Global X Robotics & AI ETF",
+          "type": "etf",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "SOXX",
+          "name": "iShares Semiconductor ETF",
+          "type": "etf",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "AMAT",
+          "name": "Applied Materials",
+          "type": "stock",
+          "confidence": 65,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Equipment & Materials (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "LRCX",
+          "name": "Lam Research",
+          "type": "stock",
+          "confidence": 65,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Equipment & Materials (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "AMZN",
+          "name": "Amazon (AWS)",
+          "type": "stock",
+          "confidence": 60,
+          "direction": "up",
+          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "MSFT",
+          "name": "Microsoft (Azure)",
+          "type": "stock",
+          "confidence": 60,
+          "direction": "up",
+          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GOOGL",
+          "name": "Alphabet (GCP)",
+          "type": "stock",
+          "confidence": 60,
+          "direction": "up",
+          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 50,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 50,
           "direction": "up",
           "rationale": "Mapped from Asset Management (Financial).",
           "hist_range_1d": null,
@@ -9171,162 +9353,9 @@
         }
       ],
       "tickers": []
-    },
-    {
-      "id": "3e379430de8c",
-      "time": "2026-08-13T07:20:00Z",
-      "source": "MarketWatch",
-      "headline": "Lenovo profits soar past expectations on AI computers, servers and services",
-      "url": "https://www.marketwatch.com/story/lenovo-profits-soar-past-expectations-on-ai-computers-servers-and-services-162e11e6?mod=mw_rss_topstories",
-      "summary": "Lenovo has reported profits significantly exceeding analyst expectations, driven by strong sales in AI-powered computers, servers, and related services. This performance highlights a growing demand for advanced computing solutions.",
-      "industries": [
-        {
-          "sector": "Technology",
-          "sub_industry": "Diversified Computer Systems",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Semiconductor—Integrated Circuits",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Information Technology Services",
-          "confidence": 65,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Business Software & Services",
-          "confidence": 60,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "AI & Machine Learning Infrastructure",
-          "confidence": 55,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Personal Computers",
-          "confidence": 50,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Cloud Infrastructure & Services",
-          "confidence": 45,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Semiconductor—Broad Line",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Consumer Services",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Credit Services",
-          "confidence": 20,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "NVDA",
-          "name": "Nvidia",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "AMD",
-          "name": "Advanced Micro Devices",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "SOXX",
-          "name": "iShares Semiconductor ETF",
-          "type": "etf",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BOTZ",
-          "name": "Global X Robotics & AI ETF",
-          "type": "etf",
-          "confidence": 55,
-          "direction": "up",
-          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "AMZN",
-          "name": "Amazon (AWS)",
-          "type": "stock",
-          "confidence": 45,
-          "direction": "up",
-          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "MSFT",
-          "name": "Microsoft (Azure)",
-          "type": "stock",
-          "confidence": 45,
-          "direction": "up",
-          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GOOGL",
-          "name": "Alphabet (GCP)",
-          "type": "stock",
-          "confidence": 45,
-          "direction": "up",
-          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "INTC",
-          "name": "Intel",
-          "type": "stock",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Broad Line (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "2de372afd491",
     "7b2ee5690003",
     "47ac6e875330",
     "6d2186c5f903",
@@ -10325,6 +10354,7 @@
     "2b9d2271bc5f",
     "560e80aad146",
     "3269fba38fb6",
-    "0b46f5d07efa"
+    "0b46f5d07efa",
+    "036e5cb13148"
   ]
 }
