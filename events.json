@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-14T15:24:03Z",
+  "updated": "2026-08-14T16:23:45Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,50 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "6a4f2338db02",
+      "time": "2026-08-14T16:10:00Z",
+      "source": "MarketWatch",
+      "headline": "I have $10 million and pay two advisers for financial help, but still have questions",
+      "url": "https://www.marketwatch.com/story/i-have-10-million-and-pay-two-advisers-for-financial-help-but-still-have-questions-7c29b83f?mod=mw_rss_topstories",
+      "summary": "An individual with a significant amount of capital ($10 million) is seeking financial advice from two professionals but still has unresolved questions. This indicates a potential need for more specialized or comprehensive financial services.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Investment Brokerage—Regional",
+          "confidence": 50,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "40dcd9d2141d",
       "time": "2026-08-14T15:07:00Z",
@@ -8901,108 +8945,9 @@
         }
       ],
       "tickers": []
-    },
-    {
-      "id": "50ab9029e06f",
-      "time": "2026-08-12T21:46:46Z",
-      "source": "Yahoo Finance",
-      "headline": "Stride (LRN) Just Got A New CEO. What Happens Next?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stride-lrn-just-got-ceo-214646263.html",
-      "summary": "Stride, an education technology company, has appointed a new CEO. The leadership change may signal a shift in the company's strategic direction and operational focus.",
-      "industries": [
-        {
-          "sector": "Services",
-          "sub_industry": "Education & Training Services",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Application Software",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Business Software & Services",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Information Technology Services",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Internet Software & Services",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Management Services",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "MSFT",
-          "name": "Microsoft",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "CRM",
-          "name": "Salesforce",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "IGV",
-          "name": "iShares Expanded Tech-Software ETF",
-          "type": "etf",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GOOGL",
-          "name": "Alphabet",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Internet Software & Services (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "META",
-          "name": "Meta Platforms",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Internet Software & Services (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "a7ab80e21124",
     "3f1301fd0ec0",
     "0dba2c046cfc",
     "fbee7bb226b9",
@@ -10001,6 +9946,7 @@
     "259fef176afd",
     "40dcd9d2141d",
     "a3476c6603be",
-    "3d00605c04e7"
+    "3d00605c04e7",
+    "6a4f2338db02"
   ]
 }
