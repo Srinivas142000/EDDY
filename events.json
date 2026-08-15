@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-15T20:49:27Z",
+  "updated": "2026-08-15T21:20:45Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,35 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "077aa1c58ce2",
+      "time": "2026-08-15T20:33:02Z",
+      "source": "Yahoo Finance",
+      "headline": "Why Has Cintas Stock Slipped Despite Record Margins? What to Know Amid a Founder's Vesting",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-cintas-stock-slipped-despite-203302385.html",
+      "summary": "Cintas, a provider of corporate identity uniforms and related services, has seen its stock price decline despite reporting record profit margins. This movement occurs as the company navigates a period involving a founder's vesting schedule.",
+      "industries": [
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "Textile Industrial",
+          "confidence": 45,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Business Services",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Apparel Stores",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": []
+    },
     {
       "id": "ef9af323056e",
       "time": "2026-08-15T20:21:20Z",
@@ -9276,54 +9305,9 @@
         }
       ],
       "tickers": []
-    },
-    {
-      "id": "7fc057d75541",
-      "time": "2026-08-14T09:15:00Z",
-      "source": "MarketWatch",
-      "headline": "‘It’s a double-edged sword’: My husband got a $42,000 bonus. Will it wipe out our Affordable Care Act subsidy?",
-      "url": "https://www.marketwatch.com/story/its-a-double-edged-sword-my-husband-got-a-42-000-bonus-will-it-wipe-out-our-affordable-care-act-subsidy-32db285e?mod=mw_rss_topstories",
-      "summary": "A significant bonus of $42,000 could impact a household's eligibility for Affordable Care Act (ACA) subsidies. This situation highlights the interplay between income, government assistance programs, and individual financial planning.",
-      "industries": [
-        {
-          "sector": "Health Care",
-          "sub_industry": "Health Care Plans",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 30,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "f630192d8891",
     "1614f237d461",
     "168b101eae40",
     "4a88f7c7ecc5",
@@ -10322,6 +10306,7 @@
     "16c05246088c",
     "fd2ea3393625",
     "db328eb0ece6",
-    "ef9af323056e"
+    "ef9af323056e",
+    "077aa1c58ce2"
   ]
 }
