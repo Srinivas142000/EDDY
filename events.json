@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-15T11:46:01Z",
+  "updated": "2026-08-15T12:33:42Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,56 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "6b51a6d1c744",
+      "time": "2026-08-15T12:09:09Z",
+      "source": "Yahoo Finance",
+      "headline": "How Low Can XRP Go? We Asked 3 AI Models Where XRP Bottoms",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/low-xrp-asked-3-ai-120909967.html",
+      "summary": "Three artificial intelligence models were consulted to predict the potential lowest price point for XRP, a cryptocurrency. This analysis indicates a focus on the future valuation and market performance of digital assets.",
+      "industries": [
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Cryptocurrency & Digital Assets",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Information Technology Services",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "7af9b0738098",
       "time": "2026-08-15T11:30:00Z",
@@ -7898,45 +7948,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "0bd8dc269c6b",
-      "time": "2026-08-14T01:12:42Z",
-      "source": "Yahoo Finance",
-      "headline": "ThredUp Inc. (TDUP)’s 80% Gross Margin Shines, But Can Promotions Delay Profitability?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/thredup-inc-tdup-80-gross-011242457.html",
-      "summary": "ThredUp Inc. reported an 80% gross margin, indicating strong pricing power or cost control. However, the company's reliance on promotions raises questions about its ability to achieve sustained profitability.",
-      "industries": [
-        {
-          "sector": "Services",
-          "sub_industry": "Apparel Stores",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Textile—Apparel Clothing",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Specialty Retail",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Consumer Services",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": []
     }
   ],
   "seen": [
-    "53ef47153e18",
     "1dad6f1fa5b3",
     "959083cdd364",
     "1b936b3192bf",
@@ -8935,6 +8949,7 @@
     "54ddb1783901",
     "24dc6d20d289",
     "6e8ea8697cfc",
-    "7af9b0738098"
+    "7af9b0738098",
+    "6b51a6d1c744"
   ]
 }
