@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-15T22:48:57Z",
+  "updated": "2026-08-15T23:20:07Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,35 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "99a17bd0a9ce",
+      "time": "2026-08-15T22:51:48Z",
+      "source": "Yahoo Finance",
+      "headline": "Corpay (CPAY) Just Posted A Record Quarter, So Why The Caution?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/corpay-cpay-just-posted-record-225148418.html",
+      "summary": "Corpay, a corporate payments company, has reported a record quarter in terms of financial performance. Despite this strong result, there is an expressed caution regarding the company's outlook or valuation.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Credit Services",
+          "confidence": 85,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Business Software & Services",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Information Technology Services",
+          "confidence": 30,
+          "direction": "up"
+        }
+      ],
+      "tickers": []
+    },
     {
       "id": "1ec64a87c773",
       "time": "2026-08-15T22:20:00Z",
@@ -9194,102 +9223,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "01ac3b4b203f",
-      "time": "2026-08-14T10:00:00Z",
-      "source": "Yahoo Finance",
-      "headline": "Best CD rates today, Friday, August 14, 2026: Up to 4.30% APY return available",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-friday-august-14-2026-up-to-430-apy-return-available-100000037.html",
-      "summary": "The headline indicates that Certificate of Deposit (CD) rates are offering a high Annual Percentage Yield (APY) of up to 4.30% as of Friday, August 14, 2026. This suggests a competitive environment for savings products, potentially driven by broader economic conditions or monetary policy.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Money Center Banks",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Regional Banks",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Savings & Loans",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Credit Services",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "JPM",
-          "name": "JPMorgan Chase",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Money Center Banks (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BAC",
-          "name": "Bank of America",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Money Center Banks (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "KBE",
-          "name": "SPDR Bank ETF",
-          "type": "etf",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Money Center Banks (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "4a88f7c7ecc5",
     "13c34b8838a4",
     "5e93009b2809",
     "9166aa5b620f",
@@ -10288,6 +10224,7 @@
     "ef9af323056e",
     "077aa1c58ce2",
     "cf34c2243092",
-    "1ec64a87c773"
+    "1ec64a87c773",
+    "99a17bd0a9ce"
   ]
 }
