@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-15T21:48:56Z",
+  "updated": "2026-08-15T22:20:27Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,72 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "cf34c2243092",
+      "time": "2026-08-15T21:55:02Z",
+      "source": "Yahoo Finance",
+      "headline": "Host Hotels (HST) Just Raised Its Outlook. Can Luxury Travel Keep Delivering?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/host-hotels-hst-just-raised-215502105.html",
+      "summary": "Host Hotels has raised its financial outlook, prompting questions about the continued strength of the luxury travel sector. This suggests positive performance for the company and potentially the broader luxury travel market.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "REIT—Hotel/Motel",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Lodging",
+          "confidence": 80,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Consumer Services",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Specialty Retail",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "ABNB",
+          "name": "Airbnb",
+          "type": "stock",
+          "confidence": 80,
+          "direction": "up",
+          "rationale": "Mapped from Lodging (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "MAR",
+          "name": "Marriott International",
+          "type": "stock",
+          "confidence": 80,
+          "direction": "up",
+          "rationale": "Mapped from Lodging (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BKNG",
+          "name": "Booking Holdings",
+          "type": "stock",
+          "confidence": 80,
+          "direction": "up",
+          "rationale": "Mapped from Lodging (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "077aa1c58ce2",
       "time": "2026-08-15T20:33:02Z",
@@ -9276,39 +9342,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "6e8ea8697cfc",
-      "time": "2026-08-14T09:41:24Z",
-      "source": "Yahoo Finance",
-      "headline": "American Water Works Stock: Is Wall Street Bullish or Bearish?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/american-water-works-stock-wall-094124870.html",
-      "summary": "The headline questions Wall Street's sentiment towards American Water Works stock, indicating a discussion about its future performance. American Water Works is a major provider of water and wastewater services in the United States.",
-      "industries": [
-        {
-          "sector": "Utilities",
-          "sub_industry": "Water Utilities",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Utilities",
-          "sub_industry": "Diversified Utilities",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "REIT—Residential",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": []
     }
   ],
   "seen": [
-    "1614f237d461",
     "168b101eae40",
     "4a88f7c7ecc5",
     "13c34b8838a4",
@@ -10307,6 +10343,7 @@
     "fd2ea3393625",
     "db328eb0ece6",
     "ef9af323056e",
-    "077aa1c58ce2"
+    "077aa1c58ce2",
+    "cf34c2243092"
   ]
 }
