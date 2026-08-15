@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-15T13:30:39Z",
+  "updated": "2026-08-15T13:54:53Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,160 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "d9cd29ab23e4",
+      "time": "2026-08-15T13:35:00Z",
+      "source": "Yahoo Finance",
+      "headline": "Prediction: Nvidia Stock Will Hit $300 Before 2026 Is Over",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/prediction-nvidia-stock-hit-300-133500308.html",
+      "summary": "A financial analysis predicts that Nvidia's stock price will surpass $300 before the end of 2026. This projection suggests strong anticipated growth for the company.",
+      "industries": [
+        {
+          "sector": "Technology",
+          "sub_industry": "Semiconductor—Integrated Circuits",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "AI & Machine Learning Infrastructure",
+          "confidence": 80,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Processing Systems & Products",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Application Software",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Cloud Infrastructure & Services",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Semiconductor—Broad Line",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Diversified Computer Systems",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "NVDA",
+          "name": "Nvidia",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "AMD",
+          "name": "Advanced Micro Devices",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "SOXX",
+          "name": "iShares Semiconductor ETF",
+          "type": "etf",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BOTZ",
+          "name": "Global X Robotics & AI ETF",
+          "type": "etf",
+          "confidence": 80,
+          "direction": "up",
+          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "MSFT",
+          "name": "Microsoft",
+          "type": "stock",
+          "confidence": 40,
+          "direction": "up",
+          "rationale": "Mapped from Application Software (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "CRM",
+          "name": "Salesforce",
+          "type": "stock",
+          "confidence": 40,
+          "direction": "up",
+          "rationale": "Mapped from Application Software (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "IGV",
+          "name": "iShares Expanded Tech-Software ETF",
+          "type": "etf",
+          "confidence": 40,
+          "direction": "up",
+          "rationale": "Mapped from Application Software (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "AMZN",
+          "name": "Amazon (AWS)",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GOOGL",
+          "name": "Alphabet (GCP)",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "INTC",
+          "name": "Intel",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Broad Line (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "46ea7747522e",
       "time": "2026-08-15T13:00:00Z",
@@ -7940,114 +8094,9 @@
         }
       ],
       "tickers": []
-    },
-    {
-      "id": "ee16f5ba46a4",
-      "time": "2026-08-14T01:34:22Z",
-      "source": "Yahoo Finance",
-      "headline": "Tenon Medical, Inc. Q2 2026 Earnings Call Summary",
-      "url": "https://finance.yahoo.com/healthcare/articles/tenon-medical-inc-q2-2026-013422605.html",
-      "summary": "Tenon Medical, Inc. has released its Q2 2026 earnings call summary. The call likely detailed the company's financial performance, operational highlights, and future outlook for the second quarter of 2026.",
-      "industries": [
-        {
-          "sector": "Health Care",
-          "sub_industry": "Medical Appliances & Equipment",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Medical Instruments & Supplies",
-          "confidence": 90,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Biotechnology",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Drug Manufacturers—Major",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Drug Manufacturers—Other",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Specialized Health Services",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Health Care Plans",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "LLY",
-          "name": "Eli Lilly",
-          "type": "stock",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Biotechnology (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "MRNA",
-          "name": "Moderna",
-          "type": "stock",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Biotechnology (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "XBI",
-          "name": "SPDR Biotech ETF",
-          "type": "etf",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Biotechnology (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "PFE",
-          "name": "Pfizer",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "NVO",
-          "name": "Novo Nordisk ADR",
-          "type": "adr",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Drug Manufacturers—Other (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "1b936b3192bf",
     "687237d682a4",
     "1399a3d45a62",
     "c8ecb348bb12",
@@ -9046,6 +9095,7 @@
     "7af9b0738098",
     "6b51a6d1c744",
     "46ea7747522e",
-    "30cb77d249d5"
+    "30cb77d249d5",
+    "d9cd29ab23e4"
   ]
 }
