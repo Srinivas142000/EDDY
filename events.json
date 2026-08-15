@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-15T08:25:30Z",
+  "updated": "2026-08-15T08:56:52Z",
   "sources": [
     "Reuters",
     "AP",
@@ -3848,6 +3848,82 @@
           "confidence": 20,
           "direction": "up",
           "rationale": "Mapped from Streaming & Digital Media (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
+      "id": "cd895b8a4a50",
+      "time": "2026-08-14T11:54:06Z",
+      "source": "Yahoo Finance",
+      "headline": "Gold prices today, Friday, August 14, 2026: Gold prices hold above $4,400 on softening inflation",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-friday-august-14-2026-gold-prices-hold-above-4400-on-softening-inflation-115406311.html",
+      "summary": "Gold prices are maintaining a level above $4,400 due to indications of moderating inflation. This suggests a potential shift in economic conditions influencing precious metal values.",
+      "industries": [
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Gold",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Silver",
+          "confidence": 45,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Diversified Investments",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "GLD",
+          "name": "SPDR Gold Shares ETF",
+          "type": "etf",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Gold (Basic Materials).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "NEM",
+          "name": "Newmont Corporation",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Gold (Basic Materials).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
           "hist_range_1d": null,
           "hist_range_5d": null
         }
@@ -7939,110 +8015,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "ce7beb028ddc",
-      "time": "2026-08-13T22:49:10Z",
-      "source": "Yahoo Finance",
-      "headline": "Could Alcon (ALC) and RxSight (RXST)’s Partnership Reshape the Future of Cataract Surgery?",
-      "url": "https://finance.yahoo.com/healthcare/articles/could-alcon-alc-rxsight-rxst-224910777.html",
-      "summary": "Alcon and RxSight are partnering, potentially transforming the future of cataract surgery. This collaboration could lead to significant advancements in the procedures and outcomes for patients undergoing cataract surgery.",
-      "industries": [
-        {
-          "sector": "Health Care",
-          "sub_industry": "Medical Appliances & Equipment",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Medical Instruments & Supplies",
-          "confidence": 90,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Drug Manufacturers—Major",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Specialized Health Services",
-          "confidence": 65,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Biotechnology",
-          "confidence": 50,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Health Care Plans",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Diversified Electronics",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Medical Practitioners",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "LLY",
-          "name": "Eli Lilly",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "PFE",
-          "name": "Pfizer",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "XBI",
-          "name": "SPDR Biotech ETF",
-          "type": "etf",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "MRNA",
-          "name": "Moderna",
-          "type": "stock",
-          "confidence": 50,
-          "direction": "up",
-          "rationale": "Mapped from Biotechnology (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "751f73fcb2ee",
     "d592736b5d97",
     "a7cfc88cc008",
     "70909c3a6b60",
@@ -9041,6 +9016,7 @@
     "0bd8dc269c6b",
     "2bdc9b5d137c",
     "e540fb38ba89",
-    "2ecded425a38"
+    "2ecded425a38",
+    "cd895b8a4a50"
   ]
 }
