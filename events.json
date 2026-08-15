@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-15T20:22:38Z",
+  "updated": "2026-08-15T20:49:27Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,35 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "ef9af323056e",
+      "time": "2026-08-15T20:21:20Z",
+      "source": "Yahoo Finance",
+      "headline": "What a Cintas CEO Insider Filing Signals as It Pursues UniFirst",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/cintas-ceo-insider-filing-signals-202120926.html",
+      "summary": "Cintas Corporation's CEO has made an insider filing, signaling a potential pursuit of UniFirst Corporation. This suggests a significant corporate action, likely a merger or acquisition, between two major players in the business services sector.",
+      "industries": [
+        {
+          "sector": "Services",
+          "sub_industry": "Business Services",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "Industrial Equipment & Components",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "Textile Industrial",
+          "confidence": 30,
+          "direction": "up"
+        }
+      ],
+      "tickers": []
+    },
     {
       "id": "fd2ea3393625",
       "time": "2026-08-15T19:35:56Z",
@@ -9291,39 +9320,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "60cd6ac7e4a9",
-      "time": "2026-08-14T09:00:00Z",
-      "source": "MarketWatch",
-      "headline": "‘American Pie’ star Seann William Scott lists stunning Malibu waterfront home for $17.5 million",
-      "url": "https://www.marketwatch.com/story/american-pie-star-seann-william-scott-lists-stunning-malibu-waterfront-home-for-17-5-million-dc7e97b1?mod=mw_rss_topstories",
-      "summary": "Actor Seann William Scott has listed his Malibu waterfront home for $17.5 million. The property is described as a stunning residence.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "REIT—Residential",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Real Estate Development",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Home Furnishings & Fixtures",
-          "confidence": 20,
-          "direction": "up"
-        }
-      ],
-      "tickers": []
     }
   ],
   "seen": [
-    "b76ef3d1902b",
     "f630192d8891",
     "1614f237d461",
     "168b101eae40",
@@ -10322,6 +10321,7 @@
     "5e62c20d398b",
     "16c05246088c",
     "fd2ea3393625",
-    "db328eb0ece6"
+    "db328eb0ece6",
+    "ef9af323056e"
   ]
 }
