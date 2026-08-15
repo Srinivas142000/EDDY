@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-15T10:21:24Z",
+  "updated": "2026-08-15T10:49:32Z",
   "sources": [
     "Reuters",
     "AP",
@@ -5970,6 +5970,35 @@
       ]
     },
     {
+      "id": "6e8ea8697cfc",
+      "time": "2026-08-14T09:41:24Z",
+      "source": "Yahoo Finance",
+      "headline": "American Water Works Stock: Is Wall Street Bullish or Bearish?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/american-water-works-stock-wall-094124870.html",
+      "summary": "The headline questions Wall Street's sentiment towards American Water Works stock, indicating a discussion about its future performance. American Water Works is a major provider of water and wastewater services in the United States.",
+      "industries": [
+        {
+          "sector": "Utilities",
+          "sub_industry": "Water Utilities",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Utilities",
+          "sub_industry": "Diversified Utilities",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "REIT—Residential",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": []
+    },
+    {
       "id": "7fc057d75541",
       "time": "2026-08-14T09:15:00Z",
       "source": "MarketWatch",
@@ -7888,190 +7917,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "91338c0baffe",
-      "time": "2026-08-14T01:02:39Z",
-      "source": "CNBC",
-      "headline": "Uber partners with China's Pony.ai for 2,000 robotaxis in Europe",
-      "url": "https://www.cnbc.com/2026/08/14/uber-partners-with-chinas-ponyai-for-2000-robotaxis-in-europe.html",
-      "summary": "Uber has announced a partnership with Chinese autonomous driving company Pony.ai to deploy 2,000 robotaxis across Europe. This collaboration aims to accelerate the adoption of autonomous ride-hailing services in the European market.",
-      "industries": [
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Gig Economy & Marketplace Platforms",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Electric Vehicles & Battery Technology",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "AI & Machine Learning Infrastructure",
-          "confidence": 65,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Application Software",
-          "confidence": 50,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Information Technology Services",
-          "confidence": 45,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Diversified Communication Services",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Auto Dealerships",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Auto Parts Wholesale",
-          "confidence": 20,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "UBER",
-          "name": "Uber",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "LYFT",
-          "name": "Lyft",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "ABNB",
-          "name": "Airbnb",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "TSLA",
-          "name": "Tesla",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "LIT",
-          "name": "Global X Lithium & Battery Tech ETF",
-          "type": "etf",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "DRIV",
-          "name": "Global X Autonomous & EV ETF",
-          "type": "etf",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "NVDA",
-          "name": "Nvidia",
-          "type": "stock",
-          "confidence": 65,
-          "direction": "up",
-          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "AMD",
-          "name": "Advanced Micro Devices",
-          "type": "stock",
-          "confidence": 65,
-          "direction": "up",
-          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BOTZ",
-          "name": "Global X Robotics & AI ETF",
-          "type": "etf",
-          "confidence": 65,
-          "direction": "up",
-          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "MSFT",
-          "name": "Microsoft",
-          "type": "stock",
-          "confidence": 50,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "CRM",
-          "name": "Salesforce",
-          "type": "stock",
-          "confidence": 50,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "IGV",
-          "name": "iShares Expanded Tech-Software ETF",
-          "type": "etf",
-          "confidence": 50,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "70909c3a6b60",
     "f9ad40764bb3",
     "53ef47153e18",
     "1dad6f1fa5b3",
@@ -9070,6 +8918,7 @@
     "2ecded425a38",
     "cd895b8a4a50",
     "54ddb1783901",
-    "24dc6d20d289"
+    "24dc6d20d289",
+    "6e8ea8697cfc"
   ]
 }
