@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-15T23:20:07Z",
+  "updated": "2026-08-15T23:47:20Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,98 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "2b12e6aa6717",
+      "time": "2026-08-15T23:18:07Z",
+      "source": "Yahoo Finance",
+      "headline": "Block’s (XYZ) EPS Surged 65%, So Why Did the Stock Drop?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/block-xyz-eps-surged-65-231807424.html",
+      "summary": "Block's (XYZ) Earnings Per Share (EPS) experienced a significant surge of 65%. Despite this positive financial performance, the company's stock price declined, indicating a disconnect between reported earnings and market expectations or broader economic concerns.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Credit Services",
+          "confidence": 85,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Investment Brokerage—Regional",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Money Center Banks",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Regional Banks",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 40,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 40,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "JPM",
+          "name": "JPMorgan Chase",
+          "type": "stock",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BAC",
+          "name": "Bank of America",
+          "type": "stock",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "KBE",
+          "name": "SPDR Bank ETF",
+          "type": "etf",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "99a17bd0a9ce",
       "time": "2026-08-15T22:51:48Z",
@@ -9093,140 +9185,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "8a3fce80d8b0",
-      "time": "2026-08-14T10:46:55Z",
-      "source": "CNBC",
-      "headline": "Stocks making the biggest moves premarket: Reddit, Applied Materials, Sandisk, Wayfair & more",
-      "url": "https://www.cnbc.com/2026/08/14/stocks-making-the-biggest-moves-premarket-rddt-amat-sndk-w.html",
-      "summary": "Several technology and retail stocks experienced significant pre-market trading activity, indicating investor interest and potential shifts in market sentiment. Companies like Reddit, Applied Materials, Sandisk, and Wayfair were among those with notable price movements.",
-      "industries": [
-        {
-          "sector": "Technology",
-          "sub_industry": "Internet Information Providers",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Semiconductor—Equipment & Materials",
-          "confidence": 80,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Data Storage Devices",
-          "confidence": 80,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Specialty Retail",
-          "confidence": 65,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Internet Software & Services",
-          "confidence": 50,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Semiconductor—Integrated Circuits",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Department Stores",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Home Furnishings & Fixtures",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "AMAT",
-          "name": "Applied Materials",
-          "type": "stock",
-          "confidence": 80,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Equipment & Materials (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "LRCX",
-          "name": "Lam Research",
-          "type": "stock",
-          "confidence": 80,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Equipment & Materials (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "SOXX",
-          "name": "iShares Semiconductor ETF",
-          "type": "etf",
-          "confidence": 80,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Equipment & Materials (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GOOGL",
-          "name": "Alphabet",
-          "type": "stock",
-          "confidence": 50,
-          "direction": "up",
-          "rationale": "Mapped from Internet Software & Services (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "META",
-          "name": "Meta Platforms",
-          "type": "stock",
-          "confidence": 50,
-          "direction": "up",
-          "rationale": "Mapped from Internet Software & Services (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "NVDA",
-          "name": "Nvidia",
-          "type": "stock",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "AMD",
-          "name": "Advanced Micro Devices",
-          "type": "stock",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "13c34b8838a4",
     "5e93009b2809",
     "9166aa5b620f",
     "b06783c45a69",
@@ -10225,6 +10186,7 @@
     "077aa1c58ce2",
     "cf34c2243092",
     "1ec64a87c773",
-    "99a17bd0a9ce"
+    "99a17bd0a9ce",
+    "2b12e6aa6717"
   ]
 }
