@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-16T04:36:35Z",
+  "updated": "2026-08-16T05:29:11Z",
   "sources": [
     "Reuters",
     "AP",
@@ -4076,6 +4076,98 @@
       ]
     },
     {
+      "id": "c8f73b67f012",
+      "time": "2026-08-14T22:23:52Z",
+      "source": "Yahoo Finance",
+      "headline": "Is Biohaven (BHVN)’s Latest Regeneron Pharmaceuticals (REGN) Deal a Major Catalyst for its Pipeline?",
+      "url": "https://finance.yahoo.com/healthcare/articles/biohaven-bhvn-latest-regeneron-pharmaceuticals-222352923.html",
+      "summary": "Biohaven Pharmaceuticals is reportedly in discussions for a deal with Regeneron Pharmaceuticals, potentially impacting Biohaven's drug pipeline. This news could signal significant developments for both companies' research and development efforts.",
+      "industries": [
+        {
+          "sector": "Health Care",
+          "sub_industry": "Drug Manufacturers—Major",
+          "confidence": 85,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Biotechnology",
+          "confidence": 80,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Drug Manufacturers—Other",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Health Care Plans",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Medical Appliances & Equipment",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "LLY",
+          "name": "Eli Lilly",
+          "type": "stock",
+          "confidence": 85,
+          "direction": "up",
+          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "PFE",
+          "name": "Pfizer",
+          "type": "stock",
+          "confidence": 85,
+          "direction": "up",
+          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "XBI",
+          "name": "SPDR Biotech ETF",
+          "type": "etf",
+          "confidence": 85,
+          "direction": "up",
+          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "MRNA",
+          "name": "Moderna",
+          "type": "stock",
+          "confidence": 80,
+          "direction": "up",
+          "rationale": "Mapped from Biotechnology (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "NVO",
+          "name": "Novo Nordisk ADR",
+          "type": "adr",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Drug Manufacturers—Other (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
       "id": "3269fba38fb6",
       "time": "2026-08-14T21:34:00Z",
       "source": "MarketWatch",
@@ -6794,60 +6886,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "259fef176afd",
-      "time": "2026-08-14T14:14:00Z",
-      "source": "MarketWatch",
-      "headline": "Congress changed the rules around charitable giving. You’ll now save more money if you donate earlier in the year.",
-      "url": "https://www.marketwatch.com/story/congress-changed-the-rules-around-charitable-giving-do-it-earlier-in-the-year-to-save-money-392e5de3?mod=mw_rss_topstories",
-      "summary": "Congress has revised regulations concerning charitable donations, incentivizing individuals to contribute earlier in the calendar year. This change aims to encourage more consistent and potentially larger philanthropic contributions throughout the year.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Specialty Retail",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Consumer Services",
-          "confidence": 20,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "aa40d1c51548",
     "55955236035c",
     "6223e8119b2a",
     "99672599c116",
@@ -7846,6 +7887,7 @@
     "6d5b46a9c5a6",
     "ed9cea08e466",
     "a75ec47d0c10",
-    "73e467a3378c"
+    "73e467a3378c",
+    "c8f73b67f012"
   ]
 }
