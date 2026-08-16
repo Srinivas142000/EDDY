@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-16T11:47:28Z",
+  "updated": "2026-08-16T12:38:24Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,112 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "42fe61e856ec",
+      "time": "2026-08-16T12:00:00Z",
+      "source": "MarketWatch",
+      "headline": "The Mediterranean diet is the best out there. Here’s why Americans struggle with it.",
+      "url": "https://www.marketwatch.com/story/the-mediterranean-diet-is-the-best-out-there-heres-why-americans-struggle-with-it-081f3fe7?mod=mw_rss_topstories",
+      "summary": "The Mediterranean diet is lauded as the best, but Americans face challenges in adopting it. This highlights potential difficulties in consumer behavior and dietary choices.",
+      "industries": [
+        {
+          "sector": "Services",
+          "sub_industry": "Food Wholesale",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Grocery Stores",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Restaurants",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Specialty Eateries",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Consumer Goods",
+          "sub_industry": "Processed & Packaged Goods",
+          "confidence": 20,
+          "direction": "up"
+        },
+        {
+          "sector": "Consumer Goods",
+          "sub_industry": "Farm Products",
+          "confidence": 20,
+          "direction": "up"
+        },
+        {
+          "sector": "Consumer Goods",
+          "sub_industry": "Dairy Products",
+          "confidence": 20,
+          "direction": "up"
+        },
+        {
+          "sector": "Consumer Goods",
+          "sub_industry": "Meat Products",
+          "confidence": 20,
+          "direction": "up"
+        },
+        {
+          "sector": "Consumer Goods",
+          "sub_industry": "Beverages—Wineries & Distillers",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "KR",
+          "name": "Kroger",
+          "type": "stock",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Grocery Stores (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "WMT",
+          "name": "Walmart",
+          "type": "stock",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Grocery Stores (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "MCD",
+          "name": "McDonald's",
+          "type": "stock",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Restaurants (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "CMG",
+          "name": "Chipotle Mexican Grill",
+          "type": "stock",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Restaurants (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "285da816f4b5",
       "time": "2026-08-16T11:00:00Z",
@@ -5648,146 +5754,9 @@
         }
       ],
       "tickers": []
-    },
-    {
-      "id": "348d5e4031cd",
-      "time": "2026-08-14T23:58:46Z",
-      "source": "Yahoo Finance",
-      "headline": "Jim Cramer Reviews NVIDIA (NVDA) and Data Center Demand",
-      "url": "https://finance.yahoo.com/technology/ai/articles/jim-cramer-reviews-nvidia-nvda-235846609.html",
-      "summary": "Jim Cramer reviewed NVIDIA (NVDA), highlighting strong demand for data center solutions. This suggests continued growth and investment in the underlying technologies powering these facilities.",
-      "industries": [
-        {
-          "sector": "Technology",
-          "sub_industry": "Semiconductor—Integrated Circuits",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Semiconductor—Specialized",
-          "confidence": 90,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Cloud Infrastructure & Services",
-          "confidence": 80,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "AI & Machine Learning Infrastructure",
-          "confidence": 75,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Data Storage Devices",
-          "confidence": 50,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Diversified Computer Systems",
-          "confidence": 45,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Information Technology Services",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Industrial Equipment & Components",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Utilities",
-          "sub_industry": "Electric Utilities",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "NVDA",
-          "name": "Nvidia",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "AMD",
-          "name": "Advanced Micro Devices",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "SOXX",
-          "name": "iShares Semiconductor ETF",
-          "type": "etf",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "AMZN",
-          "name": "Amazon (AWS)",
-          "type": "stock",
-          "confidence": 80,
-          "direction": "up",
-          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "MSFT",
-          "name": "Microsoft (Azure)",
-          "type": "stock",
-          "confidence": 80,
-          "direction": "up",
-          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GOOGL",
-          "name": "Alphabet (GCP)",
-          "type": "stock",
-          "confidence": 80,
-          "direction": "up",
-          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BOTZ",
-          "name": "Global X Robotics & AI ETF",
-          "type": "etf",
-          "confidence": 75,
-          "direction": "up",
-          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "dcd159b68a2f",
     "9da18ffca33a",
     "b33e0cefa125",
     "549a5ad49fc3",
@@ -6786,6 +6755,7 @@
     "a06e7695b79f",
     "c60990d8a064",
     "285da816f4b5",
-    "8eac83eb1679"
+    "8eac83eb1679",
+    "42fe61e856ec"
   ]
 }
