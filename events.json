@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-16T18:27:15Z",
+  "updated": "2026-08-16T18:58:44Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,78 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "a8229ddafe15",
+      "time": "2026-08-16T18:30:00Z",
+      "source": "Yahoo Finance",
+      "headline": "Tori Dunlap's Her First $100K made Inc. 5000 after growing it from a blog to a multi-million dollar business",
+      "url": "https://finance.yahoo.com/small-business/articles/tori-dunlaps-her-first-100k-183000556.html",
+      "summary": "Her First $100K, a business founded by Tori Dunlap, has achieved a spot on the Inc. 5000 list, signifying its growth into a multi-million dollar enterprise from its origins as a blog. This recognition highlights the company's significant revenue expansion and market presence.",
+      "industries": [
+        {
+          "sector": "Services",
+          "sub_industry": "Marketing Services",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Business Services",
+          "confidence": 65,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Information Technology Services",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Internet Information Providers",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Gig Economy & Marketplace Platforms",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "UBER",
+          "name": "Uber",
+          "type": "stock",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "LYFT",
+          "name": "Lyft",
+          "type": "stock",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "ABNB",
+          "name": "Airbnb",
+          "type": "stock",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "346c9a3b5a67",
       "time": "2026-08-16T17:39:00Z",
@@ -5863,66 +5935,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "dbaad5bcaf3d",
-      "time": "2026-08-15T09:30:00Z",
-      "source": "Yahoo Finance",
-      "headline": "'You have absolutely no expenses': Suze Orman says the perks your job quietly covers could blow up your retirement math",
-      "url": "https://finance.yahoo.com/small-business/articles/absolutely-no-expenses-suze-orman-093000555.html",
-      "summary": "Financial advisor Suze Orman highlights that overlooked job perks can significantly impact retirement savings calculations. She suggests that employees may not be fully accounting for these benefits when planning their financial future.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 45,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Life Insurance",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Health Care Plans",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Business Services",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 45,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 45,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "cf7755772002",
     "62d2dbb94e5a",
     "d2671800e0bd",
     "f3d3bb64aff0",
@@ -6921,6 +6936,7 @@
     "6288e1d008c8",
     "f164e8f8cbb2",
     "a2e550baba7d",
-    "346c9a3b5a67"
+    "346c9a3b5a67",
+    "a8229ddafe15"
   ]
 }
