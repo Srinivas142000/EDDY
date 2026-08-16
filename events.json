@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-16T08:27:01Z",
+  "updated": "2026-08-16T08:58:20Z",
   "sources": [
     "Reuters",
     "AP",
@@ -4210,6 +4210,62 @@
       ]
     },
     {
+      "id": "dbaad5bcaf3d",
+      "time": "2026-08-15T09:30:00Z",
+      "source": "Yahoo Finance",
+      "headline": "'You have absolutely no expenses': Suze Orman says the perks your job quietly covers could blow up your retirement math",
+      "url": "https://finance.yahoo.com/small-business/articles/absolutely-no-expenses-suze-orman-093000555.html",
+      "summary": "Financial advisor Suze Orman highlights that overlooked job perks can significantly impact retirement savings calculations. She suggests that employees may not be fully accounting for these benefits when planning their financial future.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 45,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Life Insurance",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Health Care Plans",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Business Services",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 45,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 45,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
       "id": "ce3ab1f94d1b",
       "time": "2026-08-15T05:47:42Z",
       "source": "Yahoo Finance",
@@ -5869,39 +5925,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "ba0c23ce7b17",
-      "time": "2026-08-14T23:15:48Z",
-      "source": "Yahoo Finance",
-      "headline": "Amazon reinstates binding arbitration, bars class-action lawsuits",
-      "url": "https://finance.yahoo.com/technology/articles/amazon-reinstates-binding-arbitration-bars-231548883.html",
-      "summary": "Amazon has reinstated a policy requiring customers to use binding arbitration and forgo class-action lawsuits for disputes. This move impacts how consumer grievances are handled and potentially reduces legal liabilities for the company.",
-      "industries": [
-        {
-          "sector": "Services",
-          "sub_industry": "Consumer Services",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Internet Information Providers",
-          "confidence": 65,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Credit Services",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": []
     }
   ],
   "seen": [
-    "7ee27821d160",
     "112f2fd830e3",
     "31a5247c5266",
     "a4bdf44356d5",
@@ -6900,6 +6926,7 @@
     "ba0c23ce7b17",
     "f7da0da92994",
     "2082a54735a3",
-    "ce3ab1f94d1b"
+    "ce3ab1f94d1b",
+    "dbaad5bcaf3d"
   ]
 }
