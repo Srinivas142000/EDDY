@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-16T19:23:27Z",
+  "updated": "2026-08-16T19:46:58Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,62 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "3426c03dd57b",
+      "time": "2026-08-16T19:15:00Z",
+      "source": "Yahoo Finance",
+      "headline": "Drake told a 23-year-old streamer he'd 'love to' buy her mom a house after picking her on dating show. Who pays the tax?",
+      "url": "https://finance.yahoo.com/real-estate/articles/drake-told-23-old-streamer-191500099.html",
+      "summary": "Rapper Drake offered to buy a streamer's mother a house after selecting her on a dating show, raising questions about who will be responsible for the associated taxes on such a gift.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Real Estate Development",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "Residential Construction",
+          "confidence": 20,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 20,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Cryptocurrency & Digital Assets",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "a8229ddafe15",
       "time": "2026-08-16T18:30:00Z",
@@ -5873,60 +5929,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "a06e7695b79f",
-      "time": "2026-08-15T10:35:00Z",
-      "source": "Yahoo Finance",
-      "headline": "Larry Fink’s brutal warning to Americans: This everyday habit is ‘one of the worst financial decisions’ of your life",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/larry-fink-brutal-warning-americans-103500383.html",
-      "summary": "Larry Fink, CEO of BlackRock, has issued a strong warning regarding a common everyday habit, labeling it as one of the worst financial decisions individuals can make. The specific habit was not detailed in the headline but implies a significant negative impact on personal finance.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Personal Services",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Consumer Services",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 85,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 85,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "d2671800e0bd",
     "f3d3bb64aff0",
     "cdcd991a46e9",
     "5f57ff649a4e",
@@ -6925,6 +6930,7 @@
     "a2e550baba7d",
     "346c9a3b5a67",
     "a8229ddafe15",
-    "9db693cafe7c"
+    "9db693cafe7c",
+    "3426c03dd57b"
   ]
 }
