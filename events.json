@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-16T13:57:49Z",
+  "updated": "2026-08-16T14:21:34Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,62 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "43909f673e14",
+      "time": "2026-08-16T13:51:41Z",
+      "source": "Yahoo Finance",
+      "headline": "Meta to face massive social media addiction trial Tuesday",
+      "url": "https://finance.yahoo.com/technology/article/meta-to-face-massive-social-media-addiction-trial-tuesday-135141870.html",
+      "summary": "Meta Platforms is set to face a significant social media addiction trial starting Tuesday. This trial could have major implications for the company's business practices and potential liabilities.",
+      "industries": [
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Social Media & Platforms",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Internet Information Providers",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Advertising Agencies",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Business Services",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "META",
+          "name": "Meta Platforms",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Social Media & Platforms (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "SNAP",
+          "name": "Snap Inc.",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Social Media & Platforms (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "7304daac4845",
       "time": "2026-08-16T13:00:00Z",
@@ -5647,96 +5703,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "841c0180edd2",
-      "time": "2026-08-15T00:50:03Z",
-      "source": "Yahoo Finance",
-      "headline": "Can MacroGenics (MGNX) Turn Gilead Sciences (GILD)’s $10M Milestone Into a Major Pipeline Catalyst?",
-      "url": "https://finance.yahoo.com/healthcare/articles/macrogenics-mgnx-turn-gilead-sciences-005003929.html",
-      "summary": "MacroGenics is seeking to leverage a $10 million milestone payment from Gilead Sciences to advance its pipeline, potentially creating a significant catalyst for its drug development programs. This event highlights the interplay between pharmaceutical companies in terms of partnerships and pipeline progression.",
-      "industries": [
-        {
-          "sector": "Health Care",
-          "sub_industry": "Drug Manufacturers—Major",
-          "confidence": 75,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Drug Manufacturers—Other",
-          "confidence": 75,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Biotechnology",
-          "confidence": 60,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Health Care Plans",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "LLY",
-          "name": "Eli Lilly",
-          "type": "stock",
-          "confidence": 75,
-          "direction": "up",
-          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "PFE",
-          "name": "Pfizer",
-          "type": "stock",
-          "confidence": 75,
-          "direction": "up",
-          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "XBI",
-          "name": "SPDR Biotech ETF",
-          "type": "etf",
-          "confidence": 75,
-          "direction": "up",
-          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "NVO",
-          "name": "Novo Nordisk ADR",
-          "type": "adr",
-          "confidence": 75,
-          "direction": "up",
-          "rationale": "Mapped from Drug Manufacturers—Other (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "MRNA",
-          "name": "Moderna",
-          "type": "stock",
-          "confidence": 60,
-          "direction": "up",
-          "rationale": "Mapped from Biotechnology (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "e0e427085b6e",
     "f114508bc6a1",
     "859fbca7d7fc",
     "de4a6645ab2e",
@@ -6735,6 +6704,7 @@
     "7304daac4845",
     "6331ae58c29c",
     "1e1b35dd9e1b",
-    "e7c974637c5d"
+    "e7c974637c5d",
+    "43909f673e14"
   ]
 }
