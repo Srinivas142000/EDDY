@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T13:46:29Z",
+  "updated": "2026-08-17T14:25:58Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,98 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "fb506349d32d",
+      "time": "2026-08-17T14:15:05Z",
+      "source": "Yahoo Finance",
+      "headline": "Billionaire Stanley Druckenmiller Tripled His Stake in United Airlines (UAL). Should You Buy?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/billionaire-stanley-druckenmiller-tripled-stake-141505376.html",
+      "summary": "Billionaire investor Stanley Druckenmiller has significantly increased his investment in United Airlines, tripling his stake. This move raises questions about the future performance and investment potential of the airline.",
+      "industries": [
+        {
+          "sector": "Services",
+          "sub_industry": "Air Services",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Regional Airlines",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "Aerospace/Defense Products & Services",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Oil & Gas Refining & Marketing",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Credit Services",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "JETS",
+          "name": "US Global Jets ETF",
+          "type": "etf",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Air Services (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "UAL",
+          "name": "United Airlines",
+          "type": "stock",
+          "confidence": 40,
+          "direction": "up",
+          "rationale": "Mapped from Regional Airlines (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "DAL",
+          "name": "Delta Air Lines",
+          "type": "stock",
+          "confidence": 40,
+          "direction": "up",
+          "rationale": "Mapped from Regional Airlines (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "NOC",
+          "name": "Northrop Grumman",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Aerospace/Defense Products & Services (Industrial Goods).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "ITA",
+          "name": "iShares US Aerospace & Defense ETF",
+          "type": "etf",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Aerospace/Defense Products & Services (Industrial Goods).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "e5d6935b92ce",
       "time": "2026-08-17T12:20:30Z",
@@ -6320,132 +6412,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "db3e7f3427df",
-      "time": "2026-08-15T21:30:03Z",
-      "source": "Yahoo Finance",
-      "headline": "Jim Cramer Didn’t Think Figma, Inc. (NYSE:FIG) Was Treated The Way It Should Have Been",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-didn-t-think-213003428.html",
-      "summary": "Jim Cramer expressed dissatisfaction with the market's valuation of Figma, Inc., suggesting it was undervalued. Figma is a collaborative design tool that operates within the software and technology sectors.",
-      "industries": [
-        {
-          "sector": "Technology",
-          "sub_industry": "Application Software",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Internet Software & Services",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Business Software & Services",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Information Technology Services",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Gig Economy & Marketplace Platforms",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "MSFT",
-          "name": "Microsoft",
-          "type": "stock",
-          "confidence": 85,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "CRM",
-          "name": "Salesforce",
-          "type": "stock",
-          "confidence": 85,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "IGV",
-          "name": "iShares Expanded Tech-Software ETF",
-          "type": "etf",
-          "confidence": 85,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GOOGL",
-          "name": "Alphabet",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Internet Software & Services (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "META",
-          "name": "Meta Platforms",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Internet Software & Services (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "UBER",
-          "name": "Uber",
-          "type": "stock",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "LYFT",
-          "name": "Lyft",
-          "type": "stock",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "ABNB",
-          "name": "Airbnb",
-          "type": "stock",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "f7d0f768e666",
     "0c1a6a72f9f1",
     "66f26a61c592",
     "63b878f54709",
@@ -7444,6 +7413,7 @@
     "ada7d021a6bc",
     "eab1484f5e29",
     "b7279c6f3a5b",
-    "e5d6935b92ce"
+    "e5d6935b92ce",
+    "fb506349d32d"
   ]
 }
