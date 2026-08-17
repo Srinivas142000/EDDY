@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T01:08:32Z",
+  "updated": "2026-08-17T02:45:41Z",
   "sources": [
     "Reuters",
     "AP",
@@ -3550,6 +3550,98 @@
           "confidence": 95,
           "direction": "up",
           "rationale": "Mapped from Grocery Stores (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
+      "id": "5e8473fe1a14",
+      "time": "2026-08-16T10:00:00Z",
+      "source": "Yahoo Finance",
+      "headline": "Best CD rates today, Sunday, August 16, 2026: Lock in up to 4.30% APY",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-sunday-august-16-2026-lock-in-up-to-430-apy-100000956.html",
+      "summary": "The headline indicates that Certificate of Deposit (CD) rates are offering up to 4.30% Annual Percentage Yield (APY) as of Sunday, August 16, 2026. This suggests a competitive environment for fixed-income savings products.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Money Center Banks",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Regional Banks",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Savings & Loans",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Credit Services",
+          "confidence": 30,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "JPM",
+          "name": "JPMorgan Chase",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BAC",
+          "name": "Bank of America",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "KBE",
+          "name": "SPDR Bank ETF",
+          "type": "etf",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 40,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 40,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
           "hist_range_1d": null,
           "hist_range_5d": null
         }
@@ -7614,76 +7706,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "e7c974637c5d",
-      "time": "2026-08-15T13:30:02Z",
-      "source": "Yahoo Finance",
-      "headline": "Piper Sandler Is Bullish on Unusual Machines Stock. Here's Why.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/piper-sandler-bullish-unusual-machines-133002502.html",
-      "summary": "Piper Sandler has initiated coverage of Unusual Machines with a bullish stance, citing the company's innovative approach to robotics and automation. The firm believes Unusual Machines is well-positioned for growth in the expanding robotics market.",
-      "industries": [
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Industrial Equipment & Components",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Diversified Machinery",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "AI & Machine Learning Infrastructure",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Business Services",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "NVDA",
-          "name": "Nvidia",
-          "type": "stock",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "AMD",
-          "name": "Advanced Micro Devices",
-          "type": "stock",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BOTZ",
-          "name": "Global X Robotics & AI ETF",
-          "type": "etf",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "d1cee8c256b0",
     "9cfc66fbc209",
     "57ceab9d3ff1",
     "ffc6d6be4504",
@@ -8682,6 +8707,7 @@
     "8153721fc26c",
     "d0105056ea79",
     "aed7b173b003",
-    "5e10a9980f12"
+    "5e10a9980f12",
+    "5e8473fe1a14"
   ]
 }
