@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T11:04:43Z",
+  "updated": "2026-08-17T11:36:11Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,116 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "b7279c6f3a5b",
+      "time": "2026-08-17T11:18:54Z",
+      "source": "Yahoo Finance",
+      "headline": "Trump-linked crypto venture gets preliminary nod for bank charter",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/trump-linked-crypto-venture-gets-111854165.html",
+      "summary": "A cryptocurrency venture with ties to former President Trump has received preliminary approval for a bank charter. This development could integrate digital assets more formally into the traditional financial system.",
+      "industries": [
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Cryptocurrency & Digital Assets",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Money Center Banks",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Regional Banks",
+          "confidence": 65,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 50,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Diversified Investments",
+          "confidence": 45,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Credit Services",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Information Technology Services",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Business Software & Services",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "JPM",
+          "name": "JPMorgan Chase",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BAC",
+          "name": "Bank of America",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "KBE",
+          "name": "SPDR Bank ETF",
+          "type": "etf",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 50,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 50,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "7353d54c2a63",
       "time": "2026-08-17T09:22:00Z",
@@ -6294,70 +6404,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "636392746019",
-      "time": "2026-08-15T21:28:04Z",
-      "source": "Yahoo Finance",
-      "headline": "Jim Cramer Was Happy The Market “Cared” About D-Wave Quantum – But Not How You Think",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-happy-market-cared-212804288.html",
-      "summary": "Jim Cramer expressed satisfaction that the market is paying attention to D-Wave Quantum, but his reasoning differs from typical investor sentiment. The headline suggests a nuanced market reaction to the quantum computing company.",
-      "industries": [
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "AI & Machine Learning Infrastructure",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Semiconductor—Specialized",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Information Technology Services",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "NVDA",
-          "name": "Nvidia",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "AMD",
-          "name": "Advanced Micro Devices",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BOTZ",
-          "name": "Global X Robotics & AI ETF",
-          "type": "etf",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "cd78cbbaa279",
     "d061a8821765",
     "f7d0f768e666",
     "0c1a6a72f9f1",
@@ -7356,6 +7405,7 @@
     "636392746019",
     "7353d54c2a63",
     "ada7d021a6bc",
-    "eab1484f5e29"
+    "eab1484f5e29",
+    "b7279c6f3a5b"
   ]
 }
