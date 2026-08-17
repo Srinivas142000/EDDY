@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T15:23:17Z",
+  "updated": "2026-08-17T15:50:35Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,92 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "4df76bbbe798",
+      "time": "2026-08-17T15:24:10Z",
+      "source": "Yahoo Finance",
+      "headline": "PAR Technology (PAR)Positioned for Long Growth Runway",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/par-technology-par-positioned-long-152410669.html",
+      "summary": "PAR Technology is identified as being positioned for a long growth runway, suggesting positive future prospects for the company. This outlook implies potential expansion and increased market presence.",
+      "industries": [
+        {
+          "sector": "Technology",
+          "sub_industry": "Business Software & Services",
+          "confidence": 85,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Information Technology Services",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Gig Economy & Marketplace Platforms",
+          "confidence": 50,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Restaurants",
+          "confidence": 30,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "UBER",
+          "name": "Uber",
+          "type": "stock",
+          "confidence": 50,
+          "direction": "up",
+          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "LYFT",
+          "name": "Lyft",
+          "type": "stock",
+          "confidence": 50,
+          "direction": "up",
+          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "ABNB",
+          "name": "Airbnb",
+          "type": "stock",
+          "confidence": 50,
+          "direction": "up",
+          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "MCD",
+          "name": "McDonald's",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Restaurants (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "CMG",
+          "name": "Chipotle Mexican Grill",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Restaurants (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "1ede95598feb",
       "time": "2026-08-17T15:20:55Z",
@@ -6400,82 +6486,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "05d64986e672",
-      "time": "2026-08-15T21:30:39Z",
-      "source": "Yahoo Finance",
-      "headline": "Jim Cramer Was Worried About Potential Impact On Salesforce Inc. (NYSE:CRM)’s Dreamforce Conference",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-worried-potential-impact-213039883.html",
-      "summary": "Jim Cramer expressed concern regarding the potential impact of an unspecified event on Salesforce Inc.'s upcoming Dreamforce conference. This suggests potential disruptions to a major industry event for a leading cloud-based software company.",
-      "industries": [
-        {
-          "sector": "Technology",
-          "sub_industry": "Business Software & Services",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Cloud Infrastructure & Services",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Information Technology Services",
-          "confidence": 50,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Marketing Services",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Business Services",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "AMZN",
-          "name": "Amazon (AWS)",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "MSFT",
-          "name": "Microsoft (Azure)",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GOOGL",
-          "name": "Alphabet (GCP)",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "63b878f54709",
     "faba3926c2de",
     "d1543f424d68",
     "28c7db0a898b",
@@ -7474,6 +7487,7 @@
     "e5d6935b92ce",
     "fb506349d32d",
     "6082690d3e4e",
-    "1ede95598feb"
+    "1ede95598feb",
+    "4df76bbbe798"
   ]
 }
