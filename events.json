@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T21:51:52Z",
+  "updated": "2026-08-17T22:23:47Z",
   "sources": [
     "Reuters",
     "AP",
@@ -1261,6 +1261,92 @@
         }
       ],
       "tickers": []
+    },
+    {
+      "id": "c5f1259505fd",
+      "time": "2026-08-17T18:22:50Z",
+      "source": "CNBC",
+      "headline": "Stocks making the biggest moves midday: EyePoint, Intuitive Machines, Workday, JetBlue & more",
+      "url": "https://www.cnbc.com/2026/08/17/stocks-making-big-moves-midday-eypt-lunr-wday-jblu.html",
+      "summary": "Several companies experienced significant stock price movements midday, including EyePoint Pharmaceuticals, Intuitive Machines, Workday, and JetBlue Airways. The specific reasons for these shifts were not detailed in the headline.",
+      "industries": [
+        {
+          "sector": "Health Care",
+          "sub_industry": "Drug Manufacturers—Other",
+          "confidence": 85,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Space & Satellite Technology",
+          "confidence": 75,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Business Software & Services",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Regional Airlines",
+          "confidence": 65,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "NVO",
+          "name": "Novo Nordisk ADR",
+          "type": "adr",
+          "confidence": 85,
+          "direction": "up",
+          "rationale": "Mapped from Drug Manufacturers—Other (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "XBI",
+          "name": "SPDR Biotech ETF",
+          "type": "etf",
+          "confidence": 85,
+          "direction": "up",
+          "rationale": "Mapped from Drug Manufacturers—Other (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "JETS",
+          "name": "US Global Jets ETF",
+          "type": "etf",
+          "confidence": 65,
+          "direction": "up",
+          "rationale": "Mapped from Regional Airlines (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "UAL",
+          "name": "United Airlines",
+          "type": "stock",
+          "confidence": 65,
+          "direction": "up",
+          "rationale": "Mapped from Regional Airlines (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "DAL",
+          "name": "Delta Air Lines",
+          "type": "stock",
+          "confidence": 65,
+          "direction": "up",
+          "rationale": "Mapped from Regional Airlines (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
     },
     {
       "id": "7fee0799666a",
@@ -7571,70 +7657,9 @@
         }
       ],
       "tickers": []
-    },
-    {
-      "id": "708ca11b163d",
-      "time": "2026-08-15T22:42:42Z",
-      "source": "Yahoo Finance",
-      "headline": "MKS (MKSI) Just Posted 86% EPS Growth, So Why the Margin Warning?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/mks-mksi-just-posted-86-224242758.html",
-      "summary": "MKS Instruments reported significant year-over-year EPS growth of 86%. However, the company also issued a warning regarding its profit margins, raising concerns about future profitability despite the strong earnings performance.",
-      "industries": [
-        {
-          "sector": "Technology",
-          "sub_industry": "Semiconductor—Equipment & Materials",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Diversified Electronics",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Industrial Equipment & Components",
-          "confidence": 50,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "AMAT",
-          "name": "Applied Materials",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Equipment & Materials (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "LRCX",
-          "name": "Lam Research",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Equipment & Materials (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "SOXX",
-          "name": "iShares Semiconductor ETF",
-          "type": "etf",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Equipment & Materials (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "cc0a6f8c401c",
     "dc6acdb4847f",
     "a7de7b13bcee",
     "998e1786d6e0",
@@ -8633,6 +8658,7 @@
     "286bd332a102",
     "e8baae3db20c",
     "46acb0a8eaf2",
-    "280709bc7d66"
+    "280709bc7d66",
+    "c5f1259505fd"
   ]
 }
