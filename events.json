@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T17:25:05Z",
+  "updated": "2026-08-17T17:56:18Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,88 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "7fee0799666a",
+      "time": "2026-08-17T17:45:00Z",
+      "source": "MarketWatch",
+      "headline": "The Mediterranean diet is the best one out there. Here’s why Americans struggle with it.",
+      "url": "https://www.marketwatch.com/story/the-mediterranean-diet-is-the-best-out-there-heres-why-americans-struggle-with-it-081f3fe7?mod=mw_rss_topstories",
+      "summary": "A MarketWatch article highlights the Mediterranean diet as the \"best\" but notes Americans struggle to adhere to it. This suggests potential shifts in consumer preferences and dietary habits.",
+      "industries": [
+        {
+          "sector": "Services",
+          "sub_industry": "Food Wholesale",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Grocery Stores",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Restaurants",
+          "confidence": 20,
+          "direction": "up"
+        },
+        {
+          "sector": "Consumer Goods",
+          "sub_industry": "Processed & Packaged Goods",
+          "confidence": 20,
+          "direction": "up"
+        },
+        {
+          "sector": "Consumer Goods",
+          "sub_industry": "Farm Products",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "KR",
+          "name": "Kroger",
+          "type": "stock",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Grocery Stores (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "WMT",
+          "name": "Walmart",
+          "type": "stock",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Grocery Stores (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "MCD",
+          "name": "McDonald's",
+          "type": "stock",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from Restaurants (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "CMG",
+          "name": "Chipotle Mexican Grill",
+          "type": "stock",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from Restaurants (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "0fc60a1cf105",
       "time": "2026-08-17T16:31:00Z",
@@ -6714,66 +6796,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "0e460f99e2b8",
-      "time": "2026-08-15T21:35:09Z",
-      "source": "Yahoo Finance",
-      "headline": "Jim Cramer Said Domino’s Was Better Than Papa John’s International, Inc. (NASDAQ:PZZA) – But Is He Right?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-said-domino-better-213509638.html",
-      "summary": "Jim Cramer has expressed a preference for Domino's over Papa John's, raising questions about the latter's market position. This comparison highlights potential shifts in consumer preference and competitive dynamics within the fast-food pizza industry.",
-      "industries": [
-        {
-          "sector": "Services",
-          "sub_industry": "Restaurants",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Specialty Eateries",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Food Wholesale",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Processed & Packaged Goods",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "MCD",
-          "name": "McDonald's",
-          "type": "stock",
-          "confidence": 85,
-          "direction": "up",
-          "rationale": "Mapped from Restaurants (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "CMG",
-          "name": "Chipotle Mexican Grill",
-          "type": "stock",
-          "confidence": 85,
-          "direction": "up",
-          "rationale": "Mapped from Restaurants (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "b6d2b463ca7c",
     "754bf2b4c577",
     "de86b3741cba",
     "fdcd10161d48",
@@ -7772,6 +7797,7 @@
     "4f96ec1902ce",
     "4d35c765441e",
     "0fc60a1cf105",
-    "2f95a71fea6c"
+    "2f95a71fea6c",
+    "7fee0799666a"
   ]
 }
