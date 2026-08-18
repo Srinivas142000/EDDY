@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T22:51:36Z",
+  "updated": "2026-08-18T23:20:35Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,112 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "3eb56359fcaa",
+      "time": "2026-08-18T23:15:00Z",
+      "source": "MarketWatch",
+      "headline": "My son does not work, yet pays $500 for Affordable Care Act health insurance. Is that fair?",
+      "url": "https://www.marketwatch.com/story/my-son-does-not-work-yet-he-pays-500-for-aca-health-insurance-how-is-that-fair-92f578c4?mod=mw_rss_topstories",
+      "summary": "A parent is questioning the fairness of paying $500 per month for Affordable Care Act (ACA) health insurance for their unemployed son. This situation highlights concerns about the cost and accessibility of health insurance under the ACA.",
+      "industries": [
+        {
+          "sector": "Health Care",
+          "sub_industry": "Health Care Plans",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Drug Manufacturers—Major",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Drug Manufacturers—Other",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Drug-Related Products",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Drugs—Generic",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Hospitals",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Medical Appliances & Equipment",
+          "confidence": 20,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Medical Instruments & Supplies",
+          "confidence": 20,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Specialized Health Services",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "LLY",
+          "name": "Eli Lilly",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "PFE",
+          "name": "Pfizer",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "XBI",
+          "name": "SPDR Biotech ETF",
+          "type": "etf",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "NVO",
+          "name": "Novo Nordisk ADR",
+          "type": "adr",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Drug Manufacturers—Other (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "09e9f1993b7e",
       "time": "2026-08-18T22:45:00Z",
@@ -5547,176 +5653,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "a07972e50445",
-      "time": "2026-08-17T11:37:29Z",
-      "source": "CNBC",
-      "headline": "Stocks making the biggest moves premarket: Alibaba, Intel, Sandisk & more",
-      "url": "https://www.cnbc.com/2026/08/17/stocks-making-the-biggest-moves-premarket-baba-intc-sndk.html",
-      "summary": "Alibaba, Intel, and SanDisk are among the stocks showing significant pre-market movement. The specific reasons for these movements are not detailed in the headline but suggest notable investor activity and potential news impacting these companies.",
-      "industries": [
-        {
-          "sector": "Technology",
-          "sub_industry": "Diversified Computer Systems",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Semiconductor—Integrated Circuits",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Data Storage Devices",
-          "confidence": 80,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Internet Information Providers",
-          "confidence": 75,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Application Software",
-          "confidence": 60,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Information Technology Services",
-          "confidence": 50,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Cloud Infrastructure & Services",
-          "confidence": 45,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Social Media & Platforms",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Business Software & Services",
-          "confidence": 30,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "NVDA",
-          "name": "Nvidia",
-          "type": "stock",
-          "confidence": 85,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "AMD",
-          "name": "Advanced Micro Devices",
-          "type": "stock",
-          "confidence": 85,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "SOXX",
-          "name": "iShares Semiconductor ETF",
-          "type": "etf",
-          "confidence": 85,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "MSFT",
-          "name": "Microsoft",
-          "type": "stock",
-          "confidence": 60,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "CRM",
-          "name": "Salesforce",
-          "type": "stock",
-          "confidence": 60,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "IGV",
-          "name": "iShares Expanded Tech-Software ETF",
-          "type": "etf",
-          "confidence": 60,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "AMZN",
-          "name": "Amazon (AWS)",
-          "type": "stock",
-          "confidence": 45,
-          "direction": "up",
-          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GOOGL",
-          "name": "Alphabet (GCP)",
-          "type": "stock",
-          "confidence": 45,
-          "direction": "up",
-          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "META",
-          "name": "Meta Platforms",
-          "type": "stock",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Social Media & Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "SNAP",
-          "name": "Snap Inc.",
-          "type": "stock",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Social Media & Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "99d5c7181b3e",
     "491a541346b2",
     "e79603680d4c",
     "ff3cc3650b7c",
@@ -6715,6 +6654,7 @@
     "7644b0abc81c",
     "b38f60a099ad",
     "6a5cb49d9d21",
-    "09e9f1993b7e"
+    "09e9f1993b7e",
+    "3eb56359fcaa"
   ]
 }
