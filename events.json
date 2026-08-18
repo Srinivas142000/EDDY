@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T17:25:03Z",
+  "updated": "2026-08-18T17:54:57Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,41 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "f2599e1c910d",
+      "time": "2026-08-18T17:32:18Z",
+      "source": "Yahoo Finance",
+      "headline": "Rocket Companies Slips as Mortgage Stocks Struggle: Can RKT Catch Up With UWM and Radian?",
+      "url": "https://finance.yahoo.com/real-estate/articles/rocket-companies-slips-mortgage-stocks-173218449.html",
+      "summary": "Rocket Companies is experiencing a decline as mortgage stocks face challenges, raising questions about its ability to compete with rivals like UWM and Radian. This indicates a broader struggle within the mortgage sector.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Credit Services",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Mortgage Investment",
+          "confidence": 65,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Real Estate Development",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "Residential Construction",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": []
+    },
     {
       "id": "de2357ec61bc",
       "time": "2026-08-18T15:44:00Z",
@@ -5931,78 +5966,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "125cd980700d",
-      "time": "2026-08-17T04:01:00Z",
-      "source": "Yahoo Finance",
-      "headline": "Big Box Earnings Preview: Walmart, Target Poised to Benefit From Value Shoppers",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/big-box-earnings-preview-walmart-040100283.html",
-      "summary": "Walmart and Target are expected to see increased business as value-seeking shoppers shift their spending towards these large retailers. This trend suggests a potential boost in earnings for these companies.",
-      "industries": [
-        {
-          "sector": "Services",
-          "sub_industry": "Department Stores",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Grocery Stores",
-          "confidence": 80,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Discount & Variety Stores",
-          "confidence": 75,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Processed & Packaged Goods",
-          "confidence": 50,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Food Wholesale",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Consumer Services",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "KR",
-          "name": "Kroger",
-          "type": "stock",
-          "confidence": 80,
-          "direction": "up",
-          "rationale": "Mapped from Grocery Stores (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "WMT",
-          "name": "Walmart",
-          "type": "stock",
-          "confidence": 80,
-          "direction": "up",
-          "rationale": "Mapped from Grocery Stores (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "8a46cb2aa298",
     "24467790e41d",
     "8cdc36303870",
     "68573ab48cc1",
@@ -7001,6 +6967,7 @@
     "5fcdc6d02151",
     "ff6fe81fbd38",
     "6fd2bdcf5ffb",
-    "de2357ec61bc"
+    "de2357ec61bc",
+    "f2599e1c910d"
   ]
 }
