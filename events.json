@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T18:34:45Z",
+  "updated": "2026-08-18T19:26:17Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,77 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "4db3d2f4d0fd",
+      "time": "2026-08-18T19:17:00Z",
+      "source": "MarketWatch",
+      "headline": "Mortgage rates could move even higher — dealing a fresh blow to home buyers",
+      "url": "https://www.marketwatch.com/story/mortgage-rates-could-move-even-higher-dealing-a-fresh-blow-to-home-buyers-ad8d0f3d?mod=mw_rss_topstories",
+      "summary": "Mortgage rates are predicted to increase further, which is expected to negatively impact individuals seeking to purchase homes. This trend could lead to reduced demand in the housing market and affect related industries.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "REIT—Residential",
+          "confidence": 75,
+          "direction": "up"
+        },
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "Residential Construction",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Mortgage Investment",
+          "confidence": 65,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Real Estate Development",
+          "confidence": 60,
+          "direction": "up"
+        },
+        {
+          "sector": "Consumer Goods",
+          "sub_industry": "Home Furnishings & Fixtures",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Credit Services",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Utilities",
+          "sub_industry": "Diversified Utilities",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Utilities",
+          "sub_industry": "Electric Utilities",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Utilities",
+          "sub_industry": "Gas Utilities",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Utilities",
+          "sub_industry": "Water Utilities",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": []
+    },
     {
       "id": "f2599e1c910d",
       "time": "2026-08-18T17:32:18Z",
@@ -5890,86 +5961,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "e2897d6ffdc6",
-      "time": "2026-08-17T04:02:00Z",
-      "source": "Yahoo Finance",
-      "headline": "The ETF Searching for Alpha Without the Male",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/etf-searching-alpha-without-male-040200036.html",
-      "summary": "This headline refers to an Exchange Traded Fund (ETF) that is seeking investment alpha, implying a strategy to outperform market benchmarks. The \"without the male\" phrasing suggests a focus on strategies or investments that may be less correlated with traditional male-dominated sectors or investment styles, potentially hinting at ESG or gender-focused investment themes.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Investment Brokerage—Regional",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Diversified Investments",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Social Media & Platforms",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 85,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 85,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "META",
-          "name": "Meta Platforms",
-          "type": "stock",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Social Media & Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "SNAP",
-          "name": "Snap Inc.",
-          "type": "stock",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Social Media & Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "24467790e41d",
     "8cdc36303870",
     "68573ab48cc1",
     "a77715e89b5b",
@@ -6968,6 +6962,7 @@
     "ff6fe81fbd38",
     "6fd2bdcf5ffb",
     "de2357ec61bc",
-    "f2599e1c910d"
+    "f2599e1c910d",
+    "4db3d2f4d0fd"
   ]
 }
