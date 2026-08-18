@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T19:26:17Z",
+  "updated": "2026-08-18T19:50:20Z",
   "sources": [
     "Reuters",
     "AP",
@@ -74,6 +74,41 @@
         {
           "sector": "Utilities",
           "sub_industry": "Water Utilities",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": []
+    },
+    {
+      "id": "434949f70953",
+      "time": "2026-08-18T18:44:00Z",
+      "source": "MarketWatch",
+      "headline": "Soon you can buy Medicare Advantage plans at Costco. What you need to know.",
+      "url": "https://www.marketwatch.com/story/soon-you-can-buy-medicare-advantage-plans-at-costco-what-you-need-to-know-34e03242?mod=mw_rss_topstories",
+      "summary": "Costco is reportedly planning to offer Medicare Advantage plans, potentially expanding access to health insurance options for its members. This move could significantly impact the health insurance market and how consumers access these plans.",
+      "industries": [
+        {
+          "sector": "Health Care",
+          "sub_industry": "Health Care Plans",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Specialty Retail",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Drugstores",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Consumer Services",
           "confidence": 25,
           "direction": "up"
         }
@@ -5887,84 +5922,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "4b0d85e7d7a2",
-      "time": "2026-08-17T04:03:00Z",
-      "source": "Yahoo Finance",
-      "headline": "Leveraged ETF Craze Turns Its Sights to Other Funds",
-      "url": "https://finance.yahoo.com/markets/options/articles/leveraged-etf-craze-turns-sights-040300408.html",
-      "summary": "The popularity of leveraged Exchange Traded Funds (ETFs) is expanding to include other types of investment funds. This trend suggests increased speculative activity and potentially higher volatility in the affected markets.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Diversified Investments",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Investment Brokerage—Regional",
-          "confidence": 60,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Closed-End Fund—Debt",
-          "confidence": 50,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Closed-End Fund—Equity",
-          "confidence": 50,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Closed-End Fund—Foreign",
-          "confidence": 50,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Cryptocurrency & Digital Assets",
-          "confidence": 30,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 85,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 85,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "8cdc36303870",
     "68573ab48cc1",
     "a77715e89b5b",
     "b45202d708c4",
@@ -6963,6 +6923,7 @@
     "6fd2bdcf5ffb",
     "de2357ec61bc",
     "f2599e1c910d",
-    "4db3d2f4d0fd"
+    "4db3d2f4d0fd",
+    "434949f70953"
   ]
 }
