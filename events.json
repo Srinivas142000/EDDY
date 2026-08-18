@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T20:20:58Z",
+  "updated": "2026-08-18T20:50:25Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,138 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "a1e3404e6de0",
+      "time": "2026-08-18T20:46:00Z",
+      "source": "MarketWatch",
+      "headline": "Hidden Valley Ranch dressing may be a victim of this summer’s salad scare",
+      "url": "https://www.marketwatch.com/story/hidden-valley-ranch-dressing-may-be-a-victim-of-this-summers-salad-scare-f8537cd5?mod=mw_rss_topstories",
+      "summary": "A potential contamination scare involving Hidden Valley Ranch dressing could impact the food industry. This event may lead to decreased consumer demand for the product and related food items.",
+      "industries": [
+        {
+          "sector": "Consumer Goods",
+          "sub_industry": "Processed & Packaged Goods",
+          "confidence": 85,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Food Wholesale",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Grocery Stores",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Restaurants",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "KR",
+          "name": "Kroger",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Grocery Stores (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "WMT",
+          "name": "Walmart",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Grocery Stores (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "MCD",
+          "name": "McDonald's",
+          "type": "stock",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Restaurants (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "CMG",
+          "name": "Chipotle Mexican Grill",
+          "type": "stock",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Restaurants (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
+      "id": "6ee131451069",
+      "time": "2026-08-18T20:44:00Z",
+      "source": "MarketWatch",
+      "headline": "After an Alzheimer’s diagnosis it’s not to late to get your finances in order",
+      "url": "https://www.marketwatch.com/story/getting-diagnosed-with-dementia-isnt-the-end-its-a-time-to-take-financial-action-f52769b6?mod=mw_rss_topstories",
+      "summary": "An Alzheimer's diagnosis can be a catalyst for individuals to organize their financial affairs. This highlights the importance of financial planning and management services for those facing cognitive decline.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 45,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Specialized Health Services",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Health Care Plans",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Life Insurance",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 45,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 45,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "942cdfd8347a",
       "time": "2026-08-18T20:07:00Z",
@@ -5620,297 +5752,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "7353d54c2a63",
-      "time": "2026-08-17T09:22:00Z",
-      "source": "MarketWatch",
-      "headline": "Investor dubbed ‘AI stock god’ had 56% of his funds in these two stocks before it blew up",
-      "url": "https://www.marketwatch.com/story/investor-dubbed-ai-stock-god-had-56-of-his-funds-in-these-two-stocks-before-it-blew-up-07472f46?mod=mw_rss_topstories",
-      "summary": "An investor, referred to as the 'AI stock god,' had a significant portion of his portfolio, 56%, concentrated in just two stocks. This concentration proved detrimental when the value of these holdings declined sharply.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "AI & Machine Learning Infrastructure",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Semiconductor—Integrated Circuits",
-          "confidence": 50,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Application Software",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Internet Software & Services",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Information Technology Services",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Diversified Investments",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 85,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 85,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "NVDA",
-          "name": "Nvidia",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "AMD",
-          "name": "Advanced Micro Devices",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BOTZ",
-          "name": "Global X Robotics & AI ETF",
-          "type": "etf",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "SOXX",
-          "name": "iShares Semiconductor ETF",
-          "type": "etf",
-          "confidence": 50,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "MSFT",
-          "name": "Microsoft",
-          "type": "stock",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "CRM",
-          "name": "Salesforce",
-          "type": "stock",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "IGV",
-          "name": "iShares Expanded Tech-Software ETF",
-          "type": "etf",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GOOGL",
-          "name": "Alphabet",
-          "type": "stock",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Internet Software & Services (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "META",
-          "name": "Meta Platforms",
-          "type": "stock",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Internet Software & Services (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
-    },
-    {
-      "id": "ada7d021a6bc",
-      "time": "2026-08-17T09:19:03Z",
-      "source": "Yahoo Finance",
-      "headline": "Brookfield, La Caisse close $6.5bn Boralex acquisition",
-      "url": "https://finance.yahoo.com/energy/articles/brookfield-la-caisse-close-6-091903622.html",
-      "summary": "Brookfield and La Caisse have finalized a $6.5 billion acquisition of Boralex. This transaction involves a significant investment in renewable energy assets.",
-      "industries": [
-        {
-          "sector": "Utilities",
-          "sub_industry": "Diversified Utilities",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Utilities",
-          "sub_industry": "Electric Utilities",
-          "confidence": 80,
-          "direction": "up"
-        },
-        {
-          "sector": "Utilities",
-          "sub_industry": "Foreign Utilities",
-          "confidence": 75,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Diversified Investments",
-          "confidence": 65,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Electric Vehicles & Battery Technology",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Independent Oil & Gas",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Oil & Gas Pipelines",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Oil & Gas Refining & Marketing",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Industrial Metals & Minerals",
-          "confidence": 20,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "TSLA",
-          "name": "Tesla",
-          "type": "stock",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "LIT",
-          "name": "Global X Lithium & Battery Tech ETF",
-          "type": "etf",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "DRIV",
-          "name": "Global X Autonomous & EV ETF",
-          "type": "etf",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "a77715e89b5b",
-    "b45202d708c4",
     "bd2e7592718d",
     "db830e48dbed",
     "f27b756c4f77",
@@ -6908,6 +6752,8 @@
     "f2599e1c910d",
     "4db3d2f4d0fd",
     "434949f70953",
-    "942cdfd8347a"
+    "942cdfd8347a",
+    "a1e3404e6de0",
+    "6ee131451069"
   ]
 }
