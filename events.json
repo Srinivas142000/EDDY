@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T21:48:30Z",
+  "updated": "2026-08-18T22:21:08Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,88 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "6a5cb49d9d21",
+      "time": "2026-08-18T21:59:00Z",
+      "source": "MarketWatch",
+      "headline": "Meta is facing its ‘Big Tobacco’ moment — and investors can profit",
+      "url": "https://www.marketwatch.com/story/meta-is-facing-its-big-tobacco-moment-and-investors-can-profit-e0f27b2d?mod=mw_rss_topstories",
+      "summary": "Meta Platforms is reportedly facing a \"Big Tobacco\" moment, suggesting a potential inflection point regarding regulatory scrutiny or public health concerns similar to those faced by the tobacco industry. This situation could present profit opportunities for investors.",
+      "industries": [
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Social Media & Platforms",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Advertising Agencies",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Internet Information Providers",
+          "confidence": 65,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Information Technology Services",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 30,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "META",
+          "name": "Meta Platforms",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Social Media & Platforms (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "SNAP",
+          "name": "Snap Inc.",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Social Media & Platforms (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "a9a5eee0206f",
       "time": "2026-08-18T21:08:00Z",
@@ -5706,45 +5788,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "d69190b1ceb5",
-      "time": "2026-08-17T10:00:00Z",
-      "source": "Yahoo Finance",
-      "headline": "HELOC and home equity loan rates today, Monday, August 17, 2026: A 19-basis-point differential",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/heloc-and-home-equity-loan-rates-today-monday-august-17-2026-a-19-basis-point-differential-100000113.html",
-      "summary": "The headline indicates a 19-basis-point differential in Home Equity Line of Credit (HELOC) and home equity loan rates on August 17, 2026. This suggests a specific market condition or pricing strategy within the mortgage and lending sector.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Credit Services",
-          "confidence": 75,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Mortgage Investment",
-          "confidence": 60,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "REIT—Residential",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Residential Construction",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": []
     }
   ],
   "seen": [
-    "67da61f8c08c",
     "39aed8132c07",
     "99d5c7181b3e",
     "491a541346b2",
@@ -6743,6 +6789,7 @@
     "6ee131451069",
     "a9a5eee0206f",
     "7644b0abc81c",
-    "b38f60a099ad"
+    "b38f60a099ad",
+    "6a5cb49d9d21"
   ]
 }
