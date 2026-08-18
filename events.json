@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T11:52:54Z",
+  "updated": "2026-08-18T12:43:46Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,35 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "31de3f034cbc",
+      "time": "2026-08-18T12:32:00Z",
+      "source": "MarketWatch",
+      "headline": "Home Depot revenue rises even as customers turn away from bigger projects",
+      "url": "https://www.marketwatch.com/story/home-depot-revenue-rises-even-as-customers-turn-away-from-bigger-projects-0798f7fd?mod=mw_rss_topstories",
+      "summary": "Home Depot reported increased revenue despite a decrease in customer engagement with larger home improvement projects. This suggests a shift in consumer spending towards smaller, more frequent purchases or potentially higher prices on goods.",
+      "industries": [
+        {
+          "sector": "Services",
+          "sub_industry": "Home Improvement Stores",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "General Building Materials",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Building Materials Wholesale",
+          "confidence": 30,
+          "direction": "up"
+        }
+      ],
+      "tickers": []
+    },
     {
       "id": "2b45ebc8f35a",
       "time": "2026-08-18T11:39:46Z",
@@ -5800,150 +5829,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "f2598dfa3e88",
-      "time": "2026-08-17T01:00:02Z",
-      "source": "Yahoo Finance",
-      "headline": "After Being Left for Dead, These High-Yield Stocks Look to Rally Again. Here's How to Play It.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/being-left-dead-high-yield-010002559.html",
-      "summary": "The article suggests a potential rebound for high-yield stocks, indicating a shift in market sentiment towards riskier assets. It provides guidance on how investors can capitalize on this anticipated rally.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Credit Services",
-          "confidence": 65,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Diversified Investments",
-          "confidence": 60,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Investment Brokerage—Regional",
-          "confidence": 55,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Money Center Banks",
-          "confidence": 45,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Regional Banks",
-          "confidence": 45,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Closed-End Fund—Debt",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Closed-End Fund—Equity",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Mortgage Investment",
-          "confidence": 35,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Real Estate Development",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "REIT—Diversified",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "REIT—Residential",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "REIT—Retail",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "JPM",
-          "name": "JPMorgan Chase",
-          "type": "stock",
-          "confidence": 45,
-          "direction": "up",
-          "rationale": "Mapped from Money Center Banks (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BAC",
-          "name": "Bank of America",
-          "type": "stock",
-          "confidence": 45,
-          "direction": "up",
-          "rationale": "Mapped from Money Center Banks (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "KBE",
-          "name": "SPDR Bank ETF",
-          "type": "etf",
-          "confidence": 45,
-          "direction": "up",
-          "rationale": "Mapped from Money Center Banks (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "3d6d4db65aac",
     "4818247b3e26",
     "0b13fff80624",
     "74eb415d5759",
@@ -6942,6 +6830,7 @@
     "988c7e78a720",
     "3b141c0a55ce",
     "bf97cf4b6c28",
-    "2b45ebc8f35a"
+    "2b45ebc8f35a",
+    "31de3f034cbc"
   ]
 }
