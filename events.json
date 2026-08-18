@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T22:21:08Z",
+  "updated": "2026-08-18T22:51:36Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,41 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "09e9f1993b7e",
+      "time": "2026-08-18T22:45:00Z",
+      "source": "MarketWatch",
+      "headline": "‘This is very stressful’: My son’s roof was damaged in a storm, but his insurance won’t pay. Can he fight this?",
+      "url": "https://www.marketwatch.com/story/this-is-very-stressful-my-sons-insurance-company-wont-pay-for-his-damaged-roof-how-can-he-fight-this-22f3a821?mod=mw_rss_topstories",
+      "summary": "A homeowner's son is facing difficulties getting his insurance company to cover roof damage sustained during a storm. The situation raises questions about the claims process and potential avenues for dispute resolution.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Property & Casualty Insurance",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "Residential Construction",
+          "confidence": 45,
+          "direction": "up"
+        },
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "General Building Materials",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Consumer Services",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": []
+    },
     {
       "id": "6a5cb49d9d21",
       "time": "2026-08-18T21:59:00Z",
@@ -5678,120 +5713,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "b7279c6f3a5b",
-      "time": "2026-08-17T11:18:54Z",
-      "source": "Yahoo Finance",
-      "headline": "Trump-linked crypto venture gets preliminary nod for bank charter",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/trump-linked-crypto-venture-gets-111854165.html",
-      "summary": "A cryptocurrency venture with ties to former President Trump has received preliminary approval for a bank charter. This development could integrate digital assets more formally into the traditional financial system.",
-      "industries": [
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Cryptocurrency & Digital Assets",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Money Center Banks",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Regional Banks",
-          "confidence": 65,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 50,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Diversified Investments",
-          "confidence": 45,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Credit Services",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Information Technology Services",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Business Software & Services",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "JPM",
-          "name": "JPMorgan Chase",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Money Center Banks (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BAC",
-          "name": "Bank of America",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Money Center Banks (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "KBE",
-          "name": "SPDR Bank ETF",
-          "type": "etf",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Money Center Banks (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 50,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 50,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "39aed8132c07",
     "99d5c7181b3e",
     "491a541346b2",
     "e79603680d4c",
@@ -6790,6 +6714,7 @@
     "a9a5eee0206f",
     "7644b0abc81c",
     "b38f60a099ad",
-    "6a5cb49d9d21"
+    "6a5cb49d9d21",
+    "09e9f1993b7e"
   ]
 }
