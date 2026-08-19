@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19T21:25:07Z",
+  "updated": "2026-08-19T21:51:45Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,68 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "e8026d222bf9",
+      "time": "2026-08-19T21:44:00Z",
+      "source": "MarketWatch",
+      "headline": "Test driving that drone or just renting? Why the Chinese government needs to know.",
+      "url": "https://www.marketwatch.com/story/test-driving-that-drone-or-just-renting-why-the-chinese-government-needs-to-know-07ca4d1b?mod=mw_rss_topstories",
+      "summary": "The Chinese government is seeking to understand the distinction between drone ownership and rental for regulatory purposes. This initiative aims to clarify usage and potentially implement new oversight mechanisms for drone operations within the country.",
+      "industries": [
+        {
+          "sector": "Services",
+          "sub_industry": "Rental & Leasing Services",
+          "confidence": 50,
+          "direction": "up"
+        },
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "Aerospace/Defense Products & Services",
+          "confidence": 45,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Space & Satellite Technology",
+          "confidence": 35,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Consumer Services",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Information Technology Services",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "NOC",
+          "name": "Northrop Grumman",
+          "type": "stock",
+          "confidence": 45,
+          "direction": "up",
+          "rationale": "Mapped from Aerospace/Defense Products & Services (Industrial Goods).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "ITA",
+          "name": "iShares US Aerospace & Defense ETF",
+          "type": "etf",
+          "confidence": 45,
+          "direction": "up",
+          "rationale": "Mapped from Aerospace/Defense Products & Services (Industrial Goods).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "29c9dcd64259",
       "time": "2026-08-19T21:00:00Z",
@@ -8171,86 +8233,9 @@
         }
       ],
       "tickers": []
-    },
-    {
-      "id": "3b141c0a55ce",
-      "time": "2026-08-18T11:12:52Z",
-      "source": "Yahoo Finance",
-      "headline": "AuKing Mining signs agreement to acquire Green Exploration",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/auking-mining-signs-agreement-acquire-111252791.html",
-      "summary": "AuKing Mining has entered into an agreement to acquire Green Exploration. This strategic move is expected to expand AuKing Mining's operational footprint and resource base.",
-      "industries": [
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Copper",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Gold",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Industrial Metals & Minerals",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Oil & Gas Drilling & Exploration",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "GLD",
-          "name": "SPDR Gold Shares ETF",
-          "type": "etf",
-          "confidence": 85,
-          "direction": "up",
-          "rationale": "Mapped from Gold (Basic Materials).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "NEM",
-          "name": "Newmont Corporation",
-          "type": "stock",
-          "confidence": 85,
-          "direction": "up",
-          "rationale": "Mapped from Gold (Basic Materials).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "XOP",
-          "name": "SPDR S&P Oil & Gas E&P ETF",
-          "type": "etf",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Oil & Gas Drilling & Exploration (Basic Materials).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "USO",
-          "name": "US Oil Fund ETF",
-          "type": "etf",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Oil & Gas Drilling & Exploration (Basic Materials).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "12fbb72e5824",
     "3c345113c584",
     "5358604a0237",
     "608f5483568a",
@@ -9249,6 +9234,7 @@
     "895cd9d079a8",
     "46fb658ae247",
     "29c9dcd64259",
-    "dbf1fbf8d23c"
+    "dbf1fbf8d23c",
+    "e8026d222bf9"
   ]
 }
