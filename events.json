@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19T20:55:26Z",
+  "updated": "2026-08-19T21:25:07Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,35 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "29c9dcd64259",
+      "time": "2026-08-19T21:00:00Z",
+      "source": "MarketWatch",
+      "headline": "‘I brought my Super Bowl ring to the open houses’: Seahawks player shares story of getting his real-estate license",
+      "url": "https://www.marketwatch.com/story/i-brought-my-super-bowl-ring-to-the-open-houses-seahawks-player-shares-story-of-getting-his-real-estate-license-4372785a?mod=mw_rss_topstories",
+      "summary": "A Seattle Seahawks player has obtained a real estate license and is sharing his experience with open houses, using his Super Bowl ring as a conversation starter. This initiative highlights the intersection of sports celebrity and the real estate market.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Real Estate Development",
+          "confidence": 45,
+          "direction": "up"
+        },
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "Residential Construction",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Consumer Services",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": []
+    },
     {
       "id": "46fb658ae247",
       "time": "2026-08-19T20:36:00Z",
@@ -288,6 +317,118 @@
           "confidence": 20,
           "direction": "up",
           "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
+      "id": "dbf1fbf8d23c",
+      "time": "2026-08-19T20:20:00Z",
+      "source": "MarketWatch",
+      "headline": "Moderna’s experimental vaccine prevents cancer recurrence, in ‘historic’ win for personalized medicine. Its stock soared.",
+      "url": "https://www.marketwatch.com/story/modernas-stock-doubles-on-promising-cancer-vaccine-results-896b1f2c?mod=mw_rss_topstories",
+      "summary": "Moderna's experimental cancer vaccine has shown success in preventing recurrence, marking a significant advancement in personalized medicine. This development led to a substantial increase in the company's stock value.",
+      "industries": [
+        {
+          "sector": "Health Care",
+          "sub_industry": "Biotechnology",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Drug Manufacturers—Major",
+          "confidence": 80,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Specialized Health Services",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Medical Appliances & Equipment",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "AI & Machine Learning Infrastructure",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "LLY",
+          "name": "Eli Lilly",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Biotechnology (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "MRNA",
+          "name": "Moderna",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Biotechnology (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "XBI",
+          "name": "SPDR Biotech ETF",
+          "type": "etf",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Biotechnology (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "PFE",
+          "name": "Pfizer",
+          "type": "stock",
+          "confidence": 80,
+          "direction": "up",
+          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "NVDA",
+          "name": "Nvidia",
+          "type": "stock",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "AMD",
+          "name": "Advanced Micro Devices",
+          "type": "stock",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BOTZ",
+          "name": "Global X Robotics & AI ETF",
+          "type": "etf",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
           "hist_range_1d": null,
           "hist_range_5d": null
         }
@@ -8106,84 +8247,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "bf97cf4b6c28",
-      "time": "2026-08-18T11:08:17Z",
-      "source": "Yahoo Finance",
-      "headline": "MAI Capital buys Atlanta RIA Waypoint Wealth Counsel",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/mai-capital-buys-atlanta-ria-110817549.html",
-      "summary": "MAI Capital Management has acquired Waypoint Wealth Counsel, a registered investment advisor based in Atlanta. This acquisition expands MAI Capital's presence and client base in the wealth management sector.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Investment Brokerage—Regional",
-          "confidence": 50,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
-    },
-    {
-      "id": "1abc4661fd66",
-      "time": "2026-08-18T09:37:21Z",
-      "source": "Yahoo Finance",
-      "headline": "SIG names Ann-Kristin Erkens new CEO in swift leadership shift",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/sig-names-ann-kristin-erkens-093721646.html",
-      "summary": "SIG has appointed Ann-Kristin Erkens as its new CEO, marking a rapid change in leadership. This transition is expected to influence the company's strategic direction and operational focus.",
-      "industries": [
-        {
-          "sector": "Services",
-          "sub_industry": "Specialty Retail",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Business Services",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Management Services",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": []
     }
   ],
   "seen": [
-    "be3292100e52",
-    "616c75b5a78f",
     "12fbb72e5824",
     "3c345113c584",
     "5358604a0237",
@@ -9181,6 +9247,8 @@
     "4a34b9175143",
     "aa151f585331",
     "895cd9d079a8",
-    "46fb658ae247"
+    "46fb658ae247",
+    "29c9dcd64259",
+    "dbf1fbf8d23c"
   ]
 }
