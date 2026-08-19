@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19T01:06:53Z",
+  "updated": "2026-08-19T02:39:17Z",
   "sources": [
     "Reuters",
     "AP",
@@ -178,6 +178,44 @@
           "name": "Goldman Sachs",
           "type": "stock",
           "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
+      "id": "975b1cde3985",
+      "time": "2026-08-18T23:30:00Z",
+      "source": "MarketWatch",
+      "headline": "‘We are committed Christians’: Our son and daughter-in-law cut us out of their lives after a political argument. Should we change our $3 million will?",
+      "url": "https://www.marketwatch.com/story/we-are-hurt-our-son-and-daughter-in-law-cut-off-contact-with-us-over-politics-should-we-change-our-3-million-will-f763b761?mod=mw_rss_topstories",
+      "summary": "A couple is considering altering their $3 million will after their son and daughter-in-law cut them off following a political argument. This situation raises questions about estate planning and potential legal ramifications.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 30,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 30,
           "direction": "up",
           "rationale": "Mapped from Asset Management (Financial).",
           "hist_range_1d": null,
@@ -5309,60 +5347,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "db5da424628a",
-      "time": "2026-08-17T13:57:47Z",
-      "source": "Yahoo Finance",
-      "headline": "Bitcoin and ethereum prices today, Monday, August 17, 2026: Crypto prices down slightly as analysts question timing of bear market bottom",
-      "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-august-17-2026-crypto-prices-down-slightly-as-analysts-question-timing-of-bear-market-bottom-135747407.html",
-      "summary": "Bitcoin and Ethereum experienced a slight price decrease on Monday, August 17, 2026. Analysts are expressing uncertainty regarding the timing of the bear market's lowest point.",
-      "industries": [
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Cryptocurrency & Digital Assets",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Investment Brokerage—Regional",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "1cc1806a4f27",
     "38bebbf7a795",
     "26e85c6bb825",
     "e23494eb00b1",
@@ -6361,6 +6348,7 @@
     "3eb56359fcaa",
     "52ce2eefe80e",
     "fb2d7352ef0d",
-    "ac4614587f14"
+    "ac4614587f14",
+    "975b1cde3985"
   ]
 }
