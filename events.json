@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19T17:24:56Z",
+  "updated": "2026-08-19T17:51:23Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,164 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "0280c1c6864f",
+      "time": "2026-08-19T17:39:00Z",
+      "source": "MarketWatch",
+      "headline": "Apple’s stock could be the savviest buy within Big Tech, according to this analysis",
+      "url": "https://www.marketwatch.com/story/apples-stock-could-be-the-savviest-buy-within-big-tech-according-to-this-analysis-84d67c92?mod=mw_rss_topstories",
+      "summary": "An analysis suggests that Apple's stock presents a compelling investment opportunity within the broader Big Tech sector. This implies a positive outlook for the company's performance and market position.",
+      "industries": [
+        {
+          "sector": "Technology",
+          "sub_industry": "Diversified Electronics",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Application Software",
+          "confidence": 80,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Internet Software & Services",
+          "confidence": 75,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Semiconductor—Integrated Circuits",
+          "confidence": 65,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Cloud Infrastructure & Services",
+          "confidence": 50,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 30,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "MSFT",
+          "name": "Microsoft",
+          "type": "stock",
+          "confidence": 80,
+          "direction": "up",
+          "rationale": "Mapped from Application Software (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "CRM",
+          "name": "Salesforce",
+          "type": "stock",
+          "confidence": 80,
+          "direction": "up",
+          "rationale": "Mapped from Application Software (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "IGV",
+          "name": "iShares Expanded Tech-Software ETF",
+          "type": "etf",
+          "confidence": 80,
+          "direction": "up",
+          "rationale": "Mapped from Application Software (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GOOGL",
+          "name": "Alphabet",
+          "type": "stock",
+          "confidence": 75,
+          "direction": "up",
+          "rationale": "Mapped from Internet Software & Services (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "META",
+          "name": "Meta Platforms",
+          "type": "stock",
+          "confidence": 75,
+          "direction": "up",
+          "rationale": "Mapped from Internet Software & Services (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "NVDA",
+          "name": "Nvidia",
+          "type": "stock",
+          "confidence": 65,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "AMD",
+          "name": "Advanced Micro Devices",
+          "type": "stock",
+          "confidence": 65,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "SOXX",
+          "name": "iShares Semiconductor ETF",
+          "type": "etf",
+          "confidence": 65,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "AMZN",
+          "name": "Amazon (AWS)",
+          "type": "stock",
+          "confidence": 50,
+          "direction": "up",
+          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "409ec5936c3b",
       "time": "2026-08-19T16:19:02Z",
@@ -5866,60 +6024,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "e97f75f6dbcf",
-      "time": "2026-08-17T22:31:32Z",
-      "source": "CNBC",
-      "headline": "Lakers governor Jeanie Buss says siblings cannot sell family’s stake to Bob Iger, Joshua Kushner",
-      "url": "https://www.cnbc.com/2026/08/17/jeanie-buss-opposes-sale-family-stake.html",
-      "summary": "Jeanie Buss, governor of the Lakers, has stated that her siblings are unable to sell their ownership stake in the team to Bob Iger and Joshua Kushner. This decision impacts potential future ownership and investment in the basketball franchise.",
-      "industries": [
-        {
-          "sector": "Services",
-          "sub_industry": "Entertainment—Diversified",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Real Estate Development",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "bb8087b9cd69",
     "6be6f7d68195",
     "d59986d40562",
     "6ad1992f18d3",
@@ -6918,6 +7025,7 @@
     "50c01909b36e",
     "a1969aa102fc",
     "07f383a3c2f2",
-    "409ec5936c3b"
+    "409ec5936c3b",
+    "0280c1c6864f"
   ]
 }
