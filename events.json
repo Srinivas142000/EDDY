@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20T22:27:01Z",
+  "updated": "2026-08-20T22:56:13Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,98 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "a77c01dc4e6e",
+      "time": "2026-08-20T22:45:00Z",
+      "source": "MarketWatch",
+      "headline": "I hold my mother-in-law’s power of attorney. I’m also her executor and trustee. Do I have too much power over her affairs?",
+      "url": "https://www.marketwatch.com/story/im-my-mother-in-laws-power-of-attorney-executor-and-trustee-do-i-hold-all-the-power-a11968a2?mod=mw_rss_topstories",
+      "summary": "An individual is questioning the extent of their control over their mother-in-law's financial and legal affairs due to holding power of attorney, executorship, and trusteeship. This situation raises concerns about potential conflicts of interest and the appropriateness of concentrated authority.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Money Center Banks",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Regional Banks",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Life Insurance",
+          "confidence": 20,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Property & Casualty Insurance",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "JPM",
+          "name": "JPMorgan Chase",
+          "type": "stock",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BAC",
+          "name": "Bank of America",
+          "type": "stock",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "KBE",
+          "name": "SPDR Bank ETF",
+          "type": "etf",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "caa33c302358",
       "time": "2026-08-20T20:43:16Z",
@@ -14144,92 +14236,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "1395142e5799",
-      "time": "2026-08-19T10:37:55Z",
-      "source": "Yahoo Finance",
-      "headline": "Morning Bid: Bonds out, robots in",
-      "url": "https://finance.yahoo.com/markets/articles/morning-bid-bonds-robots-103755838.html",
-      "summary": "The headline suggests a shift in investor sentiment, moving away from traditional bond investments and towards technology-focused assets like robotics. This indicates a potential rotation in capital allocation within financial markets.",
-      "industries": [
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "AI & Machine Learning Infrastructure",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Diversified Investments",
-          "confidence": 45,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Semiconductor—Integrated Circuits",
-          "confidence": 35,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Processing Systems & Products",
-          "confidence": 35,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Industrial Equipment & Components",
-          "confidence": 30,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "NVDA",
-          "name": "Nvidia",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "AMD",
-          "name": "Advanced Micro Devices",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BOTZ",
-          "name": "Global X Robotics & AI ETF",
-          "type": "etf",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "SOXX",
-          "name": "iShares Semiconductor ETF",
-          "type": "etf",
-          "confidence": 35,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "9a6db6df9ec0",
     "567a349bef14",
     "8e1b4c38550d",
     "d993a6ff36d2",
@@ -15228,6 +15237,7 @@
     "caa33c302358",
     "4291003d277f",
     "33f6032c7d0e",
-    "6ba9c2737cd8"
+    "6ba9c2737cd8",
+    "a77c01dc4e6e"
   ]
 }
