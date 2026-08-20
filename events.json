@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20T11:57:09Z",
+  "updated": "2026-08-20T12:44:46Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,62 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "7d4593b51675",
+      "time": "2026-08-20T12:38:00Z",
+      "source": "MarketWatch",
+      "headline": "Want to bet on the bond rally? Check out these overlooked funds.",
+      "url": "https://www.marketwatch.com/story/want-to-bet-on-the-bond-rally-check-out-these-overlooked-funds-15e957a2?mod=mw_rss_topstories",
+      "summary": "The article suggests investors consider overlooked funds to capitalize on a bond market rally. This indicates a potential shift in investment strategies towards fixed income assets.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Closed-End Fund—Debt",
+          "confidence": 80,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Closed-End Fund—Equity",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Diversified Investments",
+          "confidence": 30,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "1b46e23f944e",
       "time": "2026-08-20T11:15:00Z",
@@ -10697,33 +10753,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "840226b6df0d",
-      "time": "2026-08-18T21:03:31Z",
-      "source": "Yahoo Finance",
-      "headline": "Amer Sports, Inc. Q2 2026 Earnings Call Summary",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/amer-sports-inc-q2-2026-210331388.html",
-      "summary": "Amer Sports, Inc. has announced its Q2 2026 earnings call summary. The company will be discussing its financial performance and future outlook for the second quarter of 2026.",
-      "industries": [
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Sporting Goods",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Apparel Stores",
-          "confidence": 40,
-          "direction": "up"
-        }
-      ],
-      "tickers": []
     }
   ],
   "seen": [
-    "d5755f5ba6af",
     "1727a8efb03c",
     "a45fb2a684ea",
     "efa24a917a79",
@@ -11722,6 +11754,7 @@
     "f71e9a421eb9",
     "84ec3f0c437b",
     "1b46e23f944e",
-    "c294e9082d7f"
+    "c294e9082d7f",
+    "7d4593b51675"
   ]
 }
