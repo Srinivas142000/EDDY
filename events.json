@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20T09:34:23Z",
+  "updated": "2026-08-20T10:28:55Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,76 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "84ec3f0c437b",
+      "time": "2026-08-20T10:19:00Z",
+      "source": "MarketWatch",
+      "headline": "Why Bessent’s Treasury operations have breathed life back into the gold trade",
+      "url": "https://www.marketwatch.com/story/why-bessents-treasury-operations-have-breathed-life-back-into-the-gold-trade-d0a8419e?mod=mw_rss_topstories",
+      "summary": "Treasury operations have reportedly revitalized the gold trade, suggesting increased demand or a shift in market dynamics favoring gold as an asset. This development indicates a renewed interest and activity within the precious metals market.",
+      "industries": [
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Gold",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Diversified Investments",
+          "confidence": 30,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "GLD",
+          "name": "SPDR Gold Shares ETF",
+          "type": "etf",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Gold (Basic Materials).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "NEM",
+          "name": "Newmont Corporation",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Gold (Basic Materials).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 40,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 40,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "1649347edffe",
       "time": "2026-08-20T09:15:00Z",
@@ -11950,45 +12020,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "1626a01786f1",
-      "time": "2026-08-18T21:01:51Z",
-      "source": "Yahoo Finance",
-      "headline": "The Home Depot, Inc. Q2 2027 Earnings Call Summary",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/home-depot-inc-q2-2027-210151509.html",
-      "summary": "The Home Depot, Inc. has released its Q2 2027 earnings call summary. This event provides insights into the company's financial performance and outlook.",
-      "industries": [
-        {
-          "sector": "Services",
-          "sub_industry": "Home Improvement Stores",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "General Building Materials",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Residential Construction",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "REIT—Retail",
-          "confidence": 20,
-          "direction": "up"
-        }
-      ],
-      "tickers": []
     }
   ],
   "seen": [
-    "b624a72e87c5",
     "d8bc002ec5de",
     "7ed4b50dec78",
     "d5755f5ba6af",
@@ -12987,6 +13021,7 @@
     "70bc4aeb1564",
     "6cd307f96c34",
     "1649347edffe",
-    "f71e9a421eb9"
+    "f71e9a421eb9",
+    "84ec3f0c437b"
   ]
 }
