@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20T05:30:15Z",
+  "updated": "2026-08-20T06:00:19Z",
   "sources": [
     "Reuters",
     "AP",
@@ -8550,44 +8550,93 @@
       "tickers": []
     },
     {
-      "id": "434949f70953",
-      "time": "2026-08-18T18:44:00Z",
-      "source": "MarketWatch",
-      "headline": "Soon you can buy Medicare Advantage plans at Costco. What you need to know.",
-      "url": "https://www.marketwatch.com/story/soon-you-can-buy-medicare-advantage-plans-at-costco-what-you-need-to-know-34e03242?mod=mw_rss_topstories",
-      "summary": "Costco is reportedly planning to offer Medicare Advantage plans, potentially expanding access to health insurance options for its members. This move could significantly impact the health insurance market and how consumers access these plans.",
+      "id": "b69f6c78a553",
+      "time": "2026-08-18T18:56:39Z",
+      "source": "Yahoo Finance",
+      "headline": "Nvidia Holds More Than 122 Million Shares of SPCX Stock After Q2. Barchart Data Shows It’s Making a High-Upside Bet.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-holds-more-122-million-185639082.html",
+      "summary": "Nvidia disclosed a significant holding of SPCX stock, exceeding 122 million shares, indicating a substantial investment. This move suggests a strong positive outlook on SPCX's future performance, as reported by Barchart Data.",
       "industries": [
         {
-          "sector": "Health Care",
-          "sub_industry": "Health Care Plans",
-          "confidence": 95,
+          "sector": "Technology",
+          "sub_industry": "Semiconductor—Integrated Circuits",
+          "confidence": 85,
           "direction": "up"
         },
         {
-          "sector": "Services",
-          "sub_industry": "Specialty Retail",
-          "confidence": 70,
+          "sector": "Financial",
+          "sub_industry": "Diversified Investments",
+          "confidence": 40,
           "direction": "up"
         },
         {
-          "sector": "Services",
-          "sub_industry": "Drugstores",
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
           "confidence": 30,
           "direction": "up"
         },
         {
-          "sector": "Services",
-          "sub_industry": "Consumer Services",
+          "sector": "Financial",
+          "sub_industry": "Investment Brokerage—Regional",
           "confidence": 25,
           "direction": "up"
         }
       ],
-      "tickers": []
+      "tickers": [
+        {
+          "ticker": "NVDA",
+          "name": "Nvidia",
+          "type": "stock",
+          "confidence": 85,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "AMD",
+          "name": "Advanced Micro Devices",
+          "type": "stock",
+          "confidence": 85,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "SOXX",
+          "name": "iShares Semiconductor ETF",
+          "type": "etf",
+          "confidence": 85,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
     }
   ],
   "seen": [
-    "a0679a617cca",
-    "2e2b468807f4",
     "d0005c8c1591",
     "cf83b6b5e213",
     "7c6083e82700",
@@ -9585,6 +9634,8 @@
     "a7fca98ada95",
     "8ebb2d9e2571",
     "462fbd3acb5b",
-    "1c10cf44ab75"
+    "1c10cf44ab75",
+    "b69f6c78a553",
+    "8ac3a27c6556"
   ]
 }
