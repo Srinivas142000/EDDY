@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-21T04:37:02Z",
+  "updated": "2026-08-21T05:31:16Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9712,6 +9712,68 @@
       ]
     },
     {
+      "id": "90c014e28d46",
+      "time": "2026-08-19T19:34:53Z",
+      "source": "Yahoo Finance",
+      "headline": "Best dining credit cards (August 2026)",
+      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/dining-credit-cards-193453435.html",
+      "summary": "This headline indicates a review or ranking of credit cards that offer rewards or benefits specifically for dining expenditures, with a publication date in August 2026. It suggests a focus on consumer spending habits and financial product offerings.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Credit Services",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Restaurants",
+          "confidence": 45,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Specialty Eateries",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Food Wholesale",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Consumer Goods",
+          "sub_industry": "Food—Major Diversified",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "MCD",
+          "name": "McDonald's",
+          "type": "stock",
+          "confidence": 45,
+          "direction": "up",
+          "rationale": "Mapped from Restaurants (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "CMG",
+          "name": "Chipotle Mexican Grill",
+          "type": "stock",
+          "confidence": 45,
+          "direction": "up",
+          "rationale": "Mapped from Restaurants (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
       "id": "aa151f585331",
       "time": "2026-08-19T19:34:00Z",
       "source": "MarketWatch",
@@ -12724,54 +12786,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "07f383a3c2f2",
-      "time": "2026-08-19T15:50:53Z",
-      "source": "Yahoo Finance",
-      "headline": "Indexed universal life insurance (IUL): Risks, costs, and how it works",
-      "url": "https://finance.yahoo.com/personal-finance/insurance/article/indexed-universal-life-155053064.html",
-      "summary": "Indexed Universal Life (IUL) insurance is a type of permanent life insurance that offers a death benefit and a cash value component tied to a market index. The policy's performance is influenced by market fluctuations, presenting both potential growth and risks to policyholders.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Life Insurance",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 40,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "55b5a612a11c",
     "fba504250ace",
     "cfd44bef48c4",
     "779e09d06aad",
@@ -13770,6 +13787,7 @@
     "c32dd1cbf1ce",
     "095d3b43457c",
     "d89256626b2c",
-    "bad9b8ddb11a"
+    "bad9b8ddb11a",
+    "90c014e28d46"
   ]
 }
