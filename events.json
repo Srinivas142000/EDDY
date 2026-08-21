@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-21T14:34:29Z",
+  "updated": "2026-08-21T15:31:14Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,107 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "dd25d3993c0a",
+      "time": "2026-08-21T15:19:44Z",
+      "source": "Yahoo Finance",
+      "headline": "Perenti to sell mining equipment business to Beetle for $71m",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/perenti-sell-mining-equipment-business-151944300.html",
+      "summary": "Perenti is divesting its mining equipment business to Beetle for $71 million. This transaction involves the sale of a specific operational segment within the mining services sector.",
+      "industries": [
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Oil & Gas Equipment & Services",
+          "confidence": 45,
+          "direction": "up"
+        },
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "Industrial Equipment & Components",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Business Services",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": []
+    },
+    {
+      "id": "839cdc978538",
+      "time": "2026-08-21T15:13:03Z",
+      "source": "Yahoo Finance",
+      "headline": "Amigo Resources, STAMICO sign MoU for graphite project in Tanzania",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/amigo-resources-stamico-sign-mou-151303557.html",
+      "summary": "Amigo Resources and STAMICO have signed a Memorandum of Understanding to develop a graphite project in Tanzania. This collaboration aims to explore and potentially extract graphite resources in the region.",
+      "industries": [
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Industrial Metals & Minerals",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Electric Vehicles & Battery Technology",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "Industrial Equipment & Components",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Basic Materials Wholesale",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Oil & Gas Equipment & Services",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "TSLA",
+          "name": "Tesla",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "LIT",
+          "name": "Global X Lithium & Battery Tech ETF",
+          "type": "etf",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "DRIV",
+          "name": "Global X Autonomous & EV ETF",
+          "type": "etf",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "1ce736cc5f15",
       "time": "2026-08-21T14:22:18Z",
@@ -11057,121 +11158,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "0de41fb94886",
-      "time": "2026-08-19T21:01:29Z",
-      "source": "Yahoo Finance",
-      "headline": "Marti Technologies, Inc. Q2 2026 Earnings Call Summary",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/marti-technologies-inc-q2-2026-210129747.html",
-      "summary": "Marti Technologies, Inc. has released its Q2 2026 earnings call summary. The company operates in the ride-sharing and mobility services sector.",
-      "industries": [
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Gig Economy & Marketplace Platforms",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Consumer Services",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Information Technology Services",
-          "confidence": 40,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "UBER",
-          "name": "Uber",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "LYFT",
-          "name": "Lyft",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "ABNB",
-          "name": "Airbnb",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
-    },
-    {
-      "id": "5272728819d9",
-      "time": "2026-08-19T21:00:04Z",
-      "source": "Yahoo Finance",
-      "headline": "ETF League Tables: Vanguard Gains $2.7B",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/etf-league-tables-vanguard-gains-210004841.html",
-      "summary": "Vanguard has seen a significant inflow of $2.7 billion, as indicated by ETF League Tables. This substantial asset growth suggests increased investor confidence and participation in the exchange-traded fund market.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Diversified Investments",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Investment Brokerage—Regional",
-          "confidence": 30,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "67ff15aebf1c",
-    "7c53fa96f223",
     "3b6931f40b71",
     "2ca63ece19f9",
     "49a375237612",
@@ -12169,6 +12158,8 @@
     "f139edf025c7",
     "1ce736cc5f15",
     "1ec3e34ae36a",
-    "9388dfaf3173"
+    "9388dfaf3173",
+    "dd25d3993c0a",
+    "839cdc978538"
   ]
 }
