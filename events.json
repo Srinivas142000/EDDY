@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-22T01:04:47Z",
+  "updated": "2026-08-22T02:35:12Z",
   "sources": [
     "Reuters",
     "AP",
@@ -2632,6 +2632,72 @@
           "confidence": 20,
           "direction": "up",
           "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
+      "id": "85e885b63ef4",
+      "time": "2026-08-21T17:38:21Z",
+      "source": "CNBC",
+      "headline": "Stocks making the biggest moves midday: Moderna, Robinhood, BJ's Wholesale, Coinbase & more",
+      "url": "https://www.cnbc.com/2026/08/21/stocks-making-the-biggest-moves-midday-mrna-hood-bj-coin.html",
+      "summary": "Several companies experienced significant stock price movements midday, including Moderna, Robinhood, BJ's Wholesale, and Coinbase. These fluctuations indicate notable investor activity and market reactions to company-specific or broader economic factors.",
+      "industries": [
+        {
+          "sector": "Health Care",
+          "sub_industry": "Biotechnology",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Cryptocurrency & Digital Assets",
+          "confidence": 80,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Credit Services",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Discount & Variety Stores",
+          "confidence": 70,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "LLY",
+          "name": "Eli Lilly",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Biotechnology (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "MRNA",
+          "name": "Moderna",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Biotechnology (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "XBI",
+          "name": "SPDR Biotech ETF",
+          "type": "etf",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Biotechnology (Health Care).",
           "hist_range_1d": null,
           "hist_range_5d": null
         }
@@ -11551,138 +11617,9 @@
         }
       ],
       "tickers": []
-    },
-    {
-      "id": "a7fca98ada95",
-      "time": "2026-08-20T02:39:14Z",
-      "source": "CNBC",
-      "headline": "China is defying the global bond yield surge, boosting its diversification appeal",
-      "url": "https://www.cnbc.com/2026/08/20/china-defies-global-bond-yield-surge-safe-haven.html",
-      "summary": "China's bond market is showing resilience against the global trend of rising yields, which could enhance its attractiveness for investors seeking diversification. This divergence may influence global capital flows and investment strategies.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 45,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Diversified Investments",
-          "confidence": 35,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Foreign Money Center Banks",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Foreign Regional Banks",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Investment Brokerage—Regional",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Money Center Banks",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Regional Banks",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Credit Services",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Utilities",
-          "sub_industry": "Foreign Utilities",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Foreign Regional Banks",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Telecom Services—Foreign",
-          "confidence": 20,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 45,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 45,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "JPM",
-          "name": "JPMorgan Chase",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Money Center Banks (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BAC",
-          "name": "Bank of America",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Money Center Banks (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "KBE",
-          "name": "SPDR Bank ETF",
-          "type": "etf",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Money Center Banks (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "014d626df665",
     "394fa76018bb",
     "9d0abca05888",
     "e74c1c7204a2",
@@ -12681,6 +12618,7 @@
     "f2606f143912",
     "22d809fe89aa",
     "a1c6f57c33b5",
-    "9f8045d1d94f"
+    "9f8045d1d94f",
+    "85e885b63ef4"
   ]
 }
