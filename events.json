@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-22T11:48:10Z",
+  "updated": "2026-08-22T12:35:30Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,92 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "2812a449874e",
+      "time": "2026-08-22T12:30:00Z",
+      "source": "MarketWatch",
+      "headline": "Move over, credit cards: Social-media stars are tapping magic wands to buy things",
+      "url": "https://www.marketwatch.com/story/move-over-credit-cards-social-media-stars-are-tapping-magic-wands-to-buy-things-62e475d4?mod=mw_rss_topstories",
+      "summary": "Social media influencers are increasingly using alternative payment methods, potentially shifting away from traditional credit cards. This trend suggests a growing adoption of new digital payment solutions.",
+      "industries": [
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Social Media & Platforms",
+          "confidence": 75,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Credit Services",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Cryptocurrency & Digital Assets",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Gig Economy & Marketplace Platforms",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "META",
+          "name": "Meta Platforms",
+          "type": "stock",
+          "confidence": 75,
+          "direction": "up",
+          "rationale": "Mapped from Social Media & Platforms (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "SNAP",
+          "name": "Snap Inc.",
+          "type": "stock",
+          "confidence": 75,
+          "direction": "up",
+          "rationale": "Mapped from Social Media & Platforms (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "UBER",
+          "name": "Uber",
+          "type": "stock",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "LYFT",
+          "name": "Lyft",
+          "type": "stock",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "ABNB",
+          "name": "Airbnb",
+          "type": "stock",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "ff4b6d0b7cb2",
       "time": "2026-08-22T11:00:00Z",
@@ -9603,66 +9689,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "e44a563d2087",
-      "time": "2026-08-21T01:47:00Z",
-      "source": "Yahoo Finance",
-      "headline": "From euphoria to despair, Korea reckons with stock mania's emotional toll",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/euphoria-despair-korea-reckons-stock-014700635.html",
-      "summary": "South Korea is experiencing a period of intense stock market activity, characterized by widespread investor enthusiasm that is now giving way to significant emotional distress. This \"stock mania\" has led to a reckoning with the psychological impact of rapid market fluctuations.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 45,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Investment Brokerage—Regional",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Diversified Investments",
-          "confidence": 35,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Cryptocurrency & Digital Assets",
-          "confidence": 20,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 45,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 45,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "c6c535ba329a",
     "6ff6e66f21b2",
     "645c5397d854",
     "21327b21739e",
@@ -10661,6 +10690,7 @@
     "177e4a7de8ef",
     "69e8bca54710",
     "ff4b6d0b7cb2",
-    "3203d3aa68de"
+    "3203d3aa68de",
+    "2812a449874e"
   ]
 }
