@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-22T16:22:37Z",
+  "updated": "2026-08-22T16:51:58Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,104 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "6de34247a744",
+      "time": "2026-08-22T16:35:00Z",
+      "source": "Yahoo Finance",
+      "headline": "JPMorgan Chase CEO Jamie Dimon Dropped a 9-Word Warning: \"Margin Debt Is the Highest It Has Ever Been.\" Should Investors Be Worried?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-chase-ceo-jamie-dimon-163500450.html",
+      "summary": "JPMorgan Chase CEO Jamie Dimon has issued a warning that margin debt has reached its highest point ever. This situation raises concerns for investors about potential market instability.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Credit Services",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Investment Brokerage—Regional",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Money Center Banks",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 65,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Diversified Investments",
+          "confidence": 65,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Consumer Services",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "JPM",
+          "name": "JPMorgan Chase",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BAC",
+          "name": "Bank of America",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "KBE",
+          "name": "SPDR Bank ETF",
+          "type": "etf",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 65,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 65,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "eef7bb0cc408",
       "time": "2026-08-22T15:07:00Z",
@@ -9255,45 +9353,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "e0b26af40d49",
-      "time": "2026-08-21T03:11:08Z",
-      "source": "Yahoo Finance",
-      "headline": "Why Advance Auto Parts Stock Crashed Today",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-advance-auto-parts-stock-031108870.html",
-      "summary": "Advance Auto Parts stock experienced a significant decline today, indicating a negative market reaction to recent company performance or news. This event directly impacts the automotive aftermarket retail sector.",
-      "industries": [
-        {
-          "sector": "Services",
-          "sub_industry": "Auto Parts Stores",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Auto Parts Wholesale",
-          "confidence": 60,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Specialty Retail",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Consumer Services",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": []
     }
   ],
   "seen": [
-    "3a5298144430",
     "1c07ca279777",
     "9003d9f92d3a",
     "309590e5d3e7",
@@ -10292,6 +10354,7 @@
     "83320f8cb4dd",
     "eef7bb0cc408",
     "9468d720c343",
-    "36677ed3f0b5"
+    "36677ed3f0b5",
+    "6de34247a744"
   ]
 }
