@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-22T07:59:15Z",
+  "updated": "2026-08-22T08:31:15Z",
   "sources": [
     "Reuters",
     "AP",
@@ -5639,6 +5639,62 @@
       "tickers": []
     },
     {
+      "id": "6a75191205ed",
+      "time": "2026-08-21T07:59:11Z",
+      "source": "Yahoo Finance",
+      "headline": "Are Wall Street Analysts Predicting DTE Energy Stock Will Climb or Sink?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-predicting-dte-075911349.html",
+      "summary": "This headline indicates a focus on the stock performance prediction for DTE Energy by Wall Street analysts. The outcome of these predictions will influence investor sentiment and trading activity for the company.",
+      "industries": [
+        {
+          "sector": "Utilities",
+          "sub_industry": "Electric Utilities",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Utilities",
+          "sub_industry": "Diversified Utilities",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Investment Brokerage—Regional",
+          "confidence": 30,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
       "id": "e5fd490ba61b",
       "time": "2026-08-21T07:18:33Z",
       "source": "CNBC",
@@ -7719,118 +7775,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "a63d37f35ec9",
-      "time": "2026-08-21T00:05:16Z",
-      "source": "Yahoo Finance",
-      "headline": "Applied Materials (AMAT) Beat Estimates and Investors Sold Anyway. Lam Research Corporation (LRCX) Didn’t Have That Problem",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-amat-beat-estimates-000516701.html",
-      "summary": "Applied Materials (AMAT) exceeded earnings expectations, but its stock price declined, while Lam Research Corporation (LRCX) also beat estimates and saw a positive investor reaction. This suggests a divergence in investor sentiment or market dynamics affecting semiconductor equipment manufacturers.",
-      "industries": [
-        {
-          "sector": "Technology",
-          "sub_industry": "Semiconductor—Equipment & Materials",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Semiconductor—Broad Line",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Semiconductor—Integrated Circuits",
-          "confidence": 50,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Semiconductor—Specialized",
-          "confidence": 50,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Industrial Equipment & Components",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Diversified Electronics",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "AMAT",
-          "name": "Applied Materials",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Equipment & Materials (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "LRCX",
-          "name": "Lam Research",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Equipment & Materials (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "SOXX",
-          "name": "iShares Semiconductor ETF",
-          "type": "etf",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Equipment & Materials (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "INTC",
-          "name": "Intel",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Broad Line (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "NVDA",
-          "name": "Nvidia",
-          "type": "stock",
-          "confidence": 50,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "AMD",
-          "name": "Advanced Micro Devices",
-          "type": "stock",
-          "confidence": 50,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "0b43006c4d8e",
     "3b2b9a71ce9b",
     "659d7d391c2a",
     "e6ebec166872",
@@ -8829,6 +8776,7 @@
     "57a265fb0941",
     "275b3e0468b5",
     "2fb6d49e3b65",
-    "657d72ea261c"
+    "657d72ea261c",
+    "6a75191205ed"
   ]
 }
