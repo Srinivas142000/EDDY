@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-22T02:35:12Z",
+  "updated": "2026-08-22T03:40:36Z",
   "sources": [
     "Reuters",
     "AP",
@@ -3729,6 +3729,86 @@
           "confidence": 70,
           "direction": "up",
           "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
+      "id": "3b02e3804d15",
+      "time": "2026-08-21T15:10:31Z",
+      "source": "CNBC",
+      "headline": "Trump admin taps former JPMorgan Chase exec Matt Zames to advise Social Security agency",
+      "url": "https://www.cnbc.com/2026/08/21/jpmorgan-matt-zames-social-security-administration.html",
+      "summary": "The Trump administration has appointed former JPMorgan Chase executive Matt Zames to advise the Social Security agency. This move could influence financial management and investment strategies within the agency.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Money Center Banks",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 50,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Diversified Investments",
+          "confidence": 30,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "JPM",
+          "name": "JPMorgan Chase",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BAC",
+          "name": "Bank of America",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "KBE",
+          "name": "SPDR Bank ETF",
+          "type": "etf",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 50,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 50,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
           "hist_range_1d": null,
           "hist_range_5d": null
         }
@@ -11588,39 +11668,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "f71e9a421eb9",
-      "time": "2026-08-20T09:02:00Z",
-      "source": "MarketWatch",
-      "headline": "Wrestler Logan Paul lists California ‘LSD ranch’ for $3 million",
-      "url": "https://www.marketwatch.com/story/wrestler-logan-paul-lists-california-lsd-ranch-for-3-million-c870b5bf?mod=mw_rss_topstories",
-      "summary": "Influencer and wrestler Logan Paul has listed his \"LSD ranch\" in California for $3 million. The property is associated with psychedelic drug culture.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Real Estate Development",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Specialty Retail",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Cryptocurrency & Digital Assets",
-          "confidence": 20,
-          "direction": "up"
-        }
-      ],
-      "tickers": []
     }
   ],
   "seen": [
-    "394fa76018bb",
     "9d0abca05888",
     "e74c1c7204a2",
     "23ba1b59732f",
@@ -12619,6 +12669,7 @@
     "22d809fe89aa",
     "a1c6f57c33b5",
     "9f8045d1d94f",
-    "85e885b63ef4"
+    "85e885b63ef4",
+    "3b02e3804d15"
   ]
 }
