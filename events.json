@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-22T17:49:24Z",
+  "updated": "2026-08-22T18:27:30Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,56 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "25bd9e49126e",
+      "time": "2026-08-22T18:01:35Z",
+      "source": "Yahoo Finance",
+      "headline": "Forget JEPI: BlackRock’s Answer Pays 7.6%, Charges the Same 0.35%, and Beat It by 10 Points This Year",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/forget-jepi-blackrock-answer-pays-180135820.html",
+      "summary": "BlackRock has launched a new fund that offers a 7.6% yield and has outperformed the JEPI fund by 10% this year. This new fund charges a similar 0.35% expense ratio.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Investment Brokerage—Regional",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Closed-End Fund—Equity",
+          "confidence": 30,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "1879e179b93d",
       "time": "2026-08-22T17:20:00Z",
@@ -9299,78 +9349,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "4b1b2ce4f1a6",
-      "time": "2026-08-21T04:01:00Z",
-      "source": "Yahoo Finance",
-      "headline": "For Walmart Investors, Sagging Same-Store Sales Growth Overshadows Bottom-Line Beat",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/walmart-investors-sagging-same-store-040100826.html",
-      "summary": "Walmart reported a beat on its bottom line, but this was overshadowed by slower-than-expected same-store sales growth. This indicates a potential slowdown in consumer spending, particularly for a major retailer.",
-      "industries": [
-        {
-          "sector": "Services",
-          "sub_industry": "Grocery Stores",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Department Stores",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Discount & Variety Stores",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Processed & Packaged Goods",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Food Wholesale",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Credit Services",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "KR",
-          "name": "Kroger",
-          "type": "stock",
-          "confidence": 85,
-          "direction": "up",
-          "rationale": "Mapped from Grocery Stores (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "WMT",
-          "name": "Walmart",
-          "type": "stock",
-          "confidence": 85,
-          "direction": "up",
-          "rationale": "Mapped from Grocery Stores (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "309590e5d3e7",
     "c2187d3a11d5",
     "4f882fb8d52b",
     "08d80dddbcdb",
@@ -10369,6 +10350,7 @@
     "36677ed3f0b5",
     "6de34247a744",
     "49c8596a734f",
-    "1879e179b93d"
+    "1879e179b93d",
+    "25bd9e49126e"
   ]
 }
