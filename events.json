@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-22T16:51:58Z",
+  "updated": "2026-08-22T17:21:46Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,56 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "49c8596a734f",
+      "time": "2026-08-22T16:50:00Z",
+      "source": "Yahoo Finance",
+      "headline": "If You Have $10,000: 3 Dividend ETFs Worth Buying Before September",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/10-000-3-dividend-etfs-165000558.html",
+      "summary": "The article suggests three dividend exchange-traded funds (ETFs) that investors might consider purchasing before the month of September. These ETFs are designed to provide income through dividends and are presented as potentially valuable investment opportunities.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Closed-End Fund—Equity",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Diversified Investments",
+          "confidence": 65,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "6de34247a744",
       "time": "2026-08-22T16:35:00Z",
@@ -9275,88 +9325,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "093af65f441e",
-      "time": "2026-08-21T04:01:00Z",
-      "source": "Yahoo Finance",
-      "headline": "Deere Gets Rolling as AI Buildout Fuels Construction Sales Boom",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/deere-gets-rolling-ai-buildout-040100642.html",
-      "summary": "Deere & Company is experiencing a surge in construction equipment sales, driven by the ongoing buildout of artificial intelligence infrastructure. This indicates strong demand for heavy machinery in the technology sector's expansion.",
-      "industries": [
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Farm & Construction Machinery",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Industrial Metals & Minerals",
-          "confidence": 45,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "AI & Machine Learning Infrastructure",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "General Building Materials",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Heavy Construction",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Information Technology Services",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "NVDA",
-          "name": "Nvidia",
-          "type": "stock",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "AMD",
-          "name": "Advanced Micro Devices",
-          "type": "stock",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BOTZ",
-          "name": "Global X Robotics & AI ETF",
-          "type": "etf",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "1c07ca279777",
     "9003d9f92d3a",
     "309590e5d3e7",
     "c2187d3a11d5",
@@ -10355,6 +10326,7 @@
     "eef7bb0cc408",
     "9468d720c343",
     "36677ed3f0b5",
-    "6de34247a744"
+    "6de34247a744",
+    "49c8596a734f"
   ]
 }
