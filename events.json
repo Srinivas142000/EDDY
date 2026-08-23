@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-23T23:21:53Z",
+  "updated": "2026-08-23T23:49:20Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,53 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "132e80db148b",
+      "time": "2026-08-23T23:22:24Z",
+      "source": "Yahoo Finance",
+      "headline": "You Can Now Deduct Car Loan Interest but Only if the Final Assembly Happened in America. Here’s How to Check If a Car Qualifies",
+      "url": "https://finance.yahoo.com/economy/policy/articles/now-deduct-car-loan-interest-232224024.html",
+      "summary": "New regulations allow for the deduction of car loan interest, but only for vehicles whose final assembly occurred in America. This change aims to incentivize domestic automotive manufacturing and consumption.",
+      "industries": [
+        {
+          "sector": "Services",
+          "sub_industry": "Auto Dealerships",
+          "confidence": 85,
+          "direction": "up"
+        },
+        {
+          "sector": "Consumer Goods",
+          "sub_industry": "Trucks & Other Vehicles",
+          "confidence": 65,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Industrial Metals & Minerals",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Aluminum",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Oil & Gas Refining & Marketing",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Credit Services",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": []
+    },
     {
       "id": "6e1cd4bd33d2",
       "time": "2026-08-23T23:03:00Z",
@@ -6156,86 +6203,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "36677ed3f0b5",
-      "time": "2026-08-22T14:56:25Z",
-      "source": "Yahoo Finance",
-      "headline": "Gillette Buys South Boston Life Science Site for $99.29M",
-      "url": "https://finance.yahoo.com/real-estate/articles/gillette-buys-south-boston-life-145625067.html",
-      "summary": "Gillette has acquired a life science site in South Boston for $99.29 million. This acquisition is likely for expansion or research and development purposes within the life sciences sector.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "REIT—Health Care",
-          "confidence": 45,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Biotechnology",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Drug Manufacturers—Major",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Medical Appliances & Equipment",
-          "confidence": 20,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "LLY",
-          "name": "Eli Lilly",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Biotechnology (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "MRNA",
-          "name": "Moderna",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Biotechnology (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "XBI",
-          "name": "SPDR Biotech ETF",
-          "type": "etf",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Biotechnology (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "PFE",
-          "name": "Pfizer",
-          "type": "stock",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "5f9576ec6f13",
     "240b520268d5",
     "dae6abe47941",
     "531f67a8f4cf",
@@ -7234,6 +7204,7 @@
     "7ba6670f4a4d",
     "8f62edc3800e",
     "c2fa9606cec1",
-    "6e1cd4bd33d2"
+    "6e1cd4bd33d2",
+    "132e80db148b"
   ]
 }
