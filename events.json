@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-23T20:54:01Z",
+  "updated": "2026-08-23T21:22:56Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,114 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "2cb99110981f",
+      "time": "2026-08-23T20:57:01Z",
+      "source": "Yahoo Finance",
+      "headline": "SK Hynix Is Buying Back 3.3% of Its Shares and Canceling Every One",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-buying-back-3-205701464.html",
+      "summary": "SK Hynix announced a share buyback program, purchasing 3.3% of its outstanding shares and subsequently canceling them. This action is intended to reduce the number of shares outstanding and potentially increase shareholder value.",
+      "industries": [
+        {
+          "sector": "Technology",
+          "sub_industry": "Semiconductor—Integrated Circuits",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Semiconductor—Broad Line",
+          "confidence": 80,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Semiconductor—Specialized",
+          "confidence": 80,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Semiconductor—Equipment & Materials",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Diversified Electronics",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Information Technology Services",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "NVDA",
+          "name": "Nvidia",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "AMD",
+          "name": "Advanced Micro Devices",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "SOXX",
+          "name": "iShares Semiconductor ETF",
+          "type": "etf",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "INTC",
+          "name": "Intel",
+          "type": "stock",
+          "confidence": 80,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Broad Line (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "AMAT",
+          "name": "Applied Materials",
+          "type": "stock",
+          "confidence": 40,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Equipment & Materials (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "LRCX",
+          "name": "Lam Research",
+          "type": "stock",
+          "confidence": 40,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Equipment & Materials (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "d09d5efda7a7",
       "time": "2026-08-23T20:00:21Z",
@@ -5718,45 +5826,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "370233eeed4e",
-      "time": "2026-08-22T13:31:34Z",
-      "source": "Yahoo Finance",
-      "headline": "Here's What to Know About Coach CEO Todd Kahn's Latest Insider Transaction",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/heres-know-coach-ceo-todd-133134295.html",
-      "summary": "Coach CEO Todd Kahn has recently engaged in an insider transaction, the specifics of which are not detailed in the headline. This event may signal the CEO's confidence or concerns regarding the company's future performance.",
-      "industries": [
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Textile—Apparel Clothing",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Textile—Apparel Footwear & Accessories",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Specialty Retail",
-          "confidence": 60,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Apparel Stores",
-          "confidence": 60,
-          "direction": "up"
-        }
-      ],
-      "tickers": []
     }
   ],
   "seen": [
-    "c33837aee81b",
     "1ea5195d7043",
     "abc81b00753c",
     "1af9ecad5193",
@@ -6755,6 +6827,7 @@
     "c231e0d08624",
     "1780a75c593d",
     "d09d5efda7a7",
-    "e2a5718ebd1d"
+    "e2a5718ebd1d",
+    "2cb99110981f"
   ]
 }
