@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-23T01:12:02Z",
+  "updated": "2026-08-23T02:46:32Z",
   "sources": [
     "Reuters",
     "AP",
@@ -2035,6 +2035,62 @@
           "confidence": 30,
           "direction": "up",
           "rationale": "Mapped from Aerospace/Defense—Major Diversified (Industrial Goods).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
+      "id": "b92fc340d9e2",
+      "time": "2026-08-22T18:47:00Z",
+      "source": "Yahoo Finance",
+      "headline": "Iconic fast-food fried chicken chain closes over 300 restaurants",
+      "url": "https://finance.yahoo.com/small-business/articles/iconic-fast-food-fried-chicken-184700958.html",
+      "summary": "A well-known fast-food chain specializing in fried chicken has announced the closure of over 300 of its restaurant locations. This significant closure indicates potential financial distress or strategic restructuring for the company.",
+      "industries": [
+        {
+          "sector": "Services",
+          "sub_industry": "Restaurants",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Food Wholesale",
+          "confidence": 45,
+          "direction": "up"
+        },
+        {
+          "sector": "Consumer Goods",
+          "sub_industry": "Packaging & Containers",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Consumer Goods",
+          "sub_industry": "Food—Major Diversified",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "MCD",
+          "name": "McDonald's",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Restaurants (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "CMG",
+          "name": "Chipotle Mexican Grill",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Restaurants (Services).",
           "hist_range_1d": null,
           "hist_range_5d": null
         }
@@ -7406,90 +7462,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "3b02e3804d15",
-      "time": "2026-08-21T15:10:31Z",
-      "source": "CNBC",
-      "headline": "Trump admin taps former JPMorgan Chase exec Matt Zames to advise Social Security agency",
-      "url": "https://www.cnbc.com/2026/08/21/jpmorgan-matt-zames-social-security-administration.html",
-      "summary": "The Trump administration has appointed former JPMorgan Chase executive Matt Zames to advise the Social Security agency. This move could influence financial management and investment strategies within the agency.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Money Center Banks",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 50,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Diversified Investments",
-          "confidence": 30,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "JPM",
-          "name": "JPMorgan Chase",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Money Center Banks (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BAC",
-          "name": "Bank of America",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Money Center Banks (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "KBE",
-          "name": "SPDR Bank ETF",
-          "type": "etf",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Money Center Banks (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 50,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 50,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "da2c755e5563",
     "ca867d7c3f45",
     "935c49de5f7e",
     "dd76cb62d398",
@@ -8488,6 +8463,7 @@
     "77f25f753fa1",
     "bb2c4f860bf0",
     "5229b64cddac",
-    "967a1e874fb2"
+    "967a1e874fb2",
+    "b92fc340d9e2"
   ]
 }
