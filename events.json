@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-22T23:47:44Z",
+  "updated": "2026-08-23T01:12:02Z",
   "sources": [
     "Reuters",
     "AP",
@@ -829,6 +829,72 @@
           "confidence": 30,
           "direction": "up",
           "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
+      "id": "5229b64cddac",
+      "time": "2026-08-22T20:15:00Z",
+      "source": "MarketWatch",
+      "headline": "‘She looked into COBRA’: My friend was laid off and lost her health insurance. How can she find affordable coverage?",
+      "url": "https://www.marketwatch.com/story/shes-desperate-my-friend-was-laid-off-and-lost-her-health-insurance-how-can-she-find-affordable-coverage-3b17b553?mod=mw_rss_topstories",
+      "summary": "A laid-off individual has lost their employer-sponsored health insurance and is seeking information on obtaining affordable coverage. This situation highlights the importance of COBRA and alternative health insurance options for those experiencing job loss.",
+      "industries": [
+        {
+          "sector": "Health Care",
+          "sub_industry": "Health Care Plans",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Specialized Health Services",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Drug Manufacturers—Major",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Medical Appliances & Equipment",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "LLY",
+          "name": "Eli Lilly",
+          "type": "stock",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "PFE",
+          "name": "Pfizer",
+          "type": "stock",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "XBI",
+          "name": "SPDR Biotech ETF",
+          "type": "etf",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
           "hist_range_1d": null,
           "hist_range_5d": null
         }
@@ -3453,6 +3519,92 @@
         }
       ],
       "tickers": []
+    },
+    {
+      "id": "967a1e874fb2",
+      "time": "2026-08-22T03:07:00Z",
+      "source": "Yahoo Finance",
+      "headline": "Bill Gates pulls $818M from Berkshire to buy this giant",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bill-gates-pulls-818m-berkshire-030700591.html",
+      "summary": "Bill Gates has divested $818 million from Berkshire Hathaway, reportedly to acquire a significant stake in an unnamed \"giant\" company. This move suggests a strategic shift in Gates' investment portfolio, potentially indicating confidence in the target company's future prospects.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Diversified Investments",
+          "confidence": 85,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Investment Brokerage—Regional",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Money Center Banks",
+          "confidence": 30,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "JPM",
+          "name": "JPMorgan Chase",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BAC",
+          "name": "Bank of America",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "KBE",
+          "name": "SPDR Bank ETF",
+          "type": "etf",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
     },
     {
       "id": "f2606f143912",
@@ -7334,94 +7486,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "1ce736cc5f15",
-      "time": "2026-08-21T14:22:18Z",
-      "source": "Yahoo Finance",
-      "headline": "CA ANZ backs government’s proposed consumer protection reforms",
-      "url": "https://finance.yahoo.com/economy/policy/articles/ca-anz-backs-government-proposed-142218231.html",
-      "summary": "The Chartered Accountants Australia and New Zealand (CAANZ) has expressed support for the government's new consumer protection reforms. This backing suggests a positive outlook on enhanced consumer safeguards and potentially increased compliance burdens for businesses.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Credit Services",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Consumer Services",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": []
-    },
-    {
-      "id": "1ec3e34ae36a",
-      "time": "2026-08-21T14:20:09Z",
-      "source": "Yahoo Finance",
-      "headline": "IREN Jumps 6% but Then Gives Up Gains as Microsoft Accepts Horizon 1; TeraWulf Ticks Up, Cipher Digital Drops 5%",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/iren-jumps-6-then-gives-142009462.html",
-      "summary": "IREN experienced a significant price jump following Microsoft's acceptance of Horizon 1, but ultimately lost those gains. TeraWulf saw a slight increase, while Cipher Mining declined.",
-      "industries": [
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Cryptocurrency & Digital Assets",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Information Technology Services",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Cloud Infrastructure & Services",
-          "confidence": 30,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "AMZN",
-          "name": "Amazon (AWS)",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "MSFT",
-          "name": "Microsoft (Azure)",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GOOGL",
-          "name": "Alphabet (GCP)",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "7d3b76f08ded",
-    "d9b476e27419",
     "da2c755e5563",
     "ca867d7c3f45",
     "935c49de5f7e",
@@ -8419,6 +8486,8 @@
     "9624e38f2a0e",
     "8f1a488e4f35",
     "77f25f753fa1",
-    "bb2c4f860bf0"
+    "bb2c4f860bf0",
+    "5229b64cddac",
+    "967a1e874fb2"
   ]
 }
