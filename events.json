@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-23T14:25:10Z",
+  "updated": "2026-08-23T14:52:12Z",
   "sources": [
     "Reuters",
     "AP",
@@ -3565,6 +3565,98 @@
       ]
     },
     {
+      "id": "12508da9073d",
+      "time": "2026-08-22T14:29:51Z",
+      "source": "Yahoo Finance",
+      "headline": "Tariff refunds are hitting retailers' wallets. Here's what they're doing with the money.",
+      "url": "https://finance.yahoo.com/markets/article/tariff-refunds-are-hitting-retailers-wallets-heres-what-theyre-doing-with-the-money-142951738.html",
+      "summary": "Retailers are receiving refunds on tariffs, impacting their financial performance. The article explores how these companies are managing and utilizing these returned funds.",
+      "industries": [
+        {
+          "sector": "Services",
+          "sub_industry": "Apparel Stores",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Department Stores",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Discount & Variety Stores",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Grocery Stores",
+          "confidence": 65,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Home Improvement Stores",
+          "confidence": 65,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Electronics Stores",
+          "confidence": 65,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Specialty Retail",
+          "confidence": 65,
+          "direction": "up"
+        },
+        {
+          "sector": "Consumer Goods",
+          "sub_industry": "Packaging & Containers",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Industrial Metals & Minerals",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Credit Services",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "KR",
+          "name": "Kroger",
+          "type": "stock",
+          "confidence": 65,
+          "direction": "up",
+          "rationale": "Mapped from Grocery Stores (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "WMT",
+          "name": "Walmart",
+          "type": "stock",
+          "confidence": 65,
+          "direction": "up",
+          "rationale": "Mapped from Grocery Stores (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
       "id": "83320f8cb4dd",
       "time": "2026-08-22T14:05:49Z",
       "source": "Yahoo Finance",
@@ -5167,80 +5259,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "a2bd2784b927",
-      "time": "2026-08-22T03:32:01Z",
-      "source": "Yahoo Finance",
-      "headline": "Which Aerospace & Defense ETF Is a Better Buy: Big Bets or Broad Exposure?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/aerospace-defense-etf-better-buy-033201625.html",
-      "summary": "The headline poses a question about whether an investor should choose an Aerospace & Defense ETF focused on \"Big Bets\" (likely concentrated holdings in major companies) or one offering \"Broad Exposure\" (diversified holdings across the sector). This implies a discussion of investment strategies within the aerospace and defense industry.",
-      "industries": [
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Aerospace/Defense Products & Services",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 60,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Diversified Investments",
-          "confidence": 40,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "NOC",
-          "name": "Northrop Grumman",
-          "type": "stock",
-          "confidence": 85,
-          "direction": "up",
-          "rationale": "Mapped from Aerospace/Defense Products & Services (Industrial Goods).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "ITA",
-          "name": "iShares US Aerospace & Defense ETF",
-          "type": "etf",
-          "confidence": 85,
-          "direction": "up",
-          "rationale": "Mapped from Aerospace/Defense Products & Services (Industrial Goods).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 60,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 60,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "6846184eeddf",
     "6eab68928d2c",
     "b97d8b371aba",
     "0a684e7b2a6a",
@@ -6239,6 +6260,7 @@
     "ee4b689510e8",
     "b26e08e631fe",
     "bfc9b5b55ab4",
-    "781089fec7e1"
+    "781089fec7e1",
+    "12508da9073d"
   ]
 }
