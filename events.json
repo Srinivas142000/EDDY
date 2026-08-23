@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-23T05:30:33Z",
+  "updated": "2026-08-23T05:57:45Z",
   "sources": [
     "Reuters",
     "AP",
@@ -3707,6 +3707,62 @@
       ]
     },
     {
+      "id": "ad55898af681",
+      "time": "2026-08-21T23:00:02Z",
+      "source": "Yahoo Finance",
+      "headline": "Rocket Lab and AST SpaceMobile Are Priced for the Big Bang. One Space Stock Already Delivered.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-ast-spacemobile-priced-230002883.html",
+      "summary": "Rocket Lab and AST SpaceMobile are positioned for significant growth, with one of their stocks already showing positive performance. This suggests a burgeoning opportunity in the space technology sector.",
+      "industries": [
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Space & Satellite Technology",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "Aerospace/Defense Products & Services",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Diversified Communication Services",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Wireless Communications",
+          "confidence": 30,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "NOC",
+          "name": "Northrop Grumman",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Aerospace/Defense Products & Services (Industrial Goods).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "ITA",
+          "name": "iShares US Aerospace & Defense ETF",
+          "type": "etf",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Aerospace/Defense Products & Services (Industrial Goods).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
       "id": "58836c291970",
       "time": "2026-08-21T21:58:08Z",
       "source": "Yahoo Finance",
@@ -6608,76 +6664,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "85e885b63ef4",
-      "time": "2026-08-21T17:38:21Z",
-      "source": "CNBC",
-      "headline": "Stocks making the biggest moves midday: Moderna, Robinhood, BJ's Wholesale, Coinbase & more",
-      "url": "https://www.cnbc.com/2026/08/21/stocks-making-the-biggest-moves-midday-mrna-hood-bj-coin.html",
-      "summary": "Several companies experienced significant stock price movements midday, including Moderna, Robinhood, BJ's Wholesale, and Coinbase. These fluctuations indicate notable investor activity and market reactions to company-specific or broader economic factors.",
-      "industries": [
-        {
-          "sector": "Health Care",
-          "sub_industry": "Biotechnology",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Cryptocurrency & Digital Assets",
-          "confidence": 80,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Credit Services",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Discount & Variety Stores",
-          "confidence": 70,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "LLY",
-          "name": "Eli Lilly",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Biotechnology (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "MRNA",
-          "name": "Moderna",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Biotechnology (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "XBI",
-          "name": "SPDR Biotech ETF",
-          "type": "etf",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Biotechnology (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "456e50ceff60",
     "a76423a208dc",
     "63844500d6b1",
     "1de3dc3f3c40",
@@ -7676,6 +7665,7 @@
     "02fb26d7bcea",
     "58836c291970",
     "5052bc26da2a",
-    "3c8ef7b5d6c3"
+    "3c8ef7b5d6c3",
+    "ad55898af681"
   ]
 }
