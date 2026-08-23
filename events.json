@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-23T16:54:44Z",
+  "updated": "2026-08-23T17:23:21Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,56 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "120c6a0466c5",
+      "time": "2026-08-23T17:00:00Z",
+      "source": "Yahoo Finance",
+      "headline": "Rachel Cruze and George Kamel share the spending 'clues' that reveal if you're broke, average or wealthy",
+      "url": "https://finance.yahoo.com/markets/articles/rachel-cruze-george-kamel-share-170000908.html",
+      "summary": "Financial experts Rachel Cruze and George Kamel have outlined spending indicators that can help individuals determine their financial standing, classifying them as broke, average, or wealthy. This advice aims to provide clarity on personal financial health through observable spending habits.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Credit Services",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Personal Services",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "6367fa3545ff",
       "time": "2026-08-23T16:31:00Z",
@@ -5528,96 +5578,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "c8f46afb49d0",
-      "time": "2026-08-22T11:01:29Z",
-      "source": "Yahoo Finance",
-      "headline": "Airbnb Just Hit a Four-Year High. The Downgrade Says That’s the Problem.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/airbnb-just-hit-four-high-110129364.html",
-      "summary": "Airbnb's stock has reached a four-year high, but a recent downgrade suggests this peak valuation might be a cause for concern. The downgrade implies that the current stock price may not be sustainable or justified by underlying fundamentals.",
-      "industries": [
-        {
-          "sector": "Services",
-          "sub_industry": "Lodging",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Gig Economy & Marketplace Platforms",
-          "confidence": 80,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Real Estate Development",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Consumer Services",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "ABNB",
-          "name": "Airbnb",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Lodging (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "MAR",
-          "name": "Marriott International",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Lodging (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BKNG",
-          "name": "Booking Holdings",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Lodging (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "UBER",
-          "name": "Uber",
-          "type": "stock",
-          "confidence": 80,
-          "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "LYFT",
-          "name": "Lyft",
-          "type": "stock",
-          "confidence": 80,
-          "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "67aed7e33ee6",
     "22e49d6c1824",
     "6d0e2d3f4c3e",
     "2ab2cb842d99",
@@ -6616,6 +6579,7 @@
     "bb153e23b1c2",
     "0e02d550d65a",
     "efdd15fa9b29",
-    "6367fa3545ff"
+    "6367fa3545ff",
+    "120c6a0466c5"
   ]
 }
