@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-23T17:48:41Z",
+  "updated": "2026-08-23T18:30:22Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,53 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "f87663856f30",
+      "time": "2026-08-23T18:17:00Z",
+      "source": "Yahoo Finance",
+      "headline": "125-year-old mall retail anchor closes discount outlet, cuts 101 jobs",
+      "url": "https://finance.yahoo.com/small-business/articles/125-old-mall-retail-anchor-181700285.html",
+      "summary": "A 125-year-old mall retail anchor has announced the closure of its discount outlet and the elimination of 101 jobs. This move signals a significant shift in traditional retail operations and consumer spending patterns.",
+      "industries": [
+        {
+          "sector": "Services",
+          "sub_industry": "Department Stores",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Discount & Variety Stores",
+          "confidence": 80,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Apparel Stores",
+          "confidence": 60,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "REIT—Retail",
+          "confidence": 50,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Consumer Services",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Business Services",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": []
+    },
     {
       "id": "120c6a0466c5",
       "time": "2026-08-23T17:00:00Z",
@@ -5528,60 +5575,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "77d402138b1d",
-      "time": "2026-08-22T11:10:00Z",
-      "source": "Yahoo Finance",
-      "headline": "‘I’m really disgusted’: Ohio pair worth $40M want a lake house HELOC — Dave Ramsey says to change their advisor instead",
-      "url": "https://finance.yahoo.com/small-business/articles/m-really-disgusted-ohio-pair-111000109.html",
-      "summary": "A couple with a net worth of $40 million is seeking a home equity line of credit for a lake house. Financial advisor Dave Ramsey advised them to change their advisor instead of pursuing the HELOC.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Mortgage Investment",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Real Estate Development",
-          "confidence": 20,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "22e49d6c1824",
     "6d0e2d3f4c3e",
     "2ab2cb842d99",
     "0b6803c6bb74",
@@ -6580,6 +6576,7 @@
     "0e02d550d65a",
     "efdd15fa9b29",
     "6367fa3545ff",
-    "120c6a0466c5"
+    "120c6a0466c5",
+    "f87663856f30"
   ]
 }
