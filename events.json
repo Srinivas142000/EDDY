@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T16:34:46Z",
+  "updated": "2026-08-24T17:29:44Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,116 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "acacd42f8c36",
+      "time": "2026-08-24T17:15:00Z",
+      "source": "MarketWatch",
+      "headline": "‘My main goal is to help people’: I’m single, 74, with $10 million burning a hole in my pocket. What should I do?",
+      "url": "https://www.marketwatch.com/story/my-main-goal-is-to-help-people-im-single-74-with-10-million-burning-a-hole-in-my-pocket-what-should-i-do-0e6112e1?mod=mw_rss_topstories",
+      "summary": "A 74-year-old individual with $10 million is seeking advice on how to invest their assets, indicating a need for financial planning and wealth management services. The individual's stated goal is to help people, suggesting potential philanthropic or impact investing considerations.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Investment Brokerage—Regional",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Money Center Banks",
+          "confidence": 50,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Diversified Investments",
+          "confidence": 45,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Real Estate Development",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "REIT—Diversified",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Management Services",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Business Services",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "JPM",
+          "name": "JPMorgan Chase",
+          "type": "stock",
+          "confidence": 50,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BAC",
+          "name": "Bank of America",
+          "type": "stock",
+          "confidence": 50,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "KBE",
+          "name": "SPDR Bank ETF",
+          "type": "etf",
+          "confidence": 50,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "5e3da8eafcc1",
       "time": "2026-08-24T16:28:00Z",
@@ -5790,45 +5900,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "215d31cf02b7",
-      "time": "2026-08-23T00:04:30Z",
-      "source": "Yahoo Finance",
-      "headline": "Jim Cramer Discussed Ross Stores, Inc. (NASDAQ:ROST) & TJX",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-discussed-ross-stores-000430021.html",
-      "summary": "Jim Cramer discussed Ross Stores, Inc. (ROST) and TJX, indicating a focus on the retail sector. Both companies are major off-price retailers.",
-      "industries": [
-        {
-          "sector": "Services",
-          "sub_industry": "Department Stores",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Apparel Stores",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Specialty Retail",
-          "confidence": 50,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Consumer Services",
-          "confidence": 30,
-          "direction": "up"
-        }
-      ],
-      "tickers": []
     }
   ],
   "seen": [
-    "cdca4fabcebf",
     "e0e52d0d0ccd",
     "cb63d4d77fef",
     "17178c257daf",
@@ -6827,6 +6901,7 @@
     "c28986498a02",
     "948c0be49ee4",
     "2ad0f08dbcfe",
-    "5e3da8eafcc1"
+    "5e3da8eafcc1",
+    "acacd42f8c36"
   ]
 }
