@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T15:37:17Z",
+  "updated": "2026-08-24T16:34:46Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,56 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "5e3da8eafcc1",
+      "time": "2026-08-24T16:28:00Z",
+      "source": "MarketWatch",
+      "headline": "Make these 7 money moves before taking out a private student loan",
+      "url": "https://www.marketwatch.com/story/make-these-7-money-moves-before-taking-out-a-private-student-loan-09cf3e08?mod=mw_rss_topstories",
+      "summary": "The article advises individuals on financial preparations before obtaining private student loans. It suggests actions like budgeting, saving, and understanding loan terms to manage debt effectively.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Credit Services",
+          "confidence": 45,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Education & Training Services",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "2ad0f08dbcfe",
       "time": "2026-08-24T14:20:00Z",
@@ -5775,45 +5825,9 @@
         }
       ],
       "tickers": []
-    },
-    {
-      "id": "d86b97d65e7c",
-      "time": "2026-08-23T00:01:28Z",
-      "source": "Yahoo Finance",
-      "headline": "NIKE, Inc. (NYSE:NKE) Vs On Holding (NYSE:ONON) – Here’s What Jim Cramer Thinks",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nike-inc-nyse-nke-vs-000128165.html",
-      "summary": "Jim Cramer is comparing Nike and On Holding, two companies in the athletic footwear and apparel market. This comparison suggests a focus on the performance and competitive landscape of these consumer goods companies.",
-      "industries": [
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Textile—Apparel Clothing",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Textile—Apparel Footwear & Accessories",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Sporting Goods",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Marketing Services",
-          "confidence": 30,
-          "direction": "up"
-        }
-      ],
-      "tickers": []
     }
   ],
   "seen": [
-    "b8f26e530632",
     "cdca4fabcebf",
     "e0e52d0d0ccd",
     "cb63d4d77fef",
@@ -6812,6 +6826,7 @@
     "527c90953f83",
     "c28986498a02",
     "948c0be49ee4",
-    "2ad0f08dbcfe"
+    "2ad0f08dbcfe",
+    "5e3da8eafcc1"
   ]
 }
