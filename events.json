@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T12:48:08Z",
+  "updated": "2026-08-24T13:57:27Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,35 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "948c0be49ee4",
+      "time": "2026-08-24T13:39:00Z",
+      "source": "MarketWatch",
+      "headline": "This has been one of the most affordable U.S. cities to buy a home for more than 134 years",
+      "url": "https://www.marketwatch.com/story/this-has-been-one-of-the-most-affordable-u-s-cities-to-buy-a-home-for-the-past-134-years-0c52895a?mod=mw_rss_topstories",
+      "summary": "A U.S. city has maintained its status as one of the most affordable places to purchase a home for over 134 years. This indicates a long-term trend of stable or low housing price appreciation in that specific location.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "REIT—Residential",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "Residential Construction",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Real Estate Development",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": []
+    },
     {
       "id": "527c90953f83",
       "time": "2026-08-24T11:19:00Z",
@@ -5587,70 +5616,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "6ecd5ed749a9",
-      "time": "2026-08-22T23:59:48Z",
-      "source": "Yahoo Finance",
-      "headline": "Jim Cramer Said Affirm Holdings, Inc. (NASDAQ:AFRM) Was The One To Buy",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-said-affirm-holdings-235948978.html",
-      "summary": "Jim Cramer, a prominent financial commentator, has recommended Affirm Holdings, Inc. (NASDAQ:AFRM) as a stock to buy. Affirm operates in the 'Buy Now, Pay Later' (BNPL) sector, offering point-of-sale loans to consumers.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Credit Services",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Gig Economy & Marketplace Platforms",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Specialty Retail",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "UBER",
-          "name": "Uber",
-          "type": "stock",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "LYFT",
-          "name": "Lyft",
-          "type": "stock",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "ABNB",
-          "name": "Airbnb",
-          "type": "stock",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "02f4bdbca394",
     "9d81a9061115",
     "b8f26e530632",
     "cdca4fabcebf",
@@ -6649,6 +6617,7 @@
     "861c34f603ee",
     "89cb4a30de4e",
     "527c90953f83",
-    "c28986498a02"
+    "c28986498a02",
+    "948c0be49ee4"
   ]
 }
