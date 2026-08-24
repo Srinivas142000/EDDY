@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T21:00:38Z",
+  "updated": "2026-08-24T21:37:52Z",
   "sources": [
     "Reuters",
     "AP",
@@ -418,6 +418,88 @@
           "confidence": 20,
           "direction": "up",
           "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
+      "id": "a7b47f382d50",
+      "time": "2026-08-24T20:53:00Z",
+      "source": "MarketWatch",
+      "headline": "Bitcoin has beaten stocks and gold over six months. Now it’s closing in on $80,000.",
+      "url": "https://www.marketwatch.com/story/bitcoin-has-beaten-stocks-and-gold-over-six-months-now-its-closing-in-on-80-000-b8aa48f9?mod=mw_rss_topstories",
+      "summary": "Bitcoin has outperformed both traditional stock markets and gold over the past six months, with its price approaching $80,000. This surge indicates a growing investor interest and potential shift in asset allocation strategies.",
+      "industries": [
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Cryptocurrency & Digital Assets",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Gold",
+          "confidence": 45,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Investment Brokerage—Regional",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Diversified Investments",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "GLD",
+          "name": "SPDR Gold Shares ETF",
+          "type": "etf",
+          "confidence": 45,
+          "direction": "up",
+          "rationale": "Mapped from Gold (Basic Materials).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "NEM",
+          "name": "Newmont Corporation",
+          "type": "stock",
+          "confidence": 45,
+          "direction": "up",
+          "rationale": "Mapped from Gold (Basic Materials).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
           "hist_range_1d": null,
           "hist_range_5d": null
         }
@@ -6916,66 +6998,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "3d607a23dd4b",
-      "time": "2026-08-23T01:37:00Z",
-      "source": "Yahoo Finance",
-      "headline": "Zcash Hits Eight-Year High After Grayscale Advances U.S. ETF Push",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/zcash-hits-eight-high-grayscale-013700467.html",
-      "summary": "Zcash has reached an eight-year price high, driven by Grayscale Investments' efforts to advance a U.S. exchange-traded fund (ETF) for the cryptocurrency. This development signals increased institutional interest and potential mainstream adoption for Zcash.",
-      "industries": [
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Cryptocurrency & Digital Assets",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Investment Brokerage—Regional",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Diversified Investments",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "6ff137b0411c",
     "0a033b4036ee",
     "ab6856c9628e",
     "967c31ea8584",
@@ -7974,6 +7999,7 @@
     "f6eec15ce497",
     "b75ec83b7b1d",
     "f2cd54064cc5",
-    "78ddaf7eb904"
+    "78ddaf7eb904",
+    "a7b47f382d50"
   ]
 }
