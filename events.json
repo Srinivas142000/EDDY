@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T05:30:24Z",
+  "updated": "2026-08-25T06:00:49Z",
   "sources": [
     "Reuters",
     "AP",
@@ -3898,6 +3898,82 @@
       "tickers": []
     },
     {
+      "id": "6cef22fcca21",
+      "time": "2026-08-23T23:15:05Z",
+      "source": "Yahoo Finance",
+      "headline": "Gilead’s HIV Business is Surging, but is the Company Too Dependent on One Franchise?",
+      "url": "https://finance.yahoo.com/healthcare/articles/gilead-hiv-business-surging-company-231505800.html",
+      "summary": "Gilead Sciences is experiencing significant growth in its HIV business, raising concerns about the company's over-reliance on this single revenue stream. This situation could impact future investment and diversification strategies.",
+      "industries": [
+        {
+          "sector": "Health Care",
+          "sub_industry": "Drug Manufacturers—Major",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Biotechnology",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Health Care Plans",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Specialized Health Services",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "LLY",
+          "name": "Eli Lilly",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "PFE",
+          "name": "Pfizer",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "XBI",
+          "name": "SPDR Biotech ETF",
+          "type": "etf",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "MRNA",
+          "name": "Moderna",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Biotechnology (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
       "id": "8da4748c5d1c",
       "time": "2026-08-23T23:13:13Z",
       "source": "Yahoo Finance",
@@ -5845,548 +5921,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "efdd15fa9b29",
-      "time": "2026-08-23T15:56:36Z",
-      "source": "Yahoo Finance",
-      "headline": "Dow Jones Futures Due After Market Damage; Nvidia, Canada Tariffs, Warsh In Focus",
-      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-market-rally-nvidia-crowdstrike-warsh/?src=A00220&yptr=yahoo",
-      "summary": "Dow Jones futures are indicating a decline following market damage, with key areas of focus including Nvidia's performance, potential Canadian tariffs, and geopolitical events.",
-      "industries": [
-        {
-          "sector": "Technology",
-          "sub_industry": "Semiconductor—Integrated Circuits",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Industrial Metals & Minerals",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Oil & Gas Pipelines",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Oil & Gas Refining & Marketing",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Independent Oil & Gas",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Major Integrated Oil & Gas",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Oil & Gas Drilling & Exploration",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Oil & Gas Equipment & Services",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Aluminum",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Copper",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Gold",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Silver",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Utilities",
-          "sub_industry": "Diversified Utilities",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Utilities",
-          "sub_industry": "Electric Utilities",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Utilities",
-          "sub_industry": "Gas Utilities",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Utilities",
-          "sub_industry": "Water Utilities",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Packaging & Containers",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Paper & Paper Products",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Biotechnology",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Drug Manufacturers—Major",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Drug Manufacturers—Other",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Money Center Banks",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Regional Banks",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Industrial Equipment & Components",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Application Software",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Business Software & Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Information Technology Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Internet Software & Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Semiconductor—Equipment & Materials",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Semiconductor—Broad Line",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Semiconductor—Specialized",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Air Delivery & Freight Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Shipping",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Cloud Infrastructure & Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "AI & Machine Learning Infrastructure",
-          "confidence": 20,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "NVDA",
-          "name": "Nvidia",
-          "type": "stock",
-          "confidence": 85,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "AMD",
-          "name": "Advanced Micro Devices",
-          "type": "stock",
-          "confidence": 85,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "SOXX",
-          "name": "iShares Semiconductor ETF",
-          "type": "etf",
-          "confidence": 85,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "XOM",
-          "name": "Exxon Mobil",
-          "type": "stock",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Major Integrated Oil & Gas (Basic Materials).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "CVX",
-          "name": "Chevron",
-          "type": "stock",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Major Integrated Oil & Gas (Basic Materials).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "USO",
-          "name": "US Oil Fund ETF",
-          "type": "etf",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Major Integrated Oil & Gas (Basic Materials).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "XOP",
-          "name": "SPDR S&P Oil & Gas E&P ETF",
-          "type": "etf",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Oil & Gas Drilling & Exploration (Basic Materials).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GLD",
-          "name": "SPDR Gold Shares ETF",
-          "type": "etf",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Gold (Basic Materials).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "NEM",
-          "name": "Newmont Corporation",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Gold (Basic Materials).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "LLY",
-          "name": "Eli Lilly",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Biotechnology (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "MRNA",
-          "name": "Moderna",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Biotechnology (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "XBI",
-          "name": "SPDR Biotech ETF",
-          "type": "etf",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Biotechnology (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "PFE",
-          "name": "Pfizer",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "NVO",
-          "name": "Novo Nordisk ADR",
-          "type": "adr",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Drug Manufacturers—Other (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "JPM",
-          "name": "JPMorgan Chase",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Money Center Banks (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BAC",
-          "name": "Bank of America",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Money Center Banks (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "KBE",
-          "name": "SPDR Bank ETF",
-          "type": "etf",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Money Center Banks (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "MSFT",
-          "name": "Microsoft",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "CRM",
-          "name": "Salesforce",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "IGV",
-          "name": "iShares Expanded Tech-Software ETF",
-          "type": "etf",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GOOGL",
-          "name": "Alphabet",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Internet Software & Services (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "META",
-          "name": "Meta Platforms",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Internet Software & Services (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "AMAT",
-          "name": "Applied Materials",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Equipment & Materials (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "LRCX",
-          "name": "Lam Research",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Equipment & Materials (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "INTC",
-          "name": "Intel",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Broad Line (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "FDX",
-          "name": "FedEx",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Shipping (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "UPS",
-          "name": "United Parcel Service",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Shipping (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "AMZN",
-          "name": "Amazon (AWS)",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BOTZ",
-          "name": "Global X Robotics & AI ETF",
-          "type": "etf",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "bca76a690345",
     "99fda71b29ea",
     "141abf60e68c",
     "733b4fbda16e",
@@ -7385,6 +6922,7 @@
     "28c5e953770a",
     "ab6cca4847cd",
     "9bdeaf19b36c",
-    "8da4748c5d1c"
+    "8da4748c5d1c",
+    "6cef22fcca21"
   ]
 }
