@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T04:36:58Z",
+  "updated": "2026-08-25T05:30:24Z",
   "sources": [
     "Reuters",
     "AP",
@@ -3898,6 +3898,88 @@
       "tickers": []
     },
     {
+      "id": "8da4748c5d1c",
+      "time": "2026-08-23T23:13:13Z",
+      "source": "Yahoo Finance",
+      "headline": "Pfizer’s Turnaround is Gaining Traction, but Can New Products Offset its Patent Cliff?",
+      "url": "https://finance.yahoo.com/healthcare/articles/pfizer-turnaround-gaining-traction-products-231313770.html",
+      "summary": "Pfizer is experiencing a turnaround, but the company faces challenges in replacing revenue from upcoming patent expirations with new product sales. This situation impacts the pharmaceutical industry's reliance on innovation and product lifecycles.",
+      "industries": [
+        {
+          "sector": "Health Care",
+          "sub_industry": "Drug Manufacturers—Major",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Biotechnology",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Drug-Related Products",
+          "confidence": 60,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Health Care Plans",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Specialized Health Services",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "LLY",
+          "name": "Eli Lilly",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "PFE",
+          "name": "Pfizer",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "XBI",
+          "name": "SPDR Biotech ETF",
+          "type": "etf",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "MRNA",
+          "name": "Moderna",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Biotechnology (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
       "id": "6e1cd4bd33d2",
       "time": "2026-08-23T23:03:00Z",
       "source": "MarketWatch",
@@ -6301,76 +6383,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "461f03992087",
-      "time": "2026-08-23T15:30:00Z",
-      "source": "Yahoo Finance",
-      "headline": "40% of companies posted fake job listings in 2024 — now lawmakers in multiple states are moving to ban them",
-      "url": "https://finance.yahoo.com/small-business/articles/40-companies-posted-fake-job-153000925.html",
-      "summary": "A significant portion of companies have posted fraudulent job listings in 2024, prompting legislative action in several states to ban such practices. This trend highlights issues with online recruitment and potential exploitation of job seekers.",
-      "industries": [
-        {
-          "sector": "Services",
-          "sub_industry": "Business Services",
-          "confidence": 45,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Information Technology Services",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Gig Economy & Marketplace Platforms",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Marketing Services",
-          "confidence": 20,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "UBER",
-          "name": "Uber",
-          "type": "stock",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "LYFT",
-          "name": "Lyft",
-          "type": "stock",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "ABNB",
-          "name": "Airbnb",
-          "type": "stock",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "cef77ef755f9",
     "bca76a690345",
     "99fda71b29ea",
     "141abf60e68c",
@@ -7369,6 +7384,7 @@
     "7bdd9fa88e9e",
     "28c5e953770a",
     "ab6cca4847cd",
-    "9bdeaf19b36c"
+    "9bdeaf19b36c",
+    "8da4748c5d1c"
   ]
 }
