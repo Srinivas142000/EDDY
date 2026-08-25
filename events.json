@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T17:29:52Z",
+  "updated": "2026-08-25T17:59:28Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,83 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "028eb53f87fd",
+      "time": "2026-08-25T17:50:00Z",
+      "source": "MarketWatch",
+      "headline": "Here’s where it takes new homeowners almost 40 to 50 years to break even on buying a house",
+      "url": "https://www.marketwatch.com/story/heres-where-it-takes-new-homeowners-almost-40-to-50-years-to-break-even-on-buying-a-house-c503cb50?mod=mw_rss_topstories",
+      "summary": "New homeowners are facing significantly extended breakeven periods on their property investments, with some estimates suggesting it could take 40 to 50 years to recoup the cost of buying a house. This prolonged timeline is likely due to a combination of high purchase prices, rising interest rates, and potentially slower appreciation in certain markets.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Real Estate Development",
+          "confidence": 85,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "REIT—Residential",
+          "confidence": 75,
+          "direction": "up"
+        },
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "Residential Construction",
+          "confidence": 60,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Mortgage Investment",
+          "confidence": 55,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Credit Services",
+          "confidence": 45,
+          "direction": "up"
+        },
+        {
+          "sector": "Consumer Goods",
+          "sub_industry": "Home Furnishings & Fixtures",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Home Improvement Stores",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Utilities",
+          "sub_industry": "Diversified Utilities",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Utilities",
+          "sub_industry": "Electric Utilities",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Utilities",
+          "sub_industry": "Gas Utilities",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Utilities",
+          "sub_industry": "Water Utilities",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": []
+    },
     {
       "id": "62cd5a4b0577",
       "time": "2026-08-25T17:05:15Z",
@@ -5661,92 +5738,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "33510df48a3d",
-      "time": "2026-08-23T23:28:11Z",
-      "source": "Yahoo Finance",
-      "headline": "Abbott vs. Intuitive Surgical: Which MedTech Stock Offers Better Long-Term Upside?",
-      "url": "https://finance.yahoo.com/healthcare/articles/abbott-vs-intuitive-surgical-medtech-232811319.html",
-      "summary": "This headline poses a comparative analysis between two major medical technology companies, Abbott Laboratories and Intuitive Surgical, regarding their long-term stock performance potential. It suggests an evaluation of their respective market positions, product pipelines, and growth prospects within the MedTech sector.",
-      "industries": [
-        {
-          "sector": "Health Care",
-          "sub_industry": "Medical Appliances & Equipment",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Medical Instruments & Supplies",
-          "confidence": 90,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Biotechnology",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Drug Manufacturers—Major",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Diversified Electronics",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "LLY",
-          "name": "Eli Lilly",
-          "type": "stock",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Biotechnology (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "MRNA",
-          "name": "Moderna",
-          "type": "stock",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Biotechnology (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "XBI",
-          "name": "SPDR Biotech ETF",
-          "type": "etf",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Biotechnology (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "PFE",
-          "name": "Pfizer",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "5277361e296a",
     "1a4490c63340",
     "eaf1eebd820b",
     "8bd4c2b46147",
@@ -6745,6 +6739,7 @@
     "53e81c823f07",
     "ef719eb0fb80",
     "2eb66e3ff389",
-    "62cd5a4b0577"
+    "62cd5a4b0577",
+    "028eb53f87fd"
   ]
 }
