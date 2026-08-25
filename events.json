@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T16:34:34Z",
+  "updated": "2026-08-25T17:29:52Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,82 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "62cd5a4b0577",
+      "time": "2026-08-25T17:05:15Z",
+      "source": "Yahoo Finance",
+      "headline": "Is Gold’s Best Month Since 2008 About to End? One Trader Just Bet $202 Million That It Is",
+      "url": "https://finance.yahoo.com/markets/options/articles/gold-best-month-since-2008-170515345.html",
+      "summary": "Gold has experienced its strongest month since 2008, but a significant trade suggests a potential downturn. A single trader has placed a $202 million bet against the precious metal's continued rise.",
+      "industries": [
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Gold",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Investment Brokerage—Regional",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Diversified Investments",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "GLD",
+          "name": "SPDR Gold Shares ETF",
+          "type": "etf",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Gold (Basic Materials).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "NEM",
+          "name": "Newmont Corporation",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Gold (Basic Materials).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 40,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 40,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "53e81c823f07",
       "time": "2026-08-25T14:26:37Z",
@@ -5667,76 +5743,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "a64889fda3fe",
-      "time": "2026-08-23T23:27:36Z",
-      "source": "Yahoo Finance",
-      "headline": "Fabrinet Just Lost Billions in Market Value Due to Nvidia. Here’s Why the Reaction Is Overdone.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/fabrinet-just-lost-billions-market-232736801.html",
-      "summary": "Fabrinet experienced a significant market value drop following news of a substantial order loss from Nvidia. However, the article suggests this reaction may be excessive.",
-      "industries": [
-        {
-          "sector": "Technology",
-          "sub_industry": "Semiconductor—Integrated Circuits",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Communication Equipment",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Information Technology Services",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Diversified Electronics",
-          "confidence": 30,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "NVDA",
-          "name": "Nvidia",
-          "type": "stock",
-          "confidence": 85,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "AMD",
-          "name": "Advanced Micro Devices",
-          "type": "stock",
-          "confidence": 85,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "SOXX",
-          "name": "iShares Semiconductor ETF",
-          "type": "etf",
-          "confidence": 85,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "9cd5f2a20b06",
     "5277361e296a",
     "1a4490c63340",
     "eaf1eebd820b",
@@ -6735,6 +6744,7 @@
     "8f05ef49d605",
     "53e81c823f07",
     "ef719eb0fb80",
-    "2eb66e3ff389"
+    "2eb66e3ff389",
+    "62cd5a4b0577"
   ]
 }
