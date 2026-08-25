@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T19:58:15Z",
+  "updated": "2026-08-25T20:30:51Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,68 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "c0a7c5fef38e",
+      "time": "2026-08-25T20:11:00Z",
+      "source": "MarketWatch",
+      "headline": "Tax tips for TikTok stars, after judge says influencer can’t write off his Grammy tickets",
+      "url": "https://www.marketwatch.com/story/tax-tips-for-tiktok-stars-after-judge-says-influencer-cant-write-off-his-grammy-tickets-29c19139?mod=mw_rss_topstories",
+      "summary": "A judge ruled that an influencer cannot deduct Grammy tickets as a business expense, highlighting tax complexities for social media personalities. This decision could impact how content creators classify and deduct business-related expenses.",
+      "industries": [
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Social Media & Platforms",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Advertising Agencies",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Marketing Services",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Business Services",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Personal Services",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "META",
+          "name": "Meta Platforms",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Social Media & Platforms (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "SNAP",
+          "name": "Snap Inc.",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Social Media & Platforms (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "51a4c3bdd13a",
       "time": "2026-08-25T19:35:00Z",
@@ -5580,106 +5642,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "7da2bd57e93d",
-      "time": "2026-08-23T23:54:17Z",
-      "source": "Yahoo Finance",
-      "headline": "AstraZeneca’s Earnings Beat Shows Momentum, But Can its Pipeline Deliver $80 Billion in Revenue?",
-      "url": "https://finance.yahoo.com/healthcare/articles/astrazeneca-earnings-beat-shows-momentum-235417335.html",
-      "summary": "AstraZeneca's latest earnings report exceeded expectations, indicating strong current performance. However, the company faces scrutiny regarding its future growth potential and its ability to achieve significant revenue targets from its drug pipeline.",
-      "industries": [
-        {
-          "sector": "Health Care",
-          "sub_industry": "Drug Manufacturers—Major",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Biotechnology",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Health Care Plans",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "LLY",
-          "name": "Eli Lilly",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "PFE",
-          "name": "Pfizer",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "XBI",
-          "name": "SPDR Biotech ETF",
-          "type": "etf",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "MRNA",
-          "name": "Moderna",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Biotechnology (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "eaf1eebd820b",
     "8bd4c2b46147",
     "b04d04761075",
     "082ff159d9c1",
@@ -6678,6 +6643,7 @@
     "2eb66e3ff389",
     "62cd5a4b0577",
     "028eb53f87fd",
-    "51a4c3bdd13a"
+    "51a4c3bdd13a",
+    "c0a7c5fef38e"
   ]
 }
