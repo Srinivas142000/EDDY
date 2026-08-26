@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-26T04:38:29Z",
+  "updated": "2026-08-26T05:33:22Z",
   "sources": [
     "Reuters",
     "AP",
@@ -208,6 +208,72 @@
           "confidence": 20,
           "direction": "up",
           "rationale": "Mapped from Restaurants (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
+      "id": "a4961a31cccf",
+      "time": "2026-08-26T01:35:00Z",
+      "source": "MarketWatch",
+      "headline": "5 cheap U.S. cities to retire in — if you can deal with this one thing",
+      "url": "https://www.marketwatch.com/story/5-cheap-u-s-cities-to-retire-in-if-you-can-deal-with-this-one-thing-fbda5d1a?mod=mw_rss_topstories",
+      "summary": "The article highlights five affordable U.S. cities for retirement, but notes a significant drawback in each location. This suggests a focus on cost of living and lifestyle factors for retirees.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "REIT—Residential",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Real Estate Development",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Consumer Services",
+          "confidence": 20,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Lodging",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "ABNB",
+          "name": "Airbnb",
+          "type": "stock",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from Lodging (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "MAR",
+          "name": "Marriott International",
+          "type": "stock",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from Lodging (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BKNG",
+          "name": "Booking Holdings",
+          "type": "stock",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from Lodging (Services).",
           "hist_range_1d": null,
           "hist_range_5d": null
         }
@@ -5622,82 +5688,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "527c90953f83",
-      "time": "2026-08-24T11:19:00Z",
-      "source": "MarketWatch",
-      "headline": "Think Medicare Advantage provides better care for chronic conditions? A new study suggests otherwise.",
-      "url": "https://www.marketwatch.com/story/think-medicare-advantage-provides-better-care-for-chronic-conditions-a-new-study-suggests-otherwise-276c7ffd?mod=mw_rss_topstories",
-      "summary": "A new study indicates that Medicare Advantage plans may not provide superior care for chronic conditions compared to traditional Medicare. This finding could influence patient choices and policy decisions regarding healthcare coverage.",
-      "industries": [
-        {
-          "sector": "Health Care",
-          "sub_industry": "Health Care Plans",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Hospitals",
-          "confidence": 45,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Drug Manufacturers—Major",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Medical Appliances & Equipment",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Specialized Health Services",
-          "confidence": 30,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "LLY",
-          "name": "Eli Lilly",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "PFE",
-          "name": "Pfizer",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "XBI",
-          "name": "SPDR Biotech ETF",
-          "type": "etf",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "f7119b9d4839",
     "d9b39ee815c0",
     "620e377403f3",
     "d97ba4673756",
@@ -6696,6 +6689,7 @@
     "39d399739028",
     "d050e7432196",
     "c751b7e18ec4",
-    "95fb542db369"
+    "95fb542db369",
+    "a4961a31cccf"
   ]
 }
