@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-26T18:15:33Z",
+  "updated": "2026-08-26T20:33:20Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,176 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "0a73c5727310",
+      "time": "2026-08-26T20:24:00Z",
+      "source": "MarketWatch",
+      "headline": "Salesforce’s stock surges as AI momentum fuels revenue growth",
+      "url": "https://www.marketwatch.com/story/salesforces-stock-surges-as-ai-momentums-fuel-revenue-growth-8c96eef3?mod=mw_rss_topstories",
+      "summary": "Salesforce's stock price increased significantly due to strong revenue growth, driven by the company's advancements and momentum in Artificial Intelligence (AI). This performance indicates a positive market reception to their AI integration and its impact on their business.",
+      "industries": [
+        {
+          "sector": "Technology",
+          "sub_industry": "Application Software",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Business Software & Services",
+          "confidence": 90,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "AI & Machine Learning Infrastructure",
+          "confidence": 85,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Information Technology Services",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Cloud Infrastructure & Services",
+          "confidence": 65,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Internet Software & Services",
+          "confidence": 50,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Investment Brokerage—Regional",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "MSFT",
+          "name": "Microsoft",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Application Software (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "CRM",
+          "name": "Salesforce",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Application Software (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "IGV",
+          "name": "iShares Expanded Tech-Software ETF",
+          "type": "etf",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Application Software (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "NVDA",
+          "name": "Nvidia",
+          "type": "stock",
+          "confidence": 85,
+          "direction": "up",
+          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "AMD",
+          "name": "Advanced Micro Devices",
+          "type": "stock",
+          "confidence": 85,
+          "direction": "up",
+          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BOTZ",
+          "name": "Global X Robotics & AI ETF",
+          "type": "etf",
+          "confidence": 85,
+          "direction": "up",
+          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "AMZN",
+          "name": "Amazon (AWS)",
+          "type": "stock",
+          "confidence": 65,
+          "direction": "up",
+          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GOOGL",
+          "name": "Alphabet (GCP)",
+          "type": "stock",
+          "confidence": 65,
+          "direction": "up",
+          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "META",
+          "name": "Meta Platforms",
+          "type": "stock",
+          "confidence": 50,
+          "direction": "up",
+          "rationale": "Mapped from Internet Software & Services (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "16cdaeaf67ee",
       "time": "2026-08-26T18:10:00Z",
@@ -4352,45 +4522,9 @@
         }
       ],
       "tickers": []
-    },
-    {
-      "id": "ecee8a95447d",
-      "time": "2026-08-24T21:53:25Z",
-      "source": "Yahoo Finance",
-      "headline": "Corn Pulls Off Highs, Still Closes Monday with Strength as Ratings Fall",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/corn-pulls-off-highs-still-215325250.html",
-      "summary": "Corn prices experienced a decline from their peak levels but still closed Monday with a positive trend, coinciding with a decrease in crop ratings. This suggests that while supply concerns may be easing slightly, the overall outlook for the crop remains somewhat challenged.",
-      "industries": [
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Farm Products",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Agricultural Chemicals",
-          "confidence": 45,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Food Wholesale",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Processed & Packaged Goods",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": []
     }
   ],
   "seen": [
-    "a12c92f3a8b7",
     "0991106670ae",
     "a831ca36a171",
     "552310cf78f8",
@@ -5389,6 +5523,7 @@
     "cb28b866cb29",
     "1a63ff89d935",
     "16cdaeaf67ee",
-    "152624860bb9"
+    "152624860bb9",
+    "0a73c5727310"
   ]
 }
