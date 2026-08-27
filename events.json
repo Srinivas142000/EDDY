@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-26T20:33:20Z",
+  "updated": "2026-08-27T00:27:39Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,90 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "440f26e4619a",
+      "time": "2026-08-27T00:14:00Z",
+      "source": "MarketWatch",
+      "headline": "Fed’s Lisa Cook denies committing mortgage fraud, says Trump has no grounds to remove her from office",
+      "url": "https://www.marketwatch.com/story/feds-lisa-cook-denies-committing-mortgage-fraud-says-trump-has-no-grounds-to-remove-her-from-office-4ea60c9d?mod=mw_rss_topstories",
+      "summary": "Federal Reserve Governor Lisa Cook has denied allegations of mortgage fraud and stated that former President Trump lacks the legal basis to remove her from her position. The accusations and her defense could influence market confidence in the Federal Reserve's stability and leadership.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Mortgage Investment",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Money Center Banks",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Regional Banks",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Utilities",
+          "sub_industry": "Diversified Utilities",
+          "confidence": 20,
+          "direction": "up"
+        },
+        {
+          "sector": "Utilities",
+          "sub_industry": "Electric Utilities",
+          "confidence": 20,
+          "direction": "up"
+        },
+        {
+          "sector": "Utilities",
+          "sub_industry": "Gas Utilities",
+          "confidence": 20,
+          "direction": "up"
+        },
+        {
+          "sector": "Utilities",
+          "sub_industry": "Water Utilities",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "JPM",
+          "name": "JPMorgan Chase",
+          "type": "stock",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BAC",
+          "name": "Bank of America",
+          "type": "stock",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "KBE",
+          "name": "SPDR Bank ETF",
+          "type": "etf",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "0a73c5727310",
       "time": "2026-08-26T20:24:00Z",
@@ -4493,39 +4577,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "37b1af2804c6",
-      "time": "2026-08-24T21:55:00Z",
-      "source": "MarketWatch",
-      "headline": "Visa and Mastercard stocks hit fresh records, underscoring a resilient U.S. consumer",
-      "url": "https://www.marketwatch.com/story/visa-and-mastercard-shares-hit-fresh-records-underscoring-a-resilient-u-s-consumer-ef328548?mod=mw_rss_topstories",
-      "summary": "Visa and Mastercard's stock prices have reached new all-time highs, indicating strong consumer spending and financial health in the United States.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Credit Services",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Consumer Services",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Diversified Investments",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": []
     }
   ],
   "seen": [
-    "0991106670ae",
     "a831ca36a171",
     "552310cf78f8",
     "a624427eb45c",
@@ -5524,6 +5578,7 @@
     "1a63ff89d935",
     "16cdaeaf67ee",
     "152624860bb9",
-    "0a73c5727310"
+    "0a73c5727310",
+    "440f26e4619a"
   ]
 }
