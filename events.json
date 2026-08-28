@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28T05:07:03Z",
+  "updated": "2026-08-28T17:39:00Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,788 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "dc3fd156b7c7",
+      "time": "2026-08-28T17:25:00Z",
+      "source": "Yahoo Finance",
+      "headline": "Oracle's Data Center Spending Is Exploding. Here's the Power Stock That Actually Benefits.",
+      "url": "https://finance.yahoo.com/technology/articles/oracles-data-center-spending-exploding-172500954.html",
+      "summary": "Oracle is significantly increasing its data center expenditures, indicating a substantial expansion in its cloud computing and data processing infrastructure. This surge in spending is expected to drive demand for power generation and distribution, benefiting utility companies.",
+      "industries": [
+        {
+          "sector": "Utilities",
+          "sub_industry": "Diversified Utilities",
+          "confidence": 85,
+          "direction": "up"
+        },
+        {
+          "sector": "Utilities",
+          "sub_industry": "Electric Utilities",
+          "confidence": 85,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Cloud Infrastructure & Services",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Information Technology Services",
+          "confidence": 60,
+          "direction": "up"
+        },
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "Industrial Electrical Equipment",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Semiconductor—Integrated Circuits",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "AMZN",
+          "name": "Amazon (AWS)",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "MSFT",
+          "name": "Microsoft (Azure)",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GOOGL",
+          "name": "Alphabet (GCP)",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "NVDA",
+          "name": "Nvidia",
+          "type": "stock",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "AMD",
+          "name": "Advanced Micro Devices",
+          "type": "stock",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "SOXX",
+          "name": "iShares Semiconductor ETF",
+          "type": "etf",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
+      "id": "f918c97cff21",
+      "time": "2026-08-28T17:20:03Z",
+      "source": "Yahoo Finance",
+      "headline": "According to Axios, the U.S. Is Closing in on a Massive Venezuela Oil Deal. 3 Oil Stocks That Could Win.",
+      "url": "https://finance.yahoo.com/energy/articles/according-axios-u-closing-massive-172003792.html",
+      "summary": "The U.S. is reportedly nearing a significant oil deal with Venezuela, which could lead to increased oil production and exports from the country. This development is expected to impact several oil-related companies.",
+      "industries": [
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Independent Oil & Gas",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Major Integrated Oil & Gas",
+          "confidence": 90,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Oil & Gas Refining & Marketing",
+          "confidence": 80,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Oil & Gas Pipelines",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Oil & Gas Equipment & Services",
+          "confidence": 65,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Oil & Gas Drilling & Exploration",
+          "confidence": 60,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Electric Vehicles & Battery Technology",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "XOM",
+          "name": "Exxon Mobil",
+          "type": "stock",
+          "confidence": 90,
+          "direction": "up",
+          "rationale": "Mapped from Major Integrated Oil & Gas (Basic Materials).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "CVX",
+          "name": "Chevron",
+          "type": "stock",
+          "confidence": 90,
+          "direction": "up",
+          "rationale": "Mapped from Major Integrated Oil & Gas (Basic Materials).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "USO",
+          "name": "US Oil Fund ETF",
+          "type": "etf",
+          "confidence": 90,
+          "direction": "up",
+          "rationale": "Mapped from Major Integrated Oil & Gas (Basic Materials).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "XOP",
+          "name": "SPDR S&P Oil & Gas E&P ETF",
+          "type": "etf",
+          "confidence": 60,
+          "direction": "up",
+          "rationale": "Mapped from Oil & Gas Drilling & Exploration (Basic Materials).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "TSLA",
+          "name": "Tesla",
+          "type": "stock",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "LIT",
+          "name": "Global X Lithium & Battery Tech ETF",
+          "type": "etf",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "DRIV",
+          "name": "Global X Autonomous & EV ETF",
+          "type": "etf",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
+      "id": "ffa63db8b10e",
+      "time": "2026-08-28T17:19:39Z",
+      "source": "Yahoo Finance",
+      "headline": "All the insurers exiting ACA Obamacare exchanges for 2027",
+      "url": "https://finance.yahoo.com/healthcare/articles/insurers-exiting-aca-obamacare-exchanges-171939479.html",
+      "summary": "Several insurance companies have announced their withdrawal from the Affordable Care Act (ACA) Obamacare exchanges, with these exits set to take effect in 2027. This decision impacts the availability of health insurance plans for many individuals and families.",
+      "industries": [
+        {
+          "sector": "Health Care",
+          "sub_industry": "Health Care Plans",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Accident & Health Insurance",
+          "confidence": 80,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Life Insurance",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Hospitals",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Specialized Health Services",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": []
+    },
+    {
+      "id": "1154193d2a88",
+      "time": "2026-08-28T17:18:19Z",
+      "source": "Yahoo Finance",
+      "headline": "Is Caterpillar Stock Relying on an Artificial Demand Story?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/caterpillar-stock-relying-artificial-demand-171819746.html",
+      "summary": "The headline questions whether Caterpillar's stock performance is driven by genuine demand or an artificially inflated narrative. This implies a potential overvaluation or unsustainable growth trajectory for the company.",
+      "industries": [
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "Farm & Construction Machinery",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Industrial Metals & Minerals",
+          "confidence": 45,
+          "direction": "up"
+        },
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "Heavy Construction",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "General Building Materials",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": []
+    },
+    {
+      "id": "47e85b37ab24",
+      "time": "2026-08-28T17:15:37Z",
+      "source": "Yahoo Finance",
+      "headline": "Moderna (MRNA) & Merck (MRK): What’s Happening With These Two Stocks?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/moderna-mrna-merck-mrk-happening-171537209.html",
+      "summary": "The headline indicates a focus on the stock performance of Moderna (MRNA) and Merck (MRK). Both companies are prominent in the biotechnology and pharmaceutical sectors, suggesting the news likely pertains to their operations, research, or market standing.",
+      "industries": [
+        {
+          "sector": "Health Care",
+          "sub_industry": "Biotechnology",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Drug Manufacturers—Major",
+          "confidence": 95,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "LLY",
+          "name": "Eli Lilly",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Biotechnology (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "MRNA",
+          "name": "Moderna",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Biotechnology (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "XBI",
+          "name": "SPDR Biotech ETF",
+          "type": "etf",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Biotechnology (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "PFE",
+          "name": "Pfizer",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
+      "id": "528709bf7b32",
+      "time": "2026-08-28T17:13:24Z",
+      "source": "Yahoo Finance",
+      "headline": "Frontline Ltd. Q2 2026 Earnings Call Summary",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/frontline-ltd-q2-2026-earnings-171324273.html",
+      "summary": "Frontline Ltd. has released its Q2 2026 earnings call summary. The company operates in the shipping industry, specifically focusing on oil and gas transportation.",
+      "industries": [
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Oil & Gas Pipelines",
+          "confidence": 85,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Shipping",
+          "confidence": 85,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Major Integrated Oil & Gas",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Independent Oil & Gas",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Oil & Gas Refining & Marketing",
+          "confidence": 30,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "FDX",
+          "name": "FedEx",
+          "type": "stock",
+          "confidence": 85,
+          "direction": "up",
+          "rationale": "Mapped from Shipping (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "UPS",
+          "name": "United Parcel Service",
+          "type": "stock",
+          "confidence": 85,
+          "direction": "up",
+          "rationale": "Mapped from Shipping (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "XOM",
+          "name": "Exxon Mobil",
+          "type": "stock",
+          "confidence": 40,
+          "direction": "up",
+          "rationale": "Mapped from Major Integrated Oil & Gas (Basic Materials).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "CVX",
+          "name": "Chevron",
+          "type": "stock",
+          "confidence": 40,
+          "direction": "up",
+          "rationale": "Mapped from Major Integrated Oil & Gas (Basic Materials).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "USO",
+          "name": "US Oil Fund ETF",
+          "type": "etf",
+          "confidence": 40,
+          "direction": "up",
+          "rationale": "Mapped from Major Integrated Oil & Gas (Basic Materials).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
+      "id": "e5afc09abeb3",
+      "time": "2026-08-28T17:12:03Z",
+      "source": "Yahoo Finance",
+      "headline": "This Shipping Stock Sails Higher, Offers Entry As Earnings Rocket 633%",
+      "url": "https://www.investors.com/stock-lists/stock-spotlight/shipping-stock-seanergy-maritime-sail-earnings-rocket/?src=A00220&yptr=yahoo",
+      "summary": "A shipping company's stock price has increased significantly due to a substantial surge in its earnings, which rose by 633%. This performance suggests strong demand and operational efficiency within the shipping sector.",
+      "industries": [
+        {
+          "sector": "Services",
+          "sub_industry": "Shipping",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Oil & Gas Pipelines",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Industrial Metals & Minerals",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Consumer Goods",
+          "sub_industry": "Packaging & Containers",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "FDX",
+          "name": "FedEx",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Shipping (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "UPS",
+          "name": "United Parcel Service",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Shipping (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
+      "id": "90cc7e6b7146",
+      "time": "2026-08-28T17:10:34Z",
+      "source": "Yahoo Finance",
+      "headline": "NVIDIA (NVDA), Palantir Technologies (PLTR), and the AI Achilles’ Heel: Steve Eisman’s Concentration Warning Explained",
+      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-nvda-palantir-technologies-pltr-171034656.html",
+      "summary": "Veteran investor Steve Eisman has cautioned against the high concentration of investment in a few key AI companies, specifically naming NVIDIA and Palantir. This warning highlights potential risks associated with the current AI boom and its impact on market dynamics.",
+      "industries": [
+        {
+          "sector": "Technology",
+          "sub_industry": "Semiconductor—Integrated Circuits",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "AI & Machine Learning Infrastructure",
+          "confidence": 90,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Application Software",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Business Software & Services",
+          "confidence": 65,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Information Technology Services",
+          "confidence": 50,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 45,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Investment Brokerage—Regional",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Diversified Investments",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "NVDA",
+          "name": "Nvidia",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "AMD",
+          "name": "Advanced Micro Devices",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "SOXX",
+          "name": "iShares Semiconductor ETF",
+          "type": "etf",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BOTZ",
+          "name": "Global X Robotics & AI ETF",
+          "type": "etf",
+          "confidence": 90,
+          "direction": "up",
+          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "MSFT",
+          "name": "Microsoft",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Application Software (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "CRM",
+          "name": "Salesforce",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Application Software (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "IGV",
+          "name": "iShares Expanded Tech-Software ETF",
+          "type": "etf",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Application Software (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 45,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 45,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
+      "id": "9c4d165aafcc",
+      "time": "2026-08-28T17:07:33Z",
+      "source": "Yahoo Finance",
+      "headline": "Alphabet (GOOGL)’s Early SpaceX (SPCX) Investment Skyrockets 100-Fold to $94 Billion Over a Decade",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-googl-early-spacex-spcx-170733505.html",
+      "summary": "Alphabet's early investment in SpaceX has seen a remarkable 100-fold increase in value over ten years, reaching an estimated $94 billion. This significant return highlights the success of early-stage venture capital in the rapidly growing space technology sector.",
+      "industries": [
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Space & Satellite Technology",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Internet Information Providers",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Diversified Investments",
+          "confidence": 35,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Information Technology Services",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 40,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 40,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
+      "id": "4b3e3c87dc0f",
+      "time": "2026-08-28T17:06:34Z",
+      "source": "Yahoo Finance",
+      "headline": "BW LPG Limited Q2 2026 Earnings Call Summary",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bw-lpg-limited-q2-2026-170634978.html",
+      "summary": "BW LPG Limited has announced its Q2 2026 earnings call summary. The company is a major player in the liquefied petroleum gas shipping industry.",
+      "industries": [
+        {
+          "sector": "Services",
+          "sub_industry": "Shipping",
+          "confidence": 85,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Oil & Gas Pipelines",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Oil & Gas Equipment & Services",
+          "confidence": 30,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "FDX",
+          "name": "FedEx",
+          "type": "stock",
+          "confidence": 85,
+          "direction": "up",
+          "rationale": "Mapped from Shipping (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "UPS",
+          "name": "United Parcel Service",
+          "type": "stock",
+          "confidence": 85,
+          "direction": "up",
+          "rationale": "Mapped from Shipping (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "4c5cf1bce33e",
       "time": "2026-08-28T03:16:00Z",
@@ -5014,1042 +5796,9 @@
         }
       ],
       "tickers": []
-    },
-    {
-      "id": "64525ef40f2e",
-      "time": "2026-08-25T21:47:00Z",
-      "source": "Yahoo Finance",
-      "headline": "Louis Navellier has blunt message on Nvidia’s reign before earnings",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/louis-navellier-blunt-message-nvidia-214700439.html",
-      "summary": "Louis Navellier has issued a cautionary statement regarding Nvidia's market dominance ahead of its upcoming earnings report. This suggests potential scrutiny or a shift in market sentiment towards the company's performance and future prospects.",
-      "industries": [
-        {
-          "sector": "Technology",
-          "sub_industry": "Semiconductor—Integrated Circuits",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Semiconductor—Broad Line",
-          "confidence": 80,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "AI & Machine Learning Infrastructure",
-          "confidence": 75,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Application Software",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Business Software & Services",
-          "confidence": 35,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Information Technology Services",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Diversified Electronics",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "NVDA",
-          "name": "Nvidia",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "AMD",
-          "name": "Advanced Micro Devices",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "SOXX",
-          "name": "iShares Semiconductor ETF",
-          "type": "etf",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "INTC",
-          "name": "Intel",
-          "type": "stock",
-          "confidence": 80,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Broad Line (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BOTZ",
-          "name": "Global X Robotics & AI ETF",
-          "type": "etf",
-          "confidence": 75,
-          "direction": "up",
-          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "MSFT",
-          "name": "Microsoft",
-          "type": "stock",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "CRM",
-          "name": "Salesforce",
-          "type": "stock",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "IGV",
-          "name": "iShares Expanded Tech-Software ETF",
-          "type": "etf",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
-    },
-    {
-      "id": "9e8863afcb7a",
-      "time": "2026-08-25T21:01:00Z",
-      "source": "MarketWatch",
-      "headline": "Why Meta’s stock could see a 50% rally, thanks to an overlooked AI wild card",
-      "url": "https://www.marketwatch.com/story/why-metas-stock-could-see-a-50-rally-thanks-to-an-overlooked-ai-wild-card-28cea54b?mod=mw_rss_topstories",
-      "summary": "Meta's stock may experience a significant rally due to an underappreciated artificial intelligence development. This AI advancement is seen as a potential catalyst for substantial stock price appreciation.",
-      "industries": [
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Social Media & Platforms",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "AI & Machine Learning Infrastructure",
-          "confidence": 80,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Internet Information Providers",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Application Software",
-          "confidence": 50,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Information Technology Services",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Advertising Agencies",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Marketing Services",
-          "confidence": 30,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "META",
-          "name": "Meta Platforms",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Social Media & Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "SNAP",
-          "name": "Snap Inc.",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Social Media & Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "NVDA",
-          "name": "Nvidia",
-          "type": "stock",
-          "confidence": 80,
-          "direction": "up",
-          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "AMD",
-          "name": "Advanced Micro Devices",
-          "type": "stock",
-          "confidence": 80,
-          "direction": "up",
-          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BOTZ",
-          "name": "Global X Robotics & AI ETF",
-          "type": "etf",
-          "confidence": 80,
-          "direction": "up",
-          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "MSFT",
-          "name": "Microsoft",
-          "type": "stock",
-          "confidence": 50,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "CRM",
-          "name": "Salesforce",
-          "type": "stock",
-          "confidence": 50,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "IGV",
-          "name": "iShares Expanded Tech-Software ETF",
-          "type": "etf",
-          "confidence": 50,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
-    },
-    {
-      "id": "086f01df51e0",
-      "time": "2026-08-25T21:00:00Z",
-      "source": "MarketWatch",
-      "headline": "Am I too old for Roth conversions? I’m 84 and my wife is 77. We have $8 million saved.",
-      "url": "https://www.marketwatch.com/story/am-i-too-old-for-roth-conversions-im-84-and-my-wife-is-77-we-have-8-million-saved-fb08fccd?mod=mw_rss_topstories",
-      "summary": "An 84-year-old individual is inquiring about the feasibility of Roth conversions given their age and substantial savings of $8 million. This question pertains to retirement planning and tax implications for seniors.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Money Center Banks",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Regional Banks",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Life Insurance",
-          "confidence": 20,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "JPM",
-          "name": "JPMorgan Chase",
-          "type": "stock",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Money Center Banks (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BAC",
-          "name": "Bank of America",
-          "type": "stock",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Money Center Banks (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "KBE",
-          "name": "SPDR Bank ETF",
-          "type": "etf",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Money Center Banks (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
-    },
-    {
-      "id": "d6b3decd07ec",
-      "time": "2026-08-25T21:00:00Z",
-      "source": "MarketWatch",
-      "headline": "Callaway Golf’s apology for ad showing woman being shoved to the ground exposes a major industry blind spot",
-      "url": "https://www.marketwatch.com/story/callaway-golfs-apology-for-ad-showing-woman-being-shoved-to-the-ground-exposes-a-major-industry-blind-spot-41101a13?mod=mw_rss_topstories",
-      "summary": "Callaway Golf has issued an apology for an advertisement that depicted a woman being shoved to the ground, highlighting a significant oversight within the golf industry regarding its marketing and public image. This incident suggests a potential disconnect between the brand's messaging and broader societal sensitivities.",
-      "industries": [
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Sporting Goods",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Advertising Agencies",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Marketing Services",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "General Entertainment",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Consumer Services",
-          "confidence": 20,
-          "direction": "up"
-        }
-      ],
-      "tickers": []
-    },
-    {
-      "id": "3505461de7bb",
-      "time": "2026-08-25T20:59:00Z",
-      "source": "MarketWatch",
-      "headline": "Why AMD can beat rivals Intel and Nvidia in the market for data-center CPUs",
-      "url": "https://www.marketwatch.com/story/why-amd-can-beat-rivals-intel-and-nvidia-in-the-market-for-data-center-cpus-e49a53f1?mod=mw_rss_topstories",
-      "summary": "Advanced Micro Devices (AMD) is positioned to outperform competitors Intel and Nvidia in the data-center CPU market. This suggests a potential shift in market share and demand for AMD's offerings.",
-      "industries": [
-        {
-          "sector": "Technology",
-          "sub_industry": "Semiconductor—Integrated Circuits",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Semiconductor—Broad Line",
-          "confidence": 80,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Diversified Computer Systems",
-          "confidence": 60,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Cloud Infrastructure & Services",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Information Technology Services",
-          "confidence": 30,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "NVDA",
-          "name": "Nvidia",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "AMD",
-          "name": "Advanced Micro Devices",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "SOXX",
-          "name": "iShares Semiconductor ETF",
-          "type": "etf",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "INTC",
-          "name": "Intel",
-          "type": "stock",
-          "confidence": 80,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Broad Line (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "AMZN",
-          "name": "Amazon (AWS)",
-          "type": "stock",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "MSFT",
-          "name": "Microsoft (Azure)",
-          "type": "stock",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GOOGL",
-          "name": "Alphabet (GCP)",
-          "type": "stock",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
-    },
-    {
-      "id": "ded2321e1001",
-      "time": "2026-08-25T20:56:00Z",
-      "source": "MarketWatch",
-      "headline": "This driverless-truck company could be a ‘long-term winner’ in a market Tesla plans to enter soon",
-      "url": "https://www.marketwatch.com/story/this-driverless-truck-company-could-be-a-long-term-winner-in-a-market-tesla-plans-to-enter-soon-193bc8fe?mod=mw_rss_topstories",
-      "summary": "A company specializing in driverless trucks is identified as a potential long-term winner, coinciding with Tesla's announced plans to enter the same market. This suggests increasing competition and innovation in the autonomous vehicle sector for commercial transport.",
-      "industries": [
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Trucks & Other Vehicles",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Electric Vehicles & Battery Technology",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "AI & Machine Learning Infrastructure",
-          "confidence": 50,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Industrial Equipment & Components",
-          "confidence": 45,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Information Technology Services",
-          "confidence": 35,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Oil & Gas Equipment & Services",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Business Services",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "TSLA",
-          "name": "Tesla",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "LIT",
-          "name": "Global X Lithium & Battery Tech ETF",
-          "type": "etf",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "DRIV",
-          "name": "Global X Autonomous & EV ETF",
-          "type": "etf",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "NVDA",
-          "name": "Nvidia",
-          "type": "stock",
-          "confidence": 50,
-          "direction": "up",
-          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "AMD",
-          "name": "Advanced Micro Devices",
-          "type": "stock",
-          "confidence": 50,
-          "direction": "up",
-          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BOTZ",
-          "name": "Global X Robotics & AI ETF",
-          "type": "etf",
-          "confidence": 50,
-          "direction": "up",
-          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
-    },
-    {
-      "id": "8852c7a87a6d",
-      "time": "2026-08-25T20:54:00Z",
-      "source": "MarketWatch",
-      "headline": "SpaceX to build Musk’s vision for a spaceport that until now ‘only existed in science fiction’",
-      "url": "https://www.marketwatch.com/story/spacex-to-build-musks-vision-for-a-spaceport-that-until-now-only-existed-in-science-fiction-f8482712?mod=mw_rss_topstories",
-      "summary": "SpaceX is developing a spaceport based on Elon Musk's futuristic vision, aiming to bring science fiction concepts to reality. This initiative signifies a significant advancement in private space infrastructure and operations.",
-      "industries": [
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Space & Satellite Technology",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Aerospace/Defense Products & Services",
-          "confidence": 80,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Industrial Metals & Minerals",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "General Building Materials",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Diversified Machinery",
-          "confidence": 20,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "NOC",
-          "name": "Northrop Grumman",
-          "type": "stock",
-          "confidence": 80,
-          "direction": "up",
-          "rationale": "Mapped from Aerospace/Defense Products & Services (Industrial Goods).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "ITA",
-          "name": "iShares US Aerospace & Defense ETF",
-          "type": "etf",
-          "confidence": 80,
-          "direction": "up",
-          "rationale": "Mapped from Aerospace/Defense Products & Services (Industrial Goods).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
-    },
-    {
-      "id": "c0a7c5fef38e",
-      "time": "2026-08-25T20:11:00Z",
-      "source": "MarketWatch",
-      "headline": "Tax tips for TikTok stars, after judge says influencer can’t write off his Grammy tickets",
-      "url": "https://www.marketwatch.com/story/tax-tips-for-tiktok-stars-after-judge-says-influencer-cant-write-off-his-grammy-tickets-29c19139?mod=mw_rss_topstories",
-      "summary": "A judge ruled that an influencer cannot deduct Grammy tickets as a business expense, highlighting tax complexities for social media personalities. This decision could impact how content creators classify and deduct business-related expenses.",
-      "industries": [
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Social Media & Platforms",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Advertising Agencies",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Marketing Services",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Business Services",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Personal Services",
-          "confidence": 20,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "META",
-          "name": "Meta Platforms",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Social Media & Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "SNAP",
-          "name": "Snap Inc.",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Social Media & Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
-    },
-    {
-      "id": "27e05c2e26ba",
-      "time": "2026-08-25T20:07:00Z",
-      "source": "MarketWatch",
-      "headline": "Options traders are betting on the quietest Nvidia earnings reaction in years. It could be an opportunity for AI bulls.",
-      "url": "https://www.marketwatch.com/story/options-traders-are-betting-on-the-quietest-nvidia-earnings-reaction-in-years-it-could-be-an-opportunity-for-ai-bulls-91955793?mod=mw_rss_topstories",
-      "summary": "Nvidia's upcoming earnings report is anticipated to have a subdued market reaction, according to options traders. This quiet period is seen as a potential buying opportunity for investors optimistic about the future of artificial intelligence.",
-      "industries": [
-        {
-          "sector": "Technology",
-          "sub_industry": "Semiconductor—Integrated Circuits",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "AI & Machine Learning Infrastructure",
-          "confidence": 90,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Semiconductor—Broad Line",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Information Technology Services",
-          "confidence": 50,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Application Software",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Business Software & Services",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Diversified Computer Systems",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Cloud Infrastructure & Services",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Investment Brokerage—Regional",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "NVDA",
-          "name": "Nvidia",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "AMD",
-          "name": "Advanced Micro Devices",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "SOXX",
-          "name": "iShares Semiconductor ETF",
-          "type": "etf",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BOTZ",
-          "name": "Global X Robotics & AI ETF",
-          "type": "etf",
-          "confidence": 90,
-          "direction": "up",
-          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "INTC",
-          "name": "Intel",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Semiconductor—Broad Line (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "MSFT",
-          "name": "Microsoft",
-          "type": "stock",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "CRM",
-          "name": "Salesforce",
-          "type": "stock",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "IGV",
-          "name": "iShares Expanded Tech-Software ETF",
-          "type": "etf",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "AMZN",
-          "name": "Amazon (AWS)",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GOOGL",
-          "name": "Alphabet (GCP)",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
-    },
-    {
-      "id": "51a4c3bdd13a",
-      "time": "2026-08-25T19:35:00Z",
-      "source": "MarketWatch",
-      "headline": "Has AI gotten any better at stock picking?",
-      "url": "https://www.marketwatch.com/story/has-ai-gotten-any-better-at-stock-picking-a7cfb998?mod=mw_rss_topstories",
-      "summary": "The article questions the effectiveness of Artificial Intelligence (AI) in stock picking, suggesting that despite advancements, AI may not yet consistently outperform human analysts or traditional methods. It implies a need for further development and validation of AI's capabilities in financial markets.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 75,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "AI & Machine Learning Infrastructure",
-          "confidence": 60,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Information Technology Services",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Investment Brokerage—Regional",
-          "confidence": 30,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 75,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 75,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "NVDA",
-          "name": "Nvidia",
-          "type": "stock",
-          "confidence": 60,
-          "direction": "up",
-          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "AMD",
-          "name": "Advanced Micro Devices",
-          "type": "stock",
-          "confidence": 60,
-          "direction": "up",
-          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BOTZ",
-          "name": "Global X Robotics & AI ETF",
-          "type": "etf",
-          "confidence": 60,
-          "direction": "up",
-          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "a0bcfbc71b59",
-    "ed301455288f",
-    "e59f2fd4b442",
-    "32e8e2d9863a",
-    "d0a1a0629979",
-    "41685b4b755b",
-    "577c1c86ffc2",
-    "55b5ee53c7b3",
-    "826bbbead590",
-    "521b82e24702",
     "e47f435ead5f",
     "aa620c42abfd",
     "02e49b787caa",
@@ -7039,6 +6788,16 @@
     "746200fc76fa",
     "3e4fc86ee68f",
     "5c3feaec7716",
-    "4c5cf1bce33e"
+    "4c5cf1bce33e",
+    "dc3fd156b7c7",
+    "f918c97cff21",
+    "ffa63db8b10e",
+    "1154193d2a88",
+    "47e85b37ab24",
+    "528709bf7b32",
+    "e5afc09abeb3",
+    "90cc7e6b7146",
+    "9c4d165aafcc",
+    "4b3e3c87dc0f"
   ]
 }
