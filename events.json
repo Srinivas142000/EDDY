@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T20:01:53Z",
+  "updated": "2026-08-29T22:33:19Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,68 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "8726d2e8b049",
+      "time": "2026-08-29T22:02:05Z",
+      "source": "Yahoo Finance",
+      "headline": "Brilliant Earth Sees Fine Jewelry Growth as Showroom Strategy Gains Momentum",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/brilliant-earth-sees-fine-jewelry-220205699.html",
+      "summary": "Brilliant Earth is experiencing growth in its fine jewelry segment, attributed to the increasing success of its showroom strategy. This indicates a positive trend for the company's retail approach.",
+      "industries": [
+        {
+          "sector": "Services",
+          "sub_industry": "Specialty Retail",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Jewelry Stores",
+          "confidence": 90,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Consumer Services",
+          "confidence": 50,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Gold",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Silver",
+          "confidence": 30,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "GLD",
+          "name": "SPDR Gold Shares ETF",
+          "type": "etf",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Gold (Basic Materials).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "NEM",
+          "name": "Newmont Corporation",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Gold (Basic Materials).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "2b4c6b48e757",
       "time": "2026-08-29T19:26:45Z",
@@ -8728,81 +8790,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "fbcefd74be32",
-      "time": "2026-08-27T18:39:00Z",
-      "source": "MarketWatch",
-      "headline": "I just had my first baby and don’t want to go back to work. Is quitting for a year a bad idea?",
-      "url": "https://www.marketwatch.com/story/i-just-had-my-first-baby-and-dont-want-to-go-back-to-work-is-quitting-for-a-year-a-bad-idea-780122e6?mod=mw_rss_topstories",
-      "summary": "A new parent is considering quitting their job for a year after the birth of their child, questioning the financial implications of this decision. This personal choice can have ripple effects on household income and spending patterns.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Life Insurance",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Accident & Health Insurance",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Credit Services",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Personal Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Consumer Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Home Furnishings & Fixtures",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Housewares & Accessories",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Food—Major Diversified",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Processed & Packaged Goods",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Dairy Products",
-          "confidence": 20,
-          "direction": "up"
-        }
-      ],
-      "tickers": []
     }
   ],
   "seen": [
-    "d1fa15ea61fa",
     "2c63c98d6267",
     "258fe87a3876",
     "669a248e4bc5",
@@ -9801,6 +9791,7 @@
     "a817ada1d937",
     "2b4c6b48e757",
     "45f66bc024f8",
-    "1d11052c359c"
+    "1d11052c359c",
+    "8726d2e8b049"
   ]
 }
