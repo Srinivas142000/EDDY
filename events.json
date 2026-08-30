@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30T16:59:05Z",
+  "updated": "2026-08-30T19:40:56Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,53 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "0c944bb19cb3",
+      "time": "2026-08-30T19:13:00Z",
+      "source": "Yahoo Finance",
+      "headline": "Abercrombie may be back. Will its shoppers stay?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/abercrombie-may-back-shoppers-stay-191300436.html",
+      "summary": "Abercrombie & Fitch is showing signs of a potential resurgence, raising questions about the sustainability of its customer loyalty and sales performance. The company's ability to retain its shoppers will be crucial for its long-term success.",
+      "industries": [
+        {
+          "sector": "Services",
+          "sub_industry": "Apparel Stores",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Consumer Goods",
+          "sub_industry": "Textile—Apparel Clothing",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Consumer Goods",
+          "sub_industry": "Textile—Apparel Footwear & Accessories",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Department Stores",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Discount & Variety Stores",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Marketing Services",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": []
+    },
     {
       "id": "758300db4904",
       "time": "2026-08-30T16:35:00Z",
@@ -6828,74 +6875,9 @@
         }
       ],
       "tickers": []
-    },
-    {
-      "id": "47e85b37ab24",
-      "time": "2026-08-28T17:15:37Z",
-      "source": "Yahoo Finance",
-      "headline": "Moderna (MRNA) & Merck (MRK): What’s Happening With These Two Stocks?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/moderna-mrna-merck-mrk-happening-171537209.html",
-      "summary": "The headline indicates a focus on the stock performance of Moderna (MRNA) and Merck (MRK). Both companies are prominent in the biotechnology and pharmaceutical sectors, suggesting the news likely pertains to their operations, research, or market standing.",
-      "industries": [
-        {
-          "sector": "Health Care",
-          "sub_industry": "Biotechnology",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Drug Manufacturers—Major",
-          "confidence": 95,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "LLY",
-          "name": "Eli Lilly",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Biotechnology (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "MRNA",
-          "name": "Moderna",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Biotechnology (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "XBI",
-          "name": "SPDR Biotech ETF",
-          "type": "etf",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Biotechnology (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "PFE",
-          "name": "Pfizer",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "851478f2c85d",
     "28c07087131a",
     "284b2704f87a",
     "b33002cf21a5",
@@ -7894,6 +7876,7 @@
     "21fff00b0714",
     "b373d1b3dd70",
     "7cef5ab55c84",
-    "26601681c1e0"
+    "26601681c1e0",
+    "0c944bb19cb3"
   ]
 }
