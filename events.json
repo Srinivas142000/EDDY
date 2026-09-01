@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01T21:36:32Z",
+  "updated": "2026-09-01T23:48:04Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,41 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "f5db82aa3eb4",
+      "time": "2026-09-01T23:15:00Z",
+      "source": "MarketWatch",
+      "headline": "‘It’s not fair’: My twin brother and I were left houses by our parents. Can I make him pay his share for taxes and upkeep?",
+      "url": "https://www.marketwatch.com/story/its-not-fair-my-twin-brother-and-i-were-left-houses-by-our-parents-can-i-make-him-pay-his-share-for-taxes-and-upkeep-43feb780?mod=mw_rss_topstories",
+      "summary": "A person is seeking legal advice on whether they can compel their twin sibling to contribute to property taxes and upkeep costs for a jointly inherited house. This situation highlights potential disputes over shared ownership and financial responsibilities of real estate.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Property Management",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "REIT—Residential",
+          "confidence": 20,
+          "direction": "up"
+        },
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "General Building Materials",
+          "confidence": 20,
+          "direction": "up"
+        },
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "Residential Construction",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": []
+    },
     {
       "id": "e25fc17f5a7f",
       "time": "2026-09-01T18:36:00Z",
@@ -10545,60 +10580,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "bb41442b11b5",
-      "time": "2026-08-30T16:29:20Z",
-      "source": "Yahoo Finance",
-      "headline": "He Paid $80 a Month for a Term Policy Starting in 1998 and Never Thought About It Again. In 2026 His Widow Got a $750,000 Check. Tax-Free, Outside Probate, Nine Days After the Funeral.",
-      "url": "https://finance.yahoo.com/healthcare/articles/paid-80-month-term-policy-162920309.html",
-      "summary": "A term life insurance policy purchased in 1998 for $80 per month resulted in a $750,000 tax-free payout to the policyholder's widow nine days after his funeral. This highlights the long-term value and administrative efficiency of life insurance products.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Life Insurance",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Credit Services",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "251ceab7ab9a",
     "d32abf4b1fda",
     "043ca745c584",
     "810785f19200",
@@ -11597,6 +11581,7 @@
     "9dbedfa3fa35",
     "9be55c836792",
     "e25fc17f5a7f",
-    "82a177e80252"
+    "82a177e80252",
+    "f5db82aa3eb4"
   ]
 }
