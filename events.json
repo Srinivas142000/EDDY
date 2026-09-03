@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T13:49:42Z",
+  "updated": "2026-09-03T17:31:59Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,84 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "913de2611b5a",
+      "time": "2026-09-03T17:23:00Z",
+      "source": "MarketWatch",
+      "headline": "Medicare Advantage patients who get diagnosed with Alzheimer’s or other serious diseases are ditching their plans — and it can cost them",
+      "url": "https://www.marketwatch.com/story/medicare-advantage-patients-who-get-diagnosed-with-alzheimers-or-other-serious-diseases-are-ditching-their-plans-and-it-can-cost-them-b5c42717?mod=mw_rss_topstories",
+      "summary": "Medicare Advantage patients diagnosed with serious illnesses like Alzheimer's are dis-enrolling from their plans, potentially incurring significant costs. This trend highlights challenges within the Medicare Advantage system and the financial implications for beneficiaries.",
+      "industries": [
+        {
+          "sector": "Health Care",
+          "sub_industry": "Health Care Plans",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Hospitals",
+          "confidence": 45,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Drug Manufacturers—Major",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Specialized Health Services",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Credit Services",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Personal Services",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "LLY",
+          "name": "Eli Lilly",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "PFE",
+          "name": "Pfizer",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "XBI",
+          "name": "SPDR Biotech ETF",
+          "type": "etf",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "f9291533ac6f",
       "time": "2026-09-03T13:35:00Z",
@@ -5867,33 +5945,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "f72dc05e6f5d",
-      "time": "2026-09-01T10:04:43Z",
-      "source": "Yahoo Finance",
-      "headline": "Stellantis names Arnaud Belloni as Fiat, Abarth, and Lancia CEO",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stellantis-names-arnaud-belloni-fiat-100443077.html",
-      "summary": "Stellantis has appointed Arnaud Belloni as the new CEO for its Fiat, Abarth, and Lancia brands. This leadership change is expected to influence the strategic direction and performance of these specific automotive marques within the larger Stellantis group.",
-      "industries": [
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Trucks & Other Vehicles",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Diversified Investments",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": []
     }
   ],
   "seen": [
-    "cd9969f0e375",
     "5bdd829ccfaf",
     "adacba0b4f65",
     "c00d3e7139e2",
@@ -6892,6 +6946,7 @@
     "a6581f6f4939",
     "4a9deb485ddd",
     "7d7011e69b1b",
-    "171159366395"
+    "171159366395",
+    "913de2611b5a"
   ]
 }
