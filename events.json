@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T22:45:44Z",
+  "updated": "2026-09-04T00:46:08Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,74 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "eb20905a9c11",
+      "time": "2026-09-04T00:31:00Z",
+      "source": "MarketWatch",
+      "headline": "‘I currently give him $1,000 a month’: My grandson has severe mental illness. How do I protect him after I’m gone?",
+      "url": "https://www.marketwatch.com/story/im-desperately-trying-to-plan-ahead-im-leaving-everything-to-my-grandson-who-has-severe-mental-illness-how-can-i-protect-him-d8df2646?mod=mw_rss_topstories",
+      "summary": "A grandmother is seeking advice on how to financially support her grandson with severe mental illness after her passing. This situation highlights the need for specialized financial planning and legal structures to ensure ongoing care and financial stability for individuals with long-term health needs.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Life Insurance",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 60,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Specialized Health Services",
+          "confidence": 50,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Health Care Plans",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Long-Term Care Facilities",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "REIT—Residential",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 60,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 60,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "8d286c34b27f",
       "time": "2026-09-03T22:23:00Z",
@@ -5990,110 +6058,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "95f18d53e639",
-      "time": "2026-09-01T14:40:13Z",
-      "source": "Yahoo Finance",
-      "headline": "Insurers Are Pulling Back From GLP-1 Drugs. The FDA Just Handed Eli Lilly Its Best Weapon Yet",
-      "url": "https://finance.yahoo.com/healthcare/articles/insurers-pulling-back-glp-1-144013661.html",
-      "summary": "Major pharmaceutical companies like Eli Lilly are facing increased scrutiny and potential cost-containment measures from insurers regarding GLP-1 drugs. However, the FDA's recent approval of Eli Lilly's GLP-1 drug for a new indication provides a significant boost to the company's market position and revenue potential.",
-      "industries": [
-        {
-          "sector": "Health Care",
-          "sub_industry": "Drug Manufacturers—Major",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Health Care Plans",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Accident & Health Insurance",
-          "confidence": 65,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Life Insurance",
-          "confidence": 50,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Biotechnology",
-          "confidence": 45,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Drug-Related Products",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Specialized Health Services",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Medical Practitioners",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "LLY",
-          "name": "Eli Lilly",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "PFE",
-          "name": "Pfizer",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "XBI",
-          "name": "SPDR Biotech ETF",
-          "type": "etf",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "MRNA",
-          "name": "Moderna",
-          "type": "stock",
-          "confidence": 45,
-          "direction": "up",
-          "rationale": "Mapped from Biotechnology (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "1feb530b8c20",
     "a1a7585bf0b1",
     "e0b5b6cb21f5",
     "c2746d0b2d99",
@@ -7092,6 +7059,7 @@
     "2a8750e52352",
     "8d286c34b27f",
     "605ee517cd41",
-    "da2ea8aa3857"
+    "da2ea8aa3857",
+    "eb20905a9c11"
   ]
 }
