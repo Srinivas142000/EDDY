@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-05T19:21:52Z",
+  "updated": "2026-09-05T21:31:31Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,197 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "ab23daf31b63",
+      "time": "2026-09-05T21:12:15Z",
+      "source": "Yahoo Finance",
+      "headline": "Insurers Have Already Told Wall Street Which Advantage Plans Die on December 31. Members Are the Last to Know, and the Letter Isn’t Due Until October 2.",
+      "url": "https://finance.yahoo.com/healthcare/articles/insurers-already-told-wall-street-211215190.html",
+      "summary": "Health insurance companies have informed Wall Street about the discontinuation of certain Medicare Advantage plans, with members only being notified later. The official notice deadline for these changes is October 2nd.",
+      "industries": [
+        {
+          "sector": "Health Care",
+          "sub_industry": "Health Care Plans",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Life Insurance",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Accident & Health Insurance",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Specialized Health Services",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": []
+    },
+    {
+      "id": "35266e20bd83",
+      "time": "2026-09-05T21:08:00Z",
+      "source": "Yahoo Finance",
+      "headline": "Prediction: Here's What a $5,000 Investment in Eli Lilly Could Look Like in 5 Years",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/prediction-heres-5-000-investment-210800354.html",
+      "summary": "A $5,000 investment in Eli Lilly is projected to yield significant returns over the next five years. This forecast suggests strong future performance for the company.",
+      "industries": [
+        {
+          "sector": "Health Care",
+          "sub_industry": "Drug Manufacturers—Major",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Biotechnology",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Health Care Plans",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "LLY",
+          "name": "Eli Lilly",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "PFE",
+          "name": "Pfizer",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "XBI",
+          "name": "SPDR Biotech ETF",
+          "type": "etf",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "MRNA",
+          "name": "Moderna",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Biotechnology (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
+      "id": "652fc65f0f5c",
+      "time": "2026-09-05T21:05:35Z",
+      "source": "Yahoo Finance",
+      "headline": "He Sold His Land to a Data Center Developer and Turned Down the Full Check. The Reason Showed Up Two Years Later.",
+      "url": "https://finance.yahoo.com/economy/policy/articles/sold-land-data-center-developer-210535410.html",
+      "summary": "An individual sold land to a data center developer, opting for a deferred payment structure. The reason for this decision became apparent two years later, suggesting a strategic financial or operational advantage was realized.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Real Estate Development",
+          "confidence": 85,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Cloud Infrastructure & Services",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Industrial Metals & Minerals",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "AMZN",
+          "name": "Amazon (AWS)",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "MSFT",
+          "name": "Microsoft (Azure)",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GOOGL",
+          "name": "Alphabet (GCP)",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "b59b74268fd8",
       "time": "2026-09-05T18:47:00Z",
@@ -4609,168 +4800,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "a6581f6f4939",
-      "time": "2026-09-03T13:27:05Z",
-      "source": "Yahoo Finance",
-      "headline": "V2X (VVX) Lands A Long Runway With Its Latest Air Force Deal",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/v2x-vvx-lands-long-runway-132705419.html",
-      "summary": "V2X has secured a new contract with the U.S. Air Force, which is expected to provide significant revenue and extend the company's operational runway. This deal highlights continued government investment in defense and logistics support services.",
-      "industries": [
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Aerospace/Defense Products & Services",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Business Services",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Information Technology Services",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Air Delivery & Freight Services",
-          "confidence": 30,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "NOC",
-          "name": "Northrop Grumman",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Aerospace/Defense Products & Services (Industrial Goods).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "ITA",
-          "name": "iShares US Aerospace & Defense ETF",
-          "type": "etf",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Aerospace/Defense Products & Services (Industrial Goods).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
-    },
-    {
-      "id": "4a9deb485ddd",
-      "time": "2026-09-03T13:23:53Z",
-      "source": "Yahoo Finance",
-      "headline": "Riverwater Exited Perella Weinberg (PWP) as Smaller M&A Advisors Face a Tough Road Ahead",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/riverwater-exited-perella-weinberg-pwp-132353878.html",
-      "summary": "Riverwater has departed Perella Weinberg, highlighting the challenges faced by smaller mergers and acquisitions advisory firms. This situation indicates a potentially difficult environment for boutique investment banking services.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Investment Brokerage—Regional",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Business Services",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
-    },
-    {
-      "id": "7d7011e69b1b",
-      "time": "2026-09-03T13:23:00Z",
-      "source": "Yahoo Finance",
-      "headline": "Better Buy: XRP vs. Bitcoin",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/better-buy-xrp-vs-bitcoin-132300910.html",
-      "summary": "The headline suggests a comparison between XRP and Bitcoin, indicating a discussion about their relative investment potential. This implies a focus on the cryptocurrency market and digital assets.",
-      "industries": [
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Cryptocurrency & Digital Assets",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Investment Brokerage—Regional",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "b71498e3de80",
-    "994320d90940",
-    "64722b01b2c1",
     "f6ccf0e35c90",
     "551abeb391c5",
     "f89615c97662",
@@ -5767,6 +5799,9 @@
     "ad1e8152243e",
     "b59b74268fd8",
     "ea267a87c98b",
-    "bc1ef8ca93e9"
+    "bc1ef8ca93e9",
+    "ab23daf31b63",
+    "35266e20bd83",
+    "652fc65f0f5c"
   ]
 }
