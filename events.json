@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-05T21:31:31Z",
+  "updated": "2026-09-05T23:13:05Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,98 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "e075d0b7fc38",
+      "time": "2026-09-05T22:51:19Z",
+      "source": "Yahoo Finance",
+      "headline": "Bloom Energy, Illumina, Everpure Rise On S&P 500 Inclusion",
+      "url": "https://www.investors.com/news/bloom-energy-illumina-everpure-rise-sp-500-index-inclusion/?src=A00220&yptr=yahoo",
+      "summary": "Bloom Energy, Illumina, and Everpure are experiencing a rise in their stock prices following their inclusion in the S&P 500 index. This inclusion signifies a greater market capitalization and broader investor interest.",
+      "industries": [
+        {
+          "sector": "Utilities",
+          "sub_industry": "Diversified Utilities",
+          "confidence": 85,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Biotechnology",
+          "confidence": 80,
+          "direction": "up"
+        },
+        {
+          "sector": "Utilities",
+          "sub_industry": "Water Utilities",
+          "confidence": 75,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Information Technology Services",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Semiconductor—Broad Line",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "LLY",
+          "name": "Eli Lilly",
+          "type": "stock",
+          "confidence": 80,
+          "direction": "up",
+          "rationale": "Mapped from Biotechnology (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "MRNA",
+          "name": "Moderna",
+          "type": "stock",
+          "confidence": 80,
+          "direction": "up",
+          "rationale": "Mapped from Biotechnology (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "XBI",
+          "name": "SPDR Biotech ETF",
+          "type": "etf",
+          "confidence": 80,
+          "direction": "up",
+          "rationale": "Mapped from Biotechnology (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "INTC",
+          "name": "Intel",
+          "type": "stock",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Broad Line (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "SOXX",
+          "name": "iShares Semiconductor ETF",
+          "type": "etf",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Broad Line (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "ab23daf31b63",
       "time": "2026-09-05T21:12:15Z",
@@ -4734,76 +4826,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "fc0fc8feaf8d",
-      "time": "2026-09-03T13:33:00Z",
-      "source": "MarketWatch",
-      "headline": "August jobs report could show a summer hiring slump. Haitian refugees are a wild card.",
-      "url": "https://www.marketwatch.com/story/august-jobs-report-could-show-a-summer-hiring-slump-haitian-refugees-are-a-wild-card-93fb6dfc?mod=mw_rss_topstories",
-      "summary": "The August jobs report is anticipated to reveal a slowdown in hiring, with the influx of Haitian refugees presenting an unpredictable factor in the labor market.",
-      "industries": [
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Farm Products",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Gig Economy & Marketplace Platforms",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Business Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Consumer Services",
-          "confidence": 20,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "UBER",
-          "name": "Uber",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "LYFT",
-          "name": "Lyft",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "ABNB",
-          "name": "Airbnb",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "f6ccf0e35c90",
     "551abeb391c5",
     "f89615c97662",
     "2ae044210472",
@@ -5802,6 +5827,7 @@
     "bc1ef8ca93e9",
     "ab23daf31b63",
     "35266e20bd83",
-    "652fc65f0f5c"
+    "652fc65f0f5c",
+    "e075d0b7fc38"
   ]
 }
