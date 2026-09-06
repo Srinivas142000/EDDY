@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T21:37:27Z",
+  "updated": "2026-09-06T23:30:49Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,128 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "b09616c24d87",
+      "time": "2026-09-06T23:11:29Z",
+      "source": "Yahoo Finance",
+      "headline": "Workday (WDAY)’s AI Push is Easing Investor Fears, but its Own Guidance Tells a More Cautious Story",
+      "url": "https://finance.yahoo.com/technology/ai/articles/workday-wday-ai-push-easing-231129347.html",
+      "summary": "Workday is experiencing an AI-driven boost in investor confidence, but the company's own forward-looking guidance suggests a more conservative outlook. This indicates a potential disconnect between market sentiment and internal projections.",
+      "industries": [
+        {
+          "sector": "Technology",
+          "sub_industry": "Application Software",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Business Software & Services",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "AI & Machine Learning Infrastructure",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Information Technology Services",
+          "confidence": 50,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Cloud Infrastructure & Services",
+          "confidence": 40,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "MSFT",
+          "name": "Microsoft",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Application Software (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "CRM",
+          "name": "Salesforce",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Application Software (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "IGV",
+          "name": "iShares Expanded Tech-Software ETF",
+          "type": "etf",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Application Software (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "NVDA",
+          "name": "Nvidia",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "AMD",
+          "name": "Advanced Micro Devices",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BOTZ",
+          "name": "Global X Robotics & AI ETF",
+          "type": "etf",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "AMZN",
+          "name": "Amazon (AWS)",
+          "type": "stock",
+          "confidence": 40,
+          "direction": "up",
+          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GOOGL",
+          "name": "Alphabet (GCP)",
+          "type": "stock",
+          "confidence": 40,
+          "direction": "up",
+          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "02f5d306d466",
       "time": "2026-09-06T21:10:14Z",
@@ -8357,63 +8479,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "1d7a73a1c9cd",
-      "time": "2026-09-04T11:00:00Z",
-      "source": "Yahoo Finance",
-      "headline": "Trailer builder Fruehauf wants parts makers as co-defendants in suit",
-      "url": "https://finance.yahoo.com/small-business/articles/trailer-builder-fruehauf-wants-parts-110000966.html",
-      "summary": "Trailer manufacturer Fruehauf is seeking to involve parts makers as co-defendants in a lawsuit. This action indicates potential supply chain disputes or quality control issues affecting the automotive and industrial sectors.",
-      "industries": [
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Industrial Equipment & Components",
-          "confidence": 50,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Auto Parts Wholesale",
-          "confidence": 45,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Metal Fabrication",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Rubber & Plastics",
-          "confidence": 35,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Industrial Equipment Wholesale",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Auto Dealerships",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Oil & Gas Equipment & Services",
-          "confidence": 20,
-          "direction": "up"
-        }
-      ],
-      "tickers": []
     }
   ],
   "seen": [
-    "2ec8f9d708ac",
     "2c5371af7603",
     "544470850719",
     "2e295f1fdb48",
@@ -9412,6 +9480,7 @@
     "9784eff3f94f",
     "67ec791da14c",
     "a2520d5dbcc6",
-    "02f5d306d466"
+    "02f5d306d466",
+    "b09616c24d87"
   ]
 }
