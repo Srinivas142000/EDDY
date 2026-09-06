@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T17:16:36Z",
+  "updated": "2026-09-06T19:25:51Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,156 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "a2520d5dbcc6",
+      "time": "2026-09-06T19:13:00Z",
+      "source": "Yahoo Finance",
+      "headline": "Adobe ends an 18-year era as AI pressure mounts",
+      "url": "https://finance.yahoo.com/technology/ai/articles/adobe-ends-18-era-ai-191300355.html",
+      "summary": "Adobe is facing significant pressure from the rise of Artificial Intelligence, leading to the end of an 18-year era for the company. This suggests a potential shift in Adobe's market position and strategic direction.",
+      "industries": [
+        {
+          "sector": "Technology",
+          "sub_industry": "Application Software",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "AI & Machine Learning Infrastructure",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Internet Software & Services",
+          "confidence": 65,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Business Software & Services",
+          "confidence": 60,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Multimedia & Graphics Software",
+          "confidence": 55,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Cloud Infrastructure & Services",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Information Technology Services",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Marketing Services",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "MSFT",
+          "name": "Microsoft",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Application Software (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "CRM",
+          "name": "Salesforce",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Application Software (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "IGV",
+          "name": "iShares Expanded Tech-Software ETF",
+          "type": "etf",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Application Software (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "NVDA",
+          "name": "Nvidia",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "AMD",
+          "name": "Advanced Micro Devices",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BOTZ",
+          "name": "Global X Robotics & AI ETF",
+          "type": "etf",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GOOGL",
+          "name": "Alphabet",
+          "type": "stock",
+          "confidence": 65,
+          "direction": "up",
+          "rationale": "Mapped from Internet Software & Services (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "META",
+          "name": "Meta Platforms",
+          "type": "stock",
+          "confidence": 65,
+          "direction": "up",
+          "rationale": "Mapped from Internet Software & Services (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "AMZN",
+          "name": "Amazon (AWS)",
+          "type": "stock",
+          "confidence": 40,
+          "direction": "up",
+          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "67ec791da14c",
       "time": "2026-09-06T16:43:00Z",
@@ -6620,39 +6770,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "fac4a31c910d",
-      "time": "2026-09-04T10:55:07Z",
-      "source": "Yahoo Finance",
-      "headline": "Frontdoor’s (FTDR) Profit Surge Comes With A Pricing Question",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/frontdoor-ftdr-profit-surge-comes-105507171.html",
-      "summary": "Frontdoor, a company specializing in home service plan sales, has reported a significant increase in profits. However, this surge raises questions about the sustainability and impact of their pricing strategies.",
-      "industries": [
-        {
-          "sector": "Services",
-          "sub_industry": "Business Services",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Real Estate Development",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Consumer Services",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": []
     }
   ],
   "seen": [
-    "be8c4dd75b2f",
     "1144df434288",
     "2ec8f9d708ac",
     "2c5371af7603",
@@ -7651,6 +7771,7 @@
     "5561475b1551",
     "eef3a2858e49",
     "9784eff3f94f",
-    "67ec791da14c"
+    "67ec791da14c",
+    "a2520d5dbcc6"
   ]
 }
