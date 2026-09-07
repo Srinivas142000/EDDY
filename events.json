@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T23:30:49Z",
+  "updated": "2026-09-07T01:15:43Z",
   "sources": [
     "Reuters",
     "AP",
@@ -2336,6 +2336,47 @@
           "hist_range_5d": null
         }
       ]
+    },
+    {
+      "id": "77144749a911",
+      "time": "2026-09-06T02:33:00Z",
+      "source": "Yahoo Finance",
+      "headline": "39-year-old ammunition manufacturer files Chapter 11 bankruptcy",
+      "url": "https://finance.yahoo.com/small-business/articles/39-old-major-bullet-manufacturer-023300278.html",
+      "summary": "A 39-year-old ammunition manufacturer has filed for Chapter 11 bankruptcy protection. This filing indicates the company is seeking to reorganize its debts and operations under court supervision.",
+      "industries": [
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "Metal Fabrication",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Industrial Metals & Minerals",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "General Building Materials",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Consumer Services",
+          "confidence": 20,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Specialty Retail",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": []
     },
     {
       "id": "272b852dd315",
@@ -8407,82 +8448,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "d43685a81b5e",
-      "time": "2026-09-04T13:52:56Z",
-      "source": "CNBC",
-      "headline": "Stocks making the biggest moves premarket: AMC, USA Rare Earth, Lululemon, Adobe & more",
-      "url": "https://www.cnbc.com/2026/09/04/stocks-making-the-biggest-moves-premarket-.html",
-      "summary": "Several companies experienced significant stock price movements in pre-market trading, including AMC Entertainment, USA Rare Earth, Lululemon, and Adobe. These fluctuations indicate notable investor interest and potential shifts in market sentiment for these specific entities.",
-      "industries": [
-        {
-          "sector": "Services",
-          "sub_industry": "Entertainment—Diversified",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Business Software & Services",
-          "confidence": 80,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Application Software",
-          "confidence": 80,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Industrial Metals & Minerals",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Textile—Apparel Clothing",
-          "confidence": 70,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "MSFT",
-          "name": "Microsoft",
-          "type": "stock",
-          "confidence": 80,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "CRM",
-          "name": "Salesforce",
-          "type": "stock",
-          "confidence": 80,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "IGV",
-          "name": "iShares Expanded Tech-Software ETF",
-          "type": "etf",
-          "confidence": 80,
-          "direction": "up",
-          "rationale": "Mapped from Application Software (Technology).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "2c5371af7603",
     "544470850719",
     "2e295f1fdb48",
     "b468c7655b30",
@@ -9481,6 +9449,7 @@
     "67ec791da14c",
     "a2520d5dbcc6",
     "02f5d306d466",
-    "b09616c24d87"
+    "b09616c24d87",
+    "77144749a911"
   ]
 }
