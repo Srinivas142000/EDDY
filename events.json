@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09T01:03:32Z",
+  "updated": "2026-09-09T06:23:25Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,138 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "6263f1fab401",
+      "time": "2026-09-09T04:12:51Z",
+      "source": "CNBC",
+      "headline": "China's EV makers shift gears to focus on humanoids as car market slows",
+      "url": "https://www.cnbc.com/2026/09/09/chinas-ev-makers-shift-gears-to-focus-on-humanoids-as-car-market-slows.html",
+      "summary": "Chinese electric vehicle manufacturers are pivoting their focus towards humanoid robot development due to a slowdown in the automotive market. This strategic shift aims to leverage existing technological expertise in a new, potentially high-growth sector.",
+      "industries": [
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Electric Vehicles & Battery Technology",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "Industrial Equipment & Components",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "AI & Machine Learning Infrastructure",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "Diversified Machinery",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Application Software",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "TSLA",
+          "name": "Tesla",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "LIT",
+          "name": "Global X Lithium & Battery Tech ETF",
+          "type": "etf",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "DRIV",
+          "name": "Global X Autonomous & EV ETF",
+          "type": "etf",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "NVDA",
+          "name": "Nvidia",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "AMD",
+          "name": "Advanced Micro Devices",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BOTZ",
+          "name": "Global X Robotics & AI ETF",
+          "type": "etf",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "MSFT",
+          "name": "Microsoft",
+          "type": "stock",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from Application Software (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "CRM",
+          "name": "Salesforce",
+          "type": "stock",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from Application Software (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "IGV",
+          "name": "iShares Expanded Tech-Software ETF",
+          "type": "etf",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from Application Software (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "27dd191d1fa0",
       "time": "2026-09-09T00:17:00Z",
@@ -92,6 +224,62 @@
           "confidence": 85,
           "direction": "up",
           "rationale": "Mapped from Aerospace/Defense—Major Diversified (Industrial Goods).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
+      "id": "c9fb62a1b5bb",
+      "time": "2026-09-08T22:50:00Z",
+      "source": "MarketWatch",
+      "headline": "How to invest in a booming stock market that’s way cheaper than the S&P 500",
+      "url": "https://www.marketwatch.com/story/how-to-invest-in-a-booming-stock-market-thats-way-cheaper-than-the-s-p-500-b2f5ef5d?mod=mw_rss_topstories",
+      "summary": "The article suggests that despite a strong stock market, certain segments are undervalued compared to the S&P 500, presenting investment opportunities. It implies a potential shift in market leadership and a focus on specific sectors or asset classes that offer better value.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 85,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Investment Brokerage—Regional",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Diversified Investments",
+          "confidence": 65,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Internet Information Providers",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 85,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 85,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
           "hist_range_1d": null,
           "hist_range_5d": null
         }
@@ -8532,96 +8720,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "77144749a911",
-      "time": "2026-09-06T02:33:00Z",
-      "source": "Yahoo Finance",
-      "headline": "39-year-old ammunition manufacturer files Chapter 11 bankruptcy",
-      "url": "https://finance.yahoo.com/small-business/articles/39-old-major-bullet-manufacturer-023300278.html",
-      "summary": "A 39-year-old ammunition manufacturer has filed for Chapter 11 bankruptcy protection. This filing indicates the company is seeking to reorganize its debts and operations under court supervision.",
-      "industries": [
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Metal Fabrication",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Industrial Metals & Minerals",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "General Building Materials",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Consumer Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Specialty Retail",
-          "confidence": 20,
-          "direction": "up"
-        }
-      ],
-      "tickers": []
-    },
-    {
-      "id": "272b852dd315",
-      "time": "2026-09-05T23:45:00Z",
-      "source": "MarketWatch",
-      "headline": "‘Poverty doesn’t have to be my reality’: I thought I’d have to rely on Social Security. Then I taught myself how to invest.",
-      "url": "https://www.marketwatch.com/story/i-didnt-know-what-i-didnt-know-i-thought-id-have-to-depend-on-social-security-then-i-taught-myself-how-to-invest-0129870b?mod=mw_rss_topstories",
-      "summary": "An individual shares their personal success story of learning to invest and achieving financial independence, moving away from reliance on Social Security. This narrative highlights the potential for personal financial growth through investment knowledge.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Investment Brokerage—Regional",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "b104814f0246",
-    "12b49cdb3a34",
     "f7b574e21ecf",
     "e0657bdbed73",
     "89ab79839424",
@@ -9619,6 +9720,8 @@
     "e45742185191",
     "3d075bf4862a",
     "f27d30fe541a",
-    "27dd191d1fa0"
+    "27dd191d1fa0",
+    "6263f1fab401",
+    "c9fb62a1b5bb"
   ]
 }
