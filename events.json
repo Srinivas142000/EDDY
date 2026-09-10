@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09T23:50:53Z",
+  "updated": "2026-09-10T03:01:35Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,56 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "83af6e439fd2",
+      "time": "2026-09-10T02:04:00Z",
+      "source": "MarketWatch",
+      "headline": "Hunter Biden memecoin $LAPTOP loses 95% of market value just hours after launch",
+      "url": "https://www.marketwatch.com/story/hunter-bidens-memecoin-flops-falling-95-just-hours-after-launch-3e9307d0?mod=mw_rss_topstories",
+      "summary": "The memecoin $LAPTOP, associated with Hunter Biden, experienced a dramatic 95% loss in market value shortly after its launch. This rapid decline suggests significant volatility and potential investor disillusionment with the digital asset.",
+      "industries": [
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Cryptocurrency & Digital Assets",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Investment Brokerage—Regional",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "79bfe866343b",
       "time": "2026-09-09T22:51:00Z",
@@ -10061,66 +10111,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "e4c054eb0c0e",
-      "time": "2026-09-07T12:21:42Z",
-      "source": "Yahoo Finance",
-      "headline": "Bitcoin ETFs Took In $731 Million in a Day While XRP ETF Inflows Fell 83% in a Week. Is Money Rotating to Bitcoin?",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-etfs-took-731-million-122142681.html",
-      "summary": "Bitcoin ETFs experienced significant inflows of $731 million in a single day, while XRP ETF inflows saw a substantial decline of 83% over the past week. This suggests a potential rotation of investment capital towards Bitcoin.",
-      "industries": [
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Cryptocurrency & Digital Assets",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Investment Brokerage—Regional",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Diversified Investments",
-          "confidence": 30,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "9cf35c728f92",
     "7fc057d75541",
     "60cd6ac7e4a9",
     "d10925f194b1",
@@ -11119,6 +11112,7 @@
     "ca360a05b40c",
     "cfdc6583b28f",
     "00a4544415e7",
-    "79bfe866343b"
+    "79bfe866343b",
+    "83af6e439fd2"
   ]
 }
