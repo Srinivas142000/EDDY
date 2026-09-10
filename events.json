@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10T17:01:06Z",
+  "updated": "2026-09-10T19:30:31Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,62 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "18176afe42b1",
+      "time": "2026-09-10T19:21:00Z",
+      "source": "MarketWatch",
+      "headline": "This simple mistake can give your money to the wrong person when you die. Here’s how to protect your estate.",
+      "url": "https://www.marketwatch.com/story/this-simple-mistake-can-cost-your-loved-ones-their-share-of-your-estate-heres-how-to-protect-your-money-99374a95?mod=mw_rss_topstories",
+      "summary": "A recent article highlights a common oversight that can lead to an individual's assets being misdirected after their death. It provides guidance on how to safeguard an estate against such errors.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 45,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Life Insurance",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Property Management",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Surety & Title Insurance",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 45,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 45,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "1ea2e1d1317e",
       "time": "2026-09-10T16:47:26Z",
@@ -8506,57 +8562,9 @@
         }
       ],
       "tickers": []
-    },
-    {
-      "id": "69f5f1b51a94",
-      "time": "2026-09-08T20:56:27Z",
-      "source": "Yahoo Finance",
-      "headline": "Lands’ End New CEO Agenda, Customer Growth  – Quarterly Update Report",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/lands-end-ceo-agenda-customer-205627532.html",
-      "summary": "Lands' End has announced a new CEO agenda focused on customer growth, as detailed in their latest quarterly update report. This indicates a strategic shift aimed at revitalizing the brand and expanding its customer base.",
-      "industries": [
-        {
-          "sector": "Services",
-          "sub_industry": "Apparel Stores",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Textile—Apparel Clothing",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Textile—Apparel Footwear & Accessories",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Specialty Retail",
-          "confidence": 65,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Marketing Services",
-          "confidence": 45,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Consumer Services",
-          "confidence": 30,
-          "direction": "up"
-        }
-      ],
-      "tickers": []
     }
   ],
   "seen": [
-    "f4aaffcf68a5",
     "2b9d2271bc5f",
     "560e80aad146",
     "3269fba38fb6",
@@ -9555,6 +9563,7 @@
     "bd7a05d76984",
     "1ea2e1d1317e",
     "b31e70f0595e",
-    "2dc0f81fff89"
+    "2dc0f81fff89",
+    "18176afe42b1"
   ]
 }
