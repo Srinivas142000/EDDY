@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T18:07:50Z",
+  "updated": "2026-09-12T20:48:26Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,110 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "7ad9670744db",
+      "time": "2026-09-12T20:31:38Z",
+      "source": "Yahoo Finance",
+      "headline": "How to Build $7,900 a Month in Dividend Income While Minimizing Your IRMAA Risk",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/build-7-900-month-dividend-203138885.html",
+      "summary": "The article discusses strategies for generating substantial monthly dividend income, specifically $7,900, while also addressing the minimization of the Income-Related Monthly Adjustment Amount (IRMAA) risk. This implies a focus on investment planning and wealth management for individuals, likely those nearing or in retirement.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 75,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Investment Brokerage—Regional",
+          "confidence": 60,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Money Center Banks",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Diversified Investments",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "REIT—Diversified",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Specialty Retail",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Consumer Services",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 75,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 75,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "JPM",
+          "name": "JPMorgan Chase",
+          "type": "stock",
+          "confidence": 40,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BAC",
+          "name": "Bank of America",
+          "type": "stock",
+          "confidence": 40,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "KBE",
+          "name": "SPDR Bank ETF",
+          "type": "etf",
+          "confidence": 40,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "6d252046d56e",
       "time": "2026-09-12T17:53:35Z",
@@ -8462,39 +8566,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "4460671460c6",
-      "time": "2026-09-10T20:26:00Z",
-      "source": "MarketWatch",
-      "headline": "Why $500 checks won’t help Americans facing 15% increases in Obamacare premiums next year",
-      "url": "https://www.marketwatch.com/story/why-500-checks-wont-help-americans-facing-15-increases-in-obamacare-premiums-next-year-b8801cc4?mod=mw_rss_topstories",
-      "summary": "Americans are facing a 15% increase in Obamacare premiums for the upcoming year. The article suggests that $500 checks will not be sufficient to offset these rising costs.",
-      "industries": [
-        {
-          "sector": "Health Care",
-          "sub_industry": "Health Care Plans",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Specialty Retail",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Credit Services",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": []
     }
   ],
   "seen": [
-    "83a1758aba14",
     "7798efdc0416",
     "972c57e7c13d",
     "3de58eedc0e0",
@@ -9493,6 +9567,7 @@
     "5d05631ca427",
     "6d252046d56e",
     "4d295e4e3c98",
-    "ce31f5f63113"
+    "ce31f5f63113",
+    "7ad9670744db"
   ]
 }
