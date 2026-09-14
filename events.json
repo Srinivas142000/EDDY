@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-13T23:21:01Z",
+  "updated": "2026-09-14T01:23:42Z",
   "sources": [
     "Reuters",
     "AP",
@@ -306,6 +306,29 @@
         {
           "sector": "Financial",
           "sub_industry": "Credit Services",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Consumer Services",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": []
+    },
+    {
+      "id": "2b52b510df14",
+      "time": "2026-09-13T20:17:00Z",
+      "source": "MarketWatch",
+      "headline": "How to trade a well-paying job for more work-life balance — without going broke",
+      "url": "https://www.marketwatch.com/story/how-to-trade-a-well-paying-job-for-more-work-life-balance-without-going-broke-794de555?mod=mw_rss_topstories",
+      "summary": "The article discusses strategies for individuals to transition from high-paying jobs to roles that offer better work-life balance without experiencing significant financial hardship. It suggests methods for evaluating financial needs and planning for a potentially lower income.",
+      "industries": [
+        {
+          "sector": "Services",
+          "sub_industry": "Personal Services",
           "confidence": 25,
           "direction": "up"
         },
@@ -7875,66 +7898,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "94e5b419a7d4",
-      "time": "2026-09-11T16:34:00Z",
-      "source": "MarketWatch",
-      "headline": "I’m locked into a 10-year annuity and now I’m strapped for cash. What are my options?",
-      "url": "https://www.marketwatch.com/story/im-locked-into-a-10-year-annuity-and-now-im-strapped-for-cash-what-are-my-options-e6463c91?mod=mw_rss_topstories",
-      "summary": "An individual is experiencing a cash flow shortage due to being locked into a 10-year annuity. This situation prompts a need to explore financial options for liquidity.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Life Insurance",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Credit Services",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Personal Services",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "5b6afb1f1997",
     "8a5fcfb960da",
     "44bed700f122",
     "d96a017853ca",
@@ -8933,6 +8899,7 @@
     "51b0e1c6363f",
     "aedc1e67b60d",
     "ac2c69420e8f",
-    "31d02634a532"
+    "31d02634a532",
+    "2b52b510df14"
   ]
 }
