@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18T21:08:31Z",
+  "updated": "2026-09-18T23:29:12Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,104 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "e0694fab9ae1",
+      "time": "2026-09-18T22:41:00Z",
+      "source": "MarketWatch",
+      "headline": "Why investors shouldn’t be spooked by fears of an October stock-market crash",
+      "url": "https://www.marketwatch.com/story/why-investors-shouldnt-be-spooked-by-fears-of-an-october-stock-market-crash-ac0eb2e1?mod=mw_rss_topstories",
+      "summary": "The article suggests that investors should not be overly concerned about potential stock market declines in October. It implies that fears of a crash may be overblown and that market volatility is a normal occurrence.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 45,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Investment Brokerage—Regional",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Money Center Banks",
+          "confidence": 35,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Diversified Investments",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Information Technology Services",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Business Software & Services",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 45,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 45,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "JPM",
+          "name": "JPMorgan Chase",
+          "type": "stock",
+          "confidence": 35,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BAC",
+          "name": "Bank of America",
+          "type": "stock",
+          "confidence": 35,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "KBE",
+          "name": "SPDR Bank ETF",
+          "type": "etf",
+          "confidence": 35,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "04d97830b0fb",
       "time": "2026-09-18T19:11:00Z",
@@ -9484,88 +9582,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "1c1df4d6759f",
-      "time": "2026-09-15T23:09:00Z",
-      "source": "MarketWatch",
-      "headline": "Medicare is using AI to approve claims. The result has been ‘alarmingly high denial rates.’",
-      "url": "https://www.marketwatch.com/story/medicare-is-using-ai-to-approve-claims-the-result-has-been-alarmingly-high-denial-rates-db87d902?mod=mw_rss_topstories",
-      "summary": "Medicare is implementing artificial intelligence to process insurance claims, which has led to a significant increase in claim denial rates. This development raises concerns about the effectiveness and fairness of AI in healthcare administration.",
-      "industries": [
-        {
-          "sector": "Health Care",
-          "sub_industry": "Health Care Plans",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "AI & Machine Learning Infrastructure",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Information Technology Services",
-          "confidence": 50,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Specialized Health Services",
-          "confidence": 45,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Business Software & Services",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Medical Practitioners",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "NVDA",
-          "name": "Nvidia",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "AMD",
-          "name": "Advanced Micro Devices",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BOTZ",
-          "name": "Global X Robotics & AI ETF",
-          "type": "etf",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "e2897d6ffdc6",
     "125cd980700d",
     "1be86b446984",
     "d704ab096b0d",
@@ -10564,6 +10583,7 @@
     "2d1014210f7d",
     "8f3d58e9aaae",
     "839ce78cf098",
-    "04d97830b0fb"
+    "04d97830b0fb",
+    "e0694fab9ae1"
   ]
 }
