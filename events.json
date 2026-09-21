@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T16:57:47Z",
+  "updated": "2026-09-21T20:48:29Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,102 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "fe46b00c0ffb",
+      "time": "2026-09-21T20:23:00Z",
+      "source": "MarketWatch",
+      "headline": "Novo Nordisk’s stock tumbles as doubts persist about Ozempic maker’s strategy",
+      "url": "https://www.marketwatch.com/story/novo-nordisk-stock-tumbles-as-ozempic-maker-sets-out-2030-goals-8a5a8d2d?mod=mw_rss_topstories",
+      "summary": "Novo Nordisk's stock experienced a significant decline due to ongoing concerns regarding the strategic direction of the company, which is known for its diabetes and obesity treatments like Ozempic.",
+      "industries": [
+        {
+          "sector": "Health Care",
+          "sub_industry": "Drug Manufacturers—Major",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Biotechnology",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Health Care Plans",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "LLY",
+          "name": "Eli Lilly",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "PFE",
+          "name": "Pfizer",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "XBI",
+          "name": "SPDR Biotech ETF",
+          "type": "etf",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "MRNA",
+          "name": "Moderna",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Biotechnology (Health Care).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "e84c1f189ade",
       "time": "2026-09-21T16:35:00Z",
@@ -6447,92 +6543,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "248b5ba05628",
-      "time": "2026-09-19T13:00:03Z",
-      "source": "Yahoo Finance",
-      "headline": "Wall Street’s Favorite Safe Haven Could Be In Trouble. How Investors Should Play Gold Here.",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/wall-street-favorite-safe-haven-130003037.html",
-      "summary": "The article suggests that gold, often considered a safe haven asset, may be facing challenges. It provides guidance to investors on how to approach gold investments in the current market environment.",
-      "industries": [
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Gold",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Investment Brokerage—Regional",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Diversified Investments",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Silver",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "GLD",
-          "name": "SPDR Gold Shares ETF",
-          "type": "etf",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Gold (Basic Materials).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "NEM",
-          "name": "Newmont Corporation",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Gold (Basic Materials).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "07f383a3c2f2",
     "409ec5936c3b",
     "0280c1c6864f",
     "a68766ecda0d",
@@ -7531,6 +7544,7 @@
     "0531a3c404ab",
     "d558f7c2e097",
     "4bc6b227e1df",
-    "c6e8a62e0618"
+    "c6e8a62e0618",
+    "fe46b00c0ffb"
   ]
 }
