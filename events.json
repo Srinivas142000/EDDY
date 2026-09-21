@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T00:26:46Z",
+  "updated": "2026-09-21T05:18:42Z",
   "sources": [
     "Reuters",
     "AP",
@@ -652,6 +652,84 @@
           "name": "Airbnb",
           "type": "stock",
           "confidence": 35,
+          "direction": "up",
+          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
+      "id": "65712629cd99",
+      "time": "2026-09-20T18:17:00Z",
+      "source": "Yahoo Finance",
+      "headline": "T-Mobile and Verizon face a new broadband rival",
+      "url": "https://finance.yahoo.com/technology/articles/t-mobile-verizon-face-broadband-181700799.html",
+      "summary": "T-Mobile and Verizon are facing increased competition in the broadband market with the emergence of a new rival. This development could lead to shifts in market share and pricing strategies within the telecommunications sector.",
+      "industries": [
+        {
+          "sector": "Technology",
+          "sub_industry": "Telecom Services—Domestic",
+          "confidence": 85,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Wireless Communications",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Internet Service Providers",
+          "confidence": 65,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Diversified Communication Services",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Telecom Services—Foreign",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Gig Economy & Marketplace Platforms",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "UBER",
+          "name": "Uber",
+          "type": "stock",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "LYFT",
+          "name": "Lyft",
+          "type": "stock",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "ABNB",
+          "name": "Airbnb",
+          "type": "stock",
+          "confidence": 20,
           "direction": "up",
           "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
           "hist_range_1d": null,
@@ -7518,108 +7596,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "e0694fab9ae1",
-      "time": "2026-09-18T22:41:00Z",
-      "source": "MarketWatch",
-      "headline": "Why investors shouldn’t be spooked by fears of an October stock-market crash",
-      "url": "https://www.marketwatch.com/story/why-investors-shouldnt-be-spooked-by-fears-of-an-october-stock-market-crash-ac0eb2e1?mod=mw_rss_topstories",
-      "summary": "The article suggests that investors should not be overly concerned about potential stock market declines in October. It implies that fears of a crash may be overblown and that market volatility is a normal occurrence.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 45,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Investment Brokerage—Regional",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Money Center Banks",
-          "confidence": 35,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Diversified Investments",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Information Technology Services",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Business Software & Services",
-          "confidence": 20,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 45,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 45,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "JPM",
-          "name": "JPMorgan Chase",
-          "type": "stock",
-          "confidence": 35,
-          "direction": "up",
-          "rationale": "Mapped from Money Center Banks (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BAC",
-          "name": "Bank of America",
-          "type": "stock",
-          "confidence": 35,
-          "direction": "up",
-          "rationale": "Mapped from Money Center Banks (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "KBE",
-          "name": "SPDR Bank ETF",
-          "type": "etf",
-          "confidence": 35,
-          "direction": "up",
-          "rationale": "Mapped from Money Center Banks (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "b5b30338a0b1",
     "70c26a62b172",
     "f457bdfb732e",
     "9c62fccbef56",
@@ -8618,6 +8597,7 @@
     "808692aad0eb",
     "70c64d9880d6",
     "c89d7b0ba0a2",
-    "c41fc4e1e2a6"
+    "c41fc4e1e2a6",
+    "65712629cd99"
   ]
 }
