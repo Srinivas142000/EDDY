@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22T17:56:40Z",
+  "updated": "2026-09-22T20:53:18Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,68 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "4aae4718b790",
+      "time": "2026-09-22T20:46:00Z",
+      "source": "MarketWatch",
+      "headline": "Want to retire with more money? Leave the U.S. early in your career — and then come back.",
+      "url": "https://www.marketwatch.com/story/want-to-retire-with-more-money-leave-the-country-for-work-early-in-your-career-7e568d03?mod=mw_rss_topstories",
+      "summary": "The article suggests that individuals can increase their retirement savings by leaving the U.S. early in their careers and returning later. This strategy implies leveraging potentially lower costs of living or different investment opportunities abroad.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Real Estate Development",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "REIT—Residential",
+          "confidence": 20,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Foreign Regional Banks",
+          "confidence": 20,
+          "direction": "up"
+        },
+        {
+          "sector": "Utilities",
+          "sub_industry": "Foreign Utilities",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "66aa68fe0518",
       "time": "2026-09-22T17:45:31Z",
@@ -6296,170 +6358,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "350785f81745",
-      "time": "2026-09-20T13:00:00Z",
-      "source": "MarketWatch",
-      "headline": "Record diesel prices are exposing pain points in the stock market and economy",
-      "url": "https://www.marketwatch.com/story/record-diesel-prices-are-exposing-pain-points-in-the-stock-market-and-economy-a2079b04?mod=mw_rss_topstories",
-      "summary": "Record high diesel prices are causing significant strain on the stock market and the broader economy. This surge in fuel costs is impacting various sectors due to increased operational expenses and potential inflationary pressures.",
-      "industries": [
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Oil & Gas Refining & Marketing",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Air Delivery & Freight Services",
-          "confidence": 80,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Shipping",
-          "confidence": 75,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Oil & Gas Pipelines",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Oil & Gas Equipment & Services",
-          "confidence": 65,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Industrial Metals & Minerals",
-          "confidence": 50,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "General Building Materials",
-          "confidence": 45,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Farm & Construction Machinery",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Trucks & Other Vehicles",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Utilities",
-          "sub_industry": "Diversified Utilities",
-          "confidence": 35,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Auto Parts Wholesale",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Utilities",
-          "sub_industry": "Electric Utilities",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Utilities",
-          "sub_industry": "Gas Utilities",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Auto Dealerships",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Restaurants",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Specialty Retail",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Consumer Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Credit Services",
-          "confidence": 20,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "FDX",
-          "name": "FedEx",
-          "type": "stock",
-          "confidence": 75,
-          "direction": "up",
-          "rationale": "Mapped from Shipping (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "UPS",
-          "name": "United Parcel Service",
-          "type": "stock",
-          "confidence": 75,
-          "direction": "up",
-          "rationale": "Mapped from Shipping (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "MCD",
-          "name": "McDonald's",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Restaurants (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "CMG",
-          "name": "Chipotle Mexican Grill",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Restaurants (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "b69f6c78a553",
     "8ac3a27c6556",
     "6585d8d4321f",
     "f2003f37003b",
@@ -7458,6 +7359,7 @@
     "b663649ae1a7",
     "70aa3b46ffce",
     "9407512a4ad7",
-    "66aa68fe0518"
+    "66aa68fe0518",
+    "4aae4718b790"
   ]
 }
