@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22T23:31:26Z",
+  "updated": "2026-09-23T01:43:39Z",
   "sources": [
     "Reuters",
     "AP",
@@ -305,6 +305,98 @@
           "confidence": 45,
           "direction": "up",
           "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
+      "id": "8aadf77e55ab",
+      "time": "2026-09-22T21:30:00Z",
+      "source": "MarketWatch",
+      "headline": "Sandisk’s stock is rising: Why one analyst says AI could help it reach new heights",
+      "url": "https://www.marketwatch.com/story/sandisks-stock-is-rising-why-one-analyst-says-ai-could-help-it-reach-new-heights-5541ded8?mod=mw_rss_topstories",
+      "summary": "SanDisk's stock is experiencing a surge, with analysts attributing the rise to the potential positive impact of Artificial Intelligence (AI) on the company's future performance. This suggests that AI integration or application is seen as a significant growth driver for SanDisk.",
+      "industries": [
+        {
+          "sector": "Technology",
+          "sub_industry": "Data Storage Devices",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Semiconductor—Integrated Circuits",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "AI & Machine Learning Infrastructure",
+          "confidence": 50,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Information Technology Services",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Semiconductor—Broad Line",
+          "confidence": 30,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "NVDA",
+          "name": "Nvidia",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "AMD",
+          "name": "Advanced Micro Devices",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "SOXX",
+          "name": "iShares Semiconductor ETF",
+          "type": "etf",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Integrated Circuits (Technology).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BOTZ",
+          "name": "Global X Robotics & AI ETF",
+          "type": "etf",
+          "confidence": 50,
+          "direction": "up",
+          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "INTC",
+          "name": "Intel",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Semiconductor—Broad Line (Technology).",
           "hist_range_1d": null,
           "hist_range_5d": null
         }
@@ -6429,88 +6521,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "65712629cd99",
-      "time": "2026-09-20T18:17:00Z",
-      "source": "Yahoo Finance",
-      "headline": "T-Mobile and Verizon face a new broadband rival",
-      "url": "https://finance.yahoo.com/technology/articles/t-mobile-verizon-face-broadband-181700799.html",
-      "summary": "T-Mobile and Verizon are facing increased competition in the broadband market with the emergence of a new rival. This development could lead to shifts in market share and pricing strategies within the telecommunications sector.",
-      "industries": [
-        {
-          "sector": "Technology",
-          "sub_industry": "Telecom Services—Domestic",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Wireless Communications",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Internet Service Providers",
-          "confidence": 65,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Diversified Communication Services",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Technology",
-          "sub_industry": "Telecom Services—Foreign",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Gig Economy & Marketplace Platforms",
-          "confidence": 20,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "UBER",
-          "name": "Uber",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "LYFT",
-          "name": "Lyft",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "ABNB",
-          "name": "Airbnb",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "737bac3e577f",
     "457de5f577de",
     "1fb80ca8b96f",
     "e18e5015409f",
@@ -7509,6 +7522,7 @@
     "4aae4718b790",
     "5d01d6a0217b",
     "41199640992c",
-    "8f00e18c1198"
+    "8f00e18c1198",
+    "8aadf77e55ab"
   ]
 }
