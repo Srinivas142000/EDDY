@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01T19:18:08Z",
+  "updated": "2026-10-01T23:21:26Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,116 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "d1a54ec63115",
+      "time": "2026-10-01T23:11:00Z",
+      "source": "MarketWatch",
+      "headline": "Here’s who’s joining the S&P 500 in the index’s latest shakeup",
+      "url": "https://www.marketwatch.com/story/heres-whos-joining-the-s-p-500-in-the-indexs-latest-shakeup-07280a15?mod=mw_rss_topstories",
+      "summary": "The S&P 500 is undergoing its latest index shakeup, with new companies being added. This event will impact the investment strategies and portfolio allocations of various financial entities.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 85,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Investment Brokerage—Regional",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Closed-End Fund—Equity",
+          "confidence": 65,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Diversified Investments",
+          "confidence": 60,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Money Center Banks",
+          "confidence": 50,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Regional Banks",
+          "confidence": 50,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Information Technology Services",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Business Software & Services",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 85,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 85,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "JPM",
+          "name": "JPMorgan Chase",
+          "type": "stock",
+          "confidence": 50,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BAC",
+          "name": "Bank of America",
+          "type": "stock",
+          "confidence": 50,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "KBE",
+          "name": "SPDR Bank ETF",
+          "type": "etf",
+          "confidence": 50,
+          "direction": "up",
+          "rationale": "Mapped from Money Center Banks (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "f1c9a8616b20",
       "time": "2026-10-01T18:50:03Z",
@@ -11460,39 +11570,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "0f9443816ea4",
-      "time": "2026-09-29T14:00:00Z",
-      "source": "MarketWatch",
-      "headline": "My kids don’t want my decades’ worth of stuff. Here’s how I’m learning to let go of it.",
-      "url": "https://www.marketwatch.com/story/my-kids-dont-want-my-decades-worth-of-stuff-heres-how-im-learning-to-let-go-of-it-74f91da6?mod=mw_rss_topstories",
-      "summary": "An individual is downsizing and decluttering their possessions, indicating a potential shift in consumer behavior towards minimalism or a reduced emphasis on material accumulation. This personal decision reflects a broader societal trend that could impact various consumer-facing industries.",
-      "industries": [
-        {
-          "sector": "Services",
-          "sub_industry": "Consumer Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Home Furnishings & Fixtures",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Packaging & Containers",
-          "confidence": 20,
-          "direction": "up"
-        }
-      ],
-      "tickers": []
     }
   ],
   "seen": [
-    "ee4b689510e8",
     "b26e08e631fe",
     "bfc9b5b55ab4",
     "781089fec7e1",
@@ -12491,6 +12571,7 @@
     "70493d10ac9a",
     "499b7da4df52",
     "da0ba0df0614",
-    "89793c571563"
+    "89793c571563",
+    "d1a54ec63115"
   ]
 }
