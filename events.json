@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T16:36:47Z",
+  "updated": "2026-10-17T19:01:34Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,68 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "250ca7f503e5",
+      "time": "2026-10-17T18:40:00Z",
+      "source": "MarketWatch",
+      "headline": "Investing, not homeownership, is the No. 1 milestone that makes Gen Z renters feel successful",
+      "url": "https://www.marketwatch.com/story/gen-z-renters-are-the-only-group-more-likely-to-feel-successful-by-investing-than-buying-a-house-30ac5344?mod=mw_rss_topstories",
+      "summary": "A recent MarketWatch report indicates that for Generation Z renters, investing in financial markets is now considered the primary marker of success, surpassing traditional milestones like homeownership. This shift suggests a changing perception of financial achievement and priorities within this demographic.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 85,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Credit Services",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Cryptocurrency & Digital Assets",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "REIT—Residential",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "Residential Construction",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 85,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 85,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "d6140c423c44",
       "time": "2026-10-17T15:11:30Z",
@@ -13336,100 +13398,9 @@
         }
       ],
       "tickers": []
-    },
-    {
-      "id": "16eef1beb1ac",
-      "time": "2026-10-15T13:02:00Z",
-      "source": "MarketWatch",
-      "headline": "Medicare open enrollment is here. What to know about deadlines, options and more.",
-      "url": "https://www.marketwatch.com/story/medicare-open-enrollment-is-here-what-to-know-about-deadlines-options-and-more-eac92756?mod=mw_rss_topstories",
-      "summary": "Medicare's open enrollment period has begun, providing beneficiaries with a window to review and select their health insurance plans for the upcoming year. Key information regarding deadlines and available options is being disseminated to assist individuals in making informed decisions.",
-      "industries": [
-        {
-          "sector": "Health Care",
-          "sub_industry": "Health Care Plans",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Hospitals",
-          "confidence": 45,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Specialized Health Services",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Drug Manufacturers—Major",
-          "confidence": 35,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Medical Appliances & Equipment",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Medical Instruments & Supplies",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Long-Term Care Facilities",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Health Care",
-          "sub_industry": "Home Health Care",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "LLY",
-          "name": "Eli Lilly",
-          "type": "stock",
-          "confidence": 35,
-          "direction": "up",
-          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "PFE",
-          "name": "Pfizer",
-          "type": "stock",
-          "confidence": 35,
-          "direction": "up",
-          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "XBI",
-          "name": "SPDR Biotech ETF",
-          "type": "etf",
-          "confidence": 35,
-          "direction": "up",
-          "rationale": "Mapped from Drug Manufacturers—Major (Health Care).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "a4555b866f90",
     "8b347cd14506",
     "eb4cf81520c6",
     "f72dc05e6f5d",
@@ -14428,6 +14399,7 @@
     "6db43e6d8655",
     "5c7c19e3809f",
     "d6140c423c44",
-    "46539dfaa000"
+    "46539dfaa000",
+    "250ca7f503e5"
   ]
 }
