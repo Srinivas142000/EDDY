@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23T22:31:53Z",
+  "updated": "2026-10-24T01:01:09Z",
   "sources": [
     "Reuters",
     "AP",
@@ -336,6 +336,96 @@
           "confidence": 70,
           "direction": "up",
           "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
+      "id": "2ee530f05a87",
+      "time": "2026-10-23T21:11:00Z",
+      "source": "MarketWatch",
+      "headline": "The mobile ambitions of SpaceX are hitting telecom stocks again. Here’s what the latest developments mean.",
+      "url": "https://www.marketwatch.com/story/the-mobile-ambitions-of-spacex-see-telecom-stocks-get-hit-again-what-the-latest-developments-mean-9a4159b5?mod=mw_rss_topstories",
+      "summary": "SpaceX's expanding mobile ambitions are creating renewed pressure on traditional telecom stocks. The latest developments suggest a significant shift in the competitive landscape for mobile connectivity.",
+      "industries": [
+        {
+          "sector": "Technology",
+          "sub_industry": "Telecom Services—Domestic",
+          "confidence": 85,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Telecom Services—Foreign",
+          "confidence": 85,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Diversified Communication Services",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Wireless Communications",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Space & Satellite Technology",
+          "confidence": 65,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Internet Service Providers",
+          "confidence": 50,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Cloud Infrastructure & Services",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Information Technology Services",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "AMZN",
+          "name": "Amazon (AWS)",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "MSFT",
+          "name": "Microsoft (Azure)",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GOOGL",
+          "name": "Alphabet (GCP)",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
           "hist_range_1d": null,
           "hist_range_5d": null
         }
@@ -8625,72 +8715,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "cfb0a8b2c8da",
-      "time": "2026-10-21T19:24:00Z",
-      "source": "MarketWatch",
-      "headline": "‘Super’ El Niño may soon make your coffee super expensive",
-      "url": "https://www.marketwatch.com/story/super-el-nino-risks-driving-up-the-price-of-your-caffeine-fix-bb1d58b1?mod=mw_rss_topstories",
-      "summary": "A strong El Niño event is anticipated, which could significantly increase the cost of coffee. This weather phenomenon typically impacts agricultural yields in key coffee-producing regions.",
-      "industries": [
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Farm Products",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Food Wholesale",
-          "confidence": 60,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Restaurants",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Specialty Eateries",
-          "confidence": 40,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Processed & Packaged Goods",
-          "confidence": 30,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "MCD",
-          "name": "McDonald's",
-          "type": "stock",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Restaurants (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "CMG",
-          "name": "Chipotle Mexican Grill",
-          "type": "stock",
-          "confidence": 40,
-          "direction": "up",
-          "rationale": "Mapped from Restaurants (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "710ce13f9349",
     "402babb04cf4",
     "69a720b3d066",
     "70a34192de16",
@@ -9689,6 +9716,7 @@
     "3d5553b6c509",
     "1297f82bc23e",
     "929a91479fa6",
-    "5a8ddb1f4f49"
+    "5a8ddb1f4f49",
+    "2ee530f05a87"
   ]
 }
