@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24T01:01:09Z",
+  "updated": "2026-10-24T05:39:43Z",
   "sources": [
     "Reuters",
     "AP",
@@ -426,6 +426,98 @@
           "confidence": 30,
           "direction": "up",
           "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
+      "id": "40f6b9bfe14f",
+      "time": "2026-10-23T20:50:00Z",
+      "source": "MarketWatch",
+      "headline": "Some Republicans are opposing Trump on tariffs. Maine’s Susan Collins just got him to back down on Canadian levies.",
+      "url": "https://www.marketwatch.com/story/some-republicans-are-opposing-trump-on-tariffs-maines-susan-collins-just-got-him-to-back-down-on-canadian-levies-02b202ae?mod=mw_rss_topstories",
+      "summary": "Senator Susan Collins has successfully persuaded President Trump to withdraw proposed tariffs on Canadian goods. This action is a direct result of opposition from some Republican lawmakers.",
+      "industries": [
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Aluminum",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Industrial Metals & Minerals",
+          "confidence": 65,
+          "direction": "up"
+        },
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "General Building Materials",
+          "confidence": 45,
+          "direction": "up"
+        },
+        {
+          "sector": "Industrial Goods",
+          "sub_industry": "Metal Fabrication",
+          "confidence": 45,
+          "direction": "up"
+        },
+        {
+          "sector": "Consumer Goods",
+          "sub_industry": "Packaging & Containers",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Basic Materials Wholesale",
+          "confidence": 35,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Building Materials Wholesale",
+          "confidence": 35,
+          "direction": "up"
+        },
+        {
+          "sector": "Basic Materials",
+          "sub_industry": "Oil & Gas Pipelines",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Industrial Equipment Wholesale",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Shipping",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "FDX",
+          "name": "FedEx",
+          "type": "stock",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Shipping (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "UPS",
+          "name": "United Parcel Service",
+          "type": "stock",
+          "confidence": 25,
+          "direction": "up",
+          "rationale": "Mapped from Shipping (Services).",
           "hist_range_1d": null,
           "hist_range_5d": null
         }
@@ -8671,54 +8763,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "7f6b6f90a792",
-      "time": "2026-10-21T20:01:00Z",
-      "source": "MarketWatch",
-      "headline": "The Social Security Administration wants more babies signed up for ‘Trump accounts.’ But there’s still a catch.",
-      "url": "https://www.marketwatch.com/story/the-social-security-administration-wants-more-babies-signed-up-for-trump-accounts-but-theres-still-a-catch-4096f16e?mod=mw_rss_topstories",
-      "summary": "The Social Security Administration is promoting the creation of 'Trump accounts' for newborns, aiming to increase enrollment. However, there is a condition attached to these accounts that is not yet fully detailed.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Life Insurance",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "402babb04cf4",
     "69a720b3d066",
     "70a34192de16",
     "05006e6a279f",
@@ -9717,6 +9764,7 @@
     "1297f82bc23e",
     "929a91479fa6",
     "5a8ddb1f4f49",
-    "2ee530f05a87"
+    "2ee530f05a87",
+    "40f6b9bfe14f"
   ]
 }
