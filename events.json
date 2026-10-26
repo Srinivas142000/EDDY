@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26T01:30:42Z",
+  "updated": "2026-10-26T06:51:26Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,72 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "bddd7a92a0c8",
+      "time": "2026-10-26T01:50:00Z",
+      "source": "MarketWatch",
+      "headline": "Musk says SpaceX landed a $40 billion debt deal — and forecasts doom for some AI rivals",
+      "url": "https://www.marketwatch.com/story/musk-says-spacex-landed-a-40-billion-debt-deal-and-forecasts-doom-for-some-ai-rivals-a0a4991e?mod=mw_rss_topstories",
+      "summary": "Elon Musk announced that SpaceX has secured a $40 billion debt deal and predicted the failure of several artificial intelligence competitors. This development highlights significant investment in private space exploration and signals potential consolidation or disruption within the AI sector.",
+      "industries": [
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Space & Satellite Technology",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "AI & Machine Learning Infrastructure",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Diversified Communication Services",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Information Technology Services",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "NVDA",
+          "name": "Nvidia",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "AMD",
+          "name": "Advanced Micro Devices",
+          "type": "stock",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BOTZ",
+          "name": "Global X Robotics & AI ETF",
+          "type": "etf",
+          "confidence": 70,
+          "direction": "up",
+          "rationale": "Mapped from AI & Machine Learning Infrastructure (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "5328d6d533d0",
       "time": "2026-10-25T17:00:00Z",
@@ -14304,80 +14370,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "026fa637822a",
-      "time": "2026-10-22T16:48:00Z",
-      "source": "MarketWatch",
-      "headline": "Zuckerberg’s California tax move is a win for Meta — and for him",
-      "url": "https://www.marketwatch.com/story/zuckerbergs-california-tax-move-is-a-win-for-meta-and-for-him-aa049c94?mod=mw_rss_topstories",
-      "summary": "Mark Zuckerberg is relocating his tax residency from California to Nevada, a move expected to significantly reduce his tax burden. This decision benefits both Meta Platforms and Zuckerberg personally by lowering capital gains and income taxes.",
-      "industries": [
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Social Media & Platforms",
-          "confidence": 85,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Real Estate Development",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "META",
-          "name": "Meta Platforms",
-          "type": "stock",
-          "confidence": 85,
-          "direction": "up",
-          "rationale": "Mapped from Social Media & Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "SNAP",
-          "name": "Snap Inc.",
-          "type": "stock",
-          "confidence": 85,
-          "direction": "up",
-          "rationale": "Mapped from Social Media & Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "a2520d5dbcc6",
     "02f5d306d466",
     "b09616c24d87",
     "77144749a911",
@@ -15376,6 +15371,7 @@
     "f4e2cd63874d",
     "dc45e7535c1e",
     "5328d6d533d0",
-    "85847741a63c"
+    "85847741a63c",
+    "bddd7a92a0c8"
   ]
 }
