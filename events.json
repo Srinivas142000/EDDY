@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T00:06:37Z",
+  "updated": "2026-10-30T06:12:20Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,78 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "92ccf0837371",
+      "time": "2026-10-30T00:15:00Z",
+      "source": "MarketWatch",
+      "headline": "Amazon’s stock drops — even in the face of a bold new cloud forecast",
+      "url": "https://www.marketwatch.com/story/amazons-bold-cloud-forecast-isnt-enough-to-stave-off-a-stock-drop-ee23c1bb?mod=mw_rss_topstories",
+      "summary": "Amazon's stock experienced a decline despite the company issuing an optimistic outlook for its cloud computing division. This suggests broader market concerns or specific investor sentiment outweighing positive forward-looking statements for the cloud segment.",
+      "industries": [
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Cloud Infrastructure & Services",
+          "confidence": 95,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Internet Information Providers",
+          "confidence": 70,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Information Technology Services",
+          "confidence": 65,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Business Software & Services",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Technology",
+          "sub_industry": "Diversified Computer Systems",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "AMZN",
+          "name": "Amazon (AWS)",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "MSFT",
+          "name": "Microsoft (Azure)",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GOOGL",
+          "name": "Alphabet (GCP)",
+          "type": "stock",
+          "confidence": 95,
+          "direction": "up",
+          "rationale": "Mapped from Cloud Infrastructure & Services (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "adc1c5af7564",
       "time": "2026-10-29T23:55:00Z",
@@ -11361,126 +11433,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "aa1869f88b49",
-      "time": "2026-10-27T21:29:00Z",
-      "source": "MarketWatch",
-      "headline": "As Trump touts energy companies’ fortunes, U.S. consumers face the most expensive year for gas prices ever",
-      "url": "https://www.marketwatch.com/story/as-trump-touts-energy-companies-fortunes-u-s-consumers-face-the-most-expensive-year-for-gas-prices-ever-c467268c?mod=mw_rss_topstories",
-      "summary": "Former President Trump has highlighted the financial success of energy companies, coinciding with a period where U.S. consumers are experiencing record-high gasoline prices. This situation points to a divergence between corporate profits and consumer affordability in the energy sector.",
-      "industries": [
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Independent Oil & Gas",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Major Integrated Oil & Gas",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Oil & Gas Refining & Marketing",
-          "confidence": 90,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Oil & Gas Pipelines",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Oil & Gas Equipment & Services",
-          "confidence": 65,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Consumer Services",
-          "confidence": 50,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Restaurants",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Trucks & Other Vehicles",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Utilities",
-          "sub_industry": "Electric Utilities",
-          "confidence": 20,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "XOM",
-          "name": "Exxon Mobil",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Major Integrated Oil & Gas (Basic Materials).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "CVX",
-          "name": "Chevron",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Major Integrated Oil & Gas (Basic Materials).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "USO",
-          "name": "US Oil Fund ETF",
-          "type": "etf",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Major Integrated Oil & Gas (Basic Materials).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "MCD",
-          "name": "McDonald's",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Restaurants (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "CMG",
-          "name": "Chipotle Mexican Grill",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Restaurants (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "ca7c5ee2f151",
     "bd7a05d76984",
     "1ea2e1d1317e",
     "b31e70f0595e",
@@ -12479,6 +12434,7 @@
     "621ef41a9f05",
     "adc1c5af7564",
     "7fd26e2a876d",
-    "8d28b79ff366"
+    "8d28b79ff366",
+    "92ccf0837371"
   ]
 }
