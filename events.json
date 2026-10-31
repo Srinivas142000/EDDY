@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T19:05:44Z",
+  "updated": "2026-10-31T22:41:21Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,180 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "93b505cb40f0",
+      "time": "2026-10-31T19:30:00Z",
+      "source": "MarketWatch",
+      "headline": "‘Showy jewelry and fancy cars hold no appeal’: We have a 99% chance of outliving our life savings. Why not spend it all?",
+      "url": "https://www.marketwatch.com/story/fancy-cars-hold-no-appeal-my-wife-and-i-have-a-99-chance-of-outliving-our-savings-why-dont-we-spend-it-all-932a2166?mod=mw_rss_topstories",
+      "summary": "A MarketWatch article suggests that individuals are increasingly likely to outlive their savings, leading to a potential shift in consumer behavior towards spending rather than saving. This sentiment implies a decreased focus on traditional wealth accumulation and an increased willingness to indulge in immediate gratification.",
+      "industries": [
+        {
+          "sector": "Services",
+          "sub_industry": "Jewelry Stores",
+          "confidence": 85,
+          "direction": "up"
+        },
+        {
+          "sector": "Consumer Goods",
+          "sub_industry": "Recreational Vehicles",
+          "confidence": 50,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Lodging",
+          "confidence": 45,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Restaurants",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Life Insurance",
+          "confidence": 25,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "ABNB",
+          "name": "Airbnb",
+          "type": "stock",
+          "confidence": 45,
+          "direction": "up",
+          "rationale": "Mapped from Lodging (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "MAR",
+          "name": "Marriott International",
+          "type": "stock",
+          "confidence": 45,
+          "direction": "up",
+          "rationale": "Mapped from Lodging (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BKNG",
+          "name": "Booking Holdings",
+          "type": "stock",
+          "confidence": 45,
+          "direction": "up",
+          "rationale": "Mapped from Lodging (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "MCD",
+          "name": "McDonald's",
+          "type": "stock",
+          "confidence": 40,
+          "direction": "up",
+          "rationale": "Mapped from Restaurants (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "CMG",
+          "name": "Chipotle Mexican Grill",
+          "type": "stock",
+          "confidence": 40,
+          "direction": "up",
+          "rationale": "Mapped from Restaurants (Services).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 30,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
+    {
+      "id": "6d8df1ab1f08",
+      "time": "2026-10-31T19:02:00Z",
+      "source": "MarketWatch",
+      "headline": "This is where most people go wrong in their 30s and 40s",
+      "url": "https://www.marketwatch.com/story/the-house-the-kids-college-and-the-raise-where-people-in-their-30s-and-40s-go-wrong-69ec6c90?mod=mw_rss_topstories",
+      "summary": "The article discusses common financial and life planning mistakes people make in their 30s and 40s. It highlights potential missteps in areas like retirement savings, debt management, and career progression.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 45,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Credit Services",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Personal Services",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Real Estate Development",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 45,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 45,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "fa3795847121",
       "time": "2026-10-31T17:26:00Z",
@@ -6565,355 +6739,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "92c504cf5559",
-      "time": "2026-10-29T18:16:00Z",
-      "source": "MarketWatch",
-      "headline": "‘Fancy cars hold no appeal’: We have a 99% chance of outliving our life savings. Why not spend, spend, spend?",
-      "url": "https://www.marketwatch.com/story/fancy-cars-hold-no-appeal-my-wife-and-i-have-a-99-chance-of-outliving-our-savings-why-dont-we-spend-it-all-932a2166?mod=mw_rss_topstories",
-      "summary": "A MarketWatch article suggests that with a high probability of outliving savings, consumers may choose to increase spending rather than save. This sentiment could lead to a shift in consumer behavior away from traditional saving and towards immediate consumption.",
-      "industries": [
-        {
-          "sector": "Services",
-          "sub_industry": "Restaurants",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Specialty Eateries",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Lodging",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Resorts & Casinos",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "General Entertainment",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Recreational Goods",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Recreational Vehicles",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Sporting Goods",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Consumer Goods",
-          "sub_industry": "Toys & Games",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Movie Production & Theaters",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Credit Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Personal Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Consumer Services",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Electric Vehicles & Battery Technology",
-          "confidence": 20,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "MCD",
-          "name": "McDonald's",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Restaurants (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "CMG",
-          "name": "Chipotle Mexican Grill",
-          "type": "stock",
-          "confidence": 30,
-          "direction": "up",
-          "rationale": "Mapped from Restaurants (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "ABNB",
-          "name": "Airbnb",
-          "type": "stock",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Lodging (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "MAR",
-          "name": "Marriott International",
-          "type": "stock",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Lodging (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BKNG",
-          "name": "Booking Holdings",
-          "type": "stock",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Lodging (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "WYNN",
-          "name": "Wynn Resorts",
-          "type": "stock",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Resorts & Casinos (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "MGM",
-          "name": "MGM Resorts",
-          "type": "stock",
-          "confidence": 25,
-          "direction": "up",
-          "rationale": "Mapped from Resorts & Casinos (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "TSLA",
-          "name": "Tesla",
-          "type": "stock",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "LIT",
-          "name": "Global X Lithium & Battery Tech ETF",
-          "type": "etf",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "DRIV",
-          "name": "Global X Autonomous & EV ETF",
-          "type": "etf",
-          "confidence": 20,
-          "direction": "up",
-          "rationale": "Mapped from Electric Vehicles & Battery Technology (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
-    },
-    {
-      "id": "621ef41a9f05",
-      "time": "2026-10-29T17:59:00Z",
-      "source": "MarketWatch",
-      "headline": "Did the Fed make a mistake with its October rate pause? The Treasury could help save the day.",
-      "url": "https://www.marketwatch.com/story/did-the-fed-make-a-mistake-with-its-october-rate-pause-the-treasury-could-help-save-the-day-77d84993?mod=mw_rss_topstories",
-      "summary": "The Federal Reserve's decision to pause interest rate hikes in October is being questioned, with suggestions that the Treasury Department could intervene to stabilize the economy. This implies a potential shift in monetary policy or fiscal stimulus measures.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "Money Center Banks",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Regional Banks",
-          "confidence": 65,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Asset Management",
-          "confidence": 60,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Credit Services",
-          "confidence": 55,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Mortgage Investment",
-          "confidence": 50,
-          "direction": "up"
-        },
-        {
-          "sector": "Utilities",
-          "sub_industry": "Diversified Utilities",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Industrial Metals & Minerals",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Basic Materials",
-          "sub_industry": "Oil & Gas Pipelines",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Residential Construction",
-          "confidence": 20,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "REIT—Residential",
-          "confidence": 20,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "JPM",
-          "name": "JPMorgan Chase",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Money Center Banks (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BAC",
-          "name": "Bank of America",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Money Center Banks (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "KBE",
-          "name": "SPDR Bank ETF",
-          "type": "etf",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Money Center Banks (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "BLK",
-          "name": "BlackRock",
-          "type": "stock",
-          "confidence": 60,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "type": "stock",
-          "confidence": 60,
-          "direction": "up",
-          "rationale": "Mapped from Asset Management (Financial).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "3e2f54e4f379",
-    "89fdf7b652ba",
     "3e054240c02c",
     "4a2790f2ee4d",
     "deeba1cf29fd",
@@ -7911,6 +7739,8 @@
     "fa3795847121",
     "7aeafc947f6e",
     "5a69153f1f21",
-    "837527c1de54"
+    "837527c1de54",
+    "93b505cb40f0",
+    "6d8df1ab1f08"
   ]
 }
