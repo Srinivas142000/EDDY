@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T23:46:28Z",
+  "updated": "2026-11-02T04:21:01Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,68 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "7d1f121b5399",
+      "time": "2026-11-02T03:23:00Z",
+      "source": "MarketWatch",
+      "headline": "Want to help your adult kids and grandkids? Give them money while you’re still alive.",
+      "url": "https://www.marketwatch.com/story/if-you-really-want-to-help-your-adult-kids-and-grandkids-give-them-money-while-youre-still-alive-bef6b056?mod=mw_rss_topstories",
+      "summary": "The article suggests that individuals can help their adult children and grandchildren by gifting them money during their lifetime. This strategy aims to provide financial support and potentially reduce future estate taxes.",
+      "industries": [
+        {
+          "sector": "Financial",
+          "sub_industry": "Asset Management",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Life Insurance",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "Real Estate Development",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Financial",
+          "sub_industry": "REIT—Residential",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Personal Services",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "BLK",
+          "name": "BlackRock",
+          "type": "stock",
+          "confidence": 40,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "type": "stock",
+          "confidence": 40,
+          "direction": "up",
+          "rationale": "Mapped from Asset Management (Financial).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "f9902471bb15",
       "time": "2026-11-01T15:00:00Z",
@@ -6480,96 +6542,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "8bc7e4c5ead2",
-      "time": "2026-10-29T19:49:00Z",
-      "source": "MarketWatch",
-      "headline": "DoorDash and Instacart want to join forces. Will the U.S. government get in their way?",
-      "url": "https://www.marketwatch.com/story/doordash-and-instacart-want-to-join-forces-will-the-u-s-government-get-in-their-way-0c065bee?mod=mw_rss_topstories",
-      "summary": "DoorDash and Instacart, two major players in the online delivery and grocery services market, are reportedly exploring a potential merger. The U.S. government's antitrust scrutiny could pose a significant obstacle to such a deal.",
-      "industries": [
-        {
-          "sector": "Modern & Digital",
-          "sub_industry": "Gig Economy & Marketplace Platforms",
-          "confidence": 95,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Grocery Stores",
-          "confidence": 70,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Food Wholesale",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Business Services",
-          "confidence": 25,
-          "direction": "up"
-        }
-      ],
-      "tickers": [
-        {
-          "ticker": "UBER",
-          "name": "Uber",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "LYFT",
-          "name": "Lyft",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "ABNB",
-          "name": "Airbnb",
-          "type": "stock",
-          "confidence": 95,
-          "direction": "up",
-          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "KR",
-          "name": "Kroger",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Grocery Stores (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        },
-        {
-          "ticker": "WMT",
-          "name": "Walmart",
-          "type": "stock",
-          "confidence": 70,
-          "direction": "up",
-          "rationale": "Mapped from Grocery Stores (Services).",
-          "hist_range_1d": null,
-          "hist_range_5d": null
-        }
-      ]
     }
   ],
   "seen": [
-    "ee561d32c14a",
     "134c7c8e7932",
     "7ce88d7d9312",
     "707b2686996b",
@@ -7568,6 +7543,7 @@
     "f9902471bb15",
     "a66ed7072b5e",
     "abb9d0309bdb",
-    "567482c168c8"
+    "567482c168c8",
+    "7d1f121b5399"
   ]
 }
