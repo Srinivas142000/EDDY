@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T16:52:58Z",
+  "updated": "2026-11-14T21:06:06Z",
   "sources": [
     "Reuters",
     "AP",
@@ -9,6 +9,84 @@
   ],
   "count": 50,
   "events": [
+    {
+      "id": "fcc0a9638c7f",
+      "time": "2026-11-14T17:50:00Z",
+      "source": "MarketWatch",
+      "headline": "The lonely labor of caregiving: ‘You shouldn’t have to be rich to take care of the people you love’",
+      "url": "https://www.marketwatch.com/story/if-you-could-change-one-thing-about-caregiving-what-would-it-be-8b20be29?mod=mw_rss_topstories",
+      "summary": "The article highlights the financial strain and emotional toll of caregiving, emphasizing that access to care for loved ones should not be dependent on wealth. It suggests that current systems may not adequately support individuals providing care.",
+      "industries": [
+        {
+          "sector": "Health Care",
+          "sub_industry": "Home Health Care",
+          "confidence": 40,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Long-Term Care Facilities",
+          "confidence": 35,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Health Care Plans",
+          "confidence": 30,
+          "direction": "up"
+        },
+        {
+          "sector": "Health Care",
+          "sub_industry": "Specialized Health Services",
+          "confidence": 25,
+          "direction": "up"
+        },
+        {
+          "sector": "Services",
+          "sub_industry": "Personal Services",
+          "confidence": 20,
+          "direction": "up"
+        },
+        {
+          "sector": "Modern & Digital",
+          "sub_industry": "Gig Economy & Marketplace Platforms",
+          "confidence": 20,
+          "direction": "up"
+        }
+      ],
+      "tickers": [
+        {
+          "ticker": "UBER",
+          "name": "Uber",
+          "type": "stock",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "LYFT",
+          "name": "Lyft",
+          "type": "stock",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        },
+        {
+          "ticker": "ABNB",
+          "name": "Airbnb",
+          "type": "stock",
+          "confidence": 20,
+          "direction": "up",
+          "rationale": "Mapped from Gig Economy & Marketplace Platforms (Modern & Digital).",
+          "hist_range_1d": null,
+          "hist_range_5d": null
+        }
+      ]
+    },
     {
       "id": "22b350b69e2b",
       "time": "2026-11-14T16:04:00Z",
@@ -9441,51 +9519,9 @@
           "hist_range_5d": null
         }
       ]
-    },
-    {
-      "id": "c602e3845bf2",
-      "time": "2026-11-12T15:13:00Z",
-      "source": "MarketWatch",
-      "headline": "These home buyers bought their first house with help from their employer. ‘Why not jump at the chance?’",
-      "url": "https://www.marketwatch.com/story/need-money-for-a-down-payment-more-employers-are-offering-to-help-59c57da3?mod=mw_rss_topstories",
-      "summary": "A growing number of first-time homebuyers are utilizing employer-sponsored assistance programs to purchase their initial homes. This trend is driven by the perceived opportunity to capitalize on current market conditions with financial support.",
-      "industries": [
-        {
-          "sector": "Financial",
-          "sub_industry": "REIT—Residential",
-          "confidence": 45,
-          "direction": "up"
-        },
-        {
-          "sector": "Industrial Goods",
-          "sub_industry": "Residential Construction",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Mortgage Investment",
-          "confidence": 30,
-          "direction": "up"
-        },
-        {
-          "sector": "Financial",
-          "sub_industry": "Credit Services",
-          "confidence": 25,
-          "direction": "up"
-        },
-        {
-          "sector": "Services",
-          "sub_industry": "Consumer Services",
-          "confidence": 20,
-          "direction": "up"
-        }
-      ],
-      "tickers": []
     }
   ],
   "seen": [
-    "b55d084e3fd1",
     "6bb5d60b851f",
     "863cb475821e",
     "6a9e2f767b25",
@@ -10484,6 +10520,7 @@
     "e541c6b90852",
     "aedc158bb6fb",
     "1ce2f2d3cdd2",
-    "e4b6b86315a4"
+    "e4b6b86315a4",
+    "fcc0a9638c7f"
   ]
 }
